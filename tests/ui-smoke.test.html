@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>_uismoke — full-app E2E (real app + real handler)</title>
+<style>
+  body { background: #0b1114; color: #cfe3ea; font: 13px/1.5 "JetBrains Mono", monospace; padding: 16px; }
+  .pass { color: #57d9a3; } .fail { color: #ff7b72; }
+  #out { white-space: pre-wrap; }
+  iframe { position: absolute; left: -9999px; top: 0; width: 1100px; height: 800px; border: 0; }
+</style>
+</head>
+<body>
+<pre id="out">running…</pre>
+<script src="../api.js"></script>
+<script src="../server.js"></script>
+<script>
+/* ============================================================
+   Full-app E2E without node: the REAL index.html + app.js +
+   backend.js run in an iframe, while window.fetch is bridged
+   to the REAL server.js createHandler (in-memory store, fake
+   upstream SSE). Only Node's HTTP/TCP layer is stubbed.
+   Run Edge with --allow-file-access-from-files.
+   ============================================================ */
+var lines = [], pass = 0, fail = 0;
+function ok(name, cond, extra) {
+  if (cond) { pass++; lines.push('<span class="pass">PASS</span> ' + name); }
+  else { fail++; lines.push('<span class="fail">FAIL</span> ' + name + (extra !== undefined ? "  -> " + String(extra) : "")); }
+}
+function eq(name, got, want) { ok(name, JSON.stringify(got) === JSON.stringify(want), JSON.stringify(got) + " !== " + JSON.stringify(want)); }
+function wait(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
+async function until(fn, ms) {
+  var t0 = Date.now();
+  while (Date.now() - t0 < (ms || 3000)) {
+    var v = false;
+    try { v = fn(); } catch (e) { v = false; }
+    if (v) return v;
+    await wait(120);
+  }
+  return false;
+}
+
+/* ---------- server side (in browser) ---------- */
+var A = window.BokskieAPI, S = window.BokskieServer;
+var mem = A.memoryIO({
+  "keys.local.json": JSON.stringify({ openai: [{ key: "sk-test-1234567890ab", label: "smoke" }] })
+});
+var api = A.createAPI(mem, { version: "uismoke" });
+var upCalls = 0;
+function fakeFetchStream(o) {
+  upCalls++;
+  return new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      var frames = [
+        'data: {"choices":[{"delta":{"role":"assistant"}}]}\n\n',
+        'data: {"choices":[{"delta":{"content":"Hello"}}]}\n\ndata: {"choices":[{"delta":{"content":" from"}}]}\n\n',
+        'data: {"choices":[{"delta":{"content":" the local backend!"}}]}\n\n',
+        'data: [DONE]\n\n'
+      ].join("");
+      for (var i = 0; i < frames.length; i += 7) o.onData(frames.slice(i, i + 7));
+      resolve({ status: 200 });
+    }, 0);
+  });
+}
+var handler = S.createHandler({
+  api: api,
+  fetchStream: fakeFetchStream,
+  readFile: function () { return null; },   // statics load straight from disk
+  keepAliveMs: 0,
+  log: function () { }
+});
+
+/* ---------- fake req/res, same shape _srvtest uses ---------- */
+function FakeReq(o) {
+  this.method = o.method || "GET";
+  this.url = o.url || "/";
+  this.headers = {};
+  this._body = o.body === undefined || o.body === null ? null : (typeof o.body === "string" ? o.body : JSON.stringify(o.body));
+  this._l = {};
+}
+FakeReq.prototype.on = function (ev, cb) { (this._l[ev] = this._l[ev] || []).push(cb); return this; };
+FakeReq.prototype.setEncoding = function () { };
+FakeReq.prototype.emit = function (ev, arg) { var l = this._l[ev] || []; for (var i = 0; i < l.length; i++) l[i](arg); };
+FakeReq.prototype.flush = function () {
+  var s = this;
+  setTimeout(function () {
+    if (s._body !== null) s.emit("data", s._body);
+    s.emit("end");
+  }, 0);
+};
+
+/* fetch-shaped response backed by a real ReadableStream, so the
+   client's SSE reader works exactly as against Node. */
+function StreamRes() {
+  var self = this;
+  this.status = 0; this.headers = {}; this.chunks = []; this.writableEnded = false;
+  this._settled = false;
+  this._controller = null;
+  this._stream = new ReadableStream({ start: function (c) { self._controller = c; } });
+  this._promise = new Promise(function (res) { self._settle = res; });
+}
+StreamRes.prototype._resolve = function () {
+  if (this._settled) return;
+  this._settled = true;
+  var self = this;
+  this._settle({
+    ok: self.status >= 200 && self.status < 300,
+    status: self.status,
+    statusText: String(self.status),
+    headers: self.headers,
+    json: async function () { return JSON.parse(self.textBuf()); },
+    text: async function () { return self.textBuf(); },
+    body: self._stream
+  });
+};
+StreamRes.prototype.textBuf = function () {
+  var dec = new TextDecoder();
+  return this.chunks.map(function (c) { return typeof c === "string" ? c : dec.decode(c); }).join("");
+};
+StreamRes.prototype.writeHead = function (s, h) { this.status = s; this.headers = h || {}; this._resolve(); };
+StreamRes.prototype.write = function (c) {
+  if (c === undefined || c === null) return true;
+  this.chunks.push(c);
+  try { this._controller.enqueue(typeof c === "string" ? new TextEncoder().encode(c) : c); } catch (e) { /* closed */ }
+  return true;
+};
+StreamRes.prototype.end = function (c) {
+  if (c !== undefined && c !== null) this.write(c);
+  this.writableEnded = true;
+  this._resolve();
+  try { this._controller.close(); } catch (e) { /* already closed */ }
+};
+
+function handlerFetch(url, opts) {
+  var mm = String(url).match(/\/api\/([^?#]*)(\?[^#]*)?/);
+  if (!mm) return Promise.reject(new Error("unexpected fetch in harness: " + url));
+  var path = "/api/" + mm[1] + (mm[2] || "");
+  var req = new FakeReq({ method: (opts && opts.method) || "GET", url: path, body: opts && opts.body });
+  var res = new StreamRes();
+  var guard = new Promise(function (_, rej) {
+    setTimeout(function () { rej(new Error("handler timeout for " + path)); }, 8000);
+  });
+  handler(req, res);
+  req.flush();
+  return Promise.race([res._promise, guard]);
+}
+
+/* ---------- the real app, in an iframe ---------- */
+(async function run() {
+  var out = document.getElementById("out");
+  try {
+    var f = document.createElement("iframe");
+    f.src = "../index.html";
+    document.body.appendChild(f);
+    await new Promise(function (res) { f.onload = res; setTimeout(res, 6000); });
+    await wait(400);
+
+    var w, d;
+    try {
+      w = f.contentWindow;
+      d = f.contentDocument;
+      ok("iframe dom reachable", !!(d && d.getElementById));
+    } catch (e) {
+      throw new Error("iframe access blocked: " + e.message + " (run with --allow-file-access-from-files)");
+    }
+
+    ok("app booted (settings button exists)", !!d.getElementById("settingsBtn"));
+    ok("app loaded Backend", !!(w.Backend));
+    eq("probe says down before shim", w.Backend.on(), false);
+
+    /* bridge fetch to the real handler, then re-probe */
+    w.fetch = handlerFetch;
+    await w.Backend.probe(3000, true);
+    eq("backend up after shim", w.Backend.on(), true);
+    ok("connected toast shown", await until(function () {
+      return /Local backend connected/.test(d.getElementById("toasts").textContent);
+    }, 4000), d.getElementById("toasts").textContent);
+
+    /* ---- settings modal: cards, tag, help ---- */
+    d.getElementById("settingsBtn").click();
+    eq("settings modal open", d.getElementById("settingsModal").hidden, false);
+    ok("backend tag connected", await until(function () {
+      return /connected/i.test(d.getElementById("backendTag").textContent);
+    }, 4000), d.getElementById("backendTag").textContent);
+    eq("six provider cards", d.querySelectorAll("#provGrid .prov-card").length, 6);
+    ok("help names keys.local.json", /keys\.local\.json/.test(d.getElementById("backendHelp").textContent));
+
+    /* ---- card click drives the form ---- */
+    d.querySelector('.prov-card[data-p="openai"]').click();
+    eq("select follows card", d.getElementById("setProvider").value, "openai");
+    eq("keyField hidden (server owns keys)", d.getElementById("keyField").hidden, true);
+    eq("key editor visible", d.getElementById("keyEditor").hidden, false);
+    ok("existing server key listed", await until(function () {
+      return d.getElementById("keyRows").textContent.indexOf("sk-") !== -1;
+    }, 4000), d.getElementById("keyRows").textContent);
+    ok("active class moved", d.querySelector('.prov-card[data-p="openai"]').className.indexOf("active") !== -1);
+
+    /* ---- add + remove a key through the real API ---- */
+    d.getElementById("keyAddInput").value = "sk-second-999999999999";
+    d.getElementById("keyAddBtn").click();
+    ok("second key appears", await until(function () {
+      return d.getElementById("keyRows").querySelectorAll(".key-row").length === 2;
+    }, 4000), d.getElementById("keyRows").textContent);
+    ok("card counts 2 keys", /2 keys on server/.test(d.querySelector('.prov-card[data-p="openai"]').textContent),
+      d.querySelector('.prov-card[data-p="openai"]').textContent);
+    var delBtn = d.querySelector("#keyRows .key-del");
+    ok("removable row has a delete button", !!delBtn);
+    delBtn.click();
+    ok("key removed", await until(function () {
+      return d.getElementById("keyRows").querySelectorAll(".key-row").length === 1;
+    }, 4000), d.getElementById("keyRows").textContent);
+
+    /* ---- demo card hides the editor ---- */
+    d.querySelector('.prov-card[data-p="demo"]').click();
+    eq("demo selected", d.getElementById("setProvider").value, "demo");
+    eq("editor hidden for demo", d.getElementById("keyEditor").hidden, true);
+
+    /* ---- save: modal closes, provider sticks ---- */
+    d.querySelector('.prov-card[data-p="openai"]').click();
+    d.getElementById("saveSettings").click();
+    eq("modal closed after save", d.getElementById("settingsModal").hidden, true);
+
+    /* ---- real chat: browser -> backend -> SSE -> rendered reply ---- */
+    var input = d.getElementById("input");
+    input.value = "hello there";
+    input.dispatchEvent(new w.Event("input", { bubbles: true }));
+    var sendBtn = d.getElementById("sendBtn");
+    ok("send button enabled", !sendBtn.disabled, "disabled=" + sendBtn.disabled);
+    sendBtn.click();
+    ok("streamed reply rendered", await until(function () {
+      var nodes = d.querySelectorAll(".msg-ai .ai-content");
+      if (!nodes.length) return false;
+      return nodes[nodes.length - 1].textContent.indexOf("Hello from the local backend!") !== -1;
+    }, 7000), (function () {
+      var n = d.querySelectorAll(".msg-ai .ai-content");
+      return n.length ? n[n.length - 1].textContent.slice(0, 120) : "(no ai message)";
+    })());
+    ok("upstream reached exactly once", upCalls === 1, "upCalls=" + upCalls);
+  } catch (e) {
+    fail++; lines.push('<span class="fail">THREW</span> ' + (e && e.stack || e));
+  }
+  var sum = "RESULT " + pass + " passed, " + fail + " failed";
+  out.innerHTML = lines.join("\n") + "\n" + sum;
+  document.title = sum;
+})();
+</script>
+</body>
+</html>

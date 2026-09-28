@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8" /><title>server.js selftest</title></head>
+<body>
+<pre id="out">running...</pre>
+<script src="../api.js"></script>
+<script src="../server.js"></script>
+<script>
+var outEl = document.getElementById("out");
+window.onerror = function (m, s, line) { outEl.textContent = "ERROR " + m + " @line " + line; };
+
+var A = window.BokskieAPI, S = window.BokskieServer;
+var pass = 0, fail = 0, log = [];
+function ok(name, cond, extra) {
+  if (cond) pass++;
+  else { fail++; log.push("FAIL: " + name + (extra === undefined ? "" : "  -> " + extra)); }
+}
+function eq(name, got, want) {
+  var g = JSON.stringify(got), w = JSON.stringify(want);
+  ok(name + " [" + g + "]", g === w, "want " + w);
+}
+function has(name, hay, needle) {
+  ok(name + " has " + JSON.stringify(needle), String(hay).indexOf(needle) !== -1, String(hay).slice(0, 200));
+}
+
+/* ---------- fakes ---------- */
+function FakeReq(o) {
+  this.method = o.method || "GET";
+  this.url = o.url || "/";
+  this.headers = {};
+  if (o.origin) this.headers.origin = o.origin;
+  this._body = o.body === undefined ? null : (typeof o.body === "string" ? o.body : JSON.stringify(o.body));
+  this._l = {};
+}
+FakeReq.prototype.on = function (ev, cb) { (this._l[ev] = this._l[ev] || []).push(cb); return this; };
+FakeReq.prototype.setEncoding = function () { };
+FakeReq.prototype.emit = function (ev, arg) {
+  var l = this._l[ev] || [];
+  for (var i = 0; i < l.length; i++) l[i](arg);
+};
+FakeReq.prototype.flush = function () {
+  var self = this;
+  setTimeout(function () {
+    if (self._body !== null) self.emit("data", self._body);
+    self.emit("end");
+  }, 0);
+};
+
+function FakeRes() {
+  this.status = 0; this.headers = {}; this.chunks = []; this.writableEnded = false;
+  this.on = function () { };
+}
+FakeRes.prototype.writeHead = function (s, h) { this.status = s; this.headers = h || {}; };
+FakeRes.prototype.write = function (c) { this.chunks.push(c); return true; };
+FakeRes.prototype.end = function (c) { if (c !== undefined && c !== null) this.chunks.push(c); this.writableEnded = true; };
+FakeRes.prototype.text = function () {
+  var dec = typeof TextDecoder !== "undefined" ? new TextDecoder() : null;
+  return this.chunks.map(function (c) {
+    if (typeof c === "string") return c;
+    if (dec && c instanceof Uint8Array) return dec.decode(c);
+    return String(c);
+  }).join("");
+};
+FakeRes.prototype.json = function () { try { return JSON.parse(this.text()); } catch (e) { return null; } };
+
+function call(handler, o) {
+  var req = new FakeReq(o), res = new FakeRes();
+  handler(req, res);
+  req.flush();
+  return new Promise(function (r) { setTimeout(function () { r(res); }, 5); });
+}
+function tick(n) {
+  var p = Promise.resolve();
+  for (var i = 0; i < (n || 3); i++) {
+    p = p.then(function () { return new Promise(function (r) { setTimeout(r, 0); }); });
+  }
+  return p;
+}
+function sseEvents(res) {
+  return res.text().split("\n\n").filter(function (s) { return s.indexOf("data:") === 0; })
+    .map(function (s) { return JSON.parse(s.slice(5)); });
+}
+function sseText(res) {
+  return sseEvents(res).filter(function (e) { return e.delta; }).map(function (e) { return e.delta; }).join("");
+}
+function sseError(res) {
+  var e = sseEvents(res).filter(function (x) { return x.error; });
+  return e.length ? e[0].error : null;
+}
+
+var mem = A.memoryIO({
+  "keys.local.json": JSON.stringify({ deepseek: [{ key: "sk-deepseek-aaaaaaaaaaaa", label: "Main" }] })
+});
+var api = A.createAPI(mem, { version: "test" });
+var calls = [];
+var scenario = { kind: "ok" };
+var KEY2 = "sk-deepseek-bbbbbbbbbbbb";
+
+function fakeFetch(opts) {
+  calls.push(opts);
+  var kind = scenario.kind;
+  return new Promise(function (resolve, reject) {
+    if (kind === "network") return reject(new Error("connect ECONNREFUSED 127.0.0.1"));
+    if (kind === "401" || (kind === "401once" && calls.length === 1)) {
+      return resolve({ status: 401, text: '{"error":{"message":"Incorrect API key provided"}}' });
+    }
+    if (kind === "500") return resolve({ status: 500, text: "upstream exploded" });
+    if (kind === "empty") return resolve({ status: 200 });
+    var frames;
+    if (opts.url.indexOf("generativelanguage") !== -1) {
+      frames = [
+        'data: {"candidates":[{"content":{"parts":[{"text":"Gem"}]}}]}\n\n',
+        'data: {"candidates":[{"content":{"parts":[{"text":"ini"}]},"finishReason":"STOP"}]}\n\n'
+      ];
+    } else if (opts.url.indexOf("anthropic") !== -1) {
+      frames = [
+        'event: content_block_delta\ndata: {"type":"content_block_delta","delta":{"text":"Cla"}}\n\n',
+        'data: {"type":"content_block_delta","delta":{"text":"ude"}}\n\n',
+        'data: {"type":"message_stop"}\n\n'
+      ];
+    } else {
+      frames = [
+        'data: {"choices":[{"delta":{"role":"assistant"}}]}\n\n',
+        'data: {"choices":[{"delta":{"content":"Hel"}}]}\n\ndata: {"choices":[{"delta":{"content":"lo"}}]}\n\n',
+        'data: [DONE]\n\n'
+      ];
+    }
+    var flat = frames.join("");
+    setTimeout(function () {
+      for (var i = 0; i < flat.length; i += 3) opts.onData(flat.slice(i, i + 3));
+      resolve({ status: 200 });
+    }, 0);
+  });
+}
+
+var FILES = {
+  "index.html": new TextEncoder().encode("<!DOCTYPE html><title>bokskie</title>"),
+  "assets/js/app.js": new TextEncoder().encode("/* app */")
+};
+var handler = S.createHandler({
+  api: api,
+  fetchStream: fakeFetch,
+  readFile: function (rel) { return FILES[rel] || null; },
+  keepAliveMs: 0,
+  log: function () { }
+});
+
+(async function run() {
+  var r = await call(handler, { method: "GET", url: "/api/health" });
+  eq("health status", r.status, 200);
+  eq("health body", r.json().ok, true);
+
+  r = await call(handler, { method: "GET", url: "/" });
+  eq("index served", r.status, 200);
+  has("index content-type", r.headers["Content-Type"], "text/html");
+  has("index body", r.text(), "bokskie");
+
+  r = await call(handler, { method: "GET", url: "/assets/js/app.js" });
+  eq("asset served", r.status, 200);
+  has("asset content-type", r.headers["Content-Type"], "text/javascript");
+
+  r = await call(handler, { method: "GET", url: "/assets/js/nope.js" });
+  eq("missing asset 404", r.status, 404);
+
+  r = await call(handler, { method: "GET", url: "/api.js" });
+  eq("api.js is private", r.status, 403);
+  has("private message", r.text(), "never served");
+
+  r = await call(handler, { method: "GET", url: "/keys.local.json" });
+  eq("keys.local.json is private", r.status, 403);
+
+  r = await call(handler, { method: "GET", url: "/..%2fapi.js" });
+  eq("path traversal blocked", r.status, 400);
+
+  r = await call(handler, { method: "DELETE", url: "/api/status" });
+  eq("method not allowed", r.status, 405);
+
+  r = await call(handler, { method: "GET", url: "/api/status" });
+  eq("status route", r.status, 200);
+  eq("status backend", r.json().backend, "bokskie-server");
+  ok("status hides raw keys", r.text().indexOf("sk-deepseek-aaaaaaaaaaaa") === -1);
+  has("status shows masked key", r.text(), "sk-dee");
+  has("status ships the model catalog", r.text(), "gpt-5.6-luna");
+
+  r = await call(handler, { method: "GET", url: "/api/status", origin: "null" });
+  eq("file:// origin allowed", r.status, 200);
+  eq("file:// answered with null origin", r.headers["Access-Control-Allow-Origin"], "null");
+
+  r = await call(handler, { method: "GET", url: "/api/status", origin: "http://localhost:5173" });
+  eq("localhost origin gets CORS", r.headers["Access-Control-Allow-Origin"], "http://localhost:5173");
+
+  r = await call(handler, {
+    method: "POST", url: "/api/chat", origin: "https://evil.example",
+    body: { provider: "deepseek", messages: [{ role: "user", content: "hi" }] }
+  });
+  eq("evil origin blocked", r.status, 403);
+
+  r = await call(handler, { method: "OPTIONS", url: "/api/chat", origin: "http://127.0.0.1:3000" });
+  eq("preflight 204", r.status, 204);
+  has("preflight allows POST", r.headers["Access-Control-Allow-Methods"], "POST");
+
+  /* ---------- keys API ---------- */
+  r = await call(handler, { method: "POST", url: "/api/keys", body: { provider: "openai", key: "AIzaSyWrongKey000000", label: "x" } });
+  eq("addKey wrong shape 400", r.status, 400);
+  eq("addKey wrong shape flagged", r.json().mismatch, true);
+
+  r = await call(handler, { method: "POST", url: "/api/keys", body: { provider: "openai", key: "sk-proj-abcdefghijklmnop", label: "Work" } });
+  eq("addKey ok", r.status, 200);
+  var addJson = r.json() || {};
+  var openaiId = addJson.entry && addJson.entry.id;
+  ok("addKey returns a removable id", typeof openaiId === "string" && openaiId.length > 0, openaiId);
+  eq("addKey reports connected", addJson.status.providers.filter(function (p) { return p.id === "openai"; })[0].connected, true);
+  eq("key persisted to file", JSON.parse(mem.files["keys.local.json"]).openai.length, 1);
+
+  r = await call(handler, { method: "POST", url: "/api/keys", body: { provider: "openai", key: "sk-proj-abcdefghijklmnop" } });
+  eq("duplicate key rejected", r.status, 400);
+
+  r = await call(handler, { method: "POST", url: "/api/keys/remove", body: { provider: "openai", id: openaiId } });
+  eq("removeKey ok", r.status, 200);
+  eq("key removed", api.keyEntries("openai").length, 0);
+
+  r = await call(handler, { method: "POST", url: "/api/keys", body: "not json at all" });
+  eq("bad json body 400", r.status, 400);
+
+  /* ---------- /api/chat: guards ---------- */
+  calls = []; scenario = { kind: "ok" };
+  r = await call(handler, { method: "POST", url: "/api/chat", body: { provider: "demo", messages: [{ role: "user", content: "hi" }] } });
+  eq("demo stays in the browser", r.status, 400);
+
+  r = await call(handler, { method: "POST", url: "/api/chat", body: { provider: "nope", messages: [] } });
+  eq("unknown provider 400", r.status, 400);
+
+  r = await call(handler, { method: "POST", url: "/api/chat", body: { provider: "openai", messages: [{ role: "user", content: "hi" }] } });
+  var miss = r.json() || {};
+  eq("missing key 400", r.status, 400);
+  eq("missing key flagged", miss.needKey, "openai");
+  eq("no upstream call was made", calls.length, 0);
+
+  r = await call(handler, { method: "POST", url: "/api/chat", body: { provider: "deepseek", model: "gpt-5.6-luna", messages: [{ role: "user", content: "hi" }] } });
+  eq("cross-provider model 400", r.status, 400);
+  has("cross-provider message", r.json().error, "OpenAI");
+
+  r = await call(handler, { method: "POST", url: "/api/chat", body: { provider: "deepseek", messages: [] } });
+  eq("no messages 400", r.status, 400);
+
+  /* ---------- /api/chat: OpenAI-compatible happy path ---------- */
+  calls = []; scenario = { kind: "ok" };
+  r = await call(handler, {
+    method: "POST", url: "/api/chat",
+    body: {
+      provider: "deepseek", model: "v4.1-flash", system: "be kind", temperature: 0.9,
+      messages: [{ role: "user", content: "hi" }]
+    }
+  });
+  await tick(6);
+  eq("chat responds 200", r.status, 200);
+  has("chat is SSE", r.headers["Content-Type"], "text/event-stream");
+  eq("chat deltas", sseText(r), "Hello");
+  ok("chat sends done", sseEvents(r).some(function (e) { return e.done; }));
+  ok("no raw key in the stream", r.text().indexOf("sk-deepseek-aaaaaaaaaaaa") === -1);
+  eq("one upstream call", calls.length, 1);
+  eq("upstream url", calls[0].url, "https://api.deepseek.com/chat/completions");
+  eq("upstream auth", calls[0].headers.Authorization, "Bearer sk-deepseek-aaaaaaaaaaaa");
+  eq("upstream content type", calls[0].headers["Content-Type"], "application/json");
+  var sent = JSON.parse(calls[0].body);
+  eq("friendly model resolved", sent.model, "deepseek-flash");
+  eq("system prompt sent", sent.messages[0], { role: "system", content: "be kind" });
+  eq("deepseek omits temperature", sent.temperature, undefined);
+  eq("stream flag", sent.stream, true);
+
+  /* ---------- gemini dialect ---------- */
+  r = await call(handler, { method: "POST", url: "/api/keys", body: { provider: "gemini", key: "AIzaSyTestKey1234567890", label: "Free" } });
+  eq("gemini key added", r.status, 200);
+  calls = []; scenario = { kind: "ok" };
+  r = await call(handler, {
+    method: "POST", url: "/api/chat",
+    body: {
+      provider: "gemini", system: "sys", temperature: 0.2,
+      messages: [{ role: "user", content: "hi" }, { role: "assistant", content: "yo" }]
+    }
+  });
+  await tick(6);
+  eq("gemini deltas", sseText(r), "Gemini");
+  has("gemini endpoint", calls[0].url, ":streamGenerateContent?alt=sse");
+  eq("gemini header", calls[0].headers["x-goog-api-key"], "AIzaSyTestKey1234567890");
+  var gbody = JSON.parse(calls[0].body);
+  eq("gemini assistant role is model", gbody.contents[1].role, "model");
+  eq("gemini systemInstruction", gbody.systemInstruction.parts[0].text, "sys");
+  eq("gemini keeps temperature", gbody.generationConfig.temperature, 0.2);
+
+  /* ---------- anthropic dialect ---------- */
+  r = await call(handler, { method: "POST", url: "/api/keys", body: { provider: "anthropic", key: "sk-ant-api03-testkey000000", label: "Claude" } });
+  eq("anthropic key added", r.status, 200);
+  calls = []; scenario = { kind: "ok" };
+  r = await call(handler, {
+    method: "POST", url: "/api/chat",
+    body: { provider: "anthropic", system: "sys", temperature: 0.5, messages: [{ role: "user", content: "hi" }] }
+  });
+  await tick(6);
+  eq("anthropic deltas", sseText(r), "Claude");
+  has("anthropic endpoint", calls[0].url, "/v1/messages");
+  eq("anthropic version header", calls[0].headers["anthropic-version"], "2023-06-01");
+  eq("anthropic uses x-api-key", calls[0].headers["x-api-key"], "sk-ant-api03-testkey000000");
+  var abody = JSON.parse(calls[0].body);
+  eq("anthropic system is top level", abody.system, "sys");
+  ok("anthropic messages carry no system", abody.messages.every(function (m) { return m.role !== "system"; }));
+  eq("anthropic keeps temperature", abody.temperature, 0.5);
+  eq("anthropic max_tokens", abody.max_tokens, 4096);
+
+  /* __NEXT__ */
+  /* ---------- key failover ---------- */
+  r = await call(handler, { method: "POST", url: "/api/keys", body: { provider: "deepseek", key: KEY2, label: "Backup" } });
+  eq("second deepseek key added", r.status, 200);
+  eq("two keys in the plan", api.keyPlan("deepseek").length, 2);
+
+  calls = []; scenario = { kind: "401once" };
+  r = await call(handler, { method: "POST", url: "/api/chat", body: { provider: "deepseek", messages: [{ role: "user", content: "hi" }] } });
+  await tick(8);
+  eq("failover made two attempts", calls.length, 2);
+  eq("second key used after 401", calls[1].headers.Authorization, "Bearer " + KEY2);
+  eq("failover still streams", sseText(r), "Hello");
+  eq("no error event after failover", sseError(r), null);
+
+  /* ---------- every key rejected ---------- */
+  calls = []; scenario = { kind: "401" };
+  r = await call(handler, { method: "POST", url: "/api/chat", body: { provider: "deepseek", messages: [{ role: "user", content: "hi" }] } });
+  await tick(8);
+  eq("all keys were tried", calls.length, 2);
+  ok("error event on total failure", !!sseError(r));
+  has("error explains the rejection", sseError(r).message, "rejected");
+  eq("no deltas on failure", sseText(r), "");
+
+  /* ---------- network failure ---------- */
+  calls = []; scenario = { kind: "network" };
+  r = await call(handler, { method: "POST", url: "/api/chat", body: { provider: "deepseek", messages: [{ role: "user", content: "hi" }] } });
+  await tick(8);
+  eq("network error status 0", sseError(r).status, 0);
+  has("network error is friendly", sseError(r).message, "Could not reach");
+
+  /* ---------- 200 but empty ---------- */
+  calls = []; scenario = { kind: "empty" };
+  r = await call(handler, { method: "POST", url: "/api/chat", body: { provider: "deepseek", messages: [{ role: "user", content: "hi" }] } });
+  await tick(8);
+  has("empty response reported", sseError(r).message, "empty response");
+
+  /* ---------- upstream 500 ---------- */
+  calls = []; scenario = { kind: "500" };
+  r = await call(handler, { method: "POST", url: "/api/chat", body: { provider: "deepseek", messages: [{ role: "user", content: "hi" }] } });
+  await tick(8);
+  has("500 is translated", sseError(r).message, "problems right now");
+
+  /* ---------- ollama: no key, custom base url ---------- */
+  calls = []; scenario = { kind: "ok" };
+  r = await call(handler, {
+    method: "POST", url: "/api/chat",
+    body: { provider: "ollama", model: "llama3.2", baseUrl: "http://127.0.0.1:11434/v1", messages: [{ role: "user", content: "hi" }] }
+  });
+  await tick(8);
+  eq("ollama needs no key", r.status, 200);
+  eq("ollama url", calls[0].url, "http://127.0.0.1:11434/v1/chat/completions");
+  eq("ollama has no auth header", calls[0].headers.Authorization, undefined);
+  eq("ollama streams", sseText(r), "Hello");
+
+  /* ---------- readable errors ---------- */
+  var se = A.summarizeError("openai", 401, '{"error":{"message":"Incorrect API key provided"}}');
+  eq("401 retries with another key", se.retryWithAnotherKey, true);
+  has("401 detail kept", se.message, "Incorrect API key provided");
+  eq("402 retries", A.summarizeError("openai", 402, '{"error":{"message":"Insufficient Balance"}}').retryWithAnotherKey, true);
+  eq("400 does not retry", A.summarizeError("openai", 400, '{"error":{"message":"model not found"}}').retryWithAnotherKey, false);
+
+  document.getElementById("out").textContent =
+    "RESULT " + pass + " passed, " + fail + " failed\n" + log.join("\n");
+})().catch(function (e) {
+  document.getElementById("out").textContent =
+    "THREW: " + (e && e.message) + "\n" + (e && e.stack ? e.stack.split("\n").slice(0, 4).join("\n") : "") +
+    "\nRESULT " + pass + " passed, " + fail + " failed\n" + log.join("\n");
+});
+</script>
+</body>
+</html>

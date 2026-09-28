@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>_backendtest — backend.js harness</title>
+<style>
+  body { background: #0b1114; color: #cfe3ea; font: 13px/1.5 "JetBrains Mono", monospace; padding: 16px; }
+  .pass { color: #57d9a3; }
+  .fail { color: #ff7b72; }
+  h1 { font-size: 15px; }
+  #out { white-space: pre-wrap; }
+</style>
+</head>
+<body>
+<h1>backend.js test</h1>
+<pre id="out">running…</pre>
+
+<script>
+/* ---- fake fetch, installed BEFORE backend.js loads ---- */
+window.__calls = [];
+window.__scenario = "up";
+window.__fetch = async function (url, opts) {
+  var u = String(url);
+  if (window.__scenario === "down") throw new TypeError("Failed to fetch");
+  if (u.indexOf("api/health") !== -1) return resp({ json: { ok: true, backend: "bokskie-server", version: "0.1.0-test" } });
+  if (u.indexOf("api/status") !== -1) return resp({ json: { ok: true, backend: "bokskie-server", providers: [{ id: "openai", connected: true }] } });
+  if (u.indexOf("api/keys/remove") !== -1) return resp({ json: { ok: true, status: { providers: [] } } });
+  if (u.indexOf("api/keys") !== -1) {
+    if (window.__scenario === "keys-need") return resp({ status: 400, json: { ok: false, error: "Walang OpenAI API key sa server.", needKey: "openai" } });
+    return resp({ json: { ok: true, entry: { id: "k1" }, status: { providers: [] } } });
+  }
+  if (u.indexOf("api/chat") !== -1) {
+    if (window.__scenario === "chat-down") return resp({ status: 400, json: { ok: false, error: "Walang key.", needKey: "openai" } });
+    if (window.__scenario === "chat-throws") throw new TypeError("Failed to fetch");
+    if (window.__scenario === "chat-abort") { var e = new Error("The user aborted a request."); e.name = "AbortError"; throw e; }
+    return resp({ chunks: [
+      ": keep-alive\n\n",
+      "data: {\"delta\":\"Hel",
+      "lo\"}\n\ndata: {\"delta\":\" world\"}\n\n",
+      "data: notjson\n\n",
+      "data: {\"delta\":\"!\"}\n\n",
+      "data: {\"done\":true,\"usage\":{\"output_tokens\":3}}\n\n"
+    ] });
+  }
+  return resp({ status: 404, json: { ok: false, error: "Not found" } });
+};
+function resp(o) {
+  var status = o.status || 200;
+  var text = o.text !== undefined ? o.text : JSON.stringify(o.json);
+  var r = {
+    ok: status >= 200 && status < 300,
+    status: status,
+    statusText: "Fake",
+    json: async function () { return JSON.parse(text); },
+    text: async function () { return text; }
+  };
+  if (o.chunks) {
+    var i = 0;
+    r.body = { getReader: function () { return {
+      read: async function () {
+        if (i >= o.chunks.length) return { done: true };
+        var v = new TextEncoder().encode(o.chunks[i]); i++;
+        return { done: false, value: v };
+      },
+      releaseLock: function () {}
+    }; } };
+  }
+  return r;
+}
+window.fetch = function (url, opts) {
+  window.__calls.push({ url: String(url), method: (opts && opts.method) || "GET", opts: opts });
+  return window.__fetch(url, opts);
+};
+</script>
+<script src="../assets/js/backend.js"></script>
+<script src="../assets/js/llm.js"></script>
+
+<script>
+var out = document.getElementById("out");
+var lines = [], pass = 0, fail = 0;
+function ok(name, cond, extra) {
+  if (cond) { pass++; lines.push('<span class="pass">PASS</span> ' + name); }
+  else { fail++; lines.push('<span class="fail">FAIL</span> ' + name + (extra !== undefined ? "  -> " + String(extra) : "")); }
+}
+function eq(name, got, want) { ok(name, JSON.stringify(got) === JSON.stringify(want), JSON.stringify(got) + " !== " + JSON.stringify(want)); }
+function called(u) { return window.__calls.some(function (c) { return c.url.indexOf(u) !== -1; }); }
+
+(async function run() {
+ try {
+  /* ---- probe ---- */
+  await Backend.probe();
+  eq("auto-probe reports up", Backend.on(), true);
+  eq("probe state has info", Backend.state.info.backend, "bokskie-server");
+
+  window.__scenario = "down";
+  await Backend.probe(500, true);
+  eq("dead server -> off", Backend.on(), false);
+
+  window.__scenario = "up";
+  await Backend.probe(500, true);
+  eq("recovered -> on", Backend.on(), true);
+
+  /* ---- status / keys ---- */
+  var st = await Backend.status();
+  eq("status parsed", st.providers[0].id, "openai");
+  ok("status hit api/status", called("api/status"));
+
+  var add = await Backend.addKey({ provider: "openai", key: "sk-test", label: "x" });
+  eq("addKey entry id", add.entry.id, "k1");
+
+  window.__scenario = "keys-need";
+  var needErr = null;
+  try { await Backend.addKey({ provider: "openai", key: "bad" }); } catch (e) { needErr = e; }
+  ok("addKey error thrown", !!needErr);
+  eq("addKey error needKey", needErr && needErr.needKey, "openai");
+  eq("addKey error message", needErr && needErr.message, "Walang OpenAI API key sa server.");
+
+  window.__scenario = "up";
+  var rm = await Backend.removeKey("openai", "k1");
+  eq("removeKey ok", rm.ok, true);
+
+  /* ---- stream ---- */
+  var got = "";
+  for await (var d of Backend.stream({ provider: "openai", model: "gpt-5.6-luna" }, [{ role: "user", content: "hi" }], null)) got += d;
+  eq("sse deltas joined", got, "Hello world!");
+  var last = window.__calls[window.__calls.length - 1];
+  eq("chat posted", last.method, "POST");
+  var sent = JSON.parse(last.opts.body);
+  eq("payload messages", sent.messages.length, 1);
+  eq("payload provider", sent.provider, "openai");
+
+  window.__scenario = "chat-down";
+  var e2 = null;
+  try { for await (var x of Backend.stream({ provider: "openai" }, [], null)) {} } catch (e) { e2 = e; }
+  ok("http error thrown", !!e2);
+  eq("http error needKey", e2 && e2.needKey, "openai");
+
+  window.__scenario = "chat-throws";
+  var e3 = null;
+  try { for await (var x of Backend.stream({ provider: "openai" }, [], null)) {} } catch (e) { e3 = e; }
+  ok("network error message", !!e3 && /Could not reach the bokskie server/.test(e3.message), e3 && e3.message);
+
+  window.__scenario = "chat-abort";
+  var e4 = null;
+  try { for await (var x of Backend.stream({ provider: "openai" }, [], null)) {} } catch (e) { e4 = e; }
+  eq("abort keeps its name", e4 && e4.name, "AbortError");
+
+  /* ---- llm.js wiring ---- */
+  window.__scenario = "up";
+  await Backend.probe(500, true);
+  eq("validate skips key via backend", LLM.validate({ provider: "openai", model: "gpt-5.6-luna" }), null);
+  ok("validate still catches wrong-provider model", typeof LLM.validate({ provider: "openai", model: "claude-sonnet-5" }) === "string");
+  var viaDispatch = "";
+  for await (var d2 of LLM.stream({ provider: "openai", model: "gpt-5.6-luna" }, [], null)) viaDispatch += d2;
+  eq("LLM.stream routes to backend", viaDispatch, "Hello world!");
+
+  var before = window.__calls.length;
+  var demoFirst = await LLM.stream({ provider: "demo", mode: "chat" }, [{ role: "user", content: "hi" }], null).next();
+  ok("demo stays in browser", demoFirst.value !== undefined && !window.__calls.slice(before).some(function (c) { return c.url.indexOf("api/chat") !== -1; }));
+
+  window.__scenario = "down";
+  await Backend.probe(500, true);
+  ok("validate demands key again when server off", typeof LLM.validate({ provider: "openai", model: "gpt-5.6-luna" }) === "string");
+ } catch (e) {
+  fail++; lines.push('<span class="fail">THREW</span> ' + (e && e.stack || e));
+ }
+  var sum = "RESULT " + pass + " passed, " + fail + " failed";
+  out.innerHTML = lines.join("\n") + "\n" + sum;
+  document.title = sum;
+})();
+</script>
+</body>
+</html>

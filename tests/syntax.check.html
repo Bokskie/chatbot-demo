@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8" /><title>syntax check</title></head>
+<body>
+<pre id="out">running...</pre>
+<script>
+var outEl = document.getElementById("out");
+var file = new URLSearchParams(location.search).get("f") || "../api.js";
+window.onerror = function (m, s, line) {
+  outEl.textContent = "SYNTAX/RUNTIME ERROR in " + file + ": " + m + " (line " + line + ")";
+};
+var s = document.createElement("script");
+s.src = file;
+s.onload = function () {
+  outEl.textContent = "PARSED OK " + file +
+    " | BokskieAPI=" + (typeof window.BokskieAPI) +
+    " | list=" + Object.keys(window).filter(function (k) { return /^Bokskie/.test(k); }).join(",") +
+    " | sample=" + (window.BokskieAPI ? Object.keys(window.BokskieAPI).join(",") : "n/a");
+};
+s.onerror = function () { outEl.textContent = "LOAD FAILED " + file; };
+document.head.appendChild(s);
+</script>
+</body>
+</html>

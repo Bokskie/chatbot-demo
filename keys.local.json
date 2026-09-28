@@ -1,0 +1,13 @@
+{
+  "openai": [
+    { "key": "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", "label": "Personal" }
+  ],
+  "deepseek": [
+    { "key": "sk-1b7a416de5114a65b70662281d69cb8e", "label": "Main" }
+  ],
+  "anthropic": [],
+  "gemini": [
+    { "key": "AQ.Ab8RN6KUuGUK4Vqfbethad5hqs2NXgeuTDaCasVz7PYSGu-GfQ", "label": "Free tier" }
+  ],
+  "ollama": []
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8" /><title>api.js selftest</title></head>
+<body>
+<pre id="out">running...</pre>
+<script src="../api.js"></script>
+<script>
+var outEl = document.getElementById("out");
+window.onerror = function (m, s, line) { outEl.textContent = "ERROR " + m + " @line " + line; };
+var pass = 0, fail = 0, log = [];
+function ok(name, cond, extra) {
+  if (cond) { pass++; }
+  else { fail++; log.push("FAIL: " + name + (extra === undefined ? "" : "  -> " + extra)); }
+}
+function eq(name, got, want) {
+  var g = JSON.stringify(got), w = JSON.stringify(want);
+  ok(name + " [" + g + "]", g === w, "want " + w);
+}
+function has(name, hay, needle) {
+  ok(name + " contains " + JSON.stringify(needle), String(hay).indexOf(needle) !== -1, String(hay).slice(0, 160));
+}
+
+var A = window.BokskieAPI;
+ok("api.js loaded", !!A);
+
+/* ---------- providers ---------- */
+eq("provider order", A.providers(), ["openai", "deepseek", "anthropic", "gemini", "ollama"]);
+eq("openai default", A.defaultModel("openai"), "gpt-5.6-luna");
+eq("deepseek default", A.defaultModel("deepseek"), "deepseek-flash");
+eq("gemini has free model", A.modelsOf("gemini").filter(function (m) { return m.tag === "Free"; }).length, 2);
+ok("unknown provider info", A.info("nope") === null);
+
+/* ---------- mask / hints ---------- */
+eq("mask long", A.mask("sk-abcdefghijklmnop"), "sk-abc\u2026mnop");
+eq("mask short", A.mask("abc"), "ab\u2026");
+eq("hint gemini", A.providerHintFor("AIzaSy1234567890"), "gemini");
+eq("hint anthropic", A.providerHintFor("sk-ant-api03-xyz"), "anthropic");
+eq("hint openai", A.providerHintFor("sk-proj-xyz"), "openai");
+
+/* ---------- resolveModel ---------- */
+eq("alias luna", A.resolveModel("openai", "GPT-5.6 Luna"), "gpt-5.6-luna");
+eq("alias astra", A.resolveModel("openai", "gpt-6"), "gpt-6-astra");
+eq("alias deepseek flash", A.resolveModel("deepseek", "v4.1-flash"), "deepseek-flash");
+eq("alias claude sonnet", A.resolveModel("anthropic", "Sonnet"), "claude-sonnet-5");
+eq("alias gemini lite", A.resolveModel("gemini", "flash-lite"), "gemini-3.8-flash-lite");
+  eq("retired o3-mini", A.resolveModel("openai", "o3-mini"), "gpt-5.6-luna");
+eq("retired gemini-2.0-flash", A.resolveModel("gemini", "gemini-2.0-flash"), "gemini-3.8-flash");
+  /* 2.5-flash was our default until Google cut it off for new keys with a
+     404 saying it is "no longer available to new users". */
+  eq("retired gemini-2.5-flash", A.resolveModel("gemini", "gemini-2.5-flash"), "gemini-3.8-flash");
+  eq("gemini default is alive", A.defaultModel("gemini"), "gemini-3.8-flash");
+eq("custom id passthrough", A.resolveModel("openai", "my-proxy/llama-9"), "my-proxy/llama-9");
+eq("empty model", A.resolveModel("openai", ""), "");
+eq("providerOfModel deepseek", A.providerOfModel("deepseek-flash"), "deepseek");
+eq("providerOfModel claude", A.providerOfModel("Claude-Sonnet-5"), "anthropic");
+eq("providerOfModel unknown", A.providerOfModel("totally-custom"), null);
+
+/* ---------- temperature rules ---------- */
+eq("omitTemp gpt-5.6", A.omitTemperature("openai", "gpt-5.6-luna"), true);
+eq("omitTemp gpt-4o-mini", A.omitTemperature("openai", "gpt-4o-mini"), false);
+eq("omitTemp deepseek", A.omitTemperature("deepseek", "deepseek-flash"), true);
+eq("omitTemp gemini", A.omitTemperature("gemini", "gemini-3.8-flash"), false);
+
+/* ---------- key store ---------- */
+var mem = A.memoryIO({
+  "keys.local.json": JSON.stringify({ deepseek: [{ key: "sk-local-1234567890", label: "Local" }] })
+});
+var api = A.createAPI(mem, { version: "test" });
+var entries = api.keyEntries("deepseek");
+eq("store key picked up", entries.length, 1);
+eq("store key source", entries[0].source, "store");
+eq("store key label", entries[0].label, "Local");
+
+var st = api.status();
+eq("status ok", st.ok, true);
+eq("status backend", st.backend, "bokskie-server");
+eq("deepseek connected", st.providers.filter(function (p) { return p.id === "deepseek"; })[0].connected, true);
+eq("openai not connected", st.providers.filter(function (p) { return p.id === "openai"; })[0].connected, false);
+eq("ollama local+connected", (function (p) { return p.local && p.connected; })(st.providers.filter(function (p) { return p.id === "ollama"; })[0]), true);
+eq("keys never expose full value", JSON.stringify(st).indexOf("sk-local-1234567890"), -1);
+has("masked preview present", JSON.stringify(st), "sk-loc\u20267890");
+ok("model catalog shipped to UI", st.providers[0].models.length >= 5);
+
+/* ---------- addKey / removeKey ---------- */
+var bad = api.addKey("openai", "AIzaSyWrongProvider0001", "oops");
+eq("wrong shape rejected", bad.ok, false);
+eq("wrong shape flagged mismatch", bad.mismatch, true);
+has("wrong shape explains", bad.error, "Google Gemini");
+
+var forced = api.addKey("openai", "AIzaSyWrongProvider0001", "oops", true);
+eq("force accepts", forced.ok, true);
+ok("force warns", !!forced.warning);
+
+var dup = api.addKey("deepseek", "sk-local-1234567890", "dup");
+eq("duplicate rejected", dup.ok, false);
+
+var added = api.addKey("deepseek", "sk-second-key-0987654321", "Backup");
+eq("second key added", added.ok, true);
+eq("failover order length", api.keyPlan("deepseek").length, 2);
+var savedFile = JSON.parse(mem.files["keys.local.json"]);
+eq("persisted to keys.local.json", savedFile.deepseek.length, 2);
+
+var rm = api.removeKey("deepseek", added.entry.id);
+eq("remove ok", rm.ok, true);
+eq("after remove", api.keyPlan("deepseek").length, 1);
+var rmInline = api.removeKey("deepseek", "inline:k1");
+eq("inline key not removable", rmInline.ok, false);
+has("inline removal message", rmInline.error, "api.js");
+
+/* ---------- warnings ---------- */
+var w = api.warnings();
+has("warning about wrong provider", w.join(" | "), "Google Gemini");
+ok("no duplicate warnings", w.join(" | ").indexOf("listed under") === -1);
+
+var mem2 = A.memoryIO({});
+var api2 = A.createAPI(mem2);
+ok("clean install: no warnings", api2.warnings().length === 0);
+var brokenIO = A.memoryIO({ "keys.local.json": "{not json" });
+has("broken store warning", A.createAPI(brokenIO).warnings()[0], "not valid JSON");
+
+document.getElementById("out").textContent =
+  "RESULT " + pass + " passed, " + fail + " failed\n" + log.join("\n");
+</script>
+</body>
+</html>

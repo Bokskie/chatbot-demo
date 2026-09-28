@@ -1,0 +1,22 @@
+{
+  "_comment": [
+    "I-COPY ANG FILE NA ITO:  cp keys.example.json keys.local.json",
+    "Tapos punan ng iyong totoong keys at i-save.",
+    "Naka-.gitignore na ang keys.local.json kaya HINDI ito mai-commit.",
+    "Pwedeng ilagay ang key bilang string ({key,label} para may pangalan).",
+    "Walang key = provider na 'local' lang (Ollama) o hindi pa naka-setup."
+  ],
+  "openai": [
+    { "key": "sk-...", "label": "Personal" }
+  ],
+  "deepseek": [
+    { "key": "sk-...", "label": "Main" }
+  ],
+  "anthropic": [
+    { "key": "sk-ant-...", "label": "Claude" }
+  ],
+  "gemini": [
+    { "key": "AIza...", "label": "Free tier" }
+  ],
+  "ollama": []
+}

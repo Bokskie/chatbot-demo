@@ -1,0 +1,322 @@
+{
+  "topic": "conversations",
+  "entries": [
+    {
+      "id": "conv-greeting",
+      "topic": "conversations",
+      "intent": "greeting",
+      "keywords": [
+        "hi",
+        "hello",
+        "hey",
+        "kumusta",
+        "kamusta",
+        "musta",
+        "magandang",
+        "adlaw"
+      ],
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "kumusta ka",
+        "unsa sayon",
+        "magandang araw"
+      ],
+      "answer": "Hello! I am here, and I answer from a hand-written knowledge bank. Ask me about programming, science, mathematics, geography, history, health, money or technology - and if I do not know something, I will tell you rather than guess.",
+      "variations": [
+        "Hi! Good to see you. I have a finite, hand-written bank of knowledge, so I am genuinely useful on the topics I cover and honestly useless outside them.",
+        "Hello there. Whatever you ask, I will either answer from what I actually know or say plainly that I do not know. I will not make something up."
+      ],
+      "concept": "greeting",
+      "greet": {
+        "english": [
+          "Hello {name}, I am bokskieAI. Ask me anything - programming, science, health, money, geography, history, technology - and if I do not know something, I will tell you instead of guessing.",
+          "Hi {name}, bokskieAI here. What can I do for you? I answer from a hand-written knowledge bank in English, Tagalog and Bisaya.",
+          "Hello {name}! I am bokskieAI. What would you like to know? Nothing you type leaves this browser tab."
+        ],
+        "tagalog": [
+          "Kumusta {name}, si bokskieAI ito. Magtanong ka kahit ano - programming, science, health, money, geography, history, technology - kung wala akong alam, sasabihin ko sa halip na maghaka-haka.",
+          "Kumusta {name}, ito si bokskieAI. Ano ang maitutulong ko sa iyo? Sagot ako mula sa hand-written na knowledge bank sa English, Tagalog at Bisaya.",
+          "Hello {name}! si bokskieAI ako. Ano ang gusto mong itanong? Walang iiwing labas sa tab na ito ang isinusulat mo."
+        ],
+        "bisaya": [
+          "Kumusta {name}, si bokskieAI ako. Ask-ar ka bisan unsa - programming, science, health, money, geography, history, technology - ug kon wala ako nga kabalo, isumat nako kay mato ako mang makatabag.",
+          "Kumusta {name}, ania si bokskieAI. Unsa may matabang nimo? Nga tubag ako gikan sa hand-written nga knowledge bank sa English, Tagalog ug Bisaya.",
+          "Hello {name}! si bokskieAI ako. Unsa ang gusto nimo iyanguta? Walay gikan niini ang imong gi-type."
+        ]
+      },
+      "nameAsk": {
+        "_why": "The one-time offer, appended to the FIRST greeting only and only when no name is known yet. Written as a question rather than a prompt so that ignoring it costs the user nothing, and every variant makes clear it is optional by simply not insisting. English first because that is the default the bank answers in.",
+        "english": [
+          "By the way, what should I call you?",
+          "Also - what is your name? I will remember it for this conversation.",
+          "And you are? I would rather use your name than call you nothing."
+        ],
+        "tagalog": [
+          "Sa pagitan, ano ang tawag ko sa'yo?",
+          "Kung okay lang, ano ang pangalan mo? Naalala ko ito sa usapin natin.",
+          "At ikaw? Mas masaya kong magsalita sa'yo gamit ang pangalan mo."
+        ],
+        "bisaya": [
+          "By the way, unsa nako nga ngayon nimo?",
+          "Kung okay lang, unsa imong ngalan? Naa nako siya diri sa atong gina-chat.",
+          "Ug ikaw? Mas maayo na kong makatigwahan nimo gamit ang imong ngalan."
+        ]
+      },
+      "nameRecall": {
+        "_why": "The answer to the user asking for THEIR OWN name. `known` is the honest hit; `unknown` does not apologise for the gap, it states it and closes with the same offer, because a user who asks their own name is already the person most likely to be willing to give it. The last variant of `unknown` deliberately does NOT ask again - someone who asked twice and got asked back is being interrogated.",
+        "known": {
+          "english": [
+            "You are {name}.",
+            "Your name is {name}.",
+            "You told me you are {name}, and I have been using it."
+          ],
+          "tagalog": [
+            "Ikaw ay {name}.",
+            "Ang pangalan mo ay {name}.",
+            "Sinabi mo na ikaw si {name}, at ginagamit ko na iyon."
+          ],
+          "bisaya": [
+            "Ikaw si {name}.",
+            "Ang imong ngalan kay {name}.",
+            "Imong naa nga nagsulti nga ikaw si {name}, ug gigamit nako na siya."
+          ]
+        },
+        "unknown": {
+          "english": [
+            "I do not know your name yet. What should I call you?",
+            "I have not been told your name, so I will not guess one. What is it?",
+            "Not yet - you have not told me. What should I call you?"
+          ],
+          "tagalog": [
+            "Hindi ko pa alam ang pangalan mo. Ano ang tawag ko sa'yo?",
+            "Hindi mo pa ako sinabihan ng pangalan mo, kaya hula ako. Ano iyon?",
+            "Hindi pa - hindi mo pa ako sinabihan. Ano ang tawag ko sa'yo?"
+          ],
+          "bisaya": [
+            "Wala pa ako og kabalo sa imong ngalan. Unsa nako nga ngayon nimo?",
+            "Wala pa gikan nimo ako sa imong ngalan, so dili ako magmangga. Unsa iyon?",
+            "Wala pa - wala pa gikan nimo ako. Unsa nako nga ngayon nimo?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "conv-identity",
+      "topic": "conversations",
+      "intent": "identity",
+      "keywords": [
+        "who",
+        "you",
+        "name",
+        "yourself",
+        "bot",
+        "ai",
+        "kayo",
+        "katongod",
+        "pangalan",
+        "ngalan",
+        "sino",
+        "ikaw",
+        "bro"
+      ],
+      "patterns": [
+        "who are you",
+        "what are you",
+        "what is your name",
+        "are you ai",
+        "kayo ka",
+        "ano ang pangalan mo",
+        "ano ka",
+        "unsa imong ngalan",
+        "sino ka",
+        "what is your name bro"
+      ],
+      "answer": "I am bokskie.v1 - a small offline program, not a large AI model. Everything I say is chosen from a knowledge base that was written by hand, in English, Tagalog and Bisaya. I run entirely in your browser, I cost nothing, and your messages never leave this machine.",
+      "variations": [
+        "I am bokskie.v1. I want to be clear about what I am not: I am not a language model, I cannot reason or invent facts, and I do not learn between messages. What I do have is a curated bank of accurate answers with proper search over it."
+      ],
+      "concept": "identity"
+    },
+    {
+      "id": "conv-capability",
+      "topic": "conversations",
+      "intent": "capability",
+      "keywords": [
+        "help",
+        "can",
+        "do",
+        "able",
+        "capable"
+      ],
+      "patterns": [
+        "what can you do",
+        "help me",
+        "who can help"
+      ],
+      "answer": "I can answer questions on programming, science, mathematics, geography, history, health, money and technology, and I can hold a short conversation. Two limits worth knowing: I only know what is written in my bank, and I have no internet, so I cannot look anything up or give news. If you need live information, I am the wrong tool.",
+      "variations": [
+        "My range is: eight knowledge topics, three languages, and small talk. My limit is equally real - nothing outside my bank, and no live data. I will tell you when a question lands there."
+      ],
+      "concept": "capability"
+    },
+    {
+      "id": "conv-gratitude",
+      "topic": "conversations",
+      "intent": "gratitude",
+      "keywords": [
+        "thanks",
+        "thank",
+        "salamat",
+        "appreciate",
+        "slapatsa"
+      ],
+      "patterns": [
+        "thank you",
+        "thanks",
+        "salamat",
+        "salamat po"
+      ],
+      "answer": "You are welcome. If the answer was not quite what you needed, tell me which part missed and I can try a different entry.",
+      "variations": [
+        "Glad it helped. Anything unclear, ask again - searching the same bank in a different way often finds the entry you wanted."
+      ],
+      "concept": "gratitude",
+      "weight": 1.7
+    },
+    {
+      "id": "conv-farewell",
+      "topic": "conversations",
+      "intent": "farewell",
+      "keywords": [
+        "bye",
+        "goodbye",
+        "later",
+        "paalam",
+        "adios",
+        "tapos"
+      ],
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "paalam",
+        "tapos na"
+      ],
+      "answer": "Goodbye. Nothing you typed is stored anywhere - the conversation stays in this tab and disappears when you close it.",
+      "variations": [
+        "See you. No trace is kept: your messages live in this page only, and closing the tab ends the conversation completely."
+      ],
+      "concept": "farewell"
+    },
+    {
+      "id": "conv-privacy",
+      "topic": "conversations",
+      "intent": "definition",
+      "keywords": [
+        "privacy",
+        "data",
+        "private",
+        "offline",
+        "internet",
+        "server",
+        "safe"
+      ],
+      "patterns": [
+        "is this safe",
+        "do you send my data",
+        "are you private",
+        "offline"
+      ],
+      "answer": "Nothing is sent anywhere. I run entirely in your browser with JavaScript - there is no server call, no account, and no analytics. Your messages exist only in the open tab in front of you and are gone when you close it. That is a real property of how I am built, not a promise.",
+      "variations": [
+        "I am offline by construction. No network requests, no storage, no tracking. You can verify it: open the network tab and send me a message - nothing leaves the page."
+      ],
+      "concept": "privacy"
+    },
+    {
+      "id": "conv-limits",
+      "topic": "conversations",
+      "intent": "definition",
+      "keywords": [
+        "limit",
+        "wrong",
+        "accurate",
+        "stupid",
+        "dumb",
+        "hallucinate",
+        "real"
+      ],
+      "patterns": [
+        "are you accurate",
+        "are you real ai",
+        "do you make things up",
+        "why did you get it wrong"
+      ],
+      "answer": "I do not invent answers. If my knowledge bank has nothing close enough to what you asked, I say I do not know rather than returning the least-bad match. That means I will sometimes tell you I do not know - which I would rather do than give you something confident and false. I am useful within my topics and honest about the edges.",
+      "variations": [
+        "The design rule here is simple: a wrong answer delivered confidently is worse than no answer. So there is a confidence threshold, and below it I admit I do not know and tell you what I did understand."
+      ],
+      "concept": "limits"
+    },
+    {
+      "id": "conv-memory-reference",
+      "topic": "conversations",
+      "intent": "memory_reference",
+      "keywords": [
+        "remember",
+        "memory",
+        "recall",
+        "naalala",
+        "ginhapon",
+        "pinag-usapan"
+      ],
+      "patterns": [
+        "do you remember",
+        "you remember our last topic",
+        "what did we talk about",
+        "naalala mo ba",
+        "unsa ang pinag-usapan natin",
+        "last topic",
+        "previous topic",
+        "we talked about"
+      ],
+      "answer": "I remember the last few things we discussed in this tab, and I will tell you plainly when we have not discussed anything yet. I do not remember across sessions - closing the tab ends it.",
+      "variations": [
+        "My memory is the conversation in front of me, not a store I keep. That is enough to answer what we were last talking about, and I will say so if there is nothing to recall."
+      ],
+      "memory": {
+        "recall": {
+          "english": [
+            "Yes - our last topic was {subject}. You asked: \"{user}\"",
+            "I remember: {subject}. That was the question \"{user}\" - shall I pick that back up?"
+          ],
+          "tagalog": [
+            "Oo - ang huling topic natin ay {subject}. Itanong mo ang: \"{user}\"",
+            "Naalala ko: {subject}. Yan ang tanong na \"{user}\" - ipagpatuloy ko ba?"
+          ],
+          "bisaya": [
+            "Oo - ang last topic nato kay {subject}. Imbisay nimo nga: \"{user}\"",
+            "Naalala nako: {subject}. Kana gyud ang tanong nga \"{user}\" - ipadayon nato ba?"
+          ]
+        },
+        "empty": {
+          "english": [
+            "Not yet - this is the first thing we have talked about, so there is no earlier topic to recall.",
+            "There is nothing before this one. Ask me something and I will remember it from then on."
+          ],
+          "tagalog": [
+            "Hindi pa - ito ang una nating pinag-usapan, kaya walang naunang topic na maalala.",
+            "Wala pa noon. Magtanong ka at maalala ko na iyon mula ngayon."
+          ],
+          "bisaya": [
+            "Dili pa - kana ang una nga atong gina-chat, so walay naa nga daang topic nga naalala.",
+            "Wala pa kaniadto. Ask-ar ka na ako, dayon naa nako na siya gyud."
+          ]
+        }
+      },
+      "concept": "memory reference"
+    }
+  ]
+}
