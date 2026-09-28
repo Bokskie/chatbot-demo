@@ -1,0 +1,47 @@
+{
+  "topic": "cebuano-filipino-cebuano",
+  "entries": [
+    {
+      "id": "ceb-filipino-cebuano-000001",
+      "topic": "cebuano-filipino-cebuano",
+      "intent": "definition",
+      "concept": "pagkatransnya",
+      "keywords": [
+        "pagkatransnya",
+        "agency",
+        "signage",
+        "school",
+        "law",
+        "term",
+        "philippine",
+        "language",
+        "rather",
+        "names"
+      ],
+      "patterns": [
+        "what is pagkatransnya",
+        "pagkatransnya",
+        "explain pagkatransnya",
+        "definition of pagkatransnya",
+        "pagkatransnya meaning",
+        "unsa meaning nga pagkatransnya",
+        "what is the filipino language policy",
+        "is english being removed",
+        "ano ang wikang filipino",
+        "unsa ang pagkatransnya"
+      ],
+      "answer": "Pagkatransnya is a term from Philippine language law rather than a language, and it names the policy requiring government agencies and schools to promote Filipino and, in the regions, the local language. The scope is narrower than most people assume: it obliges agencies to use the language in their signage, forms and official communication, and it drives the mother tongue education policy, but it does not restrict what a private person may speak. The constitutional framing is a balance rather than a rule to replace English, because Filipino is promoted as the national language while English keeps an official role in many government transactions. The controversy comes from implementation, since a policy that promotes the mother tongue in the classroom and then requires a child to switch to a language they barely hear at home can produce worse outcomes rather than better. The strongest versions of the policy pair the first years with the local language and then bridge gradually, which is why the details matter more than the slogan.",
+      "variations": [
+        "The scope is narrower than most people assume: it obliges agencies to use the language in their signage, forms and official communication, and it drives the mother tongue education policy, but it does not restrict what a private person may speak. Pagkatransnya is a term from Philippine language law rather than a language, and it names the policy requiring government agencies and schools to promote Filipino and, in the regions, the local language. The constitutional framing is a balance rather than a rule to replace English, because Filipino is promoted as the national language while English keeps an official role in many government transactions. The controversy comes from implementation, since a policy that promotes the mother tongue in the classroom and then requires a child to switch to a language they barely hear at home can produce worse outcomes rather than better. The strongest versions of the policy pair the first years with the local language and then bridge gradually, which is why the details matter more than the slogan.",
+        "The constitutional framing is a balance rather than a rule to replace English, because Filipino is promoted as the national language while English keeps an official role in many government transactions. Pagkatransnya is a term from Philippine language law rather than a language, and it names the policy requiring government agencies and schools to promote Filipino and, in the regions, the local language. The scope is narrower than most people assume: it obliges agencies to use the language in their signage, forms and official communication, and it drives the mother tongue education policy, but it does not restrict what a private person may speak. The controversy comes from implementation, since a policy that promotes the mother tongue in the classroom and then requires a child to switch to a language they barely hear at home can produce worse outcomes rather than better. The strongest versions of the policy pair the first years with the local language and then bridge gradually, which is why the details matter more than the slogan."
+      ],
+      "tl": "wikang filipino",
+      "bis": "pagkatransnya"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "filipino-cebuano",
+  "title": "Filipino to Cebuano",
+  "groupTitle": "Cebuano"
+}

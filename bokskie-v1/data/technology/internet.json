@@ -1,0 +1,161 @@
+{
+  "topic": "technology-internet",
+  "entries": [
+    {
+      "id": "tec-internet-000001",
+      "topic": "technology-internet",
+      "intent": "definition",
+      "concept": "internet",
+      "keywords": [
+        "internet",
+        "packet",
+        "router",
+        "web",
+        "decentralized",
+        "fibre",
+        "global",
+        "network",
+        "networks",
+        "word",
+        "matters"
+      ],
+      "patterns": [
+        "what is internet",
+        "internet",
+        "explain internet",
+        "definition of internet",
+        "internet meaning",
+        "what is the internet",
+        "is the internet the same as the web",
+        "how does the internet work",
+        "ano ang internet",
+        "unsa ang internet"
+      ],
+      "answer": "The internet is a global network of networks, and the word network is the part that matters: no single organisation runs it, and it works because independently owned networks agree to pass each other's traffic. A packet is the unit of transfer, split at the source, routed independently through intermediate routers, and reassembled at the destination, so a conversation can survive one broken link by taking a different path. The physical layer is cable, fibre optic and radio, and the addressing that makes it usable is the IP address, with domain names layered on top through DNS because people remember words and routers need numbers. What the internet is not is the web: the web is one service running on it, alongside email, video calling and file transfer, and they are routinely confused. Its governance is genuinely decentralised, with the naming function run by a multi-party arrangement rather than a single government, which is one reason it grew without a central plan.",
+      "variations": [
+        "A packet is the unit of transfer, split at the source, routed independently through intermediate routers, and reassembled at the destination, so a conversation can survive one broken link by taking a different path. The internet is a global network of networks, and the word network is the part that matters: no single organisation runs it, and it works because independently owned networks agree to pass each other's traffic. The physical layer is cable, fibre optic and radio, and the addressing that makes it usable is the IP address, with domain names layered on top through DNS because people remember words and routers need numbers. What the internet is not is the web: the web is one service running on it, alongside email, video calling and file transfer, and they are routinely confused. Its governance is genuinely decentralised, with the naming function run by a multi-party arrangement rather than a single government, which is one reason it grew without a central plan.",
+        "The physical layer is cable, fibre optic and radio, and the addressing that makes it usable is the IP address, with domain names layered on top through DNS because people remember words and routers need numbers. The internet is a global network of networks, and the word network is the part that matters: no single organisation runs it, and it works because independently owned networks agree to pass each other's traffic. A packet is the unit of transfer, split at the source, routed independently through intermediate routers, and reassembled at the destination, so a conversation can survive one broken link by taking a different path. What the internet is not is the web: the web is one service running on it, alongside email, video calling and file transfer, and they are routinely confused. Its governance is genuinely decentralised, with the naming function run by a multi-party arrangement rather than a single government, which is one reason it grew without a central plan."
+      ],
+      "tl": "internet",
+      "bis": "internet"
+    },
+    {
+      "id": "tec-internet-000002",
+      "topic": "technology-internet",
+      "intent": "howto",
+      "concept": "how the internet works",
+      "keywords": [
+        "how the internet works",
+        "cdn",
+        "parsing",
+        "render",
+        "learning",
+        "internet",
+        "actually",
+        "works",
+        "means",
+        "following"
+      ],
+      "patterns": [
+        "what is how the internet works",
+        "how the internet works",
+        "explain how the internet works",
+        "definition of how the internet works",
+        "how the internet works meaning",
+        "how does the internet work step by step",
+        "what happens when i open a website",
+        "what is a dns lookup",
+        "ano ang how the internet works",
+        "unsa ang paagi sa internet"
+      ],
+      "answer": "Learning how the internet actually works means following one request from typed name to displayed page, and the steps are the same for every site you have ever opened. The browser first checks its own cache, then asks a DNS resolver to turn a domain name into an IP address, and the resolver answers from its cache or works outward through the hierarchy until an authoritative server is reached. A connection is then opened to that address using TCP, which agrees on sequence numbers and retransmits anything lost, or QUIC, which does the same job over UDP with encryption built in. The browser sends a request, the server responds, and a middle layer such as a content delivery network may answer from a location nearer than the origin, which is why a popular site can be fast from Manila despite originating on another continent. The page is then built as the browser parses the markup, requests the stylesheet and scripts, lays out the boxes, paints, and finally runs the script that fetches whatever it needs next.",
+      "variations": [
+        "The browser first checks its own cache, then asks a DNS resolver to turn a domain name into an IP address, and the resolver answers from its cache or works outward through the hierarchy until an authoritative server is reached. Learning how the internet actually works means following one request from typed name to displayed page, and the steps are the same for every site you have ever opened. A connection is then opened to that address using TCP, which agrees on sequence numbers and retransmits anything lost, or QUIC, which does the same job over UDP with encryption built in. The browser sends a request, the server responds, and a middle layer such as a content delivery network may answer from a location nearer than the origin, which is why a popular site can be fast from Manila despite originating on another continent. The page is then built as the browser parses the markup, requests the stylesheet and scripts, lays out the boxes, paints, and finally runs the script that fetches whatever it needs next.",
+        "A connection is then opened to that address using TCP, which agrees on sequence numbers and retransmits anything lost, or QUIC, which does the same job over UDP with encryption built in. Learning how the internet actually works means following one request from typed name to displayed page, and the steps are the same for every site you have ever opened. The browser first checks its own cache, then asks a DNS resolver to turn a domain name into an IP address, and the resolver answers from its cache or works outward through the hierarchy until an authoritative server is reached. The browser sends a request, the server responds, and a middle layer such as a content delivery network may answer from a location nearer than the origin, which is why a popular site can be fast from Manila despite originating on another continent. The page is then built as the browser parses the markup, requests the stylesheet and scripts, lays out the boxes, paints, and finally runs the script that fetches whatever it needs next."
+      ],
+      "tl": "how the internet works",
+      "bis": "paagi sa internet"
+    },
+    {
+      "id": "tec-internet-000003",
+      "topic": "technology-internet",
+      "intent": "definition",
+      "concept": "bandwidth",
+      "keywords": [
+        "bandwidth",
+        "megabit",
+        "megabyte",
+        "throughput",
+        "latency",
+        "capacity",
+        "data",
+        "pass",
+        "connection",
+        "second",
+        "measured"
+      ],
+      "patterns": [
+        "what is bandwidth",
+        "bandwidth",
+        "explain bandwidth",
+        "definition of bandwidth",
+        "bandwidth meaning",
+        "is bandwidth the same as internet speed",
+        "what is the difference between mb and mbps",
+        "ano ang bandwidth",
+        "unsa ang bandwidth"
+      ],
+      "answer": "Bandwidth is how much data can pass over a connection in a given second, measured in bits per second, and it is the maximum the link can carry rather than the speed of anything on it. The two are different quantities, which is why a fast connection can still make a page feel slow: the data rate is the data actually moving, and the other half of the capacity may simply be idle. A megabit is a million bits, and this is the single most common unit confusion in the field, because service providers advertise megabits per second while downloads show megabytes per second. There are eight bits to a byte, so a 100 megabit connection moves at most about 12.5 megabytes per second, and the ceiling is reached long before the connection is saturated because overhead takes some of the capacity. The other thing that determines the number is latency, the delay before the first byte arrives: a connection with huge bandwidth across a great distance can still feel unusable for anything that involves waiting for a reply, and that is the problem satellite internet and long-distance calls both hit.",
+      "variations": [
+        "The two are different quantities, which is why a fast connection can still make a page feel slow: the data rate is the data actually moving, and the other half of the capacity may simply be idle. Bandwidth is how much data can pass over a connection in a given second, measured in bits per second, and it is the maximum the link can carry rather than the speed of anything on it. A megabit is a million bits, and this is the single most common unit confusion in the field, because service providers advertise megabits per second while downloads show megabytes per second. 5 megabytes per second, and the ceiling is reached long before the connection is saturated because overhead takes some of the capacity. The other thing that determines the number is latency, the delay before the first byte arrives: a connection with huge bandwidth across a great distance can still feel unusable for anything that involves waiting for a reply, and that is the problem satellite internet and long-distance calls both hit.",
+        "A megabit is a million bits, and this is the single most common unit confusion in the field, because service providers advertise megabits per second while downloads show megabytes per second. Bandwidth is how much data can pass over a connection in a given second, measured in bits per second, and it is the maximum the link can carry rather than the speed of anything on it. The two are different quantities, which is why a fast connection can still make a page feel slow: the data rate is the data actually moving, and the other half of the capacity may simply be idle. 5 megabytes per second, and the ceiling is reached long before the connection is saturated because overhead takes some of the capacity. The other thing that determines the number is latency, the delay before the first byte arrives: a connection with huge bandwidth across a great distance can still feel unusable for anything that involves waiting for a reply, and that is the problem satellite internet and long-distance calls both hit."
+      ],
+      "tl": "bandwidth",
+      "bis": "bandwidth"
+    },
+    {
+      "id": "tec-internet-000004",
+      "topic": "technology-internet",
+      "intent": "definition",
+      "concept": "url",
+      "keywords": [
+        "url",
+        "scheme",
+        "domain",
+        "path",
+        "fragment",
+        "dns",
+        "resource",
+        "uniform",
+        "locator",
+        "address",
+        "names",
+        "internet"
+      ],
+      "patterns": [
+        "what is url",
+        "url",
+        "explain url",
+        "definition of url",
+        "url meaning",
+        "what is a url",
+        "what does url stand for",
+        "difference between url and uri",
+        "ano ang url",
+        "unsa ang url"
+      ],
+      "answer": "A uniform resource locator is the address that names a resource on the internet, and its structure explains all of it: a scheme, a host, a port, a path, a query and a fragment, separated in that order. The scheme is the protocol, http or https, and the host is a domain name that DNS has to resolve before anything else can happen. The path names a resource on that server, the query string carries parameters as key and value pairs joined by ampersands, and the fragment after a hash is handled entirely inside the browser and never sent to the server at all, which is why a single page application can change it without a request. A uniform resource locator and a uniform resource identifier are different things: the first must include how to reach it and the second is a name that may not, and the shorthand of a web address for the first is why the second term exists. The parts that change between one link and the next are exactly the path, the query and the fragment, since the scheme and host are usually the same within a site.",
+      "variations": [
+        "The scheme is the protocol, http or https, and the host is a domain name that DNS has to resolve before anything else can happen. A uniform resource locator is the address that names a resource on the internet, and its structure explains all of it: a scheme, a host, a port, a path, a query and a fragment, separated in that order. The path names a resource on that server, the query string carries parameters as key and value pairs joined by ampersands, and the fragment after a hash is handled entirely inside the browser and never sent to the server at all, which is why a single page application can change it without a request. A uniform resource locator and a uniform resource identifier are different things: the first must include how to reach it and the second is a name that may not, and the shorthand of a web address for the first is why the second term exists. The parts that change between one link and the next are exactly the path, the query and the fragment, since the scheme and host are usually the same within a site.",
+        "The path names a resource on that server, the query string carries parameters as key and value pairs joined by ampersands, and the fragment after a hash is handled entirely inside the browser and never sent to the server at all, which is why a single page application can change it without a request. A uniform resource locator is the address that names a resource on the internet, and its structure explains all of it: a scheme, a host, a port, a path, a query and a fragment, separated in that order. The scheme is the protocol, http or https, and the host is a domain name that DNS has to resolve before anything else can happen. A uniform resource locator and a uniform resource identifier are different things: the first must include how to reach it and the second is a name that may not, and the shorthand of a web address for the first is why the second term exists. The parts that change between one link and the next are exactly the path, the query and the fragment, since the scheme and host are usually the same within a site."
+      ],
+      "tl": "url",
+      "bis": "url"
+    }
+  ],
+  "lang": "english",
+  "group": "technology",
+  "sub": "internet",
+  "title": "Internet",
+  "groupTitle": "Technology"
+}

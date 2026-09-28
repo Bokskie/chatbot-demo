@@ -1,0 +1,129 @@
+{
+  "topic": "philippines-government",
+  "entries": [
+    {
+      "id": "phi-government-000001",
+      "topic": "philippines-government",
+      "intent": "definition",
+      "concept": "edsa revolution",
+      "keywords": [
+        "edsa revolution",
+        "aquino",
+        "1986",
+        "election",
+        "protest",
+        "marcos",
+        "nation",
+        "peaceful",
+        "edsa",
+        "first",
+        "people",
+        "power",
+        "revolution"
+      ],
+      "patterns": [
+        "what is edsa revolution",
+        "edsa revolution",
+        "explain edsa revolution",
+        "definition of edsa revolution",
+        "edsa revolution meaning",
+        "what is edsa",
+        "what happened in edsa 1986",
+        "who was corazon aquino",
+        "ano ang edsa",
+        "unsa ang edsa"
+      ],
+      "answer": "EDSA in 1986 was the first People Power revolution, and what ended it was not a battle so much as a decision by a large number of people to stop supporting a government. The immediate cause was the alleged fraud in a snap election and the assassination of Benigno Aquino, with the election itself held afterwards under conditions most people did not accept. The distinguishing feature of 1986 was that the military did not end it: Corazon Aquino was sworn in at a military base and then asked the crowd to go home, and the transition held partly because the opposition did not claim the victory by force. The people power name came from the crowds, and it distinguishes it from EDSA II in 2001, which removed a president through a court ruling rather than a mass action. The wider significance is that it established the habit of peaceful transfer in a country where that had not been the norm, and that habit is what the 1986 Constitution was written to protect.",
+      "variations": [
+        "The immediate cause was the alleged fraud in a snap election and the assassination of Benigno Aquino, with the election itself held afterwards under conditions most people did not accept. EDSA in 1986 was the first People Power revolution, and what ended it was not a battle so much as a decision by a large number of people to stop supporting a government. The distinguishing feature of 1986 was that the military did not end it: Corazon Aquino was sworn in at a military base and then asked the crowd to go home, and the transition held partly because the opposition did not claim the victory by force. The people power name came from the crowds, and it distinguishes it from EDSA II in 2001, which removed a president through a court ruling rather than a mass action. The wider significance is that it established the habit of peaceful transfer in a country where that had not been the norm, and that habit is what the 1986 Constitution was written to protect.",
+        "The distinguishing feature of 1986 was that the military did not end it: Corazon Aquino was sworn in at a military base and then asked the crowd to go home, and the transition held partly because the opposition did not claim the victory by force. EDSA in 1986 was the first People Power revolution, and what ended it was not a battle so much as a decision by a large number of people to stop supporting a government. The immediate cause was the alleged fraud in a snap election and the assassination of Benigno Aquino, with the election itself held afterwards under conditions most people did not accept. The people power name came from the crowds, and it distinguishes it from EDSA II in 2001, which removed a president through a court ruling rather than a mass action. The wider significance is that it established the habit of peaceful transfer in a country where that had not been the norm, and that habit is what the 1986 Constitution was written to protect."
+      ],
+      "tl": "edsa",
+      "bis": "edsa"
+    },
+    {
+      "id": "phi-government-000002",
+      "topic": "philippines-government",
+      "intent": "definition",
+      "concept": "martial law",
+      "keywords": [
+        "martial law",
+        "marcos",
+        "1972",
+        "1981",
+        "suspension",
+        "military",
+        "constitution",
+        "president",
+        "martial",
+        "civil",
+        "government",
+        "favour"
+      ],
+      "patterns": [
+        "what is martial law",
+        "martial law",
+        "explain martial law",
+        "definition of martial law",
+        "martial law meaning",
+        "when was martial law declared in the philippines",
+        "is martial law still possible",
+        "ano ang martial law",
+        "unsa ang martial law"
+      ],
+      "answer": "Martial law is the suspension of civil government in favour of military authority, and the Philippines has declared it twice, in 1972 and in 1981. Ferdinand Marcos placed the whole country under it in September 1972, justifying it by an alleged communist rebellion that did not justify it, and ruled from 1972 until 1986 under a constitution that gave him sweeping powers and an assembly that was largely controlled. The 1981 declaration was a political move rather than an emergency measure, an attempt to keep the powers he had been using while stepping down under the pressure of the constitution's requirement, and it lasted a little over three years. The lasting effect is legal rather than political: the 1986 Constitution specifically lists martial law among the powers a president may never again use, so that a repeat is now constitutionally impossible rather than merely unlikely.",
+      "variations": [
+        "Ferdinand Marcos placed the whole country under it in September 1972, justifying it by an alleged communist rebellion that did not justify it, and ruled from 1972 until 1986 under a constitution that gave him sweeping powers and an assembly that was largely controlled. Martial law is the suspension of civil government in favour of military authority, and the Philippines has declared it twice, in 1972 and in 1981. The 1981 declaration was a political move rather than an emergency measure, an attempt to keep the powers he had been using while stepping down under the pressure of the constitution's requirement, and it lasted a little over three years. The lasting effect is legal rather than political: the 1986 Constitution specifically lists martial law among the powers a president may never again use, so that a repeat is now constitutionally impossible rather than merely unlikely.",
+        "The 1981 declaration was a political move rather than an emergency measure, an attempt to keep the powers he had been using while stepping down under the pressure of the constitution's requirement, and it lasted a little over three years. Martial law is the suspension of civil government in favour of military authority, and the Philippines has declared it twice, in 1972 and in 1981. Ferdinand Marcos placed the whole country under it in September 1972, justifying it by an alleged communist rebellion that did not justify it, and ruled from 1972 until 1986 under a constitution that gave him sweeping powers and an assembly that was largely controlled. The lasting effect is legal rather than political: the 1986 Constitution specifically lists martial law among the powers a president may never again use, so that a repeat is now constitutionally impossible rather than merely unlikely."
+      ],
+      "tl": "martial law",
+      "bis": "martial law"
+    },
+    {
+      "id": "phi-government-000003",
+      "topic": "philippines-government",
+      "intent": "definition",
+      "concept": "spain and the philippines",
+      "keywords": [
+        "spain and the philippines",
+        "legazpi",
+        "spain",
+        "mexico",
+        "barangay",
+        "catholic",
+        "trade",
+        "1565",
+        "1898",
+        "espanya",
+        "colonised",
+        "philippines",
+        "three",
+        "centuries"
+      ],
+      "patterns": [
+        "what is spain and the philippines",
+        "spain and the philippines",
+        "explain spain and the philippines",
+        "definition of spain and the philippines",
+        "spain and the philippines meaning",
+        "why did spain colonize the philippines",
+        "when did spaniard rule the philippines",
+        "how long was spanish colonial rule",
+        "ano ang espanya",
+        "unsa ang espanya"
+      ],
+      "answer": "Spain colonised the Philippines for over three centuries, from 1565 when Legazpi arrived to 1898 when the Spanish-American war ended Spanish rule, and what was taken was not only territory. The motive was trade, specifically the route to China, and the settlement was administered as part of that route rather than as a colony valued for itself. Three centuries produced a great deal: the institution of the barangay as the local unit, a legal system based on Spanish civil law, the Roman Catholic Church as the only institution that functioned across the islands, and a written language built on a Latin alphabet, which is why English does not occupy the same place here as it does in most former colonies. The cost was concentrated: the trade was administered from Mexico and the resources went outward, and taxation fell hardest on the people who had the least. It is worth being precise that the population did not simply fall from Spanish rule, which is a common claim that does not match the demographic evidence, and that resistance was continuous rather than beginning in 1896.",
+      "variations": [
+        "The motive was trade, specifically the route to China, and the settlement was administered as part of that route rather than as a colony valued for itself. Spain colonised the Philippines for over three centuries, from 1565 when Legazpi arrived to 1898 when the Spanish-American war ended Spanish rule, and what was taken was not only territory. Three centuries produced a great deal: the institution of the barangay as the local unit, a legal system based on Spanish civil law, the Roman Catholic Church as the only institution that functioned across the islands, and a written language built on a Latin alphabet, which is why English does not occupy the same place here as it does in most former colonies. The cost was concentrated: the trade was administered from Mexico and the resources went outward, and taxation fell hardest on the people who had the least. It is worth being precise that the population did not simply fall from Spanish rule, which is a common claim that does not match the demographic evidence, and that resistance was continuous rather than beginning in 1896.",
+        "Three centuries produced a great deal: the institution of the barangay as the local unit, a legal system based on Spanish civil law, the Roman Catholic Church as the only institution that functioned across the islands, and a written language built on a Latin alphabet, which is why English does not occupy the same place here as it does in most former colonies. Spain colonised the Philippines for over three centuries, from 1565 when Legazpi arrived to 1898 when the Spanish-American war ended Spanish rule, and what was taken was not only territory. The motive was trade, specifically the route to China, and the settlement was administered as part of that route rather than as a colony valued for itself. The cost was concentrated: the trade was administered from Mexico and the resources went outward, and taxation fell hardest on the people who had the least. It is worth being precise that the population did not simply fall from Spanish rule, which is a common claim that does not match the demographic evidence, and that resistance was continuous rather than beginning in 1896."
+      ],
+      "tl": "espanya",
+      "bis": "espanya"
+    }
+  ],
+  "lang": "english",
+  "group": "philippines",
+  "sub": "government",
+  "title": "Government",
+  "groupTitle": "The Philippines"
+}

@@ -1,0 +1,199 @@
+{
+  "topic": "mathematics-geometry",
+  "entries": [
+    {
+      "id": "mat-geometry-000001",
+      "topic": "mathematics-geometry",
+      "intent": "definition",
+      "concept": "pythagorean",
+      "keywords": [
+        "pythagorean",
+        "theorem",
+        "triangle",
+        "hypotenuse",
+        "says",
+        "right",
+        "angled"
+      ],
+      "patterns": [
+        "what is pythagorean",
+        "pythagorean",
+        "explain pythagorean",
+        "definition of pythagorean",
+        "pythagorean meaning",
+        "right angle",
+        "what is the pythagorean theorem",
+        "pythagorean theorem"
+      ],
+      "answer": "The Pythagorean theorem says that in a right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two sides: a squared plus b squared equals c squared. It holds in every right triangle regardless of size, and knowing two sides always gives you the third.",
+      "variations": [
+        "It holds in every right triangle regardless of size, and knowing two sides always gives you the third. The Pythagorean theorem says that in a right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two sides: a squared plus b squared equals c squared."
+      ]
+    },
+    {
+      "id": "mat-geometry-000002",
+      "topic": "mathematics-geometry",
+      "intent": "definition",
+      "concept": "triangle",
+      "keywords": [
+        "triangle",
+        "angle",
+        "degree",
+        "acute",
+        "right",
+        "obtuse",
+        "sum",
+        "triangulo",
+        "three",
+        "sides",
+        "interior",
+        "angles",
+        "always"
+      ],
+      "patterns": [
+        "what is triangle",
+        "triangle",
+        "explain triangle",
+        "definition of triangle",
+        "triangle meaning",
+        "what are the angles in a triangle",
+        "how do you classify a triangle",
+        "largest angle opposite longest side",
+        "ano ang triangle",
+        "unsa ang triangulo"
+      ],
+      "answer": "A triangle has three sides, and the three interior angles always sum to 180 degrees, which is the property that makes it useful. The type follows from its angles: acute means all under 90, right means one exactly 90, obtuse means one over 90, and a triangle cannot have two of those. The other key fact is that the longest side lies opposite the largest angle, which is a shortcut for checking work without measuring.",
+      "variations": [
+        "The type follows from its angles: acute means all under 90, right means one exactly 90, obtuse means one over 90, and a triangle cannot have two of those. A triangle has three sides, and the three interior angles always sum to 180 degrees, which is the property that makes it useful. The other key fact is that the longest side lies opposite the largest angle, which is a shortcut for checking work without measuring.",
+        "The other key fact is that the longest side lies opposite the largest angle, which is a shortcut for checking work without measuring. A triangle has three sides, and the three interior angles always sum to 180 degrees, which is the property that makes it useful. The type follows from its angles: acute means all under 90, right means one exactly 90, obtuse means one over 90, and a triangle cannot have two of those."
+      ],
+      "tl": "triangle",
+      "bis": "triangulo"
+    },
+    {
+      "id": "mat-geometry-000003",
+      "topic": "mathematics-geometry",
+      "intent": "definition",
+      "concept": "plane",
+      "keywords": [
+        "plane",
+        "flat",
+        "surface",
+        "solid",
+        "dimension",
+        "abstract",
+        "generic",
+        "patag",
+        "geometry",
+        "extends",
+        "without"
+      ],
+      "patterns": [
+        "what is plane",
+        "plane",
+        "explain plane",
+        "definition of plane",
+        "plane meaning",
+        "what is a plane in geometry",
+        "what is a plane shape",
+        "difference between plane and solid",
+        "ano ang patag",
+        "unsa ang plane"
+      ],
+      "answer": "A plane in geometry is a flat surface that extends without limit, and it exists in the subject only as a contrast with a solid, which is why it matters more than it first appears. Two-dimensional shapes exist on a plane, and every fact about a triangle, a circle or an angle is a statement about how those shapes behave on one. The abstract algebra version generalises it: a plane is any set where you can add and multiply and the usual rules hold, and it need not look like anything at all, which is how complex numbers form one. A third meaning is the aeroplane sense, borrowed long ago, and a learner who meets the word in a geometry lesson has to work out which one is meant from the context. The everyday sense people reach for first, a flat surface such as a tabletop, is close enough to the mathematical idea to be a reasonable starting point.",
+      "variations": [
+        "Two-dimensional shapes exist on a plane, and every fact about a triangle, a circle or an angle is a statement about how those shapes behave on one. A plane in geometry is a flat surface that extends without limit, and it exists in the subject only as a contrast with a solid, which is why it matters more than it first appears. The abstract algebra version generalises it: a plane is any set where you can add and multiply and the usual rules hold, and it need not look like anything at all, which is how complex numbers form one. A third meaning is the aeroplane sense, borrowed long ago, and a learner who meets the word in a geometry lesson has to work out which one is meant from the context. The everyday sense people reach for first, a flat surface such as a tabletop, is close enough to the mathematical idea to be a reasonable starting point.",
+        "The abstract algebra version generalises it: a plane is any set where you can add and multiply and the usual rules hold, and it need not look like anything at all, which is how complex numbers form one. A plane in geometry is a flat surface that extends without limit, and it exists in the subject only as a contrast with a solid, which is why it matters more than it first appears. Two-dimensional shapes exist on a plane, and every fact about a triangle, a circle or an angle is a statement about how those shapes behave on one. A third meaning is the aeroplane sense, borrowed long ago, and a learner who meets the word in a geometry lesson has to work out which one is meant from the context. The everyday sense people reach for first, a flat surface such as a tabletop, is close enough to the mathematical idea to be a reasonable starting point."
+      ],
+      "tl": "patag",
+      "bis": "plane"
+    },
+    {
+      "id": "mat-geometry-000004",
+      "topic": "mathematics-geometry",
+      "intent": "definition",
+      "concept": "angle",
+      "keywords": [
+        "angle",
+        "degrees",
+        "radians",
+        "vertex",
+        "acute",
+        "obtuse",
+        "polygon",
+        "sum",
+        "angulo",
+        "amount",
+        "rotation",
+        "lines",
+        "rays",
+        "meeting"
+      ],
+      "patterns": [
+        "what is angle",
+        "angle",
+        "explain angle",
+        "definition of angle",
+        "angle meaning",
+        "what is an angle",
+        "how many degrees in a triangle",
+        "what is an obtuse angle",
+        "ano ang angulo",
+        "unsa ang angle"
+      ],
+      "answer": "An angle is the amount of rotation between two lines or rays meeting at a point, and it is measured in degrees in ordinary use and in radians in calculus, where it is the more natural choice. The vertex is the point where the two meet, the two sides are the rays, and the size is fixed regardless of how long the sides are drawn, which is the first thing a diagram can mislead you about. The types are worth knowing because the names encode the fact: an acute angle is under ninety, a right angle is exactly ninety, an obtuse angle is between ninety and one hundred eighty, and a straight angle is a full half turn. A reflex angle is the part that is left over when a full turn is subtracted, which is why a reflex angle is greater than one hundred eighty degrees. The sum of the angles in a triangle is one hundred eighty, in a quadrilateral three hundred sixty, and in any polygon the total is the number of sides times one hundred eighty minus three hundred sixty, which is the single most useful fact in the topic.",
+      "variations": [
+        "The vertex is the point where the two meet, the two sides are the rays, and the size is fixed regardless of how long the sides are drawn, which is the first thing a diagram can mislead you about. An angle is the amount of rotation between two lines or rays meeting at a point, and it is measured in degrees in ordinary use and in radians in calculus, where it is the more natural choice. The types are worth knowing because the names encode the fact: an acute angle is under ninety, a right angle is exactly ninety, an obtuse angle is between ninety and one hundred eighty, and a straight angle is a full half turn. A reflex angle is the part that is left over when a full turn is subtracted, which is why a reflex angle is greater than one hundred eighty degrees. The sum of the angles in a triangle is one hundred eighty, in a quadrilateral three hundred sixty, and in any polygon the total is the number of sides times one hundred eighty minus three hundred sixty, which is the single most useful fact in the topic.",
+        "The types are worth knowing because the names encode the fact: an acute angle is under ninety, a right angle is exactly ninety, an obtuse angle is between ninety and one hundred eighty, and a straight angle is a full half turn. An angle is the amount of rotation between two lines or rays meeting at a point, and it is measured in degrees in ordinary use and in radians in calculus, where it is the more natural choice. The vertex is the point where the two meet, the two sides are the rays, and the size is fixed regardless of how long the sides are drawn, which is the first thing a diagram can mislead you about. A reflex angle is the part that is left over when a full turn is subtracted, which is why a reflex angle is greater than one hundred eighty degrees. The sum of the angles in a triangle is one hundred eighty, in a quadrilateral three hundred sixty, and in any polygon the total is the number of sides times one hundred eighty minus three hundred sixty, which is the single most useful fact in the topic."
+      ],
+      "tl": "angulo",
+      "bis": "angle"
+    },
+    {
+      "id": "mat-geometry-000005",
+      "topic": "mathematics-geometry",
+      "intent": "definition",
+      "concept": "circle",
+      "keywords": [
+        "circle",
+        "radius",
+        "diameter",
+        "pi",
+        "circumference",
+        "area",
+        "ellipse",
+        "tangent",
+        "lingin",
+        "every",
+        "fixed",
+        "distance",
+        "centre",
+        "definition"
+      ],
+      "patterns": [
+        "what is circle",
+        "circle",
+        "explain circle",
+        "definition of circle",
+        "circle meaning",
+        "what is a circle",
+        "how do you find the area of a circle",
+        "what is the radius",
+        "ano ang lingin",
+        "unsa ang circle"
+      ],
+      "answer": "A circle is the set of every point a fixed distance from a fixed centre, which is a definition rather than a description, and it is what separates the word from the more general ellipse. A circle is one ellipse in a family, the one where the two semi-axes are equal, and that is why so many formulas that look like they belong only to circles are really about ellipses with a special value substituted. The two quantities that matter are the radius, from the centre to the edge, and the diameter, which is twice that, and the constant pi is the ratio of the circumference to the diameter and is the same irrational number for every circle ever drawn. The area of a circle is pi times the radius squared, and the circumference is twice pi times the radius, and the squared is the part a learner forgets: doubling the radius makes the area four times bigger, not two. The related idea that a chord is any segment with both ends on the circle, and that a tangent touches it at exactly one point, is where most of the circle's theorems come from.",
+      "variations": [
+        "A circle is one ellipse in a family, the one where the two semi-axes are equal, and that is why so many formulas that look like they belong only to circles are really about ellipses with a special value substituted. A circle is the set of every point a fixed distance from a fixed centre, which is a definition rather than a description, and it is what separates the word from the more general ellipse. The two quantities that matter are the radius, from the centre to the edge, and the diameter, which is twice that, and the constant pi is the ratio of the circumference to the diameter and is the same irrational number for every circle ever drawn. The area of a circle is pi times the radius squared, and the circumference is twice pi times the radius, and the squared is the part a learner forgets: doubling the radius makes the area four times bigger, not two. The related idea that a chord is any segment with both ends on the circle, and that a tangent touches it at exactly one point, is where most of the circle's theorems come from.",
+        "The two quantities that matter are the radius, from the centre to the edge, and the diameter, which is twice that, and the constant pi is the ratio of the circumference to the diameter and is the same irrational number for every circle ever drawn. A circle is the set of every point a fixed distance from a fixed centre, which is a definition rather than a description, and it is what separates the word from the more general ellipse. A circle is one ellipse in a family, the one where the two semi-axes are equal, and that is why so many formulas that look like they belong only to circles are really about ellipses with a special value substituted. The area of a circle is pi times the radius squared, and the circumference is twice pi times the radius, and the squared is the part a learner forgets: doubling the radius makes the area four times bigger, not two. The related idea that a chord is any segment with both ends on the circle, and that a tangent touches it at exactly one point, is where most of the circle's theorems come from."
+      ],
+      "tl": "lingin",
+      "bis": "circle"
+    }
+  ],
+  "lang": "english",
+  "group": "mathematics",
+  "sub": "geometry",
+  "title": "Geometry",
+  "groupTitle": "Mathematics"
+}

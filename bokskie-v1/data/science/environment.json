@@ -1,0 +1,281 @@
+{
+  "topic": "science-environment",
+  "entries": [
+    {
+      "id": "sci-environment-000001",
+      "topic": "science-environment",
+      "intent": "definition",
+      "concept": "ecosystem",
+      "keywords": [
+        "ecosystem",
+        "producer",
+        "consumer",
+        "decomposer",
+        "biodiversity",
+        "habitat",
+        "community",
+        "living",
+        "organisms",
+        "together",
+        "interact"
+      ],
+      "patterns": [
+        "what is ecosystem",
+        "ecosystem",
+        "explain ecosystem",
+        "definition of ecosystem",
+        "ecosystem meaning",
+        "what is an ecosystem",
+        "what is the food chain",
+        "why does biodiversity matter",
+        "ano ang ecosystem",
+        "unsa ang ecosystem"
+      ],
+      "answer": "An ecosystem is a community of living organisms together with the non-living things they interact with in the same area, and it is the basic unit of ecology because energy flow and nutrient cycling only make sense at that scale. Producers such as plants capture solar energy, consumers take it by eating, and decomposers break down what is left and return nutrients to the soil, so the same material can be reused many times. The energy itself moves in one direction and is lost as heat at every step, which is why a food chain supports far fewer levels than it might seem to, while nutrients cycle and can persist. A forest, a coral reef, a rice field and a city park are all ecosystems, and they differ in productivity, species diversity and how much of their functioning depends on outside inputs. The reason this matters practically is that an ecosystem with a wide range of species is more resilient: remove one and the others partly absorb the loss, whereas a simplified one can collapse.",
+      "variations": [
+        "Producers such as plants capture solar energy, consumers take it by eating, and decomposers break down what is left and return nutrients to the soil, so the same material can be reused many times. An ecosystem is a community of living organisms together with the non-living things they interact with in the same area, and it is the basic unit of ecology because energy flow and nutrient cycling only make sense at that scale. The energy itself moves in one direction and is lost as heat at every step, which is why a food chain supports far fewer levels than it might seem to, while nutrients cycle and can persist. A forest, a coral reef, a rice field and a city park are all ecosystems, and they differ in productivity, species diversity and how much of their functioning depends on outside inputs. The reason this matters practically is that an ecosystem with a wide range of species is more resilient: remove one and the others partly absorb the loss, whereas a simplified one can collapse.",
+        "The energy itself moves in one direction and is lost as heat at every step, which is why a food chain supports far fewer levels than it might seem to, while nutrients cycle and can persist. An ecosystem is a community of living organisms together with the non-living things they interact with in the same area, and it is the basic unit of ecology because energy flow and nutrient cycling only make sense at that scale. Producers such as plants capture solar energy, consumers take it by eating, and decomposers break down what is left and return nutrients to the soil, so the same material can be reused many times. A forest, a coral reef, a rice field and a city park are all ecosystems, and they differ in productivity, species diversity and how much of their functioning depends on outside inputs. The reason this matters practically is that an ecosystem with a wide range of species is more resilient: remove one and the others partly absorb the loss, whereas a simplified one can collapse."
+      ],
+      "tl": "ecosystem",
+      "bis": "ecosystem"
+    },
+    {
+      "id": "sci-environment-000002",
+      "topic": "science-environment",
+      "intent": "definition",
+      "concept": "biodiversity",
+      "keywords": [
+        "biodiversity",
+        "species",
+        "genetic",
+        "extinction",
+        "resilience",
+        "pollination",
+        "conservation",
+        "variety",
+        "living",
+        "area",
+        "three",
+        "levels"
+      ],
+      "patterns": [
+        "what is biodiversity",
+        "biodiversity",
+        "explain biodiversity",
+        "definition of biodiversity",
+        "biodiversity meaning",
+        "why is biodiversity important",
+        "what causes species extinction",
+        "ano ang biodiversity",
+        "unsa ang biodiversity"
+      ],
+      "answer": "Biodiversity is the variety of living things in an area, and it has three levels: genetic variety within a species, the number of species, and the variety of ecosystems those species occupy. All three decline together as habitat is lost, which is why the clearest cause of biodiversity decline worldwide is the conversion of natural habitat to farming, logging and urban growth. The variety is not decoration; a system with many overlapping species is more robust because they respond differently to a change in conditions, so a drought that wipes out one food source does not remove the whole chain. That resilience has a direct economic consequence, since pollination, soil formation, water purification and pest control are all services delivered by functioning ecosystems rather than by machinery. Measuring it honestly is genuinely difficult, because species go extinct without anyone recording them and many have not been named yet, so the usual global estimates carry wide error bars.",
+      "variations": [
+        "All three decline together as habitat is lost, which is why the clearest cause of biodiversity decline worldwide is the conversion of natural habitat to farming, logging and urban growth. Biodiversity is the variety of living things in an area, and it has three levels: genetic variety within a species, the number of species, and the variety of ecosystems those species occupy. The variety is not decoration; a system with many overlapping species is more robust because they respond differently to a change in conditions, so a drought that wipes out one food source does not remove the whole chain. That resilience has a direct economic consequence, since pollination, soil formation, water purification and pest control are all services delivered by functioning ecosystems rather than by machinery. Measuring it honestly is genuinely difficult, because species go extinct without anyone recording them and many have not been named yet, so the usual global estimates carry wide error bars.",
+        "The variety is not decoration; a system with many overlapping species is more robust because they respond differently to a change in conditions, so a drought that wipes out one food source does not remove the whole chain. Biodiversity is the variety of living things in an area, and it has three levels: genetic variety within a species, the number of species, and the variety of ecosystems those species occupy. All three decline together as habitat is lost, which is why the clearest cause of biodiversity decline worldwide is the conversion of natural habitat to farming, logging and urban growth. That resilience has a direct economic consequence, since pollination, soil formation, water purification and pest control are all services delivered by functioning ecosystems rather than by machinery. Measuring it honestly is genuinely difficult, because species go extinct without anyone recording them and many have not been named yet, so the usual global estimates carry wide error bars."
+      ],
+      "tl": "biodiversity",
+      "bis": "biodiversity"
+    },
+    {
+      "id": "sci-environment-000003",
+      "topic": "science-environment",
+      "intent": "definition",
+      "concept": "greenhouse effect",
+      "keywords": [
+        "greenhouse effect",
+        "methane",
+        "infrared",
+        "warming",
+        "ozone",
+        "atmosphere",
+        "radiation",
+        "greenhouse",
+        "effect",
+        "planet's",
+        "surface",
+        "caused"
+      ],
+      "patterns": [
+        "what is greenhouse effect",
+        "greenhouse effect",
+        "explain greenhouse effect",
+        "definition of greenhouse effect",
+        "greenhouse effect meaning",
+        "what is the greenhouse effect",
+        "what causes global warming",
+        "is global warming the same as ozone",
+        "ano ang greenhouse effect",
+        "unsa ang greenhouse effect"
+      ],
+      "answer": "The greenhouse effect is the warming of a planet's surface caused by certain gases in its atmosphere absorbing and re-emitting outgoing infrared radiation, and it is the reason the Earth is habitable rather than frozen. Sunlight arrives mostly as visible light, warms the surface, and the surface radiates back as infrared, which the greenhouse gases in the atmosphere absorb and re-emit in all directions including back downwards. What makes it a problem is the addition of gases rather than the existence of the mechanism, since natural greenhouse gases are what set the planet's roughly 15 degree average instead of the minus 18 it would otherwise be. The main gases are carbon dioxide from burning fossil fuels and cement production, methane from livestock, landfills and leaks, and nitrous oxide from agriculture. The two climate problems are distinct and often confused: the enhanced greenhouse effect is a steady warming that persists, while the ozone hole is a separate thinning of a different layer by chlorofluorocarbons. Weather is a chaotic system for the next week; climate is the statistics of weather over decades.",
+      "variations": [
+        "Sunlight arrives mostly as visible light, warms the surface, and the surface radiates back as infrared, which the greenhouse gases in the atmosphere absorb and re-emit in all directions including back downwards. The greenhouse effect is the warming of a planet's surface caused by certain gases in its atmosphere absorbing and re-emitting outgoing infrared radiation, and it is the reason the Earth is habitable rather than frozen. What makes it a problem is the addition of gases rather than the existence of the mechanism, since natural greenhouse gases are what set the planet's roughly 15 degree average instead of the minus 18 it would otherwise be. The main gases are carbon dioxide from burning fossil fuels and cement production, methane from livestock, landfills and leaks, and nitrous oxide from agriculture. The two climate problems are distinct and often confused: the enhanced greenhouse effect is a steady warming that persists, while the ozone hole is a separate thinning of a different layer by chlorofluorocarbons. Weather is a chaotic system for the next week; climate is the statistics of weather over decades.",
+        "What makes it a problem is the addition of gases rather than the existence of the mechanism, since natural greenhouse gases are what set the planet's roughly 15 degree average instead of the minus 18 it would otherwise be. The greenhouse effect is the warming of a planet's surface caused by certain gases in its atmosphere absorbing and re-emitting outgoing infrared radiation, and it is the reason the Earth is habitable rather than frozen. Sunlight arrives mostly as visible light, warms the surface, and the surface radiates back as infrared, which the greenhouse gases in the atmosphere absorb and re-emit in all directions including back downwards. The main gases are carbon dioxide from burning fossil fuels and cement production, methane from livestock, landfills and leaks, and nitrous oxide from agriculture. The two climate problems are distinct and often confused: the enhanced greenhouse effect is a steady warming that persists, while the ozone hole is a separate thinning of a different layer by chlorofluorocarbons. Weather is a chaotic system for the next week; climate is the statistics of weather over decades."
+      ],
+      "tl": "greenhouse effect",
+      "bis": "greenhouse effect"
+    },
+    {
+      "id": "sci-environment-000004",
+      "topic": "science-environment",
+      "intent": "definition",
+      "concept": "recycling",
+      "keywords": [
+        "recycling",
+        "compost",
+        "landfill",
+        "circular",
+        "contamination",
+        "waste",
+        "processing",
+        "material",
+        "back",
+        "feedstock",
+        "manufactured"
+      ],
+      "patterns": [
+        "what is recycling",
+        "recycling",
+        "explain recycling",
+        "definition of recycling",
+        "recycling meaning",
+        "is recycling effective",
+        "what can i recycle",
+        "ano ang recycling",
+        "unsa ang recycling"
+      ],
+      "answer": "Recycling is processing used material back into raw feedstock so it can be manufactured into new products, and its value depends on which material is involved and on doing it cheaper than extracting the primary source. Paper, glass, aluminium and steel are the materials where recycling is genuinely established, because their production is energy intensive and recovered material is close to virgin material in quality. Plastics are harder because there are many resin types that are cheap to mix and expensive to separate, so sorting matters enormously, and a resin that has no market will be landfilled. In organic waste, composting is the better route than burning, because it returns nutrients to soil rather than sending carbon straight to the atmosphere. The honest criticism of recycling is that it was promoted as the solution to a consumption problem, and the highest-value step is still reduction: less material entering the system beats recovering it later.",
+      "variations": [
+        "Paper, glass, aluminium and steel are the materials where recycling is genuinely established, because their production is energy intensive and recovered material is close to virgin material in quality. Recycling is processing used material back into raw feedstock so it can be manufactured into new products, and its value depends on which material is involved and on doing it cheaper than extracting the primary source. Plastics are harder because there are many resin types that are cheap to mix and expensive to separate, so sorting matters enormously, and a resin that has no market will be landfilled. In organic waste, composting is the better route than burning, because it returns nutrients to soil rather than sending carbon straight to the atmosphere. The honest criticism of recycling is that it was promoted as the solution to a consumption problem, and the highest-value step is still reduction: less material entering the system beats recovering it later.",
+        "Plastics are harder because there are many resin types that are cheap to mix and expensive to separate, so sorting matters enormously, and a resin that has no market will be landfilled. Recycling is processing used material back into raw feedstock so it can be manufactured into new products, and its value depends on which material is involved and on doing it cheaper than extracting the primary source. Paper, glass, aluminium and steel are the materials where recycling is genuinely established, because their production is energy intensive and recovered material is close to virgin material in quality. In organic waste, composting is the better route than burning, because it returns nutrients to soil rather than sending carbon straight to the atmosphere. The honest criticism of recycling is that it was promoted as the solution to a consumption problem, and the highest-value step is still reduction: less material entering the system beats recovering it later."
+      ],
+      "tl": "recycling",
+      "bis": "recycling"
+    },
+    {
+      "id": "sci-environment-000005",
+      "topic": "science-environment",
+      "intent": "definition",
+      "concept": "lightning",
+      "keywords": [
+        "lightning",
+        "thunder",
+        "storm",
+        "charge",
+        "ground",
+        "shelter",
+        "distance",
+        "ice",
+        "kidlat",
+        "sudden",
+        "electrical",
+        "discharge",
+        "sound"
+      ],
+      "patterns": [
+        "what is lightning",
+        "lightning",
+        "explain lightning",
+        "definition of lightning",
+        "lightning meaning",
+        "what causes lightning",
+        "why is lightning dangerous",
+        "is it safe to shelter under a tree",
+        "ano ang kidlat",
+        "unsa ang lightning"
+      ],
+      "answer": "Lightning is a sudden electrical discharge, and the sound of thunder is the shock wave from the same event travelling through the air, so the gap between the flash and the sound is a measure of distance. A rough version of the rule is to divide the number of seconds by three to get kilometres, which works because light crosses a kilometre in about three millionths of a second while sound covers it in nearly three seconds. A storm produces lightning when ice crystals and water droplets collide inside a cloud, separating a charge that grows until it overcomes the air's ability to resist and releases in a channel, and that channel is what is seen as the flash. The danger is not being struck by the visible bolt, which is what people picture, but the ground current that spreads sideways from the point of impact, since it kills more people than the direct strike. The safe rule indoors and in a vehicle is simply to be inside something substantial, and outdoors the advice is to avoid open ground, water and isolated tall objects, since being under a tree is one of the commonest and most dangerous mistakes.",
+      "variations": [
+        "A rough version of the rule is to divide the number of seconds by three to get kilometres, which works because light crosses a kilometre in about three millionths of a second while sound covers it in nearly three seconds. Lightning is a sudden electrical discharge, and the sound of thunder is the shock wave from the same event travelling through the air, so the gap between the flash and the sound is a measure of distance. A storm produces lightning when ice crystals and water droplets collide inside a cloud, separating a charge that grows until it overcomes the air's ability to resist and releases in a channel, and that channel is what is seen as the flash. The danger is not being struck by the visible bolt, which is what people picture, but the ground current that spreads sideways from the point of impact, since it kills more people than the direct strike. The safe rule indoors and in a vehicle is simply to be inside something substantial, and outdoors the advice is to avoid open ground, water and isolated tall objects, since being under a tree is one of the commonest and most dangerous mistakes.",
+        "A storm produces lightning when ice crystals and water droplets collide inside a cloud, separating a charge that grows until it overcomes the air's ability to resist and releases in a channel, and that channel is what is seen as the flash. Lightning is a sudden electrical discharge, and the sound of thunder is the shock wave from the same event travelling through the air, so the gap between the flash and the sound is a measure of distance. A rough version of the rule is to divide the number of seconds by three to get kilometres, which works because light crosses a kilometre in about three millionths of a second while sound covers it in nearly three seconds. The danger is not being struck by the visible bolt, which is what people picture, but the ground current that spreads sideways from the point of impact, since it kills more people than the direct strike. The safe rule indoors and in a vehicle is simply to be inside something substantial, and outdoors the advice is to avoid open ground, water and isolated tall objects, since being under a tree is one of the commonest and most dangerous mistakes."
+      ],
+      "tl": "kidlat",
+      "bis": "lightning"
+    },
+    {
+      "id": "sci-environment-000006",
+      "topic": "science-environment",
+      "intent": "definition",
+      "concept": "ozone layer",
+      "keywords": [
+        "ozone layer",
+        "ultraviolet",
+        "chlorofluorocarbons",
+        "stratosphere",
+        "montreal",
+        "shield",
+        "recover",
+        "ozone",
+        "layer",
+        "band",
+        "upper",
+        "atmosphere",
+        "molecule"
+      ],
+      "patterns": [
+        "what is ozone layer",
+        "ozone layer",
+        "explain ozone layer",
+        "definition of ozone layer",
+        "ozone layer meaning",
+        "what is the ozone layer",
+        "what destroyed the ozone layer",
+        "is ozone a pollutant",
+        "ano ang ozone layer",
+        "unsa ang ozone layer"
+      ],
+      "answer": "The ozone layer is a band of the upper atmosphere where ozone, a molecule made of three oxygen atoms, absorbs most of the ultraviolet radiation arriving from the Sun, and it is not the layer that gets talked about when someone mentions ozone in air pollution. That is a real trap of terminology, because ground-level ozone is a pollutant that irritates the lungs, while the stratospheric layer is a shield, and the two are chemically the same substance in completely different places with opposite effects. The layer forms when ultraviolet light splits an oxygen molecule and the free atom combines with another, which is why it needs that radiation to exist at all. Damage to it came from chlorofluorocarbons and related gases used in refrigeration and sprays, which break down in the upper atmosphere and release chlorine that destroys the ozone catalytically, so a small amount does a great deal of harm. The international response was the Montreal Protocol, widely regarded as the most successful environmental agreement so far, and the layer is on its way to recovering. The same chemicals being phased out, being a greenhouse gas, links the two problems in a way that is not intuitive.",
+      "variations": [
+        "That is a real trap of terminology, because ground-level ozone is a pollutant that irritates the lungs, while the stratospheric layer is a shield, and the two are chemically the same substance in completely different places with opposite effects. The ozone layer is a band of the upper atmosphere where ozone, a molecule made of three oxygen atoms, absorbs most of the ultraviolet radiation arriving from the Sun, and it is not the layer that gets talked about when someone mentions ozone in air pollution. The layer forms when ultraviolet light splits an oxygen molecule and the free atom combines with another, which is why it needs that radiation to exist at all. Damage to it came from chlorofluorocarbons and related gases used in refrigeration and sprays, which break down in the upper atmosphere and release chlorine that destroys the ozone catalytically, so a small amount does a great deal of harm. The international response was the Montreal Protocol, widely regarded as the most successful environmental agreement so far, and the layer is on its way to recovering. The same chemicals being phased out, being a greenhouse gas, links the two problems in a way that is not intuitive.",
+        "The layer forms when ultraviolet light splits an oxygen molecule and the free atom combines with another, which is why it needs that radiation to exist at all. The ozone layer is a band of the upper atmosphere where ozone, a molecule made of three oxygen atoms, absorbs most of the ultraviolet radiation arriving from the Sun, and it is not the layer that gets talked about when someone mentions ozone in air pollution. That is a real trap of terminology, because ground-level ozone is a pollutant that irritates the lungs, while the stratospheric layer is a shield, and the two are chemically the same substance in completely different places with opposite effects. Damage to it came from chlorofluorocarbons and related gases used in refrigeration and sprays, which break down in the upper atmosphere and release chlorine that destroys the ozone catalytically, so a small amount does a great deal of harm. The international response was the Montreal Protocol, widely regarded as the most successful environmental agreement so far, and the layer is on its way to recovering. The same chemicals being phased out, being a greenhouse gas, links the two problems in a way that is not intuitive."
+      ],
+      "tl": "ozone layer",
+      "bis": "ozone layer"
+    },
+    {
+      "id": "sci-environment-000007",
+      "topic": "science-environment",
+      "intent": "definition",
+      "concept": "deforestation",
+      "keywords": [
+        "deforestation",
+        "forest",
+        "carbon",
+        "habitat",
+        "logging",
+        "erosion",
+        "rainforest",
+        "primary",
+        "clearing",
+        "forests",
+        "common",
+        "trees",
+        "being"
+      ],
+      "patterns": [
+        "what is deforestation",
+        "deforestation",
+        "explain deforestation",
+        "definition of deforestation",
+        "deforestation meaning",
+        "why is deforestation bad",
+        "how much forest does the philippines have",
+        "ano ang deforestation",
+        "unsa ang deforestation"
+      ],
+      "answer": "Deforestation is the clearing of forests, and the more common form is not trees being felled but land being converted, since forest is removed to grow crops or cattle rather than for timber. It matters for three separate reasons: the trees that are removed no longer take carbon dioxide out of the air, the soil that was protected is exposed and erodes, and the habitat and rainfall cycle of the region are disrupted. Tropical forests are the most important of these because they hold a large share of the world's land-based carbon, much of it in the soil rather than the visible trees, so clearing releases carbon that can take decades to regrow. The Philippine context is specific and severe: the country was once among the most heavily forested in Asia, and the remaining forest is now largely in the uplands of Luzon, Mindanao and Palawan, with the Caramoan hillsides among the most deforestation-prone land in the world. Rates there have fallen markedly, which is the difference between a solvable policy problem and a permanent loss.",
+      "variations": [
+        "It matters for three separate reasons: the trees that are removed no longer take carbon dioxide out of the air, the soil that was protected is exposed and erodes, and the habitat and rainfall cycle of the region are disrupted. Deforestation is the clearing of forests, and the more common form is not trees being felled but land being converted, since forest is removed to grow crops or cattle rather than for timber. Tropical forests are the most important of these because they hold a large share of the world's land-based carbon, much of it in the soil rather than the visible trees, so clearing releases carbon that can take decades to regrow. The Philippine context is specific and severe: the country was once among the most heavily forested in Asia, and the remaining forest is now largely in the uplands of Luzon, Mindanao and Palawan, with the Caramoan hillsides among the most deforestation-prone land in the world. Rates there have fallen markedly, which is the difference between a solvable policy problem and a permanent loss.",
+        "Tropical forests are the most important of these because they hold a large share of the world's land-based carbon, much of it in the soil rather than the visible trees, so clearing releases carbon that can take decades to regrow. Deforestation is the clearing of forests, and the more common form is not trees being felled but land being converted, since forest is removed to grow crops or cattle rather than for timber. It matters for three separate reasons: the trees that are removed no longer take carbon dioxide out of the air, the soil that was protected is exposed and erodes, and the habitat and rainfall cycle of the region are disrupted. The Philippine context is specific and severe: the country was once among the most heavily forested in Asia, and the remaining forest is now largely in the uplands of Luzon, Mindanao and Palawan, with the Caramoan hillsides among the most deforestation-prone land in the world. Rates there have fallen markedly, which is the difference between a solvable policy problem and a permanent loss."
+      ],
+      "tl": "deforestation",
+      "bis": "deforestation"
+    }
+  ],
+  "lang": "english",
+  "group": "science",
+  "sub": "environment",
+  "title": "Environment",
+  "groupTitle": "Science"
+}

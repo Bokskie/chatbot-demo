@@ -1,0 +1,159 @@
+{
+  "topic": "programming-debugging",
+  "entries": [
+    {
+      "id": "pro-debugging-000001",
+      "topic": "programming-debugging",
+      "intent": "howto",
+      "concept": "bug",
+      "keywords": [
+        "bug",
+        "error",
+        "debug",
+        "fix",
+        "broken",
+        "crash",
+        "reliable",
+        "first",
+        "reproduce",
+        "reliably",
+        "cannot",
+        "trigger"
+      ],
+      "patterns": [
+        "what is bug",
+        "bug",
+        "explain bug",
+        "definition of bug",
+        "bug meaning",
+        "not working",
+        "how do i fix a bug",
+        "debugging",
+        "my code does not work"
+      ],
+      "answer": "A reliable way to find a bug: first reproduce it reliably, because a bug you cannot trigger on demand is a bug you cannot confirm you fixed. Then read the actual error message rather than skimming it - it usually names the line. Then bisect: remove half the code until the problem disappears. Finally change one thing at a time. Adding print statements or a debugger breakpoint beats guessing.",
+      "variations": [
+        "Then read the actual error message rather than skimming it - it usually names the line. A reliable way to find a bug: first reproduce it reliably, because a bug you cannot trigger on demand is a bug you cannot confirm you fixed. Then bisect: remove half the code until the problem disappears. Finally change one thing at a time. Adding print statements or a debugger breakpoint beats guessing.",
+        "Then bisect: remove half the code until the problem disappears. A reliable way to find a bug: first reproduce it reliably, because a bug you cannot trigger on demand is a bug you cannot confirm you fixed. Then read the actual error message rather than skimming it - it usually names the line. Finally change one thing at a time. Adding print statements or a debugger breakpoint beats guessing."
+      ]
+    },
+    {
+      "id": "pro-debugging-000002",
+      "topic": "programming-debugging",
+      "intent": "definition",
+      "concept": "testing",
+      "keywords": [
+        "testing",
+        "integration",
+        "regression",
+        "means",
+        "checking",
+        "code",
+        "useful",
+        "division"
+      ],
+      "patterns": [
+        "what is testing",
+        "testing",
+        "explain testing",
+        "definition of testing",
+        "testing meaning",
+        "what is unit testing",
+        "what is regression testing",
+        "how much test coverage is enough",
+        "ano ang testing",
+        "unsa ang testing"
+      ],
+      "answer": "Testing means checking that code does what it should, and the useful division is by what you are checking for. A unit test checks one piece in isolation and is fast, an integration test checks that pieces work together, and an end-to-end test drives the real thing as a user would. The value is not catching every bug, because tests never do, but in making a change safe, since a failing test names the behaviour that broke.",
+      "variations": [
+        "A unit test checks one piece in isolation and is fast, an integration test checks that pieces work together, and an end-to-end test drives the real thing as a user would. Testing means checking that code does what it should, and the useful division is by what you are checking for. The value is not catching every bug, because tests never do, but in making a change safe, since a failing test names the behaviour that broke.",
+        "The value is not catching every bug, because tests never do, but in making a change safe, since a failing test names the behaviour that broke. Testing means checking that code does what it should, and the useful division is by what you are checking for. A unit test checks one piece in isolation and is fast, an integration test checks that pieces work together, and an end-to-end test drives the real thing as a user would."
+      ],
+      "tl": "testing",
+      "bis": "testing"
+    },
+    {
+      "id": "pro-debugging-000003",
+      "topic": "programming-debugging",
+      "intent": "definition",
+      "concept": "debugging",
+      "keywords": [
+        "debugging",
+        "breakpoint",
+        "reproduce",
+        "bisect",
+        "print",
+        "log",
+        "finding",
+        "code",
+        "expected",
+        "hard",
+        "expectation"
+      ],
+      "patterns": [
+        "what is debugging",
+        "debugging",
+        "explain debugging",
+        "definition of debugging",
+        "debugging meaning",
+        "how do i debug code",
+        "what is a breakpoint",
+        "why use logs instead of a debugger",
+        "ano ang debugging",
+        "unsa ang debugging"
+      ],
+      "answer": "Debugging is finding out why code does not do what you expected, and the hard part is usually that the expectation was wrong rather than the code. The reliable method is to narrow it: reproduce it, bisect by commenting things out, and check the actual value at the point of failure rather than reasoning about what it should be. Print statements beat a debugger when the bug is intermittent, because a debugger changes the timing that caused it.",
+      "variations": [
+        "The reliable method is to narrow it: reproduce it, bisect by commenting things out, and check the actual value at the point of failure rather than reasoning about what it should be. Debugging is finding out why code does not do what you expected, and the hard part is usually that the expectation was wrong rather than the code. Print statements beat a debugger when the bug is intermittent, because a debugger changes the timing that caused it.",
+        "Print statements beat a debugger when the bug is intermittent, because a debugger changes the timing that caused it. Debugging is finding out why code does not do what you expected, and the hard part is usually that the expectation was wrong rather than the code. The reliable method is to narrow it: reproduce it, bisect by commenting things out, and check the actual value at the point of failure rather than reasoning about what it should be."
+      ],
+      "tl": "debugging",
+      "bis": "debugging"
+    },
+    {
+      "id": "pro-debugging-000004",
+      "topic": "programming-debugging",
+      "intent": "definition",
+      "concept": "logging",
+      "keywords": [
+        "logging",
+        "error",
+        "warning",
+        "info",
+        "structured",
+        "search",
+        "debug",
+        "output",
+        "log",
+        "attaching",
+        "explanatory",
+        "text",
+        "program",
+        "letting"
+      ],
+      "patterns": [
+        "what is logging",
+        "logging",
+        "explain logging",
+        "definition of logging",
+        "logging meaning",
+        "how to log properly",
+        "difference between logging and debugging",
+        "ano ang log",
+        "unsa ang logging"
+      ],
+      "answer": "Logging is attaching explanatory text to a program and letting it be written out while the program runs, and the alternative is relying on a debugger, which is faster for a single mistake and useless for a program running on a machine you cannot reach. The three levels matter and are usually named error, warning and info, and the discipline is deciding which one a message is: an error is something that broke, a warning is something suspicious that did not, and info is ordinary progress. The common beginner mistake is logging everything at one level, so a real problem is buried in noise, or conversely labelling every message an error so nobody reads them. Machine-readable structured output, where each line is a key and value rather than a sentence, is what makes logs searchable at scale, and it is the difference between finding one user's failure in a million requests and not. A related decision is how much personal data to put in a log, since logs are copied around and retained far longer than anyone intends.",
+      "variations": [
+        "The three levels matter and are usually named error, warning and info, and the discipline is deciding which one a message is: an error is something that broke, a warning is something suspicious that did not, and info is ordinary progress. Logging is attaching explanatory text to a program and letting it be written out while the program runs, and the alternative is relying on a debugger, which is faster for a single mistake and useless for a program running on a machine you cannot reach. The common beginner mistake is logging everything at one level, so a real problem is buried in noise, or conversely labelling every message an error so nobody reads them. Machine-readable structured output, where each line is a key and value rather than a sentence, is what makes logs searchable at scale, and it is the difference between finding one user's failure in a million requests and not. A related decision is how much personal data to put in a log, since logs are copied around and retained far longer than anyone intends.",
+        "The common beginner mistake is logging everything at one level, so a real problem is buried in noise, or conversely labelling every message an error so nobody reads them. Logging is attaching explanatory text to a program and letting it be written out while the program runs, and the alternative is relying on a debugger, which is faster for a single mistake and useless for a program running on a machine you cannot reach. The three levels matter and are usually named error, warning and info, and the discipline is deciding which one a message is: an error is something that broke, a warning is something suspicious that did not, and info is ordinary progress. Machine-readable structured output, where each line is a key and value rather than a sentence, is what makes logs searchable at scale, and it is the difference between finding one user's failure in a million requests and not. A related decision is how much personal data to put in a log, since logs are copied around and retained far longer than anyone intends."
+      ],
+      "tl": "log",
+      "bis": "logging"
+    }
+  ],
+  "lang": "english",
+  "group": "programming",
+  "sub": "debugging",
+  "title": "Debugging",
+  "groupTitle": "Programming"
+}

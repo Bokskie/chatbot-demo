@@ -1,0 +1,50 @@
+{
+  "topic": "filipino-numbers",
+  "entries": [
+    {
+      "id": "fil-numbers-000001",
+      "topic": "filipino-numbers",
+      "intent": "definition",
+      "concept": "isa",
+      "keywords": [
+        "isa",
+        "one",
+        "uno",
+        "number",
+        "native",
+        "spanish",
+        "sampong",
+        "counting",
+        "usa",
+        "means",
+        "tagalog",
+        "filipino",
+        "pronounced",
+        "spelled"
+      ],
+      "patterns": [
+        "what is isa",
+        "isa",
+        "explain isa",
+        "definition of isa",
+        "isa meaning",
+        "anong meaning ng isa",
+        "why are tagalog numbers mixed",
+        "ano ang usa",
+        "unsa ang usa"
+      ],
+      "answer": "Isa means one, and it is the Tagalog and Filipino number one, pronounced isa and spelled with a single s. It is the odd one out among the basic numbers because the native terms for two, three and four are Spanish in origin, while isa, lima, anim, pito, walo, siyam, sampong and kaslo are native, so the set mixes two word families in a way that is genuinely irregular. The reason is historical rather than random: the native set stopped at ten, and the numbers above it were borrowed when Spanish became the language of administration. The same split shows in how the numbers are used, because areas with strong Spanish contact tend to use the dos, tres, cuatro forms while others use the native set almost entirely. So a Filipino speaker may know two number systems and switch between them without noticing, which is why the answer to what is ten can be sampong or disyong depending on the speaker.",
+      "variations": [
+        "It is the odd one out among the basic numbers because the native terms for two, three and four are Spanish in origin, while isa, lima, anim, pito, walo, siyam, sampong and kaslo are native, so the set mixes two word families in a way that is genuinely irregular. Isa means one, and it is the Tagalog and Filipino number one, pronounced isa and spelled with a single s. The reason is historical rather than random: the native set stopped at ten, and the numbers above it were borrowed when Spanish became the language of administration. The same split shows in how the numbers are used, because areas with strong Spanish contact tend to use the dos, tres, cuatro forms while others use the native set almost entirely. So a Filipino speaker may know two number systems and switch between them without noticing, which is why the answer to what is ten can be sampong or disyong depending on the speaker.",
+        "The reason is historical rather than random: the native set stopped at ten, and the numbers above it were borrowed when Spanish became the language of administration. Isa means one, and it is the Tagalog and Filipino number one, pronounced isa and spelled with a single s. It is the odd one out among the basic numbers because the native terms for two, three and four are Spanish in origin, while isa, lima, anim, pito, walo, siyam, sampong and kaslo are native, so the set mixes two word families in a way that is genuinely irregular. The same split shows in how the numbers are used, because areas with strong Spanish contact tend to use the dos, tres, cuatro forms while others use the native set almost entirely. So a Filipino speaker may know two number systems and switch between them without noticing, which is why the answer to what is ten can be sampong or disyong depending on the speaker."
+      ],
+      "tl": "usa",
+      "bis": "usa"
+    }
+  ],
+  "lang": "tagalog",
+  "group": "filipino",
+  "sub": "numbers",
+  "title": "Numbers",
+  "groupTitle": "Filipino"
+}

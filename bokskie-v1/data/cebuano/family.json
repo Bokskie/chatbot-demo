@@ -1,0 +1,221 @@
+{
+  "topic": "cebuano-family",
+  "entries": [
+    {
+      "id": "ceb-family-000001",
+      "topic": "cebuano-family",
+      "intent": "definition",
+      "concept": "pamilya",
+      "keywords": [
+        "pamilya",
+        "family",
+        "kauban",
+        "grupo",
+        "bugtig",
+        "dugo",
+        "konektado",
+        "pagbugtig",
+        "bisaya"
+      ],
+      "patterns": [
+        "what is pamilya",
+        "pamilya",
+        "explain pamilya",
+        "definition of pamilya",
+        "pamilya meaning",
+        "unsa ang pamilya",
+        "unsa ang kauban",
+        "ibig sabihin ng pamilya",
+        "ano ang pamilya",
+        "unsa ang pamilya"
+      ],
+      "answer": "Ang pamilya mao ang grupo sa mga tawo nga konektado sa pagbugtig. Sa Bisaya, ang kauban nga pulong usab tungod niini, nga ang duha may kalabutan apan dili manag-pareis ang kahulugan: ang pamilya nga gikan sa dugo, ang kauban nga gikan sa pagpili.",
+      "variations": [
+        "Sa Bisaya, ang kauban nga pulong usab tungod niini, nga ang duha may kalabutan apan dili manag-pareis ang kahulugan: ang pamilya nga gikan sa dugo, ang kauban nga gikan sa pagpili. Ang pamilya mao ang grupo sa mga tawo nga konektado sa pagbugtig."
+      ],
+      "tl": "pamilya",
+      "bis": "pamilya"
+    },
+    {
+      "id": "ceb-family-000002",
+      "topic": "cebuano-family",
+      "intent": "definition",
+      "concept": "nanay",
+      "keywords": [
+        "nanay",
+        "ina",
+        "mother",
+        "nagpugong",
+        "pagkatawo",
+        "siyudad",
+        "babaye",
+        "nagdili"
+      ],
+      "patterns": [
+        "what is nanay",
+        "nanay",
+        "explain nanay",
+        "definition of nanay",
+        "nanay meaning",
+        "unsa ang nanay",
+        "kinsa ang nanay",
+        "ibig sabihin ng nanay",
+        "ano ang ina",
+        "unsa ang ina"
+      ],
+      "answer": "Ang nanay mao ang babaye nga nagpugong ug nagdili sa imong pagkatawo. Siya nga siyudad usa ka klasika sa Bisaya: ang mga babaye gikan siya, nga mao sila nga nakaabot sa katawo ug sa kinsay apan dili kaayo sa kung asa siya gikan.",
+      "variations": [
+        "Siya nga siyudad usa ka klasika sa Bisaya: ang mga babaye gikan siya, nga mao sila nga nakaabot sa katawo ug sa kinsay apan dili kaayo sa kung asa siya gikan. Ang nanay mao ang babaye nga nagpugong ug nagdili sa imong pagkatawo."
+      ],
+      "tl": "ina",
+      "bis": "ina"
+    },
+    {
+      "id": "ceb-family-000003",
+      "topic": "cebuano-family",
+      "intent": "definition",
+      "concept": "tata",
+      "keywords": [
+        "tata",
+        "amahan",
+        "father",
+        "gikan",
+        "pamilya",
+        "ama",
+        "lalaki",
+        "magpugong",
+        "siya",
+        "usab"
+      ],
+      "patterns": [
+        "what is tata",
+        "tata",
+        "explain tata",
+        "definition of tata",
+        "tata meaning",
+        "unsa ang tata",
+        "kinsa ang amahan",
+        "ibig sabihin ng tata",
+        "ano ang ama",
+        "unsa ang ama"
+      ],
+      "answer": "Ang tata o ang amahan mao ang lalaki nga magpugong. Siya usab nga siyudad, nga usa ka konsepto gikan sa nga ina: ang mga ina mao ang sigurado, ang mga amahan mao ra ang naa. Tungod niini sa daghan nga kultura, ang kagandahan nga pamilya iyang gikan gyud, bisan pa sa tuig nga gigmana.",
+      "variations": [
+        "Siya usab nga siyudad, nga usa ka konsepto gikan sa nga ina: ang mga ina mao ang sigurado, ang mga amahan mao ra ang naa. Ang tata o ang amahan mao ang lalaki nga magpugong. Tungod niini sa daghan nga kultura, ang kagandahan nga pamilya iyang gikan gyud, bisan pa sa tuig nga gigmana.",
+        "Tungod niini sa daghan nga kultura, ang kagandahan nga pamilya iyang gikan gyud, bisan pa sa tuig nga gigmana. Ang tata o ang amahan mao ang lalaki nga magpugong. Siya usab nga siyudad, nga usa ka konsepto gikan sa nga ina: ang mga ina mao ang sigurado, ang mga amahan mao ra ang naa."
+      ],
+      "tl": "ama",
+      "bis": "ama"
+    },
+    {
+      "id": "ceb-family-000004",
+      "topic": "cebuano-family",
+      "intent": "definition",
+      "concept": "mga anak",
+      "keywords": [
+        "mga anak",
+        "anak",
+        "children",
+        "child",
+        "butang",
+        "gikan",
+        "balay",
+        "cebuano"
+      ],
+      "patterns": [
+        "what is mga anak",
+        "mga anak",
+        "explain mga anak",
+        "definition of mga anak",
+        "mga anak meaning",
+        "unsa ang anak",
+        "unsa ang mga anak",
+        "ibig sabihin ng anak",
+        "ano ang anak",
+        "unsa ang anak"
+      ],
+      "answer": "Ang mga anak mao ang mga tawo nga gikan sa imong balay. Sa Cebuano, ang anak usab nga mao ang usa ka butang nga imong gikan: ang imong anak, ang imong karne, ang imong kanal. Sa usab na pagkalawag, ang imong anak sa imong ina bisan kung 50 ka na tuig, kay usa pa ka gikan.",
+      "variations": [
+        "Sa Cebuano, ang anak usab nga mao ang usa ka butang nga imong gikan: ang imong anak, ang imong karne, ang imong kanal. Ang mga anak mao ang mga tawo nga gikan sa imong balay. Sa usab na pagkalawag, ang imong anak sa imong ina bisan kung 50 ka na tuig, kay usa pa ka gikan.",
+        "Sa usab na pagkalawag, ang imong anak sa imong ina bisan kung 50 ka na tuig, kay usa pa ka gikan. Ang mga anak mao ang mga tawo nga gikan sa imong balay. Sa Cebuano, ang anak usab nga mao ang usa ka butang nga imong gikan: ang imong anak, ang imong karne, ang imong kanal."
+      ],
+      "tl": "anak",
+      "bis": "anak"
+    },
+    {
+      "id": "ceb-family-000005",
+      "topic": "cebuano-family",
+      "intent": "definition",
+      "concept": "kaibanan",
+      "keywords": [
+        "kaibanan",
+        "kapatid",
+        "sibling",
+        "pareho",
+        "akong",
+        "gikan",
+        "kang",
+        "general"
+      ],
+      "patterns": [
+        "what is kaibanan",
+        "kaibanan",
+        "explain kaibanan",
+        "definition of kaibanan",
+        "kaibanan meaning",
+        "unsa ang kaibanan",
+        "kaibanan o kapatid",
+        "ibig sabihin ng kaibanan",
+        "ano ang kapatid",
+        "unsa ang kaibanan"
+      ],
+      "answer": "Ang kaibanan mao ang kapatid, nga usa nga tawo nga may pareho kang ina o ama. Ang kapatid nga general nga pulong, nga naa usab kaayo ang kapisan, kon walay iya nga gikan iya. Sa Bisaya, pinaagi, naa usab kaayo ang laking-header: ang mag-akong siya nga tiyahoy o manong.",
+      "variations": [
+        "Ang kapatid nga general nga pulong, nga naa usab kaayo ang kapisan, kon walay iya nga gikan iya. Ang kaibanan mao ang kapatid, nga usa nga tawo nga may pareho kang ina o ama. Sa Bisaya, pinaagi, naa usab kaayo ang laking-header: ang mag-akong siya nga tiyahoy o manong.",
+        "Sa Bisaya, pinaagi, naa usab kaayo ang laking-header: ang mag-akong siya nga tiyahoy o manong. Ang kaibanan mao ang kapatid, nga usa nga tawo nga may pareho kang ina o ama. Ang kapatid nga general nga pulong, nga naa usab kaayo ang kapisan, kon walay iya nga gikan iya."
+      ],
+      "tl": "kapatid",
+      "bis": "kaibanan"
+    },
+    {
+      "id": "ceb-family-000006",
+      "topic": "cebuano-family",
+      "intent": "definition",
+      "concept": "tiyahoy",
+      "keywords": [
+        "tiyahoy",
+        "tig",
+        "manong",
+        "aunt",
+        "uncle",
+        "kapatid",
+        "babaye",
+        "lalaki"
+      ],
+      "patterns": [
+        "what is tiyahoy",
+        "tiyahoy",
+        "explain tiyahoy",
+        "definition of tiyahoy",
+        "tiyahoy meaning",
+        "unsa ang tiyahoy",
+        "unsa ang manong",
+        "tiyahoy o manong",
+        "ano ang tiyahoy",
+        "unsa ang tiyahoy"
+      ],
+      "answer": "Ang tiyahoy mao ang kapatid nga babaye sa imong ina o ama. Ang manong nga lalaki nga kapatid sa imong ina o ama. Sa Filipino, ang tiyahoy nga pulong, nga apan sa Cebuano, kung ang laki, ang manong ang gamit, nga dili ang tiyahon.",
+      "variations": [
+        "Ang manong nga lalaki nga kapatid sa imong ina o ama. Ang tiyahoy mao ang kapatid nga babaye sa imong ina o ama. Sa Filipino, ang tiyahoy nga pulong, nga apan sa Cebuano, kung ang laki, ang manong ang gamit, nga dili ang tiyahon.",
+        "Sa Filipino, ang tiyahoy nga pulong, nga apan sa Cebuano, kung ang laki, ang manong ang gamit, nga dili ang tiyahon. Ang tiyahoy mao ang kapatid nga babaye sa imong ina o ama. Ang manong nga lalaki nga kapatid sa imong ina o ama."
+      ],
+      "tl": "tiyahoy",
+      "bis": "tiyahoy"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "family",
+  "title": "Family",
+  "groupTitle": "Cebuano"
+}

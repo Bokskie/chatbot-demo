@@ -1,0 +1,128 @@
+{
+  "topic": "cebuano-health-vocabulary",
+  "entries": [
+    {
+      "id": "ceb-health-vocabulary-000001",
+      "topic": "cebuano-health-vocabulary",
+      "intent": "definition",
+      "concept": "lamig",
+      "keywords": [
+        "lamig",
+        "cold",
+        "illness",
+        "viral",
+        "cough",
+        "sore",
+        "throat",
+        "rest",
+        "sipon",
+        "means",
+        "catch",
+        "ordinary",
+        "word"
+      ],
+      "patterns": [
+        "what is lamig",
+        "lamig",
+        "explain lamig",
+        "definition of lamig",
+        "lamig meaning",
+        "unsa meaning nga lamig",
+        "is lamig the same as mahumay",
+        "ano ang sipon",
+        "unsa ang lamig"
+      ],
+      "answer": "Lamig means to catch a cold, and it is the ordinary word for the illness rather than for being cold in temperature, which is a distinction a learner reaches for by accident. So lamig na ka means you have caught a cold, while mahumay is used for the temperature, and the two words describe different things even though the illness causes one. It is a very common condition in the Philippines because it sits in the same category as a cough and a sore throat, all of which are usually viral, and the practical point is that they do not respond to antibiotics because those work on bacteria and not on viruses. That is also why the phrase ubos-ubos pa holds up, since rest, fluids and time are most of what a cold needs, and anything promising otherwise is selling something. A related word, hihina, is used for weakness and tiredness that is not a cold, and the two are often confused when a person is actually more unwell than a cold would explain.",
+      "variations": [
+        "So lamig na ka means you have caught a cold, while mahumay is used for the temperature, and the two words describe different things even though the illness causes one. Lamig means to catch a cold, and it is the ordinary word for the illness rather than for being cold in temperature, which is a distinction a learner reaches for by accident. It is a very common condition in the Philippines because it sits in the same category as a cough and a sore throat, all of which are usually viral, and the practical point is that they do not respond to antibiotics because those work on bacteria and not on viruses. That is also why the phrase ubos-ubos pa holds up, since rest, fluids and time are most of what a cold needs, and anything promising otherwise is selling something. A related word, hihina, is used for weakness and tiredness that is not a cold, and the two are often confused when a person is actually more unwell than a cold would explain.",
+        "It is a very common condition in the Philippines because it sits in the same category as a cough and a sore throat, all of which are usually viral, and the practical point is that they do not respond to antibiotics because those work on bacteria and not on viruses. Lamig means to catch a cold, and it is the ordinary word for the illness rather than for being cold in temperature, which is a distinction a learner reaches for by accident. So lamig na ka means you have caught a cold, while mahumay is used for the temperature, and the two words describe different things even though the illness causes one. That is also why the phrase ubos-ubos pa holds up, since rest, fluids and time are most of what a cold needs, and anything promising otherwise is selling something. A related word, hihina, is used for weakness and tiredness that is not a cold, and the two are often confused when a person is actually more unwell than a cold would explain."
+      ],
+      "tl": "sipon",
+      "bis": "lamig"
+    },
+    {
+      "id": "ceb-health-vocabulary-000002",
+      "topic": "cebuano-health-vocabulary",
+      "intent": "definition",
+      "concept": "kramat",
+      "keywords": [
+        "kramat",
+        "hurt",
+        "ache",
+        "painful",
+        "head",
+        "stomach",
+        "tooth",
+        "body",
+        "sakit",
+        "means",
+        "pain",
+        "common",
+        "word",
+        "hurts"
+      ],
+      "patterns": [
+        "what is kramat",
+        "kramat",
+        "explain kramat",
+        "definition of kramat",
+        "kramat meaning",
+        "unsa meaning nga kramat",
+        "unsaon nga mo sabutin nga kramat",
+        "ano ang sakit",
+        "unsa ang kramat"
+      ],
+      "answer": "Kramat means pain, and it is the most common word for what hurts, covering a headache, a stomach ache and a tooth in one term where English needs more. It is a transitive verb that takes the body part, so miga ako sa akong ulo means my head hurts, and this construction is the ordinary way to say something hurts rather than saying that you have a pain. The noun sense is a little different, since kaayo usually names the sickness rather than the pain, so a kramat ka means you are in pain while naa ka og kramat names a particular pain as a condition. The related phrase naa ka gi- or naa ka og kramat is used for a pain that has settled, and the general word for being ill is lamig or kagrabe, both of which are illnesses rather than pains. A learner who reaches for the word for illness when describing pain will be understood but will sound as though they are naming a disease.",
+      "variations": [
+        "It is a transitive verb that takes the body part, so miga ako sa akong ulo means my head hurts, and this construction is the ordinary way to say something hurts rather than saying that you have a pain. Kramat means pain, and it is the most common word for what hurts, covering a headache, a stomach ache and a tooth in one term where English needs more. The noun sense is a little different, since kaayo usually names the sickness rather than the pain, so a kramat ka means you are in pain while naa ka og kramat names a particular pain as a condition. The related phrase naa ka gi- or naa ka og kramat is used for a pain that has settled, and the general word for being ill is lamig or kagrabe, both of which are illnesses rather than pains. A learner who reaches for the word for illness when describing pain will be understood but will sound as though they are naming a disease.",
+        "The noun sense is a little different, since kaayo usually names the sickness rather than the pain, so a kramat ka means you are in pain while naa ka og kramat names a particular pain as a condition. Kramat means pain, and it is the most common word for what hurts, covering a headache, a stomach ache and a tooth in one term where English needs more. It is a transitive verb that takes the body part, so miga ako sa akong ulo means my head hurts, and this construction is the ordinary way to say something hurts rather than saying that you have a pain. The related phrase naa ka gi- or naa ka og kramat is used for a pain that has settled, and the general word for being ill is lamig or kagrabe, both of which are illnesses rather than pains. A learner who reaches for the word for illness when describing pain will be understood but will sound as though they are naming a disease."
+      ],
+      "tl": "sakit",
+      "bis": "kramat"
+    },
+    {
+      "id": "ceb-health-vocabulary-000003",
+      "topic": "cebuano-health-vocabulary",
+      "intent": "definition",
+      "concept": "pasista",
+      "keywords": [
+        "pasista",
+        "doctor",
+        "physician",
+        "hospital",
+        "clinic",
+        "nurse",
+        "medical",
+        "treatment",
+        "doktor",
+        "means",
+        "direct",
+        "borrowing",
+        "english"
+      ],
+      "patterns": [
+        "what is pasista",
+        "pasista",
+        "explain pasista",
+        "definition of pasista",
+        "pasista meaning",
+        "unsa meaning nga pasista",
+        "unsaon nga mo pangutana sa doktor",
+        "ano ang doktor",
+        "unsa ang doktor"
+      ],
+      "answer": "Pasista means the doctor, and it is a direct borrowing of the English word rather than a Cebuano coinage, which is why it appears with the spelling and sound of the original. A Cebuano speaker says mo go to si doktor, mixing a local preposition with the English title, and that combination is completely ordinary in speech. The word covers a physician, and in Cebuano it is the ordinary word used in a clinic even though it is not a native term, so a learner does not need to learn a separate word for a medical practitioner. The related places are also borrowed: ospital for hospital, and the words for the sections inside it are often a mix of English and Cebuano, so a nurse or a room may be described with either. A word that a learner does need is the polite form of address, since a doctor is spoken to differently from a peer.",
+      "variations": [
+        "A Cebuano speaker says mo go to si doktor, mixing a local preposition with the English title, and that combination is completely ordinary in speech. Pasista means the doctor, and it is a direct borrowing of the English word rather than a Cebuano coinage, which is why it appears with the spelling and sound of the original. The word covers a physician, and in Cebuano it is the ordinary word used in a clinic even though it is not a native term, so a learner does not need to learn a separate word for a medical practitioner. The related places are also borrowed: ospital for hospital, and the words for the sections inside it are often a mix of English and Cebuano, so a nurse or a room may be described with either. A word that a learner does need is the polite form of address, since a doctor is spoken to differently from a peer.",
+        "The word covers a physician, and in Cebuano it is the ordinary word used in a clinic even though it is not a native term, so a learner does not need to learn a separate word for a medical practitioner. Pasista means the doctor, and it is a direct borrowing of the English word rather than a Cebuano coinage, which is why it appears with the spelling and sound of the original. A Cebuano speaker says mo go to si doktor, mixing a local preposition with the English title, and that combination is completely ordinary in speech. The related places are also borrowed: ospital for hospital, and the words for the sections inside it are often a mix of English and Cebuano, so a nurse or a room may be described with either. A word that a learner does need is the polite form of address, since a doctor is spoken to differently from a peer."
+      ],
+      "tl": "doktor",
+      "bis": "doktor"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "health-vocabulary",
+  "title": "Health vocabulary",
+  "groupTitle": "Cebuano"
+}

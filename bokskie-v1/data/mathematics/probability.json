@@ -1,0 +1,87 @@
+{
+  "topic": "mathematics-probability",
+  "entries": [
+    {
+      "id": "mat-probability-000001",
+      "topic": "mathematics-probability",
+      "intent": "definition",
+      "concept": "conditional probability",
+      "keywords": [
+        "conditional probability",
+        "given",
+        "independent",
+        "screening",
+        "joint",
+        "bayes",
+        "probabilidad",
+        "conditional",
+        "probability",
+        "event",
+        "another",
+        "already",
+        "happened"
+      ],
+      "patterns": [
+        "what is conditional probability",
+        "conditional probability",
+        "explain conditional probability",
+        "definition of conditional probability",
+        "conditional probability meaning",
+        "conditional vs independent",
+        "bayes theorem simple",
+        "ano ang probabilidad",
+        "unsa ang conditional probability"
+      ],
+      "answer": "Conditional probability is the probability of one event given that another has already happened, written as the probability of both divided by the probability of the condition, and the whole point is that the two events are not independent. A concrete case: you draw two cards without replacement, and knowing the first was an ace changes the odds of the second, so the answer is not simply one half. The formula follows from the fact that the probability of both events in either order is the same number, which is why it can be written either way round. The common mistake is using it when the events are independent, in which case the answer is just the product and the correction is unnecessary. Another is forgetting that the condition changes the sample space, so the denominator is no longer the original total: after drawing an ace, the remaining cards are thirty-one, not fifty-two. The idea appears in screening tests, where a rare condition and a test that is usually accurate are two different numbers that people confuse constantly, since a positive result on a rare condition is far less conclusive than it sounds.",
+      "variations": [
+        "A concrete case: you draw two cards without replacement, and knowing the first was an ace changes the odds of the second, so the answer is not simply one half. Conditional probability is the probability of one event given that another has already happened, written as the probability of both divided by the probability of the condition, and the whole point is that the two events are not independent. The formula follows from the fact that the probability of both events in either order is the same number, which is why it can be written either way round. The common mistake is using it when the events are independent, in which case the answer is just the product and the correction is unnecessary. Another is forgetting that the condition changes the sample space, so the denominator is no longer the original total: after drawing an ace, the remaining cards are thirty-one, not fifty-two. The idea appears in screening tests, where a rare condition and a test that is usually accurate are two different numbers that people confuse constantly, since a positive result on a rare condition is far less conclusive than it sounds.",
+        "The formula follows from the fact that the probability of both events in either order is the same number, which is why it can be written either way round. Conditional probability is the probability of one event given that another has already happened, written as the probability of both divided by the probability of the condition, and the whole point is that the two events are not independent. A concrete case: you draw two cards without replacement, and knowing the first was an ace changes the odds of the second, so the answer is not simply one half. The common mistake is using it when the events are independent, in which case the answer is just the product and the correction is unnecessary. Another is forgetting that the condition changes the sample space, so the denominator is no longer the original total: after drawing an ace, the remaining cards are thirty-one, not fifty-two. The idea appears in screening tests, where a rare condition and a test that is usually accurate are two different numbers that people confuse constantly, since a positive result on a rare condition is far less conclusive than it sounds."
+      ],
+      "tl": "probabilidad",
+      "bis": "conditional probability"
+    },
+    {
+      "id": "mat-probability-000002",
+      "topic": "mathematics-probability",
+      "intent": "definition",
+      "concept": "probability",
+      "keywords": [
+        "probability",
+        "odds",
+        "chance",
+        "independent",
+        "random",
+        "Probabilidad",
+        "measures",
+        "likely",
+        "event",
+        "impossible",
+        "certain"
+      ],
+      "patterns": [
+        "what is probability",
+        "probability",
+        "explain probability",
+        "definition of probability",
+        "probability meaning",
+        "why is two heads 25 percent",
+        "what is the birthday problem",
+        "how do i calculate probability",
+        "ano ang probability",
+        "unsa ang Probabilidad"
+      ],
+      "answer": "Probability measures how likely an event is, from 0 for impossible to 1 for certain, and the rule that catches people is that the probabilities of independent outcomes multiply. Two fair coin tosses are not 50 percent likely to be two heads, they are 25 percent, because the second toss is half of the first. The other correction is the birthday problem, where finding a shared birthday becomes more likely than not with only about 23 people.",
+      "variations": [
+        "Two fair coin tosses are not 50 percent likely to be two heads, they are 25 percent, because the second toss is half of the first. Probability measures how likely an event is, from 0 for impossible to 1 for certain, and the rule that catches people is that the probabilities of independent outcomes multiply. The other correction is the birthday problem, where finding a shared birthday becomes more likely than not with only about 23 people.",
+        "The other correction is the birthday problem, where finding a shared birthday becomes more likely than not with only about 23 people. Probability measures how likely an event is, from 0 for impossible to 1 for certain, and the rule that catches people is that the probabilities of independent outcomes multiply. Two fair coin tosses are not 50 percent likely to be two heads, they are 25 percent, because the second toss is half of the first."
+      ],
+      "tl": "probability",
+      "bis": "Probabilidad"
+    }
+  ],
+  "lang": "english",
+  "group": "mathematics",
+  "sub": "probability",
+  "title": "Probability",
+  "groupTitle": "Mathematics"
+}

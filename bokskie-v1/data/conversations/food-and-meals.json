@@ -1,0 +1,310 @@
+{
+  "topic": "conversations-food-and-meals",
+  "entries": [
+    {
+      "id": "con-food-and-meals-000001",
+      "topic": "conversations-food-and-meals",
+      "intent": "definition",
+      "concept": "ulam",
+      "keywords": [
+        "ulam",
+        "dish",
+        "meal",
+        "rice",
+        "sawsawan",
+        "adobo",
+        "sinigang",
+        "pagkain",
+        "filipino",
+        "food",
+        "eaten"
+      ],
+      "patterns": [
+        "what is ulam",
+        "ulam",
+        "explain ulam",
+        "definition of ulam",
+        "ulam meaning",
+        "anong ulam",
+        "ano maganda ulam",
+        "ano ang pagkain",
+        "unsa ang pagkain"
+      ],
+      "answer": "Ulam is the Filipino word for the food eaten with rice, and the same word is used more loosely to mean food in general, so asking what is your ulam is a question about what you are eating today. A Filipino meal is built as rice in the middle, one main dish, and a small bowl of something sour or salty on the side called a sawsawan, where the vinegar, soy sauce and chilli go. The arrangement is why a Filipino who has eaten elsewhere still describes the day as having had ulam, because the word names the whole meal and not only the plate. Common ones are adobo, which is meat simmered in vinegar and soy until it darkens, sinigang, which is a sour soup, kare kare, a peanut stew, and lechon, which is roasted pig and the food most associated with a celebration. A practical point for a newcomer is that almost every one of these is meant with rice and none of them is a complete meal on its own.",
+      "variations": [
+        "A Filipino meal is built as rice in the middle, one main dish, and a small bowl of something sour or salty on the side called a sawsawan, where the vinegar, soy sauce and chilli go. Ulam is the Filipino word for the food eaten with rice, and the same word is used more loosely to mean food in general, so asking what is your ulam is a question about what you are eating today. The arrangement is why a Filipino who has eaten elsewhere still describes the day as having had ulam, because the word names the whole meal and not only the plate. Common ones are adobo, which is meat simmered in vinegar and soy until it darkens, sinigang, which is a sour soup, kare kare, a peanut stew, and lechon, which is roasted pig and the food most associated with a celebration. A practical point for a newcomer is that almost every one of these is meant with rice and none of them is a complete meal on its own.",
+        "The arrangement is why a Filipino who has eaten elsewhere still describes the day as having had ulam, because the word names the whole meal and not only the plate. Ulam is the Filipino word for the food eaten with rice, and the same word is used more loosely to mean food in general, so asking what is your ulam is a question about what you are eating today. A Filipino meal is built as rice in the middle, one main dish, and a small bowl of something sour or salty on the side called a sawsawan, where the vinegar, soy sauce and chilli go. Common ones are adobo, which is meat simmered in vinegar and soy until it darkens, sinigang, which is a sour soup, kare kare, a peanut stew, and lechon, which is roasted pig and the food most associated with a celebration. A practical point for a newcomer is that almost every one of these is meant with rice and none of them is a complete meal on its own."
+      ],
+      "tl": "pagkain",
+      "bis": "pagkain"
+    },
+    {
+      "id": "con-food-and-meals-000002",
+      "topic": "conversations-food-and-meals",
+      "intent": "definition",
+      "concept": "adobo",
+      "keywords": [
+        "adobo",
+        "vinegar",
+        "garlic",
+        "simmer",
+        "glaze",
+        "braise",
+        "resipe",
+        "recipe",
+        "recognisable",
+        "filipino",
+        "dish",
+        "version",
+        "everybody"
+      ],
+      "patterns": [
+        "what is adobo",
+        "adobo",
+        "explain adobo",
+        "definition of adobo",
+        "adobo meaning",
+        "paano magluto ng adobo",
+        "adobo recipe",
+        "how to cook adobo",
+        "may recipe ba sa adobo",
+        "recipe ng adobo",
+        "ano ang adobo",
+        "unsa ang adobo"
+      ],
+      "answer": "Adobo is the most recognisable Filipino dish, and the version everybody pictures is meat simmered in vinegar, soy sauce, garlic and bay leaf until the liquid reduces and coats the meat in a dark glaze. The two ingredients doing the work are the acid and the salt together: the vinegar is what tenderises and the soy is what colours, and neither alone gives the dish its character. It started as a practical way of preserving meat by boiling it with vinegar, and that origin is why it has no single canonical recipe, since every household has a ratio it will defend. Common additions are potato, which absorbs the sauce, and dried chilli, which is the usual sign it is the Bicolano or Cebuano version rather than the Pampanga one that is sweet rather than sour. It is one of the easiest Filipino dishes to cook at home and one of the most contested when people say their lola's was better.",
+      "variations": [
+        "The two ingredients doing the work are the acid and the salt together: the vinegar is what tenderises and the soy is what colours, and neither alone gives the dish its character. Adobo is the most recognisable Filipino dish, and the version everybody pictures is meat simmered in vinegar, soy sauce, garlic and bay leaf until the liquid reduces and coats the meat in a dark glaze. It started as a practical way of preserving meat by boiling it with vinegar, and that origin is why it has no single canonical recipe, since every household has a ratio it will defend. Common additions are potato, which absorbs the sauce, and dried chilli, which is the usual sign it is the Bicolano or Cebuano version rather than the Pampanga one that is sweet rather than sour. It is one of the easiest Filipino dishes to cook at home and one of the most contested when people say their lola's was better.",
+        "It started as a practical way of preserving meat by boiling it with vinegar, and that origin is why it has no single canonical recipe, since every household has a ratio it will defend. Adobo is the most recognisable Filipino dish, and the version everybody pictures is meat simmered in vinegar, soy sauce, garlic and bay leaf until the liquid reduces and coats the meat in a dark glaze. The two ingredients doing the work are the acid and the salt together: the vinegar is what tenderises and the soy is what colours, and neither alone gives the dish its character. Common additions are potato, which absorbs the sauce, and dried chilli, which is the usual sign it is the Bicolano or Cebuano version rather than the Pampanga one that is sweet rather than sour. It is one of the easiest Filipino dishes to cook at home and one of the most contested when people say their lola's was better."
+      ],
+      "tl": "adobo",
+      "bis": "adobo"
+    },
+    {
+      "id": "con-food-and-meals-000003",
+      "topic": "conversations-food-and-meals",
+      "intent": "definition",
+      "concept": "gutom",
+      "keywords": [
+        "gutom",
+        "hungry",
+        "appetite",
+        "starving",
+        "mapag",
+        "eat",
+        "meal",
+        "satisfied",
+        "people"
+      ],
+      "patterns": [
+        "what is gutom",
+        "gutom",
+        "explain gutom",
+        "definition of gutom",
+        "gutom meaning",
+        "gutom na ako",
+        "ano ang gamit",
+        "feeling hungry",
+        "ano ang gutom",
+        "unsa ang gutom"
+      ],
+      "answer": "Gutom means hungry, and it is the Tagalog word people use for the feeling rather than for a clinical appetite, so gutom na ako means I am starving and is often said when someone has simply not eaten for hours. A stronger form is gutom na gutom, which means very hungry indeed, and it is what a person says on arriving at a carinderia. The related word, mapag, means full or satisfied after eating, and the pair covers the ordinary range, while the Tagalog words for appetite in a medical sense are not the ones used at a table. A practical point for a learner is that Filipino food is served with rice as the centre, so a meal that would look small in another context is a full one here, and being full after rice with a little ulam is normal rather than a sign of having eaten too much.",
+      "variations": [
+        "A stronger form is gutom na gutom, which means very hungry indeed, and it is what a person says on arriving at a carinderia. Gutom means hungry, and it is the Tagalog word people use for the feeling rather than for a clinical appetite, so gutom na ako means I am starving and is often said when someone has simply not eaten for hours. The related word, mapag, means full or satisfied after eating, and the pair covers the ordinary range, while the Tagalog words for appetite in a medical sense are not the ones used at a table. A practical point for a learner is that Filipino food is served with rice as the centre, so a meal that would look small in another context is a full one here, and being full after rice with a little ulam is normal rather than a sign of having eaten too much.",
+        "The related word, mapag, means full or satisfied after eating, and the pair covers the ordinary range, while the Tagalog words for appetite in a medical sense are not the ones used at a table. Gutom means hungry, and it is the Tagalog word people use for the feeling rather than for a clinical appetite, so gutom na ako means I am starving and is often said when someone has simply not eaten for hours. A stronger form is gutom na gutom, which means very hungry indeed, and it is what a person says on arriving at a carinderia. A practical point for a learner is that Filipino food is served with rice as the centre, so a meal that would look small in another context is a full one here, and being full after rice with a little ulam is normal rather than a sign of having eaten too much."
+      ],
+      "tl": "gutom",
+      "bis": "gutom"
+    },
+    {
+      "id": "con-food-and-meals-000004",
+      "topic": "conversations-food-and-meals",
+      "intent": "definition",
+      "concept": "recipe",
+      "keywords": [
+        "recipe",
+        "resipe",
+        "ingredients",
+        "method",
+        "quantity",
+        "cooking",
+        "instructions",
+        "measure",
+        "quantities",
+        "turn",
+        "dish"
+      ],
+      "patterns": [
+        "what is recipe",
+        "recipe",
+        "explain recipe",
+        "definition of recipe",
+        "recipe meaning",
+        "paano mag cook",
+        "resipe",
+        "how to write a recipe",
+        "ano ang resipe",
+        "unsa ang resipe"
+      ],
+      "answer": "A recipe is the set of instructions and quantities that turn ingredients into a dish, and in Filipino households the usual word for it is resipe, which is simply the English word borrowed whole. What a recipe is really for is repeatability: without amounts, a cook is describing a memory rather than giving instructions, and a Filipino recipe is often a list of ingredients with no quantities at all because the person reading is expected to know roughly what a cup of something means. Converting that into something a stranger can follow usually means testing it, which is why a recipe written by someone who actually cooked it is worth more than one copied from a list of a hundred. The practical structure of a written recipe is ingredients first, then method, then the timings, and the two things most often missing when someone writes one are the timing and what to do if it fails, both of which are the parts the cook already knows and therefore leaves out.",
+      "variations": [
+        "What a recipe is really for is repeatability: without amounts, a cook is describing a memory rather than giving instructions, and a Filipino recipe is often a list of ingredients with no quantities at all because the person reading is expected to know roughly what a cup of something means. A recipe is the set of instructions and quantities that turn ingredients into a dish, and in Filipino households the usual word for it is resipe, which is simply the English word borrowed whole. Converting that into something a stranger can follow usually means testing it, which is why a recipe written by someone who actually cooked it is worth more than one copied from a list of a hundred. The practical structure of a written recipe is ingredients first, then method, then the timings, and the two things most often missing when someone writes one are the timing and what to do if it fails, both of which are the parts the cook already knows and therefore leaves out.",
+        "Converting that into something a stranger can follow usually means testing it, which is why a recipe written by someone who actually cooked it is worth more than one copied from a list of a hundred. A recipe is the set of instructions and quantities that turn ingredients into a dish, and in Filipino households the usual word for it is resipe, which is simply the English word borrowed whole. What a recipe is really for is repeatability: without amounts, a cook is describing a memory rather than giving instructions, and a Filipino recipe is often a list of ingredients with no quantities at all because the person reading is expected to know roughly what a cup of something means. The practical structure of a written recipe is ingredients first, then method, then the timings, and the two things most often missing when someone writes one are the timing and what to do if it fails, both of which are the parts the cook already knows and therefore leaves out."
+      ],
+      "tl": "resipe",
+      "bis": "resipe"
+    },
+    {
+      "id": "con-food-and-meals-000005",
+      "topic": "conversations-food-and-meals",
+      "intent": "definition",
+      "concept": "lutuin",
+      "keywords": [
+        "lutuin",
+        "cook",
+        "pagluto",
+        "fry",
+        "boil",
+        "steam",
+        "grill",
+        "kitchen",
+        "dish",
+        "magluto",
+        "verb",
+        "general"
+      ],
+      "patterns": [
+        "what is lutuin",
+        "lutuin",
+        "explain lutuin",
+        "definition of lutuin",
+        "lutuin meaning",
+        "paano magluto",
+        "cook in tagalog",
+        "pagluto",
+        "ano ang magluto",
+        "unsa ang pagluto"
+      ],
+      "answer": "Lutuin is the Tagalog verb for to cook, and it is the general word rather than a specific method, so lutuin ng adobo and lutuin ng ginatangal are both ordinary. The related noun lutuin or pagluto covers cooking as an activity, and it is what a person says when asked what they are doing in the kitchen. What English separates into fry, boil, grill, steam and bake, Tagalog handles mostly with one general word plus borrowings: prituh for fry, and the rest commonly in English or in regional forms. A related concept worth knowing is a recipe being implied rather than written: ipagluto nang maayos means cook it properly, where maayos is doing a lot of work and can mean well-made, tasty, or properly done depending on context.",
+      "variations": [
+        "The related noun lutuin or pagluto covers cooking as an activity, and it is what a person says when asked what they are doing in the kitchen. Lutuin is the Tagalog verb for to cook, and it is the general word rather than a specific method, so lutuin ng adobo and lutuin ng ginatangal are both ordinary. What English separates into fry, boil, grill, steam and bake, Tagalog handles mostly with one general word plus borrowings: prituh for fry, and the rest commonly in English or in regional forms. A related concept worth knowing is a recipe being implied rather than written: ipagluto nang maayos means cook it properly, where maayos is doing a lot of work and can mean well-made, tasty, or properly done depending on context.",
+        "What English separates into fry, boil, grill, steam and bake, Tagalog handles mostly with one general word plus borrowings: prituh for fry, and the rest commonly in English or in regional forms. Lutuin is the Tagalog verb for to cook, and it is the general word rather than a specific method, so lutuin ng adobo and lutuin ng ginatangal are both ordinary. The related noun lutuin or pagluto covers cooking as an activity, and it is what a person says when asked what they are doing in the kitchen. A related concept worth knowing is a recipe being implied rather than written: ipagluto nang maayos means cook it properly, where maayos is doing a lot of work and can mean well-made, tasty, or properly done depending on context."
+      ],
+      "tl": "magluto",
+      "bis": "pagluto"
+    },
+    {
+      "id": "con-food-and-meals-000006",
+      "topic": "conversations-food-and-meals",
+      "intent": "definition",
+      "concept": "kainin",
+      "keywords": [
+        "kainin",
+        "eat",
+        "food",
+        "rice",
+        "eaten",
+        "meal",
+        "kain",
+        "dinner",
+        "kainon",
+        "something",
+        "being"
+      ],
+      "patterns": [
+        "what is kainin",
+        "kainin",
+        "explain kainin",
+        "definition of kainin",
+        "kainin meaning",
+        "anong kainin",
+        "ano pwede kainin",
+        "what to eat",
+        "ano ang kainin",
+        "unsa ang kainon"
+      ],
+      "answer": "Kainin is the Tagalog form of kain, and it is the word used when something is the thing being eaten, so it covers both what you will eat and what you ate, with the tense carried by the affix rather than by the word. Kainin ba means will you eat, kainin na means already ate, and kinain means the thing that has been eaten. In the everyday question anong pwede kong kainin, the word is doing the work of a direct object, and the answer is a list of foods rather than a definition, which is why it usually needs a recommendation rather than a lookup. The related magkain is to eat, and a bare kain is also the word for rice specifically, since rice is the assumed food rather than a dish. A newcomer is often confused because a word can mean both eat and the thing eaten, and both are correct at different moments in the sentence.",
+      "variations": [
+        "Kainin ba means will you eat, kainin na means already ate, and kinain means the thing that has been eaten. Kainin is the Tagalog form of kain, and it is the word used when something is the thing being eaten, so it covers both what you will eat and what you ate, with the tense carried by the affix rather than by the word. In the everyday question anong pwede kong kainin, the word is doing the work of a direct object, and the answer is a list of foods rather than a definition, which is why it usually needs a recommendation rather than a lookup. The related magkain is to eat, and a bare kain is also the word for rice specifically, since rice is the assumed food rather than a dish. A newcomer is often confused because a word can mean both eat and the thing eaten, and both are correct at different moments in the sentence.",
+        "In the everyday question anong pwede kong kainin, the word is doing the work of a direct object, and the answer is a list of foods rather than a definition, which is why it usually needs a recommendation rather than a lookup. Kainin is the Tagalog form of kain, and it is the word used when something is the thing being eaten, so it covers both what you will eat and what you ate, with the tense carried by the affix rather than by the word. Kainin ba means will you eat, kainin na means already ate, and kinain means the thing that has been eaten. The related magkain is to eat, and a bare kain is also the word for rice specifically, since rice is the assumed food rather than a dish. A newcomer is often confused because a word can mean both eat and the thing eaten, and both are correct at different moments in the sentence."
+      ],
+      "tl": "kainin",
+      "bis": "kainon"
+    },
+    {
+      "id": "con-food-and-meals-000007",
+      "topic": "conversations-food-and-meals",
+      "intent": "definition",
+      "concept": "matula",
+      "keywords": [
+        "matula",
+        "sleepy",
+        "drowsy",
+        "sleep",
+        "tulog",
+        "bedtime",
+        "tired",
+        "feeling"
+      ],
+      "patterns": [
+        "what is matula",
+        "matula",
+        "explain matula",
+        "definition of matula",
+        "matula meaning",
+        "matutulog",
+        "sleepy in tagalog",
+        "baka matula",
+        "ano ang matula",
+        "unsa ang matula"
+      ],
+      "answer": "Matula means to be sleepy or drowsy, and it is the word used for the feeling rather than for being asleep, so matula na ako means I am getting sleepy and not that I have slept. Matutulog na is the related form that means about to sleep. A related word, tulog, means to sleep, and the pair covers the two halves of going to bed. Matula is worth learning separately from pagod, because they are confused and they call for different things: pagod is tiredness that comes from work or heat and is helped by rest, while matula is a specific urge that is helped by sleep, and a person who says matula usually means it is close to bedtime. The afternoon slump that people describe in the Philippines is usually pagod rather than matula, since it is the heat and the schedule rather than the hour.",
+      "variations": [
+        "Matutulog na is the related form that means about to sleep. Matula means to be sleepy or drowsy, and it is the word used for the feeling rather than for being asleep, so matula na ako means I am getting sleepy and not that I have slept. A related word, tulog, means to sleep, and the pair covers the two halves of going to bed. Matula is worth learning separately from pagod, because they are confused and they call for different things: pagod is tiredness that comes from work or heat and is helped by rest, while matula is a specific urge that is helped by sleep, and a person who says matula usually means it is close to bedtime. The afternoon slump that people describe in the Philippines is usually pagod rather than matula, since it is the heat and the schedule rather than the hour.",
+        "A related word, tulog, means to sleep, and the pair covers the two halves of going to bed. Matula means to be sleepy or drowsy, and it is the word used for the feeling rather than for being asleep, so matula na ako means I am getting sleepy and not that I have slept. Matutulog na is the related form that means about to sleep. Matula is worth learning separately from pagod, because they are confused and they call for different things: pagod is tiredness that comes from work or heat and is helped by rest, while matula is a specific urge that is helped by sleep, and a person who says matula usually means it is close to bedtime. The afternoon slump that people describe in the Philippines is usually pagod rather than matula, since it is the heat and the schedule rather than the hour."
+      ],
+      "tl": "matula",
+      "bis": "matula"
+    },
+    {
+      "id": "con-food-and-meals-000008",
+      "topic": "conversations-food-and-meals",
+      "intent": "definition",
+      "concept": "tangnan",
+      "keywords": [
+        "tangnan",
+        "miss",
+        "missing",
+        "longing",
+        "family",
+        "absent",
+        "naihi",
+        "someone"
+      ],
+      "patterns": [
+        "what is tangnan",
+        "tangnan",
+        "explain tangnan",
+        "definition of tangnan",
+        "tangnan meaning",
+        "tangnan mo ako",
+        "naihi",
+        "i miss you in tagalog",
+        "ano ang tangnan",
+        "unsa ang naihi"
+      ],
+      "answer": "Tangnan means to miss someone, and it is the word for missing a person rather than for an object, so tangnan mo ako means I miss you and tangnan mo siya means I miss him or her. The noun tangnan itself is the feeling of missing someone, and it is the ordinary word a person uses about family, a partner, or someone who has gone away or died. In Cebuano the corresponding word is naihi, and the two are close enough in meaning that a bilingual speaker uses them differently depending on the person they are speaking to. What makes the word a good example of why the bank needs everyday language is that a person saying tangnan mo ako is not asking a question about grammar, they are saying something, and a bot that refuses that is failing the most basic job it has.",
+      "variations": [
+        "The noun tangnan itself is the feeling of missing someone, and it is the ordinary word a person uses about family, a partner, or someone who has gone away or died. Tangnan means to miss someone, and it is the word for missing a person rather than for an object, so tangnan mo ako means I miss you and tangnan mo siya means I miss him or her. In Cebuano the corresponding word is naihi, and the two are close enough in meaning that a bilingual speaker uses them differently depending on the person they are speaking to. What makes the word a good example of why the bank needs everyday language is that a person saying tangnan mo ako is not asking a question about grammar, they are saying something, and a bot that refuses that is failing the most basic job it has.",
+        "In Cebuano the corresponding word is naihi, and the two are close enough in meaning that a bilingual speaker uses them differently depending on the person they are speaking to. Tangnan means to miss someone, and it is the word for missing a person rather than for an object, so tangnan mo ako means I miss you and tangnan mo siya means I miss him or her. The noun tangnan itself is the feeling of missing someone, and it is the ordinary word a person uses about family, a partner, or someone who has gone away or died. What makes the word a good example of why the bank needs everyday language is that a person saying tangnan mo ako is not asking a question about grammar, they are saying something, and a bot that refuses that is failing the most basic job it has."
+      ],
+      "tl": "tangnan",
+      "bis": "naihi"
+    }
+  ],
+  "lang": "english",
+  "group": "conversations",
+  "sub": "food-and-meals",
+  "title": "Food and meals",
+  "groupTitle": "Conversations"
+}

@@ -1,0 +1,117 @@
+{
+  "topic": "cebuano-pronouns",
+  "entries": [
+    {
+      "id": "ceb-pronouns-000001",
+      "topic": "cebuano-pronouns",
+      "intent": "definition",
+      "concept": "kami",
+      "keywords": [
+        "kami",
+        "we",
+        "they",
+        "plural",
+        "group",
+        "means",
+        "cebuano",
+        "covers",
+        "both",
+        "genuine"
+      ],
+      "patterns": [
+        "what is kami",
+        "kami",
+        "explain kami",
+        "definition of kami",
+        "kami meaning",
+        "kami o kita",
+        "ano ang kami",
+        "unsa ang kami"
+      ],
+      "answer": "Kami means we or they, and in Cebuano it covers both, which is a genuine difference from Tagalog where tayo and kami are carefully kept apart. As a pronoun it can be inclusive or exclusive depending on context, so the meaning comes from who is speaking. It is also the polite plural form of kamaw, which is the singular you.",
+      "variations": [
+        "As a pronoun it can be inclusive or exclusive depending on context, so the meaning comes from who is speaking. Kami means we or they, and in Cebuano it covers both, which is a genuine difference from Tagalog where tayo and kami are carefully kept apart. It is also the polite plural form of kamaw, which is the singular you.",
+        "It is also the polite plural form of kamaw, which is the singular you. Kami means we or they, and in Cebuano it covers both, which is a genuine difference from Tagalog where tayo and kami are carefully kept apart. As a pronoun it can be inclusive or exclusive depending on context, so the meaning comes from who is speaking."
+      ],
+      "tl": "kami",
+      "bis": "kami"
+    },
+    {
+      "id": "ceb-pronouns-000002",
+      "topic": "cebuano-pronouns",
+      "intent": "definition",
+      "concept": "iyang",
+      "keywords": [
+        "iyang",
+        "his",
+        "her",
+        "its",
+        "possessive",
+        "akong",
+        "niya",
+        "kanya",
+        "siya",
+        "imong",
+        "ikaw",
+        "pair"
+      ],
+      "patterns": [
+        "what is iyang",
+        "iyang",
+        "explain iyang",
+        "definition of iyang",
+        "iyang meaning",
+        "unsa meaning nga iyang",
+        "iyang vs niya",
+        "ano ang kanya",
+        "unsa ang iyang"
+      ],
+      "answer": "Iyang is the possessive form of siya, and it does the same job imong does for ikaw, so the pair together covers your and his or her. The reason it is a form worth learning is that it changes with the subject it belongs to, and the three common ones are akong for I, imong for you, and iyang for he or she, each one taking a final letter when the noun follows it: akong pangalan, imong balay, iyang libro. The respectful version of the third person is niya, which is used to someone of higher status in the same way atong is for the second person. What catches a learner is that the thing possessed is usually assumed from context, so iyang means his book or her book interchangeably unless the listener already knows which, and the same word is used for an animal and for an object.",
+      "variations": [
+        "The reason it is a form worth learning is that it changes with the subject it belongs to, and the three common ones are akong for I, imong for you, and iyang for he or she, each one taking a final letter when the noun follows it: akong pangalan, imong balay, iyang libro. Iyang is the possessive form of siya, and it does the same job imong does for ikaw, so the pair together covers your and his or her. The respectful version of the third person is niya, which is used to someone of higher status in the same way atong is for the second person. What catches a learner is that the thing possessed is usually assumed from context, so iyang means his book or her book interchangeably unless the listener already knows which, and the same word is used for an animal and for an object.",
+        "The respectful version of the third person is niya, which is used to someone of higher status in the same way atong is for the second person. Iyang is the possessive form of siya, and it does the same job imong does for ikaw, so the pair together covers your and his or her. The reason it is a form worth learning is that it changes with the subject it belongs to, and the three common ones are akong for I, imong for you, and iyang for he or she, each one taking a final letter when the noun follows it: akong pangalan, imong balay, iyang libro. What catches a learner is that the thing possessed is usually assumed from context, so iyang means his book or her book interchangeably unless the listener already knows which, and the same word is used for an animal and for an object."
+      ],
+      "tl": "kanya",
+      "bis": "iyang"
+    },
+    {
+      "id": "ceb-pronouns-000003",
+      "topic": "cebuano-pronouns",
+      "intent": "definition",
+      "concept": "ikaw",
+      "keywords": [
+        "ikaw",
+        "you",
+        "kamaw",
+        "familiar",
+        "polite",
+        "means",
+        "singular",
+        "everyday",
+        "friends"
+      ],
+      "patterns": [
+        "what is ikaw",
+        "ikaw",
+        "explain ikaw",
+        "definition of ikaw",
+        "ikaw meaning",
+        "ikaw o kamaw which is polite",
+        "ano ang ikaw",
+        "unsa ang ikaw"
+      ],
+      "answer": "Ikaw means you, singular and familiar, and it is the everyday form used with friends, family and children. The polite form is kamaw, and that is the one to use with a customer, an elder or a stranger. Using ikaw to someone you have just met can come across as too familiar, so kamaw is the safer default in a shop.",
+      "variations": [
+        "The polite form is kamaw, and that is the one to use with a customer, an elder or a stranger. Ikaw means you, singular and familiar, and it is the everyday form used with friends, family and children. Using ikaw to someone you have just met can come across as too familiar, so kamaw is the safer default in a shop.",
+        "Using ikaw to someone you have just met can come across as too familiar, so kamaw is the safer default in a shop. Ikaw means you, singular and familiar, and it is the everyday form used with friends, family and children. The polite form is kamaw, and that is the one to use with a customer, an elder or a stranger."
+      ],
+      "tl": "ikaw",
+      "bis": "ikaw"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "pronouns",
+  "title": "Pronouns",
+  "groupTitle": "Cebuano"
+}

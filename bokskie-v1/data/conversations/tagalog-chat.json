@@ -1,0 +1,500 @@
+{
+  "topic": "conversations-tagalog-chat",
+  "entries": [
+    {
+      "id": "con-tagalog-chat-000001",
+      "topic": "conversations-tagalog-chat",
+      "intent": "definition",
+      "concept": "ang init",
+      "keywords": [
+        "ang init",
+        "hot",
+        "weather",
+        "heat",
+        "complain",
+        "remark",
+        "fact",
+        "agreement",
+        "company",
+        "init",
+        "complaint",
+        "delivered",
+        "statement",
+        "default"
+      ],
+      "patterns": [
+        "what is ang init",
+        "ang init",
+        "explain ang init",
+        "definition of ang init",
+        "ang init meaning",
+        "what does ang init mean",
+        "how to reply to ang init",
+        "is ang init a question",
+        "bakit ang init",
+        "ano ang ang init",
+        "unsa ang maayo na kaayo"
+      ],
+      "answer": "Ang init is a complaint delivered as a statement of fact, and it is the default Filipino response to weather that is too much. Nothing is being asked, so answering with advice about hydration is answering a different conversation. The pattern is worth recognising across languages: a remark with no question mark often wants agreement and company rather than a solution, and treating it as a request is how small talk dies.",
+      "variations": [
+        "Nothing is being asked, so answering with advice about hydration is answering a different conversation. Ang init is a complaint delivered as a statement of fact, and it is the default Filipino response to weather that is too much. The pattern is worth recognising across languages: a remark with no question mark often wants agreement and company rather than a solution, and treating it as a request is how small talk dies.",
+        "The pattern is worth recognising across languages: a remark with no question mark often wants agreement and company rather than a solution, and treating it as a request is how small talk dies. Ang init is a complaint delivered as a statement of fact, and it is the default Filipino response to weather that is too much. Nothing is being asked, so answering with advice about hydration is answering a different conversation."
+      ],
+      "tl": "ang init",
+      "bis": "maayo na kaayo"
+    },
+    {
+      "id": "con-tagalog-chat-000002",
+      "topic": "conversations-tagalog-chat",
+      "intent": "definition",
+      "concept": "nanghinihiya ako",
+      "keywords": [
+        "nanghinihiya ako",
+        "embarrassed",
+        "shame",
+        "awkward",
+        "progressive",
+        "social",
+        "now",
+        "durable",
+        "reaction",
+        "nanghinihiya",
+        "kinakabahan",
+        "marking",
+        "something"
+      ],
+      "patterns": [
+        "what is nanghinihiya ako",
+        "nanghinihiya ako",
+        "explain nanghinihiya ako",
+        "definition of nanghinihiya ako",
+        "nanghinihiya ako meaning",
+        "what does nanghinihiya ako mean",
+        "difference between hiya and kahihiya",
+        "how to reply when embarrassed",
+        "ano ang nanghinihiya ako",
+        "unsa ang maa ang akong kab-iya"
+      ],
+      "answer": "Nanghinihiya ako is embarrassed, and like kinakabahan it is the progressive form, marking something happening to the speaker right now rather than a settled trait. The distinction from hiya is worth keeping: hiya is closer to shame, a more durable thing, while nanghinihiya is the ordinary social embarrassment of saying or doing something awkward. In practice the person is usually telling you what happened and expects you not to make it larger.",
+      "variations": [
+        "The distinction from hiya is worth keeping: hiya is closer to shame, a more durable thing, while nanghinihiya is the ordinary social embarrassment of saying or doing something awkward. Nanghinihiya ako is embarrassed, and like kinakabahan it is the progressive form, marking something happening to the speaker right now rather than a settled trait. In practice the person is usually telling you what happened and expects you not to make it larger.",
+        "In practice the person is usually telling you what happened and expects you not to make it larger. Nanghinihiya ako is embarrassed, and like kinakabahan it is the progressive form, marking something happening to the speaker right now rather than a settled trait. The distinction from hiya is worth keeping: hiya is closer to shame, a more durable thing, while nanghinihiya is the ordinary social embarrassment of saying or doing something awkward."
+      ],
+      "tl": "nanghinihiya ako",
+      "bis": "maa ang akong kab-iya"
+    },
+    {
+      "id": "con-tagalog-chat-000003",
+      "topic": "conversations-tagalog-chat",
+      "intent": "definition",
+      "concept": "tama ka",
+      "keywords": [
+        "tama ka",
+        "right",
+        "correct",
+        "agree",
+        "disagree",
+        "stop",
+        "tone",
+        "silence",
+        "concession",
+        "meaning",
+        "tama",
+        "ordinary",
+        "conversation",
+        "means",
+        "opposite"
+      ],
+      "patterns": [
+        "what is tama ka",
+        "tama ka",
+        "explain tama ka",
+        "definition of tama ka",
+        "tama ka meaning",
+        "what does tama ka mean",
+        "is tama ka always agreement",
+        "how to disagree politely in tagalog",
+        "ano ang tama ka",
+        "unsa ang husto ka"
+      ],
+      "answer": "Tama ka is you are right, and in ordinary conversation it very often means the opposite - I am agreeing so we can stop arguing. Filipino speakers distinguish the honest agreement from the conversational one by tone and by whether they add anything after it, and the difference matters when someone is asking whether you actually agree with them. A bare tama ka followed by silence is closer to the second meaning than the first.",
+      "variations": [
+        "Filipino speakers distinguish the honest agreement from the conversational one by tone and by whether they add anything after it, and the difference matters when someone is asking whether you actually agree with them. Tama ka is you are right, and in ordinary conversation it very often means the opposite - I am agreeing so we can stop arguing. A bare tama ka followed by silence is closer to the second meaning than the first.",
+        "A bare tama ka followed by silence is closer to the second meaning than the first. Tama ka is you are right, and in ordinary conversation it very often means the opposite - I am agreeing so we can stop arguing. Filipino speakers distinguish the honest agreement from the conversational one by tone and by whether they add anything after it, and the difference matters when someone is asking whether you actually agree with them."
+      ],
+      "tl": "tama ka",
+      "bis": "husto ka"
+    },
+    {
+      "id": "con-tagalog-chat-000004",
+      "topic": "conversations-tagalog-chat",
+      "intent": "definition",
+      "concept": "nag-aalala ako sa iyo",
+      "keywords": [
+        "nag-aalala ako sa iyo",
+        "worry",
+        "concern",
+        "care",
+        "declare",
+        "feel",
+        "receive",
+        "acknowledge",
+        "information",
+        "warm",
+        "aalala",
+        "declaration",
+        "request",
+        "warmer"
+      ],
+      "patterns": [
+        "what is nag-aalala ako sa iyo",
+        "nag-aalala ako sa iyo",
+        "explain nag-aalala ako sa iyo",
+        "definition of nag-aalala ako sa iyo",
+        "nag-aalala ako sa iyo meaning",
+        "what does nag-aalala ako sa iyo mean",
+        "how to reply to nag-aalala ako sa iyo",
+        "is it romantic",
+        "ano ang nag-aalala ako sa iyo",
+        "unsa ang nabahala ako sa imong kaugnayan"
+      ],
+      "answer": "Nag-aalala ako sa iyo is a declaration of concern that is not a request, and it is one of the warmer things said in Filipino without being romantic. The progressive nag- marks it as current, and the sa iyo is what turns a general worry into a personal one. Someone saying it is usually checking that the feeling was received, so an acknowledgement lands better than information.",
+      "variations": [
+        "The progressive nag- marks it as current, and the sa iyo is what turns a general worry into a personal one. Nag-aalala ako sa iyo is a declaration of concern that is not a request, and it is one of the warmer things said in Filipino without being romantic. Someone saying it is usually checking that the feeling was received, so an acknowledgement lands better than information.",
+        "Someone saying it is usually checking that the feeling was received, so an acknowledgement lands better than information. Nag-aalala ako sa iyo is a declaration of concern that is not a request, and it is one of the warmer things said in Filipino without being romantic. The progressive nag- marks it as current, and the sa iyo is what turns a general worry into a personal one."
+      ],
+      "tl": "nag-aalala ako sa iyo",
+      "bis": "nabahala ako sa imong kaugnayan"
+    },
+    {
+      "id": "con-tagalog-chat-000005",
+      "topic": "conversations-tagalog-chat",
+      "intent": "definition",
+      "concept": "okay lang ako",
+      "keywords": [
+        "okay lang ako",
+        "okay",
+        "fine",
+        "all-clear",
+        "coping",
+        "reassure",
+        "reply",
+        "preamble",
+        "context",
+        "lang",
+        "clear",
+        "opposite",
+        "directions"
+      ],
+      "patterns": [
+        "what is okay lang ako",
+        "okay lang ako",
+        "explain okay lang ako",
+        "definition of okay lang ako",
+        "okay lang ako meaning",
+        "what does okay lang ako mean",
+        "is okay lang ako always true",
+        "how to reply to okay lang ako",
+        "ano ang okay lang ako",
+        "unsa ang okay gyud ako"
+      ],
+      "answer": "Okay lang ako is the Filipino all-clear, and it is used in two opposite directions that have to be read from the situation. Spoken as a reply it means I am fine, genuinely. Spoken as a preamble it means I am coping, do not worry - and the person is usually not fine, which is why the two are not interchangeable. Someone asking okay ka na after clearly having a hard time is offering the second meaning whether or not that was intended.",
+      "variations": [
+        "Spoken as a reply it means I am fine, genuinely. Okay lang ako is the Filipino all-clear, and it is used in two opposite directions that have to be read from the situation. Spoken as a preamble it means I am coping, do not worry - and the person is usually not fine, which is why the two are not interchangeable. Someone asking okay ka na after clearly having a hard time is offering the second meaning whether or not that was intended.",
+        "Spoken as a preamble it means I am coping, do not worry - and the person is usually not fine, which is why the two are not interchangeable. Okay lang ako is the Filipino all-clear, and it is used in two opposite directions that have to be read from the situation. Spoken as a reply it means I am fine, genuinely. Someone asking okay ka na after clearly having a hard time is offering the second meaning whether or not that was intended."
+      ],
+      "tl": "okay lang ako",
+      "bis": "okay gyud ako"
+    },
+    {
+      "id": "con-tagalog-chat-000006",
+      "topic": "conversations-tagalog-chat",
+      "intent": "definition",
+      "concept": "susulongin kita",
+      "keywords": [
+        "susulongin kita",
+        "promise",
+        "future",
+        "busy",
+        "difficult",
+        "forget",
+        "specific",
+        "weight",
+        "susulongin",
+        "kita",
+        "carries"
+      ],
+      "patterns": [
+        "what is susulongin kita",
+        "susulongin kita",
+        "explain susulongin kita",
+        "definition of susulongin kita",
+        "susulongin kita meaning",
+        "what does susulongin kita mean",
+        "is susulongin kita a promise",
+        "how to reply to susulongin kita",
+        "ano ang susulongin kita",
+        "unsa ang makatabang ako nimo"
+      ],
+      "answer": "Susulongin kita is a promise about the future, and it carries more weight than the English promise to keep in touch because it names a specific act rather than a general intention. The sus- prefix is the future, and the object is the person rather than the thing, so the promise is about showing up. It is the sort of sentence people say when they are about to be busy or difficult, which is exactly when it is most likely to be forgotten.",
+      "variations": [
+        "The sus- prefix is the future, and the object is the person rather than the thing, so the promise is about showing up. Susulongin kita is a promise about the future, and it carries more weight than the English promise to keep in touch because it names a specific act rather than a general intention. It is the sort of sentence people say when they are about to be busy or difficult, which is exactly when it is most likely to be forgotten.",
+        "It is the sort of sentence people say when they are about to be busy or difficult, which is exactly when it is most likely to be forgotten. Susulongin kita is a promise about the future, and it carries more weight than the English promise to keep in touch because it names a specific act rather than a general intention. The sus- prefix is the future, and the object is the person rather than the thing, so the promise is about showing up."
+      ],
+      "tl": "susulongin kita",
+      "bis": "makatabang ako nimo"
+    },
+    {
+      "id": "con-tagalog-chat-000007",
+      "topic": "conversations-tagalog-chat",
+      "intent": "definition",
+      "concept": "busy ako",
+      "keywords": [
+        "busy ako",
+        "busy",
+        "occupied",
+        "working",
+        "status",
+        "update",
+        "reply",
+        "workload",
+        "tagalog",
+        "request",
+        "anything",
+        "report"
+      ],
+      "patterns": [
+        "what is busy ako",
+        "busy ako",
+        "explain busy ako",
+        "definition of busy ako",
+        "busy ako meaning",
+        "what does busy ako mean",
+        "how to reply to busy ako",
+        "is busy ako a question",
+        "paano sumagot sa busy ako",
+        "ano ang busy ako",
+        "unsa ang busy ako"
+      ],
+      "answer": "Busy in Tagalog is usually not a request for anything. It is a status report, and the useful reply is neither advice nor a question about the work. The word comes from English and has kept the same meaning, so \"busy ako\" is the ordinary way to say a person is occupied. Replying with \"bakit busy ka\" is the common mistake, because it asks for a justification the speaker was not offering.",
+      "variations": [
+        "It is a status report, and the useful reply is neither advice nor a question about the work. Busy in Tagalog is usually not a request for anything. The word comes from English and has kept the same meaning, so \"busy ako\" is the ordinary way to say a person is occupied. Replying with \"bakit busy ka\" is the common mistake, because it asks for a justification the speaker was not offering.",
+        "The word comes from English and has kept the same meaning, so \"busy ako\" is the ordinary way to say a person is occupied. Busy in Tagalog is usually not a request for anything. It is a status report, and the useful reply is neither advice nor a question about the work. Replying with \"bakit busy ka\" is the common mistake, because it asks for a justification the speaker was not offering."
+      ],
+      "tl": "busy ako",
+      "bis": "busy ako"
+    },
+    {
+      "id": "con-tagalog-chat-000008",
+      "topic": "conversations-tagalog-chat",
+      "intent": "definition",
+      "concept": "puntahan kita",
+      "keywords": [
+        "puntahan kita",
+        "come",
+        "visit",
+        "going",
+        "over",
+        "leaving",
+        "announcement",
+        "plan",
+        "timing",
+        "intent",
+        "puntahan",
+        "kita",
+        "means",
+        "practice",
+        "statement"
+      ],
+      "patterns": [
+        "what is puntahan kita",
+        "puntahan kita",
+        "explain puntahan kita",
+        "definition of puntahan kita",
+        "puntahan kita meaning",
+        "what does puntahan kita mean",
+        "is puntahan kita a request",
+        "how to reply to puntahan kita",
+        "ano ang puntahan kita",
+        "unsa ang puntahan ako nimo"
+      ],
+      "answer": "Puntahan kita means I will come over to you, and in practice it is a statement of intent rather than a request for permission, even though the grammar has no subject marker to say so. The same shape covers leaving - \"alis na ako\" - and both are announcements a person makes while already moving. Replying with a question about the timing tends to read as not having heard the message.",
+      "variations": [
+        "The same shape covers leaving - \"alis na ako\" - and both are announcements a person makes while already moving. Puntahan kita means I will come over to you, and in practice it is a statement of intent rather than a request for permission, even though the grammar has no subject marker to say so. Replying with a question about the timing tends to read as not having heard the message.",
+        "Replying with a question about the timing tends to read as not having heard the message. Puntahan kita means I will come over to you, and in practice it is a statement of intent rather than a request for permission, even though the grammar has no subject marker to say so. The same shape covers leaving - \"alis na ako\" - and both are announcements a person makes while already moving."
+      ],
+      "tl": "puntahan kita",
+      "bis": "puntahan ako nimo"
+    },
+    {
+      "id": "con-tagalog-chat-000009",
+      "topic": "conversations-tagalog-chat",
+      "intent": "definition",
+      "concept": "kinakabahan ako",
+      "keywords": [
+        "kinakabahan ako",
+        "nervous",
+        "worried",
+        "anxious",
+        "afraid",
+        "progressive",
+        "now",
+        "reassurance",
+        "listen",
+        "opening",
+        "kinakabahan",
+        "tagalog",
+        "kabahan",
+        "doing",
+        "real"
+      ],
+      "patterns": [
+        "what is kinakabahan ako",
+        "kinakabahan ako",
+        "explain kinakabahan ako",
+        "definition of kinakabahan ako",
+        "kinakabahan ako meaning",
+        "what does kinakabahan ako mean",
+        "how to reply to kinakabahan ako",
+        "is kinakabahan ako asking for help",
+        "ano ang kinakabahan ako",
+        "unsa ang nakahadlok ako"
+      ],
+      "answer": "Kinakabahan ako is the Tagalog progressive of kabahan, and the progressive is doing real work here: it describes a state that is happening right now, which is different from kabahan ako as a general fact about yourself. The reason it needs care is that it is nearly always an opening move. Somebody who says it is usually looking for either reassurance or a listener, and the reliable answer acknowledges the feeling before asking a single practical question.",
+      "variations": [
+        "The reason it needs care is that it is nearly always an opening move. Kinakabahan ako is the Tagalog progressive of kabahan, and the progressive is doing real work here: it describes a state that is happening right now, which is different from kabahan ako as a general fact about yourself. Somebody who says it is usually looking for either reassurance or a listener, and the reliable answer acknowledges the feeling before asking a single practical question.",
+        "Somebody who says it is usually looking for either reassurance or a listener, and the reliable answer acknowledges the feeling before asking a single practical question. Kinakabahan ako is the Tagalog progressive of kabahan, and the progressive is doing real work here: it describes a state that is happening right now, which is different from kabahan ako as a general fact about yourself. The reason it needs care is that it is nearly always an opening move."
+      ],
+      "tl": "kinakabahan ako",
+      "bis": "nakahadlok ako"
+    },
+    {
+      "id": "con-tagalog-chat-000010",
+      "topic": "conversations-tagalog-chat",
+      "intent": "definition",
+      "concept": "kumain ka na ba",
+      "keywords": [
+        "kumain ka na ba",
+        "eaten",
+        "eat",
+        "food",
+        "meal",
+        "care",
+        "check",
+        "neutral",
+        "concern",
+        "tone",
+        "kumain",
+        "single",
+        "ordinary",
+        "sentence",
+        "daily"
+      ],
+      "patterns": [
+        "what is kumain ka na ba",
+        "kumain ka na ba",
+        "explain kumain ka na ba",
+        "definition of kumain ka na ba",
+        "kumain ka na ba meaning",
+        "what does kumain ka na ba mean",
+        "how to reply to kumain ka na",
+        "is kumain ka na ba a real question",
+        "ano ang kumain ka na ba",
+        "unsa ang naa ka na ba mag-igon"
+      ],
+      "answer": "Kumain ka na ba is the single most ordinary sentence in Filipino daily conversation, and it is a question that does not want an answer about food. It means have you eaten, and the real question underneath is a form of care. The variants matter for tone: \"kumain ka na\" is neutral, \"kumain ka na ba\" is a gentle check, and the question particle adds noticeable concern when aimed at an elder or someone unwell.",
+      "variations": [
+        "It means have you eaten, and the real question underneath is a form of care. Kumain ka na ba is the single most ordinary sentence in Filipino daily conversation, and it is a question that does not want an answer about food. The variants matter for tone: \"kumain ka na\" is neutral, \"kumain ka na ba\" is a gentle check, and the question particle adds noticeable concern when aimed at an elder or someone unwell.",
+        "The variants matter for tone: \"kumain ka na\" is neutral, \"kumain ka na ba\" is a gentle check, and the question particle adds noticeable concern when aimed at an elder or someone unwell. Kumain ka na ba is the single most ordinary sentence in Filipino daily conversation, and it is a question that does not want an answer about food. It means have you eaten, and the real question underneath is a form of care."
+      ],
+      "tl": "kumain ka na ba",
+      "bis": "naa ka na ba mag-igon"
+    },
+    {
+      "id": "con-tagalog-chat-000011",
+      "topic": "conversations-tagalog-chat",
+      "intent": "definition",
+      "concept": "sige",
+      "keywords": [
+        "sige",
+        "yes",
+        "agree",
+        "okay",
+        "accept",
+        "hear",
+        "consent",
+        "argument",
+        "context",
+        "means",
+        "ahead",
+        "short",
+        "enough"
+      ],
+      "patterns": [
+        "what is sige",
+        "sige",
+        "explain sige",
+        "definition of sige",
+        "sige meaning",
+        "what does sige mean",
+        "is sige consent",
+        "how to reply to sige",
+        "is sige a yes",
+        "ano ang sige",
+        "unsa ang okay"
+      ],
+      "answer": "Sige is the Filipino yes that means go ahead, and it is short enough to pass as agreement when it is not. It accepts a plan, it acknowledges information without requiring a reply, and among people who know each other it can mean I heard you, I am not going to argue, which is not consent. The context decides which, and the difference matters when someone is relying on the answer.",
+      "variations": [
+        "It accepts a plan, it acknowledges information without requiring a reply, and among people who know each other it can mean I heard you, I am not going to argue, which is not consent. Sige is the Filipino yes that means go ahead, and it is short enough to pass as agreement when it is not. The context decides which, and the difference matters when someone is relying on the answer.",
+        "The context decides which, and the difference matters when someone is relying on the answer. Sige is the Filipino yes that means go ahead, and it is short enough to pass as agreement when it is not. It accepts a plan, it acknowledges information without requiring a reply, and among people who know each other it can mean I heard you, I am not going to argue, which is not consent."
+      ],
+      "tl": "sige",
+      "bis": "okay"
+    },
+    {
+      "id": "con-tagalog-chat-000012",
+      "topic": "conversations-tagalog-chat",
+      "intent": "definition",
+      "concept": "pasensya na",
+      "keywords": [
+        "pasensya na",
+        "sorry",
+        "apology",
+        "softener",
+        "settle",
+        "closed",
+        "open",
+        "final",
+        "meaning",
+        "pasensya",
+        "attached",
+        "marks",
+        "settling"
+      ],
+      "patterns": [
+        "what is pasensya na",
+        "pasensya na",
+        "explain pasensya na",
+        "definition of pasensya na",
+        "pasensya na meaning",
+        "what does pasensya na mean",
+        "difference between pasensya and sorry",
+        "how to apologise in tagalog",
+        "ano ang pasensya na",
+        "unsa ang duha sorry"
+      ],
+      "answer": "Pasensya na is sorry with a softener attached. The na marks it as settling something rather than opening a fresh complaint, so it is what you say when you have already explained once and want to move on. It is not the same as sorry as a standalone, which leaves the matter open. Filipino separates these two uses in a way English does not, and treating them as interchangeable can make an apology sound more final than the speaker meant.",
+      "variations": [
+        "The na marks it as settling something rather than opening a fresh complaint, so it is what you say when you have already explained once and want to move on. Pasensya na is sorry with a softener attached. It is not the same as sorry as a standalone, which leaves the matter open. Filipino separates these two uses in a way English does not, and treating them as interchangeable can make an apology sound more final than the speaker meant.",
+        "It is not the same as sorry as a standalone, which leaves the matter open. Pasensya na is sorry with a softener attached. The na marks it as settling something rather than opening a fresh complaint, so it is what you say when you have already explained once and want to move on. Filipino separates these two uses in a way English does not, and treating them as interchangeable can make an apology sound more final than the speaker meant."
+      ],
+      "tl": "pasensya na",
+      "bis": "duha sorry"
+    }
+  ],
+  "lang": "english",
+  "group": "conversations",
+  "sub": "tagalog-chat",
+  "title": "Tagalog chat",
+  "groupTitle": "Conversations"
+}

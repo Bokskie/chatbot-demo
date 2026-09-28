@@ -1,0 +1,86 @@
+{
+  "topic": "cebuano-basic-words",
+  "entries": [
+    {
+      "id": "ceb-basic-words-000001",
+      "topic": "cebuano-basic-words",
+      "intent": "definition",
+      "concept": "oo",
+      "keywords": [
+        "oo",
+        "yes",
+        "oh",
+        "surprise",
+        "agree",
+        "means",
+        "ordinary",
+        "affirmative",
+        "answer",
+        "cebuano",
+        "alongside"
+      ],
+      "patterns": [
+        "what is oo",
+        "oo",
+        "explain oo",
+        "definition of oo",
+        "oo meaning",
+        "unsaon nga mo sabutin oo",
+        "ano ang oo",
+        "unsa ang oo"
+      ],
+      "answer": "Oo means yes, and it is the ordinary affirmative answer in Cebuano. Alongside it is a third response, the polite or acknowledging yes that neither fully agrees nor refuses, and treating that as a plain yes is a common misunderstanding. Oo can also be a surprise marker, meaning oh, as in oo, ikaw man na.",
+      "variations": [
+        "Alongside it is a third response, the polite or acknowledging yes that neither fully agrees nor refuses, and treating that as a plain yes is a common misunderstanding. Oo means yes, and it is the ordinary affirmative answer in Cebuano. Oo can also be a surprise marker, meaning oh, as in oo, ikaw man na.",
+        "Oo can also be a surprise marker, meaning oh, as in oo, ikaw man na. Oo means yes, and it is the ordinary affirmative answer in Cebuano. Alongside it is a third response, the polite or acknowledging yes that neither fully agrees nor refuses, and treating that as a plain yes is a common misunderstanding."
+      ],
+      "tl": "oo",
+      "bis": "oo"
+    },
+    {
+      "id": "ceb-basic-words-000002",
+      "topic": "cebuano-basic-words",
+      "intent": "definition",
+      "concept": "usab",
+      "keywords": [
+        "usab",
+        "also",
+        "too",
+        "tanan",
+        "pud",
+        "again",
+        "addition",
+        "group",
+        "din",
+        "means",
+        "ordinary",
+        "word",
+        "adding",
+        "someone"
+      ],
+      "patterns": [
+        "what is usab",
+        "usab",
+        "explain usab",
+        "definition of usab",
+        "usab meaning",
+        "unsa meaning nga usab",
+        "usab vs tanan",
+        "ano ang din",
+        "unsa ang usab"
+      ],
+      "answer": "Usab means also or too, and it is the ordinary word for adding someone or something to what has just been said, most often appearing at the front of a sentence. A common near word is tanan, which is a little different in that it points at a group or a whole rather than adding one more, so saying usab ka niya means he too while saying tanan kami means all of us. Another form is pud, which is used to repeat a story that has come up again and can carry a note of mild impatience, so saying pud nga na means so you are telling me that again. Usab also works with the word tanan to mean everyone, and a learner who reaches for tanan in the sense of also produces something that is understood but reads as a claim about a group rather than an addition.",
+      "variations": [
+        "A common near word is tanan, which is a little different in that it points at a group or a whole rather than adding one more, so saying usab ka niya means he too while saying tanan kami means all of us. Usab means also or too, and it is the ordinary word for adding someone or something to what has just been said, most often appearing at the front of a sentence. Another form is pud, which is used to repeat a story that has come up again and can carry a note of mild impatience, so saying pud nga na means so you are telling me that again. Usab also works with the word tanan to mean everyone, and a learner who reaches for tanan in the sense of also produces something that is understood but reads as a claim about a group rather than an addition.",
+        "Another form is pud, which is used to repeat a story that has come up again and can carry a note of mild impatience, so saying pud nga na means so you are telling me that again. Usab means also or too, and it is the ordinary word for adding someone or something to what has just been said, most often appearing at the front of a sentence. A common near word is tanan, which is a little different in that it points at a group or a whole rather than adding one more, so saying usab ka niya means he too while saying tanan kami means all of us. Usab also works with the word tanan to mean everyone, and a learner who reaches for tanan in the sense of also produces something that is understood but reads as a claim about a group rather than an addition."
+      ],
+      "tl": "din",
+      "bis": "usab"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "basic-words",
+  "title": "Basic words",
+  "groupTitle": "Cebuano"
+}

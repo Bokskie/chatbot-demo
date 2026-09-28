@@ -1,0 +1,227 @@
+{
+  "topic": "cebuano-places",
+  "entries": [
+    {
+      "id": "ceb-places-000001",
+      "topic": "cebuano-places",
+      "intent": "definition",
+      "concept": "pilipinas",
+      "keywords": [
+        "pilipinas",
+        "filipinas",
+        "asya",
+        "pulo",
+        "cebu",
+        "archipelago",
+        "timog",
+        "silangang",
+        "laburoha"
+      ],
+      "patterns": [
+        "what is pilipinas",
+        "pilipinas",
+        "explain pilipinas",
+        "definition of pilipinas",
+        "pilipinas meaning",
+        "unsa ang pilipinas",
+        "unsa ang pulo",
+        "ibig sabihin ng pilipinas",
+        "ano ang pilipinas",
+        "unsa ang pilipinas"
+      ],
+      "answer": "Ang Pilipinas mao ang archipelago nga naa sa timog-silangang Asya, nga may laburoha ka pulo, nga ang Cebu, ang Negros, ang Luzon, ang Mindanao. Sa Cebuano, ang \"pilipinas\" gikan sa Spanish nga \"Filipinas\", nga usa nga kaayo nga sulat. Ang \"Pilipinas\" gyud nga mao ang opisyal nga ngal, apan ang \"Pinas\" usa lang kaayo nga konsepto, ang affectionate nga gigikan.",
+      "variations": [
+        "Sa Cebuano, ang \"pilipinas\" gikan sa Spanish nga \"Filipinas\", nga usa nga kaayo nga sulat. Ang Pilipinas mao ang archipelago nga naa sa timog-silangang Asya, nga may laburoha ka pulo, nga ang Cebu, ang Negros, ang Luzon, ang Mindanao. Ang \"Pilipinas\" gyud nga mao ang opisyal nga ngal, apan ang \"Pinas\" usa lang kaayo nga konsepto, ang affectionate nga gigikan.",
+        "Ang \"Pilipinas\" gyud nga mao ang opisyal nga ngal, apan ang \"Pinas\" usa lang kaayo nga konsepto, ang affectionate nga gigikan. Ang Pilipinas mao ang archipelago nga naa sa timog-silangang Asya, nga may laburoha ka pulo, nga ang Cebu, ang Negros, ang Luzon, ang Mindanao. Sa Cebuano, ang \"pilipinas\" gikan sa Spanish nga \"Filipinas\", nga usa nga kaayo nga sulat."
+      ],
+      "tl": "pilipinas",
+      "bis": "pilipinas"
+    },
+    {
+      "id": "ceb-places-000002",
+      "topic": "cebuano-places",
+      "intent": "definition",
+      "concept": "cebu",
+      "keywords": [
+        "cebu",
+        "pulo",
+        "suwat",
+        "capitol",
+        "visayas",
+        "gitawag",
+        "pabilo",
+        "silangang"
+      ],
+      "patterns": [
+        "what is cebu",
+        "cebu",
+        "explain cebu",
+        "definition of cebu",
+        "cebu meaning",
+        "unsa ang cebu",
+        "unsa ang suwat",
+        "unsa ang cebu city",
+        "ano ang cebu",
+        "unsa ang cebu"
+      ],
+      "answer": "Ang Cebu mao ang pulo nga gitawag na nga suwat, nga usa ka pabilo sa silangang Cebu, nga ang Cebu City mao ang capitol. Usa nga kontinente ang Cebu, nga dili mihimong duha ka pulo bisan kini dako. Sa Bisaya, ang Cebu mao kaayo nga ang natang nga Pulo, nga usa nga konsepto nga gikan sa Cebu ang hangtod sa Luzon, ang Taga-Visayas.",
+      "variations": [
+        "Usa nga kontinente ang Cebu, nga dili mihimong duha ka pulo bisan kini dako. Ang Cebu mao ang pulo nga gitawag na nga suwat, nga usa ka pabilo sa silangang Cebu, nga ang Cebu City mao ang capitol. Sa Bisaya, ang Cebu mao kaayo nga ang natang nga Pulo, nga usa nga konsepto nga gikan sa Cebu ang hangtod sa Luzon, ang Taga-Visayas.",
+        "Sa Bisaya, ang Cebu mao kaayo nga ang natang nga Pulo, nga usa nga konsepto nga gikan sa Cebu ang hangtod sa Luzon, ang Taga-Visayas. Ang Cebu mao ang pulo nga gitawag na nga suwat, nga usa ka pabilo sa silangang Cebu, nga ang Cebu City mao ang capitol. Usa nga kontinente ang Cebu, nga dili mihimong duha ka pulo bisan kini dako."
+      ],
+      "tl": "cebu",
+      "bis": "cebu"
+    },
+    {
+      "id": "ceb-places-000003",
+      "topic": "cebuano-places",
+      "intent": "definition",
+      "concept": "balay",
+      "keywords": [
+        "balay",
+        "house",
+        "hanginanan",
+        "pamilya",
+        "akong",
+        "probinsiya",
+        "bahay",
+        "tawo",
+        "labaw",
+        "kaniya"
+      ],
+      "patterns": [
+        "what is balay",
+        "balay",
+        "explain balay",
+        "definition of balay",
+        "balay meaning",
+        "unsa ang balay",
+        "unsa ang akong balay",
+        "ibig sabihin ng balay",
+        "ano ang bahay",
+        "unsa ang balay"
+      ],
+      "answer": "Ang balay mao ang usa ka hanginanan sa usa ka tawo o usa ka pamilya, nga ang labaw sa kaniya nga atong, nga ang pabilo niya nga akong balay, nga mao usab nga kaayo nga konsepto sa: ang balay natin, ang imong balay, ang balay sa probinsiya. Sa Bisaya, ang \"balay\" mao usab kaayo, nga pinaagi ang \"balay\" nga naa sulat.",
+      "variations": [
+        "Sa Bisaya, ang \"balay\" mao usab kaayo, nga pinaagi ang \"balay\" nga naa sulat. Ang balay mao ang usa ka hanginanan sa usa ka tawo o usa ka pamilya, nga ang labaw sa kaniya nga atong, nga ang pabilo niya nga akong balay, nga mao usab nga kaayo nga konsepto sa: ang balay natin, ang imong balay, ang balay sa probinsiya."
+      ],
+      "tl": "bahay",
+      "bis": "balay"
+    },
+    {
+      "id": "ceb-places-000004",
+      "topic": "cebuano-places",
+      "intent": "definition",
+      "concept": "syudad",
+      "keywords": [
+        "syudad",
+        "city",
+        "lugar",
+        "tawo",
+        "negosyo",
+        "pueblo",
+        "lungsod",
+        "daghan",
+        "dako",
+        "adunay"
+      ],
+      "patterns": [
+        "what is syudad",
+        "syudad",
+        "explain syudad",
+        "definition of syudad",
+        "syudad meaning",
+        "unsa ang syudad",
+        "syudad o pueblo",
+        "ibig sabihin ng syudad",
+        "ano ang lungsod",
+        "unsa ang syudad"
+      ],
+      "answer": "Ang syudad mao ang usa ka lugar nga daghan nga tawo nga naa, nga dako, nga adunay mga negosyo, ospital, eskwela. Sa Cebuano, ang \"syudad\" gikan sa English, nga sa Bisaya, ang \"syudad\" mao gyud nga syudad, nga \"poblisyon\" nga gamay pa. Ang \"pueblo\" nga gamit sa Bisaya, nga usa nga konsepto nga naa sulat: ang syudad, ang pueblo, ang barangay.",
+      "variations": [
+        "Sa Cebuano, ang \"syudad\" gikan sa English, nga sa Bisaya, ang \"syudad\" mao gyud nga syudad, nga \"poblisyon\" nga gamay pa. Ang syudad mao ang usa ka lugar nga daghan nga tawo nga naa, nga dako, nga adunay mga negosyo, ospital, eskwela. Ang \"pueblo\" nga gamit sa Bisaya, nga usa nga konsepto nga naa sulat: ang syudad, ang pueblo, ang barangay.",
+        "Ang \"pueblo\" nga gamit sa Bisaya, nga usa nga konsepto nga naa sulat: ang syudad, ang pueblo, ang barangay. Ang syudad mao ang usa ka lugar nga daghan nga tawo nga naa, nga dako, nga adunay mga negosyo, ospital, eskwela. Sa Cebuano, ang \"syudad\" gikan sa English, nga sa Bisaya, ang \"syudad\" mao gyud nga syudad, nga \"poblisyon\" nga gamay pa."
+      ],
+      "tl": "lungsod",
+      "bis": "syudad"
+    },
+    {
+      "id": "ceb-places-000005",
+      "topic": "cebuano-places",
+      "intent": "definition",
+      "concept": "barangay",
+      "keywords": [
+        "barangay",
+        "puro",
+        "probinsiya",
+        "administratib",
+        "kapatagan",
+        "grupo",
+        "pinakamaikong",
+        "yugto",
+        "pilipinas",
+        "pinag",
+        "administrative"
+      ],
+      "patterns": [
+        "what is barangay",
+        "barangay",
+        "explain barangay",
+        "definition of barangay",
+        "barangay meaning",
+        "unsa ang barangay",
+        "barangay o puro",
+        "ibig sabihin ng barangay",
+        "ano ang barangay",
+        "unsa ang barangay"
+      ],
+      "answer": "Ang barangay mao ang pinakamaikong yugto sa Pilipinas, nga ang pinag-uba nga administrative nga grupo sa mga tawo. Dili sama sa puro, nga wala nga kaniyang tinahay nga utod nga hangtod sa kapatagan. Sa 2020, may mahigit sa 149,000 nga barangay sa Pilipinas, nga usa lang kaayo nga konsepto sa: ang syudad, ang probinsiya, ang barangay.",
+      "variations": [
+        "Dili sama sa puro, nga wala nga kaniyang tinahay nga utod nga hangtod sa kapatagan. Ang barangay mao ang pinakamaikong yugto sa Pilipinas, nga ang pinag-uba nga administrative nga grupo sa mga tawo. Sa 2020, may mahigit sa 149,000 nga barangay sa Pilipinas, nga usa lang kaayo nga konsepto sa: ang syudad, ang probinsiya, ang barangay.",
+        "Sa 2020, may mahigit sa 149,000 nga barangay sa Pilipinas, nga usa lang kaayo nga konsepto sa: ang syudad, ang probinsiya, ang barangay. Ang barangay mao ang pinakamaikong yugto sa Pilipinas, nga ang pinag-uba nga administrative nga grupo sa mga tawo. Dili sama sa puro, nga wala nga kaniyang tinahay nga utod nga hangtod sa kapatagan."
+      ],
+      "tl": "barangay",
+      "bis": "barangay"
+    },
+    {
+      "id": "ceb-places-000006",
+      "topic": "cebuano-places",
+      "intent": "definition",
+      "concept": "probinsiya",
+      "keywords": [
+        "probinsiya",
+        "province",
+        "lalawigan",
+        "dibdib",
+        "syudad",
+        "barangay",
+        "pilipinas",
+        "yugto",
+        "dako"
+      ],
+      "patterns": [
+        "what is probinsiya",
+        "probinsiya",
+        "explain probinsiya",
+        "definition of probinsiya",
+        "probinsiya meaning",
+        "unsa ang probinsiya",
+        "probinsiya o lalawigan",
+        "ibig sabihin ng probinsiya",
+        "ano ang lalawigan",
+        "unsa ang lalawigan"
+      ],
+      "answer": "Ang probinsiya mao ang dibdib sa Pilipinas, nga usa ka yugto nga dako pa kay sa syudad, nga adunay daghan nga syudad, mga barangay, mga lungsod. Sa Cebuano ang probinsiya gikan sa Spanish, nga ang lalawigan ang Bisaya nga pulong.",
+      "variations": [
+        "Sa Cebuano ang probinsiya gikan sa Spanish, nga ang lalawigan ang Bisaya nga pulong. Ang probinsiya mao ang dibdib sa Pilipinas, nga usa ka yugto nga dako pa kay sa syudad, nga adunay daghan nga syudad, mga barangay, mga lungsod."
+      ],
+      "tl": "lalawigan",
+      "bis": "lalawigan"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "places",
+  "title": "Places",
+  "groupTitle": "Cebuano"
+}

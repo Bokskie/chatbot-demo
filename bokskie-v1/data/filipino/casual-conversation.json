@@ -1,0 +1,44 @@
+{
+  "topic": "filipino-casual-conversation",
+  "entries": [
+    {
+      "id": "fil-casual-conversation-000001",
+      "topic": "filipino-casual-conversation",
+      "intent": "definition",
+      "concept": "kumusta",
+      "keywords": [
+        "kumusta",
+        "greeting",
+        "maganda",
+        "hi",
+        "filipino",
+        "word",
+        "means",
+        "single"
+      ],
+      "patterns": [
+        "what is kumusta",
+        "kumusta",
+        "explain kumusta",
+        "definition of kumusta",
+        "kumusta meaning",
+        "anong meaning ng kumusta",
+        "how do you say hello in filipino",
+        "ano ang kumusta",
+        "unsa ang kumusta"
+      ],
+      "answer": "Kumusta is the Filipino greeting, and the same word means how are things and what is up, so a single word covers both the greeting and the question behind it. The full question is kumusta ka, and the answer is usually kumusta rin or maganda, and the word also works with a plural subject. It is the greeting people use all day rather than only on arrival, so saying it when you already know someone is a way of checking in rather than of meeting. The other common greeting is magandang araw, literally a good day, which is more a remark about the weather than a question, and the two are frequently used together. Learners often try to say good morning in Filipino as a literal translation, which produces something a Filipino understands but would not use, since the time of day is normally covered by the separate greeting magandang umaga or magandang hapon.",
+      "variations": [
+        "The full question is kumusta ka, and the answer is usually kumusta rin or maganda, and the word also works with a plural subject. Kumusta is the Filipino greeting, and the same word means how are things and what is up, so a single word covers both the greeting and the question behind it. It is the greeting people use all day rather than only on arrival, so saying it when you already know someone is a way of checking in rather than of meeting. The other common greeting is magandang araw, literally a good day, which is more a remark about the weather than a question, and the two are frequently used together. Learners often try to say good morning in Filipino as a literal translation, which produces something a Filipino understands but would not use, since the time of day is normally covered by the separate greeting magandang umaga or magandang hapon.",
+        "It is the greeting people use all day rather than only on arrival, so saying it when you already know someone is a way of checking in rather than of meeting. Kumusta is the Filipino greeting, and the same word means how are things and what is up, so a single word covers both the greeting and the question behind it. The full question is kumusta ka, and the answer is usually kumusta rin or maganda, and the word also works with a plural subject. The other common greeting is magandang araw, literally a good day, which is more a remark about the weather than a question, and the two are frequently used together. Learners often try to say good morning in Filipino as a literal translation, which produces something a Filipino understands but would not use, since the time of day is normally covered by the separate greeting magandang umaga or magandang hapon."
+      ],
+      "tl": "kumusta",
+      "bis": "kumusta"
+    }
+  ],
+  "lang": "tagalog",
+  "group": "filipino",
+  "sub": "casual-conversation",
+  "title": "Casual conversation",
+  "groupTitle": "Filipino"
+}

@@ -1,0 +1,144 @@
+{
+  "topic": "code-websites",
+  "entries": [
+    {
+      "id": "cod-websites-000001",
+      "topic": "code-websites",
+      "intent": "definition",
+      "concept": "resort website",
+      "keywords": [
+        "resort website",
+        "resort",
+        "hotel",
+        "website",
+        "booking",
+        "page",
+        "villa",
+        "hospitality",
+        "template",
+        "self-contained",
+        "built",
+        "self",
+        "contained"
+      ],
+      "patterns": [
+        "what is resort website",
+        "resort website",
+        "explain resort website",
+        "definition of resort website",
+        "resort website meaning",
+        "make me a resort website",
+        "build a resort website",
+        "create a hotel website",
+        "i need a resort website",
+        "gawa ka ng resort website",
+        "resort website html css and javascript",
+        "buhat nako og resort website",
+        "ano ang resort website",
+        "unsa ang resort website"
+      ],
+      "answer": "A resort or hotel page built as one self-contained file: a sticky header that collapses into a menu on a phone, a full-height hero, a grid of room types with prices, an amenities strip, a gallery, and a booking form that checks the name, the email and the dates before it confirms. The CSS is driven entirely by six custom properties in a :root block, so the whole design re-skins by changing six lines, and the cards reflow on their own through CSS Grid rather than through media queries. The JavaScript is only the booking form and the year in the footer. There is no framework, no build step and no external request, so it runs from a file on a hard drive. What it is not: there is no back end, so a submitted form confirms on screen and goes nowhere, and the prices are text rather than anything a guest can actually book.",
+      "variations": [
+        "The CSS is driven entirely by six custom properties in a :root block, so the whole design re-skins by changing six lines, and the cards reflow on their own through CSS Grid rather than through media queries. A resort or hotel page built as one self-contained file: a sticky header that collapses into a menu on a phone, a full-height hero, a grid of room types with prices, an amenities strip, a gallery, and a booking form that checks the name, the email and the dates before it confirms. The JavaScript is only the booking form and the year in the footer. There is no framework, no build step and no external request, so it runs from a file on a hard drive. What it is not: there is no back end, so a submitted form confirms on screen and goes nowhere, and the prices are text rather than anything a guest can actually book.",
+        "The JavaScript is only the booking form and the year in the footer. A resort or hotel page built as one self-contained file: a sticky header that collapses into a menu on a phone, a full-height hero, a grid of room types with prices, an amenities strip, a gallery, and a booking form that checks the name, the email and the dates before it confirms. The CSS is driven entirely by six custom properties in a :root block, so the whole design re-skins by changing six lines, and the cards reflow on their own through CSS Grid rather than through media queries. There is no framework, no build step and no external request, so it runs from a file on a hard drive. What it is not: there is no back end, so a submitted form confirms on screen and goes nowhere, and the prices are text rather than anything a guest can actually book."
+      ],
+      "tl": "resort website",
+      "bis": "resort website"
+    },
+    {
+      "id": "cod-websites-000002",
+      "topic": "code-websites",
+      "intent": "definition",
+      "concept": "portfolio website",
+      "keywords": [
+        "portfolio website",
+        "portfolio",
+        "website",
+        "developer",
+        "resume",
+        "cv",
+        "page",
+        "work",
+        "history",
+        "projects",
+        "template",
+        "file",
+        "sticky",
+        "header",
+        "anchor"
+      ],
+      "patterns": [
+        "what is portfolio website",
+        "portfolio website",
+        "explain portfolio website",
+        "definition of portfolio website",
+        "portfolio website meaning",
+        "make me a portfolio website",
+        "build a portfolio site",
+        "create a developer portfolio",
+        "i need a portfolio page",
+        "gawa ka ng portfolio website",
+        "portfolio website html css",
+        "ano ang portfolio website",
+        "unsa ang portfolio website"
+      ],
+      "answer": "A developer portfolio as one file: a sticky header with anchor links, a hero with a short positioning line and a row of skill tags, a work history laid out as two columns that collapses to one on a phone, a grid of project cards, and a contact section. The page runs on almost nothing - the only JavaScript is the year in the footer, because a portfolio is a document rather than an application and every interactive thing on it is another thing that can break on somebody's phone. The two-column job history uses a media query because it genuinely is two columns of content, while the project cards use auto-fit because they are a grid, and using the right one of those two tools for each is most of the responsive design here.",
+      "variations": [
+        "The page runs on almost nothing - the only JavaScript is the year in the footer, because a portfolio is a document rather than an application and every interactive thing on it is another thing that can break on somebody's phone. A developer portfolio as one file: a sticky header with anchor links, a hero with a short positioning line and a row of skill tags, a work history laid out as two columns that collapses to one on a phone, a grid of project cards, and a contact section. The two-column job history uses a media query because it genuinely is two columns of content, while the project cards use auto-fit because they are a grid, and using the right one of those two tools for each is most of the responsive design here.",
+        "The two-column job history uses a media query because it genuinely is two columns of content, while the project cards use auto-fit because they are a grid, and using the right one of those two tools for each is most of the responsive design here. A developer portfolio as one file: a sticky header with anchor links, a hero with a short positioning line and a row of skill tags, a work history laid out as two columns that collapses to one on a phone, a grid of project cards, and a contact section. The page runs on almost nothing - the only JavaScript is the year in the footer, because a portfolio is a document rather than an application and every interactive thing on it is another thing that can break on somebody's phone."
+      ],
+      "tl": "portfolio website",
+      "bis": "portfolio website"
+    },
+    {
+      "id": "cod-websites-000003",
+      "topic": "code-websites",
+      "intent": "definition",
+      "concept": "restaurant website",
+      "keywords": [
+        "restaurant website",
+        "restaurant",
+        "cafe",
+        "food",
+        "menu",
+        "website",
+        "dish",
+        "dining",
+        "reservation",
+        "page",
+        "template",
+        "file",
+        "sticky",
+        "header",
+        "coloured"
+      ],
+      "patterns": [
+        "what is restaurant website",
+        "restaurant website",
+        "explain restaurant website",
+        "definition of restaurant website",
+        "restaurant website meaning",
+        "make me a restaurant website",
+        "build a restaurant site",
+        "create a cafe website",
+        "i need a restaurant page",
+        "gawa ka ng restaurant website",
+        "restaurant website html css and javascript",
+        "ano ang restaurant website",
+        "unsa ang restaurant website"
+      ],
+      "answer": "A restaurant page as one file: a sticky header, a coloured hero with a call to action, a menu grid where each dish is a card with its name and price on the same line, an opening-hours table, a reservation form, and an address block. The reservation form does more than check that the fields are filled in - it knows the restaurant is closed on Mondays and refuses that date with an explanation, which is the kind of small detail a guest would otherwise find out about by turning up. There is no back end, so a confirmed reservation exists only on the screen.",
+      "variations": [
+        "The reservation form does more than check that the fields are filled in - it knows the restaurant is closed on Mondays and refuses that date with an explanation, which is the kind of small detail a guest would otherwise find out about by turning up. A restaurant page as one file: a sticky header, a coloured hero with a call to action, a menu grid where each dish is a card with its name and price on the same line, an opening-hours table, a reservation form, and an address block. There is no back end, so a confirmed reservation exists only on the screen.",
+        "There is no back end, so a confirmed reservation exists only on the screen. A restaurant page as one file: a sticky header, a coloured hero with a call to action, a menu grid where each dish is a card with its name and price on the same line, an opening-hours table, a reservation form, and an address block. The reservation form does more than check that the fields are filled in - it knows the restaurant is closed on Mondays and refuses that date with an explanation, which is the kind of small detail a guest would otherwise find out about by turning up."
+      ],
+      "tl": "restaurant website",
+      "bis": "restaurant website"
+    }
+  ],
+  "lang": "english",
+  "group": "code",
+  "sub": "websites",
+  "title": "Websites",
+  "groupTitle": "Code"
+}

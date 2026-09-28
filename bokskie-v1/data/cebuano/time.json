@@ -1,0 +1,228 @@
+{
+  "topic": "cebuano-time",
+  "entries": [
+    {
+      "id": "ceb-time-000001",
+      "topic": "cebuano-time",
+      "intent": "definition",
+      "concept": "kanus-a",
+      "keywords": [
+        "kanus-a",
+        "kana",
+        "tanong",
+        "adlaw",
+        "oras",
+        "tuig",
+        "kailan",
+        "kanus",
+        "hingpili",
+        "panahon"
+      ],
+      "patterns": [
+        "what is kanus-a",
+        "kanus-a",
+        "explain kanus-a",
+        "definition of kanus-a",
+        "kanus-a meaning",
+        "unsa ang kanus-a",
+        "kanus-a o kinsa",
+        "unsa meaning nga kanus-a",
+        "ano ang kailan",
+        "unsa ang kanus-a"
+      ],
+      "answer": "Ang kanus-a mao ang tanong nga hingpili sa panahon: kanus-a adlaw, kanus-a oras, kanus-a tuig. Sa Bisaya, kana ang ordinaryong tanong. Ang \"kanus-a\" gikan sa Spanish, ug apan dili naa syag usa ka tuig, kay usa lang kaayo nga kahulugan: hangtod kanus-a.",
+      "variations": [
+        "Sa Bisaya, kana ang ordinaryong tanong. Ang kanus-a mao ang tanong nga hingpili sa panahon: kanus-a adlaw, kanus-a oras, kanus-a tuig. Ang \"kanus-a\" gikan sa Spanish, ug apan dili naa syag usa ka tuig, kay usa lang kaayo nga kahulugan: hangtod kanus-a.",
+        "Ang \"kanus-a\" gikan sa Spanish, ug apan dili naa syag usa ka tuig, kay usa lang kaayo nga kahulugan: hangtod kanus-a. Ang kanus-a mao ang tanong nga hingpili sa panahon: kanus-a adlaw, kanus-a oras, kanus-a tuig. Sa Bisaya, kana ang ordinaryong tanong."
+      ],
+      "tl": "kailan",
+      "bis": "kanus-a"
+    },
+    {
+      "id": "ceb-time-000002",
+      "topic": "cebuano-time",
+      "intent": "definition",
+      "concept": "adlaw",
+      "keywords": [
+        "adlaw",
+        "panahon",
+        "babaaw",
+        "gabon",
+        "tubig",
+        "araw",
+        "gikan",
+        "hangtod"
+      ],
+      "patterns": [
+        "what is adlaw",
+        "adlaw",
+        "explain adlaw",
+        "definition of adlaw",
+        "adlaw meaning",
+        "unsa ang adlaw",
+        "adlaw o panahon",
+        "ibig sabihin ng adlaw",
+        "ano ang araw",
+        "unsa ang adlaw"
+      ],
+      "answer": "Ang adlaw mao ang panahon nga gikan sa babaaw hangtod sa gabon, apan usa ka konsepto usab nga mao ang tubig: ang adlaw nga gi-tapok, ang adlaw nga tubig, ang adlaw araw. Sa Bisaya, ang tubig gyud nga tubig, nga ang adlaw nga panahon lang, nga usab kaayo nga konsepto.",
+      "variations": [
+        "Sa Bisaya, ang tubig gyud nga tubig, nga ang adlaw nga panahon lang, nga usab kaayo nga konsepto. Ang adlaw mao ang panahon nga gikan sa babaaw hangtod sa gabon, apan usa ka konsepto usab nga mao ang tubig: ang adlaw nga gi-tapok, ang adlaw nga tubig, ang adlaw araw."
+      ],
+      "tl": "araw",
+      "bis": "adlaw"
+    },
+    {
+      "id": "ceb-time-000003",
+      "topic": "cebuano-time",
+      "intent": "definition",
+      "concept": "karon",
+      "keywords": [
+        "karon",
+        "ngayon",
+        "kini",
+        "panahon",
+        "naa",
+        "naagi",
+        "dili",
+        "cebuano"
+      ],
+      "patterns": [
+        "what is karon",
+        "karon",
+        "explain karon",
+        "definition of karon",
+        "karon meaning",
+        "unsa ang karon",
+        "karon o ngayon",
+        "ibig sabihin ng karon",
+        "ano ang ngayon",
+        "unsa ang karon"
+      ],
+      "answer": "Ang karon mao ang ngayon: ang panahon nga naa, ang panahon nga dili pa naagi. Sa Cebuano, ang \"karon\" mao ang pulong nga Bisaya alang, kay sa Filipino ang \"ngayon\" ang gamit. Ang \"kini\" nga usab nga konsepto: kini na yawa, kini pa gikan, kini ang imong gikan.",
+      "variations": [
+        "Sa Cebuano, ang \"karon\" mao ang pulong nga Bisaya alang, kay sa Filipino ang \"ngayon\" ang gamit. Ang karon mao ang ngayon: ang panahon nga naa, ang panahon nga dili pa naagi. Ang \"kini\" nga usab nga konsepto: kini na yawa, kini pa gikan, kini ang imong gikan.",
+        "Ang \"kini\" nga usab nga konsepto: kini na yawa, kini pa gikan, kini ang imong gikan. Ang karon mao ang ngayon: ang panahon nga naa, ang panahon nga dili pa naagi. Sa Cebuano, ang \"karon\" mao ang pulong nga Bisaya alang, kay sa Filipino ang \"ngayon\" ang gamit."
+      ],
+      "tl": "ngayon",
+      "bis": "karon"
+    },
+    {
+      "id": "ceb-time-000004",
+      "topic": "cebuano-time",
+      "intent": "definition",
+      "concept": "yawa",
+      "keywords": [
+        "yawa",
+        "karon",
+        "ngayon",
+        "kagahapon",
+        "dili",
+        "pay",
+        "apan",
+        "lang",
+        "kaayo",
+        "pulong"
+      ],
+      "patterns": [
+        "what is yawa",
+        "yawa",
+        "explain yawa",
+        "definition of yawa",
+        "yawa meaning",
+        "unsa ang yawa",
+        "yawa o karon",
+        "ibig sabihin ng yawa",
+        "ano ang ngayon",
+        "unsa ang yawa"
+      ],
+      "answer": "Ang yawa mao ang karon, nga apan usa lang kaayo nga pulong, nga usa nga konsepto: ang tanan nga nga naa, ang tanan nga naagi? dili, ang yawa lang yawa. Sa Bisaya, ang \"yawa\" usab nga mao ang \"ngayon\" sa Filipino. Tungod nga wala pay gitana, ang yawa, ang dili, ang kagahapon: tulo ka panahon nga dili manag-pareis ang katumanan.",
+      "variations": [
+        "dili, ang yawa lang yawa. Ang yawa mao ang karon, nga apan usa lang kaayo nga pulong, nga usa nga konsepto: ang tanan nga nga naa, ang tanan nga naagi? Sa Bisaya, ang \"yawa\" usab nga mao ang \"ngayon\" sa Filipino. Tungod nga wala pay gitana, ang yawa, ang dili, ang kagahapon: tulo ka panahon nga dili manag-pareis ang katumanan.",
+        "Sa Bisaya, ang \"yawa\" usab nga mao ang \"ngayon\" sa Filipino. Ang yawa mao ang karon, nga apan usa lang kaayo nga pulong, nga usa nga konsepto: ang tanan nga nga naa, ang tanan nga naagi? dili, ang yawa lang yawa. Tungod nga wala pay gitana, ang yawa, ang dili, ang kagahapon: tulo ka panahon nga dili manag-pareis ang katumanan."
+      ],
+      "tl": "ngayon",
+      "bis": "yawa"
+    },
+    {
+      "id": "ceb-time-000005",
+      "topic": "cebuano-time",
+      "intent": "definition",
+      "concept": "naa",
+      "keywords": [
+        "naa",
+        "may",
+        "ana-a",
+        "oo",
+        "wala",
+        "konsepto",
+        "pulong",
+        "pagkaadto",
+        "bisaya",
+        "usab",
+        "kaayo"
+      ],
+      "patterns": [
+        "what is naa",
+        "naa",
+        "explain naa",
+        "definition of naa",
+        "naa meaning",
+        "unsa ang naa",
+        "naa o wala",
+        "ibig sabihin ng naa",
+        "ano ang may",
+        "unsa ang naa"
+      ],
+      "answer": "Ang naa mao ang \"may\": naa ako, naa ka, naa ta. Mao nga naa nga konsepto, nga usa nga pulong, nga isa nga konsepto: ang pagkaadto. Sa Bisaya, ang \"naa\" mao usab kaayo nga pinaagi, nga usa nga konsepto, nga ang \"naa\" nga wala pa, ang \"naa\" nga oo, ang \"naa\" nga duha.",
+      "variations": [
+        "Mao nga naa nga konsepto, nga usa nga pulong, nga isa nga konsepto: ang pagkaadto. Ang naa mao ang \"may\": naa ako, naa ka, naa ta. Sa Bisaya, ang \"naa\" mao usab kaayo nga pinaagi, nga usa nga konsepto, nga ang \"naa\" nga wala pa, ang \"naa\" nga oo, ang \"naa\" nga duha.",
+        "Sa Bisaya, ang \"naa\" mao usab kaayo nga pinaagi, nga usa nga konsepto, nga ang \"naa\" nga wala pa, ang \"naa\" nga oo, ang \"naa\" nga duha. Ang naa mao ang \"may\": naa ako, naa ka, naa ta. Mao nga naa nga konsepto, nga usa nga pulong, nga isa nga konsepto: ang pagkaadto."
+      ],
+      "tl": "may",
+      "bis": "naa"
+    },
+    {
+      "id": "ceb-time-000006",
+      "topic": "cebuano-time",
+      "intent": "definition",
+      "concept": "una",
+      "keywords": [
+        "una",
+        "kauna",
+        "pinag-una",
+        "usa",
+        "sugod",
+        "haha",
+        "kanunay",
+        "wala",
+        "pinag",
+        "unang"
+      ],
+      "patterns": [
+        "what is una",
+        "una",
+        "explain una",
+        "definition of una",
+        "una meaning",
+        "unsa ang una",
+        "una o kauna",
+        "ibig sabihin ng una",
+        "ano ang una",
+        "unsa ang una"
+      ],
+      "answer": "Ang una mao ang kanunay nga wala pa, ang pinag-una, ang sugod sa unang haha. Sa Cebuano, ang \"una\" usab nga mao ang usa lang, nga mao usab nga konsepto: ang una sa dulaan. Ang \"kauna\" kay sayo kaayo, nga una lang kaayo nga konsepto.",
+      "variations": [
+        "Sa Cebuano, ang \"una\" usab nga mao ang usa lang, nga mao usab nga konsepto: ang una sa dulaan. Ang una mao ang kanunay nga wala pa, ang pinag-una, ang sugod sa unang haha. Ang \"kauna\" kay sayo kaayo, nga una lang kaayo nga konsepto.",
+        "Ang \"kauna\" kay sayo kaayo, nga una lang kaayo nga konsepto. Ang una mao ang kanunay nga wala pa, ang pinag-una, ang sugod sa unang haha. Sa Cebuano, ang \"una\" usab nga mao ang usa lang, nga mao usab nga konsepto: ang una sa dulaan."
+      ],
+      "tl": "una",
+      "bis": "una"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "time",
+  "title": "Time",
+  "groupTitle": "Cebuano"
+}

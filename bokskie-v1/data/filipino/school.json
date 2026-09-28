@@ -1,0 +1,47 @@
+{
+  "topic": "filipino-school",
+  "entries": [
+    {
+      "id": "fil-school-000001",
+      "topic": "filipino-school",
+      "intent": "definition",
+      "concept": "eskwela",
+      "keywords": [
+        "eskwela",
+        "school",
+        "grade",
+        "elementary",
+        "track",
+        "diploma",
+        "paaralan",
+        "means",
+        "covers",
+        "both",
+        "building"
+      ],
+      "patterns": [
+        "what is eskwela",
+        "eskwela",
+        "explain eskwela",
+        "definition of eskwela",
+        "eskwela meaning",
+        "anong meaning ng eskwela",
+        "ano ang senior high",
+        "ano ang paaralan",
+        "unsa ang eskwela"
+      ],
+      "answer": "Eskwela means school, and it covers both the building and the idea of schooling, so a question about the Philippine school system is usually about the basic education structure rather than about a place. The law provides three stages: elementary from grade one to six, junior high from grade seven to nine, and senior high from grade eleven to twelve, and the senior high level is where a student chooses a track among academic, vocational, sports, and arts and design. Before that reform the sequence ended at grade ten, so an older reference to grade ten as the last year of school describes the previous system rather than a mistake. The school year runs most of the year with a summer break, and the word also appears in the names of the strands and the exit document, where the credential awarded at the end of senior high is a specific diploma rather than the older grade ten certificate. The Filipino word is the same as the Cebuano one and is borrowed from Spanish, which is why it is written exactly as it is said.",
+      "variations": [
+        "The law provides three stages: elementary from grade one to six, junior high from grade seven to nine, and senior high from grade eleven to twelve, and the senior high level is where a student chooses a track among academic, vocational, sports, and arts and design. Eskwela means school, and it covers both the building and the idea of schooling, so a question about the Philippine school system is usually about the basic education structure rather than about a place. Before that reform the sequence ended at grade ten, so an older reference to grade ten as the last year of school describes the previous system rather than a mistake. The school year runs most of the year with a summer break, and the word also appears in the names of the strands and the exit document, where the credential awarded at the end of senior high is a specific diploma rather than the older grade ten certificate. The Filipino word is the same as the Cebuano one and is borrowed from Spanish, which is why it is written exactly as it is said.",
+        "Before that reform the sequence ended at grade ten, so an older reference to grade ten as the last year of school describes the previous system rather than a mistake. Eskwela means school, and it covers both the building and the idea of schooling, so a question about the Philippine school system is usually about the basic education structure rather than about a place. The law provides three stages: elementary from grade one to six, junior high from grade seven to nine, and senior high from grade eleven to twelve, and the senior high level is where a student chooses a track among academic, vocational, sports, and arts and design. The school year runs most of the year with a summer break, and the word also appears in the names of the strands and the exit document, where the credential awarded at the end of senior high is a specific diploma rather than the older grade ten certificate. The Filipino word is the same as the Cebuano one and is borrowed from Spanish, which is why it is written exactly as it is said."
+      ],
+      "tl": "paaralan",
+      "bis": "eskwela"
+    }
+  ],
+  "lang": "tagalog",
+  "group": "filipino",
+  "sub": "school",
+  "title": "School",
+  "groupTitle": "Filipino"
+}

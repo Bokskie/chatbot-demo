@@ -1,0 +1,202 @@
+{
+  "topic": "science-earth-science",
+  "entries": [
+    {
+      "id": "sci-earth-science-000001",
+      "topic": "science-earth-science",
+      "intent": "definition",
+      "concept": "plate tectonics",
+      "keywords": [
+        "plate tectonics",
+        "subduction",
+        "ridge",
+        "tectonics",
+        "plate",
+        "theory",
+        "earth's",
+        "outer",
+        "shell"
+      ],
+      "patterns": [
+        "what is plate tectonics",
+        "plate tectonics",
+        "explain plate tectonics",
+        "definition of plate tectonics",
+        "plate tectonics meaning",
+        "what causes earthquakes",
+        "how fast do tectonic plates move",
+        "ano ang plate tectonics",
+        "unsa ang tectonics"
+      ],
+      "answer": "Plate tectonics is the theory that the Earth's outer shell is broken into a dozen or so large rigid plates that move over the softer layer beneath them, and it explains earthquakes, volcanoes, mountain building and continental drift with one idea. The plates move only centimetres a year, roughly the rate your fingernails grow, which sounds impossible until you consider that the Atlantic widens by about that much every year and the Himalaya are still rising. They move because the mantle convects slowly underneath, and the driving forces are the sinking of dense oceanic crust in subduction zones and the push from ridges where new crust forms. Where plates pull apart you get rifts and new ocean floor, where they slide past each other you get transform faults and the earthquake danger zones on the west coast of the Americas, and where one dives under another you get deep trenches, arcs of volcanoes, and the largest earthquakes. The theory replaced fixed continents with a moving surface, and it is the reason the same fossils and rock layers appear on opposite shores of the Atlantic.",
+      "variations": [
+        "The plates move only centimetres a year, roughly the rate your fingernails grow, which sounds impossible until you consider that the Atlantic widens by about that much every year and the Himalaya are still rising. Plate tectonics is the theory that the Earth's outer shell is broken into a dozen or so large rigid plates that move over the softer layer beneath them, and it explains earthquakes, volcanoes, mountain building and continental drift with one idea. They move because the mantle convects slowly underneath, and the driving forces are the sinking of dense oceanic crust in subduction zones and the push from ridges where new crust forms. Where plates pull apart you get rifts and new ocean floor, where they slide past each other you get transform faults and the earthquake danger zones on the west coast of the Americas, and where one dives under another you get deep trenches, arcs of volcanoes, and the largest earthquakes. The theory replaced fixed continents with a moving surface, and it is the reason the same fossils and rock layers appear on opposite shores of the Atlantic.",
+        "They move because the mantle convects slowly underneath, and the driving forces are the sinking of dense oceanic crust in subduction zones and the push from ridges where new crust forms. Plate tectonics is the theory that the Earth's outer shell is broken into a dozen or so large rigid plates that move over the softer layer beneath them, and it explains earthquakes, volcanoes, mountain building and continental drift with one idea. The plates move only centimetres a year, roughly the rate your fingernails grow, which sounds impossible until you consider that the Atlantic widens by about that much every year and the Himalaya are still rising. Where plates pull apart you get rifts and new ocean floor, where they slide past each other you get transform faults and the earthquake danger zones on the west coast of the Americas, and where one dives under another you get deep trenches, arcs of volcanoes, and the largest earthquakes. The theory replaced fixed continents with a moving surface, and it is the reason the same fossils and rock layers appear on opposite shores of the Atlantic."
+      ],
+      "tl": "plate tectonics",
+      "bis": "tectonics"
+    },
+    {
+      "id": "sci-earth-science-000002",
+      "topic": "science-earth-science",
+      "intent": "definition",
+      "concept": "water cycle",
+      "keywords": [
+        "water cycle",
+        "evaporation",
+        "condensation",
+        "precipitation",
+        "transpiration",
+        "groundwater",
+        "aquifer",
+        "freshwater",
+        "water",
+        "cycle",
+        "continuous",
+        "movement",
+        "environment",
+        "driven"
+      ],
+      "patterns": [
+        "what is water cycle",
+        "water cycle",
+        "explain water cycle",
+        "definition of water cycle",
+        "water cycle meaning",
+        "what is the water cycle",
+        "where does rain come from",
+        "how much of earth is water",
+        "ano ang water cycle",
+        "unsa ang water cycle"
+      ],
+      "answer": "The water cycle is the continuous movement of water through the environment, driven by the Sun's heat, and nothing is lost from it in the way people sometimes imagine. Water evaporates from oceans, lakes, soil and plants, condenses into clouds when rising air cools, falls as precipitation, and then either infiltrates into the ground, runs off across the surface into rivers, or is taken up by vegetation and returned to the atmosphere through transpiration. The ocean holds the overwhelming majority of the available freshwater locked as salt water, and the small fraction that is fresh is mostly locked in glaciers and ice caps, with rivers and lakes holding very little. That distribution is why a region can be water-rich by rainfall and still short of usable water, and it is the reason groundwater extraction can lower a water table faster than rain replaces it. Local weather is a small-scale expression of the same process: rain happens because a parcel of air carrying water vapour cooled until it could no longer hold the vapour.",
+      "variations": [
+        "Water evaporates from oceans, lakes, soil and plants, condenses into clouds when rising air cools, falls as precipitation, and then either infiltrates into the ground, runs off across the surface into rivers, or is taken up by vegetation and returned to the atmosphere through transpiration. The water cycle is the continuous movement of water through the environment, driven by the Sun's heat, and nothing is lost from it in the way people sometimes imagine. The ocean holds the overwhelming majority of the available freshwater locked as salt water, and the small fraction that is fresh is mostly locked in glaciers and ice caps, with rivers and lakes holding very little. That distribution is why a region can be water-rich by rainfall and still short of usable water, and it is the reason groundwater extraction can lower a water table faster than rain replaces it. Local weather is a small-scale expression of the same process: rain happens because a parcel of air carrying water vapour cooled until it could no longer hold the vapour.",
+        "The ocean holds the overwhelming majority of the available freshwater locked as salt water, and the small fraction that is fresh is mostly locked in glaciers and ice caps, with rivers and lakes holding very little. The water cycle is the continuous movement of water through the environment, driven by the Sun's heat, and nothing is lost from it in the way people sometimes imagine. Water evaporates from oceans, lakes, soil and plants, condenses into clouds when rising air cools, falls as precipitation, and then either infiltrates into the ground, runs off across the surface into rivers, or is taken up by vegetation and returned to the atmosphere through transpiration. That distribution is why a region can be water-rich by rainfall and still short of usable water, and it is the reason groundwater extraction can lower a water table faster than rain replaces it. Local weather is a small-scale expression of the same process: rain happens because a parcel of air carrying water vapour cooled until it could no longer hold the vapour."
+      ],
+      "tl": "water cycle",
+      "bis": "water cycle"
+    },
+    {
+      "id": "sci-earth-science-000003",
+      "topic": "science-earth-science",
+      "intent": "definition",
+      "concept": "earthquake",
+      "keywords": [
+        "earthquake",
+        "magnitude",
+        "epicentre",
+        "aftershock",
+        "sudden",
+        "release",
+        "stress",
+        "along",
+        "fault"
+      ],
+      "patterns": [
+        "what is earthquake",
+        "earthquake",
+        "explain earthquake",
+        "definition of earthquake",
+        "earthquake meaning",
+        "what is an earthquake",
+        "how are earthquakes measured",
+        "can earthquakes be predicted",
+        "ano ang earthquake",
+        "unsa ang earthquake"
+      ],
+      "answer": "An earthquake is the sudden release of stress along a fault line, and the danger comes less from the shaking itself than from what falls off, collapses or catches fire because of it. The strain accumulates over years as two plates grind past each other, and when the rock finally slips it releases energy as seismic waves that travel through the Earth and out to a network of sensors, which is how magnitude is estimated. Magnitude is logarithmic, so a magnitude 7 releases about thirty times more energy than a magnitude 6, and an 8 is a further tenfold increase over that. This is why the number of damaging earthquakes grows so sharply with magnitude and why the very largest ones are rare. Earthquakes cluster along plate boundaries rather than spreading evenly, which is what makes some regions, like the Pacific rim, far more exposed than others. Most are small and harmless, and the practical protection is building design rather than prediction, because the current science can identify where risk is high but not when a specific event will occur.",
+      "variations": [
+        "The strain accumulates over years as two plates grind past each other, and when the rock finally slips it releases energy as seismic waves that travel through the Earth and out to a network of sensors, which is how magnitude is estimated. An earthquake is the sudden release of stress along a fault line, and the danger comes less from the shaking itself than from what falls off, collapses or catches fire because of it. Magnitude is logarithmic, so a magnitude 7 releases about thirty times more energy than a magnitude 6, and an 8 is a further tenfold increase over that. This is why the number of damaging earthquakes grows so sharply with magnitude and why the very largest ones are rare. Earthquakes cluster along plate boundaries rather than spreading evenly, which is what makes some regions, like the Pacific rim, far more exposed than others. Most are small and harmless, and the practical protection is building design rather than prediction, because the current science can identify where risk is high but not when a specific event will occur.",
+        "Magnitude is logarithmic, so a magnitude 7 releases about thirty times more energy than a magnitude 6, and an 8 is a further tenfold increase over that. An earthquake is the sudden release of stress along a fault line, and the danger comes less from the shaking itself than from what falls off, collapses or catches fire because of it. The strain accumulates over years as two plates grind past each other, and when the rock finally slips it releases energy as seismic waves that travel through the Earth and out to a network of sensors, which is how magnitude is estimated. This is why the number of damaging earthquakes grows so sharply with magnitude and why the very largest ones are rare. Earthquakes cluster along plate boundaries rather than spreading evenly, which is what makes some regions, like the Pacific rim, far more exposed than others. Most are small and harmless, and the practical protection is building design rather than prediction, because the current science can identify where risk is high but not when a specific event will occur."
+      ],
+      "tl": "earthquake",
+      "bis": "earthquake"
+    },
+    {
+      "id": "sci-earth-science-000004",
+      "topic": "science-earth-science",
+      "intent": "definition",
+      "concept": "rock cycle",
+      "keywords": [
+        "rock cycle",
+        "igneous",
+        "sedimentary",
+        "metamorphic",
+        "magma",
+        "erosion",
+        "weathering",
+        "metamorphism",
+        "rock",
+        "cycle",
+        "description",
+        "changes",
+        "type",
+        "another"
+      ],
+      "patterns": [
+        "what is rock cycle",
+        "rock cycle",
+        "explain rock cycle",
+        "definition of rock cycle",
+        "rock cycle meaning",
+        "what is the rock cycle",
+        "how are rocks formed",
+        "what is metamorphic rock",
+        "ano ang rock cycle",
+        "unsa ang rock cycle"
+      ],
+      "answer": "The rock cycle is the description of how rock changes from one type to another, driven by heat, pressure and water, and it is the reason a mountain range made of granite can eventually become beach sand. The three main rock types are igneous, which crystallises from cooled magma or lava, sedimentary, which forms when existing rock is eroded, carried away, deposited in layers and compacted, and metamorphic, which is existing rock altered in the solid state by heat and pressure without melting. Any of them can become any other given the right conditions, and melting returns material to magma to start again, so the cycle has no real beginning. The common misconception is that it takes millions of years for anything to happen: the full cycle is indeed that long, but individual legs of it are fast enough to observe, and a flood can move a great deal of sediment in a day. Metamorphism is also what gives metamorphic rocks their banded appearance, since the minerals recrystallise in layers under pressure.",
+      "variations": [
+        "The three main rock types are igneous, which crystallises from cooled magma or lava, sedimentary, which forms when existing rock is eroded, carried away, deposited in layers and compacted, and metamorphic, which is existing rock altered in the solid state by heat and pressure without melting. The rock cycle is the description of how rock changes from one type to another, driven by heat, pressure and water, and it is the reason a mountain range made of granite can eventually become beach sand. Any of them can become any other given the right conditions, and melting returns material to magma to start again, so the cycle has no real beginning. The common misconception is that it takes millions of years for anything to happen: the full cycle is indeed that long, but individual legs of it are fast enough to observe, and a flood can move a great deal of sediment in a day. Metamorphism is also what gives metamorphic rocks their banded appearance, since the minerals recrystallise in layers under pressure.",
+        "Any of them can become any other given the right conditions, and melting returns material to magma to start again, so the cycle has no real beginning. The rock cycle is the description of how rock changes from one type to another, driven by heat, pressure and water, and it is the reason a mountain range made of granite can eventually become beach sand. The three main rock types are igneous, which crystallises from cooled magma or lava, sedimentary, which forms when existing rock is eroded, carried away, deposited in layers and compacted, and metamorphic, which is existing rock altered in the solid state by heat and pressure without melting. The common misconception is that it takes millions of years for anything to happen: the full cycle is indeed that long, but individual legs of it are fast enough to observe, and a flood can move a great deal of sediment in a day. Metamorphism is also what gives metamorphic rocks their banded appearance, since the minerals recrystallise in layers under pressure."
+      ],
+      "tl": "rock cycle",
+      "bis": "rock cycle"
+    },
+    {
+      "id": "sci-earth-science-000005",
+      "topic": "science-earth-science",
+      "intent": "definition",
+      "concept": "erosion",
+      "keywords": [
+        "erosion",
+        "weathering",
+        "stream",
+        "glacier",
+        "valley",
+        "topsoil",
+        "sediment",
+        "vegetation",
+        "removal",
+        "rock",
+        "soil",
+        "water",
+        "wind"
+      ],
+      "patterns": [
+        "what is erosion",
+        "erosion",
+        "explain erosion",
+        "definition of erosion",
+        "erosion meaning",
+        "difference between erosion and weathering",
+        "what causes soil erosion",
+        "ano ang erosion",
+        "unsa ang erosion"
+      ],
+      "answer": "Erosion is the removal of rock and soil by water, wind, ice or gravity, and it is the reason landforms change and why a river valley ends up where it is. Weathering breaks rock down where it sits, while erosion carries the material away, and the two are separate processes that are constantly confused. Water is the most effective agent: a stream cuts a V-shaped valley, and where a glacier moves through it cuts a much wider, rounder U-shaped valley, which is why glacial valleys often have their characteristic hanging shape after the ice has left. Wind erosion dominates in dry, sparsely vegetated country, where it produces yardangs and dust bowls, and the material it moves becomes the fine sediment that later forms fertile plains far away. The rate depends on slope, rainfall, vegetation cover and whether the rock is resistant, which is why a resistant ridge stands above softer ground around it. In the Philippines this is not abstract: flash floods strip topsoil off agricultural land, and the loss of the protective vegetation cover is what turns a normal storm into a disaster.",
+      "variations": [
+        "Weathering breaks rock down where it sits, while erosion carries the material away, and the two are separate processes that are constantly confused. Erosion is the removal of rock and soil by water, wind, ice or gravity, and it is the reason landforms change and why a river valley ends up where it is. Water is the most effective agent: a stream cuts a V-shaped valley, and where a glacier moves through it cuts a much wider, rounder U-shaped valley, which is why glacial valleys often have their characteristic hanging shape after the ice has left. Wind erosion dominates in dry, sparsely vegetated country, where it produces yardangs and dust bowls, and the material it moves becomes the fine sediment that later forms fertile plains far away. The rate depends on slope, rainfall, vegetation cover and whether the rock is resistant, which is why a resistant ridge stands above softer ground around it. In the Philippines this is not abstract: flash floods strip topsoil off agricultural land, and the loss of the protective vegetation cover is what turns a normal storm into a disaster.",
+        "Water is the most effective agent: a stream cuts a V-shaped valley, and where a glacier moves through it cuts a much wider, rounder U-shaped valley, which is why glacial valleys often have their characteristic hanging shape after the ice has left. Erosion is the removal of rock and soil by water, wind, ice or gravity, and it is the reason landforms change and why a river valley ends up where it is. Weathering breaks rock down where it sits, while erosion carries the material away, and the two are separate processes that are constantly confused. Wind erosion dominates in dry, sparsely vegetated country, where it produces yardangs and dust bowls, and the material it moves becomes the fine sediment that later forms fertile plains far away. The rate depends on slope, rainfall, vegetation cover and whether the rock is resistant, which is why a resistant ridge stands above softer ground around it. In the Philippines this is not abstract: flash floods strip topsoil off agricultural land, and the loss of the protective vegetation cover is what turns a normal storm into a disaster."
+      ],
+      "tl": "erosion",
+      "bis": "erosion"
+    }
+  ],
+  "lang": "english",
+  "group": "science",
+  "sub": "earth-science",
+  "title": "Earth science",
+  "groupTitle": "Science"
+}

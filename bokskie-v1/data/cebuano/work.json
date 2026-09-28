@@ -1,0 +1,48 @@
+{
+  "topic": "cebuano-work",
+  "entries": [
+    {
+      "id": "ceb-work-000001",
+      "topic": "cebuano-work",
+      "intent": "definition",
+      "concept": "trabaho",
+      "keywords": [
+        "trabaho",
+        "job",
+        "employment",
+        "work",
+        "task",
+        "employer",
+        "company",
+        "worker",
+        "means",
+        "general",
+        "word",
+        "covering"
+      ],
+      "patterns": [
+        "what is trabaho",
+        "trabaho",
+        "explain trabaho",
+        "definition of trabaho",
+        "trabaho meaning",
+        "unsa meaning nga trabaho",
+        "unsaon nga trabaho",
+        "ano ang trabaho",
+        "unsa ang trabaho"
+      ],
+      "answer": "Trabaho means work, and it is the general word covering a job, a task and a piece of work, with the context deciding which. As a noun it is the thing you are employed to do, and maayo ang trabaho means the work is good while sayop ang trabaho means it is poorly done, so the word describes the quality of the work rather than the worker, which is a distinction a learner can miss. As a verb, trabaho means to be employed, and the phrase naa siyang trabaho means he has a job. The related terms people ask about are a job, which is a specific position with a role, and employment, which is the condition of having paid work as opposed to self-employment. In the Philippines the employer is often called the company or the firm, and a person who supervises others even informally is sometimes given the same word, so it is not strictly a word for management.",
+      "variations": [
+        "As a noun it is the thing you are employed to do, and maayo ang trabaho means the work is good while sayop ang trabaho means it is poorly done, so the word describes the quality of the work rather than the worker, which is a distinction a learner can miss. Trabaho means work, and it is the general word covering a job, a task and a piece of work, with the context deciding which. As a verb, trabaho means to be employed, and the phrase naa siyang trabaho means he has a job. The related terms people ask about are a job, which is a specific position with a role, and employment, which is the condition of having paid work as opposed to self-employment. In the Philippines the employer is often called the company or the firm, and a person who supervises others even informally is sometimes given the same word, so it is not strictly a word for management.",
+        "As a verb, trabaho means to be employed, and the phrase naa siyang trabaho means he has a job. Trabaho means work, and it is the general word covering a job, a task and a piece of work, with the context deciding which. As a noun it is the thing you are employed to do, and maayo ang trabaho means the work is good while sayop ang trabaho means it is poorly done, so the word describes the quality of the work rather than the worker, which is a distinction a learner can miss. The related terms people ask about are a job, which is a specific position with a role, and employment, which is the condition of having paid work as opposed to self-employment. In the Philippines the employer is often called the company or the firm, and a person who supervises others even informally is sometimes given the same word, so it is not strictly a word for management."
+      ],
+      "tl": "trabaho",
+      "bis": "trabaho"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "work",
+  "title": "Work",
+  "groupTitle": "Cebuano"
+}

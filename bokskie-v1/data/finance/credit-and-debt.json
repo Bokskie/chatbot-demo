@@ -1,0 +1,86 @@
+{
+  "topic": "finance-credit-and-debt",
+  "entries": [
+    {
+      "id": "fin-credit-and-debt-000001",
+      "topic": "finance-credit-and-debt",
+      "intent": "definition",
+      "concept": "credit score",
+      "keywords": [
+        "credit score",
+        "credit",
+        "score",
+        "history",
+        "payment",
+        "bureau",
+        "limit",
+        "rating",
+        "summary",
+        "person",
+        "handled",
+        "borrowed"
+      ],
+      "patterns": [
+        "what is credit score",
+        "credit score",
+        "explain credit score",
+        "definition of credit score",
+        "credit score meaning",
+        "what is a credit score",
+        "how to improve credit score",
+        "magkano ang credit score",
+        "ano ang credit score",
+        "unsa ang credit score"
+      ],
+      "answer": "A credit score is a summary of how a person has handled borrowed money, and it matters less for its own sake than for what it controls: the rate, the approval, and the deposit asked for on a rental or a phone. It is built from history rather than character, which is why paying on time matters more than anything a person plans to do later, and why a period of not using credit at all is worse than using it carefully. The scale used in the Philippines runs from roughly 300 to over 850, with a good score usually being above 700, and what actually moves the number is punctuality, keeping balances modest relative to limits, and not applying for several new things at once. The two mistakes that do lasting damage are missing payments, which stay on the record for years, and holding a large balance, which suggests the income cannot cover what is already owed. A score can be rebuilt, and the fastest route is a small balance that is always paid in full, because the system is measuring the pattern rather than the intention.",
+      "variations": [
+        "It is built from history rather than character, which is why paying on time matters more than anything a person plans to do later, and why a period of not using credit at all is worse than using it carefully. A credit score is a summary of how a person has handled borrowed money, and it matters less for its own sake than for what it controls: the rate, the approval, and the deposit asked for on a rental or a phone. The scale used in the Philippines runs from roughly 300 to over 850, with a good score usually being above 700, and what actually moves the number is punctuality, keeping balances modest relative to limits, and not applying for several new things at once. The two mistakes that do lasting damage are missing payments, which stay on the record for years, and holding a large balance, which suggests the income cannot cover what is already owed. A score can be rebuilt, and the fastest route is a small balance that is always paid in full, because the system is measuring the pattern rather than the intention.",
+        "The scale used in the Philippines runs from roughly 300 to over 850, with a good score usually being above 700, and what actually moves the number is punctuality, keeping balances modest relative to limits, and not applying for several new things at once. A credit score is a summary of how a person has handled borrowed money, and it matters less for its own sake than for what it controls: the rate, the approval, and the deposit asked for on a rental or a phone. It is built from history rather than character, which is why paying on time matters more than anything a person plans to do later, and why a period of not using credit at all is worse than using it carefully. The two mistakes that do lasting damage are missing payments, which stay on the record for years, and holding a large balance, which suggests the income cannot cover what is already owed. A score can be rebuilt, and the fastest route is a small balance that is always paid in full, because the system is measuring the pattern rather than the intention."
+      ],
+      "tl": "credit score",
+      "bis": "credit score"
+    },
+    {
+      "id": "fin-credit-and-debt-000002",
+      "topic": "finance-credit-and-debt",
+      "intent": "definition",
+      "concept": "installment",
+      "keywords": [
+        "installment",
+        "monthly",
+        "interest",
+        "penalty",
+        "amortization",
+        "plan",
+        "financing",
+        "borrowing",
+        "lump",
+        "repaying",
+        "fixed"
+      ],
+      "patterns": [
+        "what is installment",
+        "installment",
+        "explain installment",
+        "definition of installment",
+        "installment meaning",
+        "is installment good",
+        "installment plan meaning",
+        "ano ang installment",
+        "unsa ang installment"
+      ],
+      "answer": "An installment plan is borrowing a lump sum and repaying it in fixed monthly payments, and the term hides two things a borrower should find out first. The first is the total cost, because the amount repaid over a long term is always more than the cash price and comparing only the monthly figure is the mistake that makes an expensive option look affordable. The second is the cost of missing one, because most plans charge a penalty, many suspend the card on the second missed payment, and the balance does not go away while the fees accumulate. Zero-interest promotions in the Philippines are genuinely free of interest but not of fees, and the fee schedule is where the money usually is. The sound rule is to size the payment against income after the purchase rather than before it, because a plan that is comfortable when it is taken on is often uncomfortable by the time the next one is offered.",
+      "variations": [
+        "The first is the total cost, because the amount repaid over a long term is always more than the cash price and comparing only the monthly figure is the mistake that makes an expensive option look affordable. An installment plan is borrowing a lump sum and repaying it in fixed monthly payments, and the term hides two things a borrower should find out first. The second is the cost of missing one, because most plans charge a penalty, many suspend the card on the second missed payment, and the balance does not go away while the fees accumulate. Zero-interest promotions in the Philippines are genuinely free of interest but not of fees, and the fee schedule is where the money usually is. The sound rule is to size the payment against income after the purchase rather than before it, because a plan that is comfortable when it is taken on is often uncomfortable by the time the next one is offered.",
+        "The second is the cost of missing one, because most plans charge a penalty, many suspend the card on the second missed payment, and the balance does not go away while the fees accumulate. An installment plan is borrowing a lump sum and repaying it in fixed monthly payments, and the term hides two things a borrower should find out first. The first is the total cost, because the amount repaid over a long term is always more than the cash price and comparing only the monthly figure is the mistake that makes an expensive option look affordable. Zero-interest promotions in the Philippines are genuinely free of interest but not of fees, and the fee schedule is where the money usually is. The sound rule is to size the payment against income after the purchase rather than before it, because a plan that is comfortable when it is taken on is often uncomfortable by the time the next one is offered."
+      ],
+      "tl": "installment",
+      "bis": "installment"
+    }
+  ],
+  "lang": "english",
+  "group": "finance",
+  "sub": "credit-and-debt",
+  "title": "Credit and debt",
+  "groupTitle": "Finance"
+}

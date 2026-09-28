@@ -1,0 +1,195 @@
+{
+  "topic": "mathematics-trigonometry",
+  "entries": [
+    {
+      "id": "mat-trigonometry-000001",
+      "topic": "mathematics-trigonometry",
+      "intent": "definition",
+      "concept": "sine",
+      "keywords": [
+        "sine",
+        "opposite",
+        "adjacent",
+        "hypotenuse",
+        "ratio",
+        "trigonometry",
+        "three",
+        "trigonometric",
+        "functions",
+        "angle",
+        "return"
+      ],
+      "patterns": [
+        "what is sine",
+        "sine",
+        "explain sine",
+        "definition of sine",
+        "sine meaning",
+        "what is sine in trigonometry",
+        "what is sohcahtoa",
+        "how do you use sine",
+        "ano ang sine",
+        "unsa ang sine"
+      ],
+      "answer": "The three trigonometric functions take an angle and return a ratio of two sides of a right triangle, and they are the ratios so and so, not the sides themselves. Sine is opposite over hypotenuse, cosine is adjacent over hypotenuse, and tangent is opposite over adjacent, which is the memorised mnemonic for the order and the reason the denominators differ. Each is defined for an angle on the unit circle as an x or y coordinate of the point you reach after rotating, so the values run between minus one and one and repeat with a period of 360 degrees. The functions that matter for ordinary work are the inverse forms, because given a ratio you usually want the angle: arcsin gives back the angle whose sine is the value, and the calculator mode is the same idea. A common mistake is to expect a large result, and the ratio being bounded by one is exactly what makes it a ratio rather than a length.",
+      "variations": [
+        "Sine is opposite over hypotenuse, cosine is adjacent over hypotenuse, and tangent is opposite over adjacent, which is the memorised mnemonic for the order and the reason the denominators differ. The three trigonometric functions take an angle and return a ratio of two sides of a right triangle, and they are the ratios so and so, not the sides themselves. Each is defined for an angle on the unit circle as an x or y coordinate of the point you reach after rotating, so the values run between minus one and one and repeat with a period of 360 degrees. The functions that matter for ordinary work are the inverse forms, because given a ratio you usually want the angle: arcsin gives back the angle whose sine is the value, and the calculator mode is the same idea. A common mistake is to expect a large result, and the ratio being bounded by one is exactly what makes it a ratio rather than a length.",
+        "Each is defined for an angle on the unit circle as an x or y coordinate of the point you reach after rotating, so the values run between minus one and one and repeat with a period of 360 degrees. The three trigonometric functions take an angle and return a ratio of two sides of a right triangle, and they are the ratios so and so, not the sides themselves. Sine is opposite over hypotenuse, cosine is adjacent over hypotenuse, and tangent is opposite over adjacent, which is the memorised mnemonic for the order and the reason the denominators differ. The functions that matter for ordinary work are the inverse forms, because given a ratio you usually want the angle: arcsin gives back the angle whose sine is the value, and the calculator mode is the same idea. A common mistake is to expect a large result, and the ratio being bounded by one is exactly what makes it a ratio rather than a length."
+      ],
+      "tl": "sine",
+      "bis": "sine"
+    },
+    {
+      "id": "mat-trigonometry-000002",
+      "topic": "mathematics-trigonometry",
+      "intent": "definition",
+      "concept": "law of sines",
+      "keywords": [
+        "law of sines",
+        "triangle",
+        "ratio",
+        "solve",
+        "sines",
+        "solves",
+        "missing",
+        "sides",
+        "know"
+      ],
+      "patterns": [
+        "what is law of sines",
+        "law of sines",
+        "explain law of sines",
+        "definition of law of sines",
+        "law of sines meaning",
+        "what is the law of sines",
+        "when do i use law of sines",
+        "law of sines or law of cosines",
+        "ano ang law of sines",
+        "unsa ang law of sines"
+      ],
+      "answer": "The law of sines solves for the missing sides of any triangle when you know two angles and one side, and the reason it exists is that trigonometry is built around right triangles while most triangles are not right. Written as a ratio, the sine of each angle divided by the side opposite it gives the same value for all three, because that value is the diameter of the circle the triangle is inscribed in. The practical consequence is that the pair you choose is a pair of angles and an opposite side, and a common error is to pair an angle with the side next to it and get a plausible but wrong number. It only works in the case it was derived for, and it fails entirely when the triangle is flat, which is the ambiguous case where two different triangles have the same three given measurements. That failure is not a defect of the formula; it is the geometric reason the law of cosines exists.",
+      "variations": [
+        "Written as a ratio, the sine of each angle divided by the side opposite it gives the same value for all three, because that value is the diameter of the circle the triangle is inscribed in. The law of sines solves for the missing sides of any triangle when you know two angles and one side, and the reason it exists is that trigonometry is built around right triangles while most triangles are not right. The practical consequence is that the pair you choose is a pair of angles and an opposite side, and a common error is to pair an angle with the side next to it and get a plausible but wrong number. It only works in the case it was derived for, and it fails entirely when the triangle is flat, which is the ambiguous case where two different triangles have the same three given measurements. That failure is not a defect of the formula; it is the geometric reason the law of cosines exists.",
+        "The practical consequence is that the pair you choose is a pair of angles and an opposite side, and a common error is to pair an angle with the side next to it and get a plausible but wrong number. The law of sines solves for the missing sides of any triangle when you know two angles and one side, and the reason it exists is that trigonometry is built around right triangles while most triangles are not right. Written as a ratio, the sine of each angle divided by the side opposite it gives the same value for all three, because that value is the diameter of the circle the triangle is inscribed in. It only works in the case it was derived for, and it fails entirely when the triangle is flat, which is the ambiguous case where two different triangles have the same three given measurements. That failure is not a defect of the formula; it is the geometric reason the law of cosines exists."
+      ],
+      "tl": "law of sines",
+      "bis": "law of sines"
+    },
+    {
+      "id": "mat-trigonometry-000003",
+      "topic": "mathematics-trigonometry",
+      "intent": "definition",
+      "concept": "unit circle",
+      "keywords": [
+        "unit circle",
+        "radius",
+        "coordinates",
+        "origin",
+        "circle",
+        "symmetry",
+        "unit",
+        "centred",
+        "clean"
+      ],
+      "patterns": [
+        "what is unit circle",
+        "unit circle",
+        "explain unit circle",
+        "definition of unit circle",
+        "unit circle meaning",
+        "what is the unit circle",
+        "why is the unit circle important",
+        "how to find sine using unit circle",
+        "ano ang unit circle",
+        "unsa ang unit circle"
+      ],
+      "answer": "The unit circle is a circle of radius one centred at the origin, and it is the clean definition of sine and cosine, replacing the picture of a right triangle in a right triangle. Walking around the circle, the cosine of the angle you have turned is your x coordinate and the sine is your y coordinate, so at zero degrees you are at (1, 0) and at ninety degrees at (0, 1). That definition has two advantages over the triangle picture: it works for every angle including the ones where no right triangle fits inside, and it makes the symmetry obvious, since going halfway round flips both signs. From the coordinates you can read off the exact values, which is why the circle is the fastest way to remember that sine of thirty degrees is one half. The full trigonometric ratios in the unit circle are given by the coordinates of the point and the radius, so the same picture scales to any circle.",
+      "variations": [
+        "Walking around the circle, the cosine of the angle you have turned is your x coordinate and the sine is your y coordinate, so at zero degrees you are at (1, 0) and at ninety degrees at (0, 1). The unit circle is a circle of radius one centred at the origin, and it is the clean definition of sine and cosine, replacing the picture of a right triangle in a right triangle. That definition has two advantages over the triangle picture: it works for every angle including the ones where no right triangle fits inside, and it makes the symmetry obvious, since going halfway round flips both signs. From the coordinates you can read off the exact values, which is why the circle is the fastest way to remember that sine of thirty degrees is one half. The full trigonometric ratios in the unit circle are given by the coordinates of the point and the radius, so the same picture scales to any circle.",
+        "That definition has two advantages over the triangle picture: it works for every angle including the ones where no right triangle fits inside, and it makes the symmetry obvious, since going halfway round flips both signs. The unit circle is a circle of radius one centred at the origin, and it is the clean definition of sine and cosine, replacing the picture of a right triangle in a right triangle. Walking around the circle, the cosine of the angle you have turned is your x coordinate and the sine is your y coordinate, so at zero degrees you are at (1, 0) and at ninety degrees at (0, 1). From the coordinates you can read off the exact values, which is why the circle is the fastest way to remember that sine of thirty degrees is one half. The full trigonometric ratios in the unit circle are given by the coordinates of the point and the radius, so the same picture scales to any circle."
+      ],
+      "tl": "unit circle",
+      "bis": "unit circle"
+    },
+    {
+      "id": "mat-trigonometry-000004",
+      "topic": "mathematics-trigonometry",
+      "intent": "definition",
+      "concept": "trigonometric identity",
+      "keywords": [
+        "trigonometric identity",
+        "pythagorean",
+        "reciprocal",
+        "quotient",
+        "equation",
+        "simplify",
+        "trigonometric",
+        "identity",
+        "holds",
+        "every",
+        "value"
+      ],
+      "patterns": [
+        "what is trigonometric identity",
+        "trigonometric identity",
+        "explain trigonometric identity",
+        "definition of trigonometric identity",
+        "trigonometric identity meaning",
+        "what is a trigonometric identity",
+        "what identities should i know",
+        "how to use pythagorean identity",
+        "ano ang trigonometric identity",
+        "unsa ang trigonometric identity"
+      ],
+      "answer": "A trigonometric identity is an equation that holds for every value of the angle, rather than for a particular one, and the important ones follow from the unit circle rather than from calculation. The foundational pair is that sine squared plus cosine squared equals one, which is the Pythagorean theorem written on the circle of radius one, and it is the basis of the whole reciprocal, quotient and product rules. The angle addition formulas split the sine and cosine of a sum into combinations of the two original angles, and every other identity is a rearrangement of those, with a handful of triple and half angle forms used mainly for simplifying. Knowing them transforms what looks like an impossible equation into a two-line solution, and they are also what a calculator's key already knows. The honest caveat is that an identity cannot solve for a specific angle, because that is not what it is for, and mixing the two is the usual source of confusion.",
+      "variations": [
+        "The foundational pair is that sine squared plus cosine squared equals one, which is the Pythagorean theorem written on the circle of radius one, and it is the basis of the whole reciprocal, quotient and product rules. A trigonometric identity is an equation that holds for every value of the angle, rather than for a particular one, and the important ones follow from the unit circle rather than from calculation. The angle addition formulas split the sine and cosine of a sum into combinations of the two original angles, and every other identity is a rearrangement of those, with a handful of triple and half angle forms used mainly for simplifying. Knowing them transforms what looks like an impossible equation into a two-line solution, and they are also what a calculator's key already knows. The honest caveat is that an identity cannot solve for a specific angle, because that is not what it is for, and mixing the two is the usual source of confusion.",
+        "The angle addition formulas split the sine and cosine of a sum into combinations of the two original angles, and every other identity is a rearrangement of those, with a handful of triple and half angle forms used mainly for simplifying. A trigonometric identity is an equation that holds for every value of the angle, rather than for a particular one, and the important ones follow from the unit circle rather than from calculation. The foundational pair is that sine squared plus cosine squared equals one, which is the Pythagorean theorem written on the circle of radius one, and it is the basis of the whole reciprocal, quotient and product rules. Knowing them transforms what looks like an impossible equation into a two-line solution, and they are also what a calculator's key already knows. The honest caveat is that an identity cannot solve for a specific angle, because that is not what it is for, and mixing the two is the usual source of confusion."
+      ],
+      "tl": "trigonometric identity",
+      "bis": "trigonometric identity"
+    },
+    {
+      "id": "mat-trigonometry-000005",
+      "topic": "mathematics-trigonometry",
+      "intent": "definition",
+      "concept": "radian",
+      "keywords": [
+        "radian",
+        "pi",
+        "degrees",
+        "conversion",
+        "calculus",
+        "angle",
+        "measure",
+        "length",
+        "rather",
+        "fraction"
+      ],
+      "patterns": [
+        "what is radian",
+        "radian",
+        "explain radian",
+        "definition of radian",
+        "radian meaning",
+        "what is a radian",
+        "how do you convert radians to degrees",
+        "why do we use radians",
+        "ano ang radian",
+        "unsa ang radian"
+      ],
+      "answer": "A radian is the angle measure based on arc length rather than on a fraction of a full turn, and it is defined so that one radian is the angle subtended at the centre by an arc equal in length to the radius. That gives the useful identity, that the arc length equals radius times the angle in radians, and it makes a full circle exactly 2 pi radians, a half circle pi, and a quarter circle pi over two. Degrees are the older, more intuitive measure and radian is the one that simplifies the mathematics, which is why calculus uses radians: the small-angle limit of sine over the angle is only 1 when the angle is measured in radians, and in degrees it is the much uglier number pi over 180. Both describe the same geometry and can be converted with a factor of pi over 180, so a calculator set to the wrong unit silently produces wrong answers rather than an error.",
+      "variations": [
+        "That gives the useful identity, that the arc length equals radius times the angle in radians, and it makes a full circle exactly 2 pi radians, a half circle pi, and a quarter circle pi over two. A radian is the angle measure based on arc length rather than on a fraction of a full turn, and it is defined so that one radian is the angle subtended at the centre by an arc equal in length to the radius. Degrees are the older, more intuitive measure and radian is the one that simplifies the mathematics, which is why calculus uses radians: the small-angle limit of sine over the angle is only 1 when the angle is measured in radians, and in degrees it is the much uglier number pi over 180. Both describe the same geometry and can be converted with a factor of pi over 180, so a calculator set to the wrong unit silently produces wrong answers rather than an error.",
+        "Degrees are the older, more intuitive measure and radian is the one that simplifies the mathematics, which is why calculus uses radians: the small-angle limit of sine over the angle is only 1 when the angle is measured in radians, and in degrees it is the much uglier number pi over 180. A radian is the angle measure based on arc length rather than on a fraction of a full turn, and it is defined so that one radian is the angle subtended at the centre by an arc equal in length to the radius. That gives the useful identity, that the arc length equals radius times the angle in radians, and it makes a full circle exactly 2 pi radians, a half circle pi, and a quarter circle pi over two. Both describe the same geometry and can be converted with a factor of pi over 180, so a calculator set to the wrong unit silently produces wrong answers rather than an error."
+      ],
+      "tl": "radian",
+      "bis": "radian"
+    }
+  ],
+  "lang": "english",
+  "group": "mathematics",
+  "sub": "trigonometry",
+  "title": "Trigonometry",
+  "groupTitle": "Mathematics"
+}

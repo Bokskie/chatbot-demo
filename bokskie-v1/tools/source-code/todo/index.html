@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-do</title>
+  <style>
+    :root {
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --ink: #1f2430;
+      --dim: #767d8c;
+      --line: #e4e7ee;
+      --brand: #4f6ef7;
+      --ok: #2fa36b;
+      --warn: #e0574a;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.5;
+      padding: 2.5rem 1rem;
+    }
+
+    .app { max-width: 620px; margin: 0 auto; }
+    h1 { font-size: 1.9rem; margin-bottom: .25rem; }
+    .sub { color: var(--dim); font-size: .95rem; margin-bottom: 1.75rem; }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 1.25rem;
+      box-shadow: 0 1px 3px rgba(20, 25, 40, .05);
+    }
+
+    /* ---- add row ---- */
+    .add { display: flex; gap: .6rem; margin-bottom: 1.1rem; }
+    .add input {
+      flex: 1;
+      font: inherit;
+      padding: .7rem .85rem;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      background: #fbfcfe;
+    }
+    .add input:focus { outline: 2px solid var(--brand); border-color: var(--brand); }
+
+    button {
+      font: inherit;
+      cursor: pointer;
+      border: 0;
+      border-radius: 9px;
+      padding: .7rem 1.1rem;
+      background: var(--brand);
+      color: #fff;
+      font-weight: 600;
+    }
+    button:hover { filter: brightness(1.06); }
+    button:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+    /* ---- filters ---- */
+    .filters { display: flex; gap: .4rem; margin-bottom: .35rem; flex-wrap: wrap; }
+    .filters button {
+      background: transparent;
+      color: var(--dim);
+      font-weight: 500;
+      padding: .4rem .8rem;
+    }
+    .filters button[aria-pressed="true"] { background: #eef1ff; color: var(--brand); }
+
+    .count { color: var(--dim); font-size: .85rem; margin-bottom: .9rem; }
+
+    /* ---- list ---- */
+    ul { list-style: none; }
+    li {
+      display: flex;
+      align-items: flex-start;
+      gap: .75rem;
+      padding: .7rem .2rem;
+      border-bottom: 1px solid var(--line);
+    }
+    li:last-child { border-bottom: 0; }
+    li.done .text { text-decoration: line-through; color: var(--dim); }
+
+    /* The checkbox is a real input, hidden and restyled, so it stays
+       keyboard reachable and screen-reader friendly. */
+    .box { flex: 0 0 auto; margin-top: .2rem; position: relative; }
+    .box input { position: absolute; opacity: 0; width: 100%; height: 100%; cursor: pointer; }
+    .box span {
+      display: block; width: 20px; height: 20px;
+      border: 2px solid #c8ccd6; border-radius: 6px; background: #fff;
+      pointer-events: none;
+      transition: background .12s ease, border-color .12s ease;
+    }
+    .box input:checked + span { background: var(--ok); border-color: var(--ok); }
+    .box input:checked + span::after {
+      content: ""; display: block; width: 5px; height: 9px;
+      border: solid #fff; border-width: 0 2px 2px 0;
+      transform: rotate(45deg); margin: 1px 0 0 6px;
+    }
+    .box input:focus-visible + span { outline: 2px solid var(--brand); outline-offset: 2px; }
+
+    .text { flex: 1; word-break: break-word; }
+    .edit {
+      flex: 1; font: inherit; padding: .2rem .4rem;
+      border: 1px solid var(--brand); border-radius: 6px;
+    }
+    .kill {
+      background: transparent; color: var(--dim);
+      font-size: 1.1rem; padding: 0 .35rem; line-height: 1;
+    }
+    .kill:hover { color: var(--warn); }
+
+    .empty { color: var(--dim); text-align: center; padding: 2rem 0; }
+
+    .clear {
+      display: block; margin: 1rem auto 0;
+      background: transparent; color: var(--dim); font-weight: 500;
+    }
+    .clear:hover { color: var(--warn); }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <h1>To-do</h1>
+    <p class="sub">Saved in this browser only. Nothing is sent anywhere.</p>
+
+    <div class="card">
+      <form class="add" id="add-form">
+        <input id="add-input" type="text" placeholder="What needs doing?"
+               autocomplete="off" aria-label="New task">
+        <button type="submit">Add</button>
+      </form>
+
+      <div class="filters" id="filters">
+        <button data-f="all"  aria-pressed="true">All</button>
+        <button data-f="open" aria-pressed="false">Open</button>
+        <button data-f="done" aria-pressed="false">Done</button>
+      </div>
+      <p class="count" id="count"></p>
+
+      <ul id="list"></ul>
+
+      <button class="clear" id="clear">Remove completed</button>
+    </div>
+  </main>
+
+  <script>
+    /* ---- state ----
+       An array of { id, text, done }. Everything else in this file is
+       a consequence of it: the list, the count, and the filters are
+       all derived, so there is nothing to keep in sync by hand. */
+    var KEY = "todo.items.v1";
+    var items = load();
+    var filter = "all";
+
+    function load() {
+      try {
+        var raw = localStorage.getItem(KEY);
+        /* Anything unreadable is treated as "no tasks" rather than
+           allowed to throw on page load - a corrupted entry should
+           cost you the list, not the page. */
+        var parsed = raw ? JSON.parse(raw) : [];
+        return Array.isArray(parsed) ? parsed : [];
+      } catch (e) {
+        return [];
+      }
+    }
+
+    function save() {
+      try { localStorage.setItem(KEY, JSON.stringify(items)); }
+      catch (e) { /* private browsing, or the disk is full. The app
+                     still works for this session, which is the honest
+                     amount of degradation. */ }
+    }
+
+    function visible() {
+      if (filter === "open") return items.filter(function (t) { return !t.done; });
+      if (filter === "done") return items.filter(function (t) { return t.done; });
+      return items;
+    }
+
+    function escape(s) {
+      /* Task text is typed by a person and then placed into the page,
+         so it is escaped before it is ever inserted. Without this, a
+         task called <img src=x onerror=...> runs itself. */
+      return String(s).replace(/[&<>"']/g, function (c) {
+        return { "&": "&amp;", "<": "&lt;", ">": "&gt;",
+                 '"': "&quot;", "'": "&#39;" }[c];
+      });
+    }
+
+    function draw() {
+      var list = document.getElementById("list");
+      var rows = visible();
+
+      if (!rows.length) {
+        list.innerHTML = '<li class="empty">' +
+          (items.length ? "Nothing here in this filter." : "No tasks yet.") +
+          "</li>";
+      } else {
+        list.innerHTML = rows.map(function (t) {
+          return '<li class="' + (t.done ? "done" : "") + '" data-id="' + t.id + '">' +
+            '<span class="box"><input type="checkbox" data-act="toggle" ' +
+              (t.done ? "checked" : "") +
+              ' aria-label="Mark ' + escape(t.text) + ' as done"><span></span></span>' +
+            '<span class="text" data-act="edit" title="Click to edit">' +
+              escape(t.text) + "</span>" +
+            '<button class="kill" data-act="kill" ' +
+              'aria-label="Delete ' + escape(t.text) + '">&times;</button>' +
+          "</li>";
+        }).join("");
+      }
+
+      var open = items.filter(function (t) { return !t.done; }).length;
+      document.getElementById("count").textContent =
+        items.length
+          ? open + " open of " + items.length +
+            (items.length === 1 ? " task" : " tasks")
+          : "";
+    }
+
+    /* ---- actions ---- */
+    function add(text) {
+      text = String(text || "").trim();
+      if (!text) return;
+      items.push({ id: String(Date.now()) + Math.random(), text: text, done: false });
+      save(); draw();
+    }
+
+    function find(id) {
+      for (var i = 0; i < items.length; i++) if (items[i].id === id) return items[i];
+      return null;
+    }
+
+    document.getElementById("add-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      var input = document.getElementById("add-input");
+      add(input.value);
+      input.value = "";          /* cleared, so the next task can be typed */
+      input.focus();
+    });
+
+    document.getElementById("list").addEventListener("click", function (e) {
+      var li = e.target.closest("li");
+      if (!li) return;
+      var task = find(li.getAttribute("data-id"));
+      if (!task) return;
+
+      if (e.target.dataset.act === "kill") {
+        items = items.filter(function (t) { return t.id !== task.id; });
+        save(); draw();
+      } else if (e.target.dataset.act === "edit") {
+        startEdit(task, li);
+      }
+    });
+
+    document.getElementById("list").addEventListener("change", function (e) {
+      if (e.target.dataset.act !== "toggle") return;
+      var li = e.target.closest("li");
+      var task = li && find(li.getAttribute("data-id"));
+      if (!task) return;
+      task.done = e.target.checked;
+      save(); draw();
+    });
+
+    /* Editing in place, with Enter to keep and Escape to cancel. An
+       inline field is more code than a prompt() and far less annoying. */
+    function startEdit(task, li) {
+      var span = li.querySelector(".text");
+      var field = document.createElement("input");
+      field.className = "edit";
+      field.value = task.text;
+      span.replaceWith(field);
+      field.focus();
+      field.setSelectionRange(field.value.length, field.value.length);
+
+      var finished = false;
+      function commit(keep) {
+        if (finished) return;      /* Enter and blur both fire; once is enough */
+        finished = true;
+        if (keep) {
+          var v = field.value.trim();
+          if (v) { task.text = v; save(); }
+        }
+        draw();
+      }
+      field.addEventListener("keydown", function (e) {
+        if (e.key === "Enter") { e.preventDefault(); commit(true); }
+        if (e.key === "Escape") { e.preventDefault(); commit(false); }
+      });
+      field.addEventListener("blur", function () { commit(true); });
+    }
+
+    document.getElementById("filters").addEventListener("click", function (e) {
+      var b = e.target.closest("button");
+      if (!b) return;
+      filter = b.getAttribute("data-f");
+      [].forEach.call(this.children, function (c) {
+        c.setAttribute("aria-pressed", String(c === b));
+      });
+      draw();
+    });
+
+    document.getElementById("clear").addEventListener("click", function () {
+      items = items.filter(function (t) { return !t.done; });
+      save(); draw();
+    });
+
+    draw();
+  </script>
+</body>
+</html>
+

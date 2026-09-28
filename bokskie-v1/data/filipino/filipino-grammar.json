@@ -1,0 +1,47 @@
+{
+  "topic": "filipino-filipino-grammar",
+  "entries": [
+    {
+      "id": "fil-filipino-grammar-000001",
+      "topic": "filipino-filipino-grammar",
+      "intent": "definition",
+      "concept": "affix",
+      "keywords": [
+        "affix",
+        "prefix",
+        "suffix",
+        "infix",
+        "root",
+        "marker",
+        "tense",
+        "panlapi",
+        "filipino",
+        "added"
+      ],
+      "patterns": [
+        "what is affix",
+        "affix",
+        "explain affix",
+        "definition of affix",
+        "affix meaning",
+        "anong affix sa filipino",
+        "unsa affix",
+        "paano gumana ang affix",
+        "ano ang panlapi",
+        "unsa ang affix"
+      ],
+      "answer": "An affix in Filipino is a prefix, an infix or a suffix added to a root, and the language uses them so heavily that learning it is mostly learning the affixes rather than the vocabulary. The infix is the unusual one, because inserting a syllable into the middle of a root is rare in the languages of the region, and the standard example is the insertion of pam in sumulat, where it marks the person who caused the writing: the root is sulat for writing, and the same root with other affixes gives a different actor, a different tense and a different object. The tense affixes are among the most regular part of the system, since a completed action, an ongoing one and a future one are all built from the root with a fixed marker, and a learner can therefore form a verb family from one word. The general principle is that the affix order is fixed and it is not the same as word order, which is the thing a beginner gets wrong first.",
+      "variations": [
+        "The infix is the unusual one, because inserting a syllable into the middle of a root is rare in the languages of the region, and the standard example is the insertion of pam in sumulat, where it marks the person who caused the writing: the root is sulat for writing, and the same root with other affixes gives a different actor, a different tense and a different object. An affix in Filipino is a prefix, an infix or a suffix added to a root, and the language uses them so heavily that learning it is mostly learning the affixes rather than the vocabulary. The tense affixes are among the most regular part of the system, since a completed action, an ongoing one and a future one are all built from the root with a fixed marker, and a learner can therefore form a verb family from one word. The general principle is that the affix order is fixed and it is not the same as word order, which is the thing a beginner gets wrong first.",
+        "The tense affixes are among the most regular part of the system, since a completed action, an ongoing one and a future one are all built from the root with a fixed marker, and a learner can therefore form a verb family from one word. An affix in Filipino is a prefix, an infix or a suffix added to a root, and the language uses them so heavily that learning it is mostly learning the affixes rather than the vocabulary. The infix is the unusual one, because inserting a syllable into the middle of a root is rare in the languages of the region, and the standard example is the insertion of pam in sumulat, where it marks the person who caused the writing: the root is sulat for writing, and the same root with other affixes gives a different actor, a different tense and a different object. The general principle is that the affix order is fixed and it is not the same as word order, which is the thing a beginner gets wrong first."
+      ],
+      "tl": "panlapi",
+      "bis": "affix"
+    }
+  ],
+  "lang": "tagalog",
+  "group": "filipino",
+  "sub": "filipino-grammar",
+  "title": "Filipino grammar",
+  "groupTitle": "Filipino"
+}

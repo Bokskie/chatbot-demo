@@ -1,0 +1,165 @@
+{
+  "topic": "general-knowledge-animals",
+  "entries": [
+    {
+      "id": "gen-animals-000001",
+      "topic": "general-knowledge-animals",
+      "intent": "definition",
+      "concept": "mammal",
+      "keywords": [
+        "mammal",
+        "milk",
+        "hair",
+        "whale",
+        "platypus",
+        "rodent",
+        "mamib",
+        "animal",
+        "produces",
+        "young",
+        "single"
+      ],
+      "patterns": [
+        "what is mammal",
+        "mammal",
+        "explain mammal",
+        "definition of mammal",
+        "mammal meaning",
+        "what is a mammal",
+        "is a whale a mammal",
+        "how many mammals are there",
+        "ano ang mammal",
+        "unsa ang mamib"
+      ],
+      "answer": "A mammal is an animal that produces milk for its young, and that single trait is the diagnostic one; the other features, such as hair, three middle-ear bones and warm blood, come with it. The group ranges in size from the smallest bat, barely larger than a thumbnail, to the blue whale, the largest animal that has ever lived, and it includes species that are astonishingly unlike one another, from the duck-billed platypus, which lays eggs and sweats through its bill, to the mole, which lives almost entirely underground. Whether an animal is a mammal is a question about reproduction, not appearance, so a whale is a mammal and a large fish is not, even though both look like they belong in the water together. Scientists estimate there are roughly six thousand mammal species, which is a small fraction of the vertebrates, since the fish vastly outnumber them. Nearly a quarter of the group is made up of rodents, particularly mice, and bats account for a further fifth.",
+      "variations": [
+        "The group ranges in size from the smallest bat, barely larger than a thumbnail, to the blue whale, the largest animal that has ever lived, and it includes species that are astonishingly unlike one another, from the duck-billed platypus, which lays eggs and sweats through its bill, to the mole, which lives almost entirely underground. A mammal is an animal that produces milk for its young, and that single trait is the diagnostic one; the other features, such as hair, three middle-ear bones and warm blood, come with it. Whether an animal is a mammal is a question about reproduction, not appearance, so a whale is a mammal and a large fish is not, even though both look like they belong in the water together. Scientists estimate there are roughly six thousand mammal species, which is a small fraction of the vertebrates, since the fish vastly outnumber them. Nearly a quarter of the group is made up of rodents, particularly mice, and bats account for a further fifth.",
+        "Whether an animal is a mammal is a question about reproduction, not appearance, so a whale is a mammal and a large fish is not, even though both look like they belong in the water together. A mammal is an animal that produces milk for its young, and that single trait is the diagnostic one; the other features, such as hair, three middle-ear bones and warm blood, come with it. The group ranges in size from the smallest bat, barely larger than a thumbnail, to the blue whale, the largest animal that has ever lived, and it includes species that are astonishingly unlike one another, from the duck-billed platypus, which lays eggs and sweats through its bill, to the mole, which lives almost entirely underground. Scientists estimate there are roughly six thousand mammal species, which is a small fraction of the vertebrates, since the fish vastly outnumber them. Nearly a quarter of the group is made up of rodents, particularly mice, and bats account for a further fifth."
+      ],
+      "tl": "mammal",
+      "bis": "mamib"
+    },
+    {
+      "id": "gen-animals-000002",
+      "topic": "general-knowledge-animals",
+      "intent": "definition",
+      "concept": "extinct",
+      "keywords": [
+        "extinct",
+        "endangered",
+        "species",
+        "dodo",
+        "population",
+        "conservation",
+        "nasugatan",
+        "extinction",
+        "condition",
+        "longer",
+        "existing",
+        "anywhere"
+      ],
+      "patterns": [
+        "what is extinct",
+        "extinct",
+        "explain extinct",
+        "definition of extinct",
+        "extinct meaning",
+        "what does extinct mean",
+        "is an endangered species extinct",
+        "how many species go extinct each year",
+        "ano ang extinct",
+        "unsa ang nasugatan"
+      ],
+      "answer": "Extinction is the condition of a species no longer existing anywhere, and it is distinct from an animal being endangered, which means the population is at risk, and from a species being functionally extinct, which means so few remain that it cannot reproduce. The two causes are natural and human, and almost all recent losses are the second. A species needs a viable population, not just a final individual, so when the count drops below a few hundred the chance of recovery falls away, and the final loss to a disease, a storm or simply bad luck becomes likely. The rate matters as much as the count: the background rate of extinction estimated from the fossil record is far below the rate of the last few centuries, so what is happening now is a departure from the ordinary rather than nature being unusually harsh. The dodo is the standard example and the standard warning, since an island species with no predator to fear it and no way to escape was vulnerable to anything introduced.",
+      "variations": [
+        "The two causes are natural and human, and almost all recent losses are the second. Extinction is the condition of a species no longer existing anywhere, and it is distinct from an animal being endangered, which means the population is at risk, and from a species being functionally extinct, which means so few remain that it cannot reproduce. A species needs a viable population, not just a final individual, so when the count drops below a few hundred the chance of recovery falls away, and the final loss to a disease, a storm or simply bad luck becomes likely. The rate matters as much as the count: the background rate of extinction estimated from the fossil record is far below the rate of the last few centuries, so what is happening now is a departure from the ordinary rather than nature being unusually harsh. The dodo is the standard example and the standard warning, since an island species with no predator to fear it and no way to escape was vulnerable to anything introduced.",
+        "A species needs a viable population, not just a final individual, so when the count drops below a few hundred the chance of recovery falls away, and the final loss to a disease, a storm or simply bad luck becomes likely. Extinction is the condition of a species no longer existing anywhere, and it is distinct from an animal being endangered, which means the population is at risk, and from a species being functionally extinct, which means so few remain that it cannot reproduce. The two causes are natural and human, and almost all recent losses are the second. The rate matters as much as the count: the background rate of extinction estimated from the fossil record is far below the rate of the last few centuries, so what is happening now is a departure from the ordinary rather than nature being unusually harsh. The dodo is the standard example and the standard warning, since an island species with no predator to fear it and no way to escape was vulnerable to anything introduced."
+      ],
+      "tl": "extinct",
+      "bis": "nasugatan"
+    },
+    {
+      "id": "gen-animals-000003",
+      "topic": "general-knowledge-animals",
+      "intent": "definition",
+      "concept": "habitat",
+      "keywords": [
+        "habitat",
+        "ecosystem",
+        "species",
+        "fragmentation",
+        "reserve",
+        "breeding",
+        "climate",
+        "shelter",
+        "natural",
+        "environment",
+        "lives",
+        "describing"
+      ],
+      "patterns": [
+        "what is habitat",
+        "habitat",
+        "explain habitat",
+        "definition of habitat",
+        "habitat meaning",
+        "what is a habitat",
+        "difference between habitat and ecosystem",
+        "what is habitat fragmentation",
+        "ano ang habitat",
+        "unsa ang habitat"
+      ],
+      "answer": "A habitat is the natural environment in which a species lives, and describing one properly means naming the physical conditions, not just the place on a map. Temperature, water, light, soil or substrate, and the availability of food and shelter are the variables, and a desert, a rainforest, a coral reef and a deep-sea vent are each a habitat defined by a different combination of them. A species usually occupies more than one at different times or at different stages of life, so a salmon is a freshwater and a marine species and a frog uses ponds, ponds and then land, which is why habitat loss to a migrant bird or a spawning fish is a different kind of problem from habitat loss to a resident one. The largest threat to habitats worldwide is conversion to agriculture and to built-up land, and the fragmentation that comes with it is often more damaging than the area removed, because a remaining patch is too small to support a viable population. Protected areas help and are not sufficient on their own, since a forest reserve with a road through it still permits hunting and clearing at its edge.",
+      "variations": [
+        "Temperature, water, light, soil or substrate, and the availability of food and shelter are the variables, and a desert, a rainforest, a coral reef and a deep-sea vent are each a habitat defined by a different combination of them. A habitat is the natural environment in which a species lives, and describing one properly means naming the physical conditions, not just the place on a map. A species usually occupies more than one at different times or at different stages of life, so a salmon is a freshwater and a marine species and a frog uses ponds, ponds and then land, which is why habitat loss to a migrant bird or a spawning fish is a different kind of problem from habitat loss to a resident one. The largest threat to habitats worldwide is conversion to agriculture and to built-up land, and the fragmentation that comes with it is often more damaging than the area removed, because a remaining patch is too small to support a viable population. Protected areas help and are not sufficient on their own, since a forest reserve with a road through it still permits hunting and clearing at its edge.",
+        "A species usually occupies more than one at different times or at different stages of life, so a salmon is a freshwater and a marine species and a frog uses ponds, ponds and then land, which is why habitat loss to a migrant bird or a spawning fish is a different kind of problem from habitat loss to a resident one. A habitat is the natural environment in which a species lives, and describing one properly means naming the physical conditions, not just the place on a map. Temperature, water, light, soil or substrate, and the availability of food and shelter are the variables, and a desert, a rainforest, a coral reef and a deep-sea vent are each a habitat defined by a different combination of them. The largest threat to habitats worldwide is conversion to agriculture and to built-up land, and the fragmentation that comes with it is often more damaging than the area removed, because a remaining patch is too small to support a viable population. Protected areas help and are not sufficient on their own, since a forest reserve with a road through it still permits hunting and clearing at its edge."
+      ],
+      "tl": "habitat",
+      "bis": "habitat"
+    },
+    {
+      "id": "gen-animals-000004",
+      "topic": "general-knowledge-animals",
+      "intent": "definition",
+      "concept": "food chain",
+      "keywords": [
+        "food chain",
+        "producer",
+        "decomposer",
+        "web",
+        "photosynthesis",
+        "kadag-ong",
+        "food",
+        "chain",
+        "sequence",
+        "eats",
+        "community",
+        "simplest"
+      ],
+      "patterns": [
+        "what is food chain",
+        "food chain",
+        "explain food chain",
+        "definition of food chain",
+        "food chain meaning",
+        "what is a food chain",
+        "what is a food web",
+        "why do food chains only have a few levels",
+        "ano ang food chain",
+        "unsa ang kadag-ong"
+      ],
+      "answer": "A food chain is the sequence of who eats whom in a given community, and it is the simplest way to picture energy moving through an ecosystem. Producers such as plants and algae make their own food from sunlight, primary consumers eat producers, secondary consumers eat the first consumers, and so on, with the top predator at the end. Energy is lost at every step, mostly as heat through respiration, so only about a tenth of the energy at one level reaches the next, and that arithmetic is why chains are short and why there is a limit on how many trophic levels any food web can support. A real community is better described as a food web, because most organisms eat more than one thing and many are eaten by more than one, and that branching is what makes the system robust: remove one prey and its predator can switch to another, whereas in a simple chain the loss propagates directly to the predator above it. Decomposers act on the remains of every level, including the top, which is how nutrients return to the soil.",
+      "variations": [
+        "Producers such as plants and algae make their own food from sunlight, primary consumers eat producers, secondary consumers eat the first consumers, and so on, with the top predator at the end. A food chain is the sequence of who eats whom in a given community, and it is the simplest way to picture energy moving through an ecosystem. Energy is lost at every step, mostly as heat through respiration, so only about a tenth of the energy at one level reaches the next, and that arithmetic is why chains are short and why there is a limit on how many trophic levels any food web can support. A real community is better described as a food web, because most organisms eat more than one thing and many are eaten by more than one, and that branching is what makes the system robust: remove one prey and its predator can switch to another, whereas in a simple chain the loss propagates directly to the predator above it. Decomposers act on the remains of every level, including the top, which is how nutrients return to the soil.",
+        "Energy is lost at every step, mostly as heat through respiration, so only about a tenth of the energy at one level reaches the next, and that arithmetic is why chains are short and why there is a limit on how many trophic levels any food web can support. A food chain is the sequence of who eats whom in a given community, and it is the simplest way to picture energy moving through an ecosystem. Producers such as plants and algae make their own food from sunlight, primary consumers eat producers, secondary consumers eat the first consumers, and so on, with the top predator at the end. A real community is better described as a food web, because most organisms eat more than one thing and many are eaten by more than one, and that branching is what makes the system robust: remove one prey and its predator can switch to another, whereas in a simple chain the loss propagates directly to the predator above it. Decomposers act on the remains of every level, including the top, which is how nutrients return to the soil."
+      ],
+      "tl": "food chain",
+      "bis": "kadag-ong"
+    }
+  ],
+  "lang": "english",
+  "group": "general-knowledge",
+  "sub": "animals",
+  "title": "Animals",
+  "groupTitle": "General Knowledge"
+}

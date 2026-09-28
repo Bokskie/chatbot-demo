@@ -1,0 +1,89 @@
+{
+  "topic": "general-knowledge-transportation",
+  "entries": [
+    {
+      "id": "gen-transportation-000001",
+      "topic": "general-knowledge-transportation",
+      "intent": "definition",
+      "concept": "public transport",
+      "keywords": [
+        "public transport",
+        "bus",
+        "rail",
+        "metro",
+        "ferry",
+        "capacity",
+        "fare",
+        "subsidy",
+        "transport",
+        "public",
+        "service",
+        "carries",
+        "passengers",
+        "driver"
+      ],
+      "patterns": [
+        "what is public transport",
+        "public transport",
+        "explain public transport",
+        "definition of public transport",
+        "public transport meaning",
+        "why is public transport better than cars",
+        "what is mass transit",
+        "ano ang public transport",
+        "unsa ang transport"
+      ],
+      "answer": "Public transport is any service that carries passengers who are not the driver, and the reason it exists is that a vehicle carrying many people uses far less road space and fuel per passenger than the same people driving separately. The main modes are buses and coaches on fixed routes, rail in its several forms from urban metro to intercity, and ferries for water crossings, with each strongest on a particular distance. The usual measure of whether a system works is not the number of vehicles but how much of the demand it captures, and that depends on frequency and reliability far more than on speed, because people will not build a day around a service that may not come. Capacity is why rail matters in a dense city: a single metro line can move tens of thousands of passengers an hour in each direction in a corridor that would be gridlocked, which is why the objections to rail, expensive per kilometre, are about cost rather than capacity. The financing problem is real and it is why most systems are publicly operated or subsidised, since fares set purely to cover costs exclude exactly the people who most need the service.",
+      "variations": [
+        "The main modes are buses and coaches on fixed routes, rail in its several forms from urban metro to intercity, and ferries for water crossings, with each strongest on a particular distance. Public transport is any service that carries passengers who are not the driver, and the reason it exists is that a vehicle carrying many people uses far less road space and fuel per passenger than the same people driving separately. The usual measure of whether a system works is not the number of vehicles but how much of the demand it captures, and that depends on frequency and reliability far more than on speed, because people will not build a day around a service that may not come. Capacity is why rail matters in a dense city: a single metro line can move tens of thousands of passengers an hour in each direction in a corridor that would be gridlocked, which is why the objections to rail, expensive per kilometre, are about cost rather than capacity. The financing problem is real and it is why most systems are publicly operated or subsidised, since fares set purely to cover costs exclude exactly the people who most need the service.",
+        "The usual measure of whether a system works is not the number of vehicles but how much of the demand it captures, and that depends on frequency and reliability far more than on speed, because people will not build a day around a service that may not come. Public transport is any service that carries passengers who are not the driver, and the reason it exists is that a vehicle carrying many people uses far less road space and fuel per passenger than the same people driving separately. The main modes are buses and coaches on fixed routes, rail in its several forms from urban metro to intercity, and ferries for water crossings, with each strongest on a particular distance. Capacity is why rail matters in a dense city: a single metro line can move tens of thousands of passengers an hour in each direction in a corridor that would be gridlocked, which is why the objections to rail, expensive per kilometre, are about cost rather than capacity. The financing problem is real and it is why most systems are publicly operated or subsidised, since fares set purely to cover costs exclude exactly the people who most need the service."
+      ],
+      "tl": "public transport",
+      "bis": "transport"
+    },
+    {
+      "id": "gen-transportation-000002",
+      "topic": "general-knowledge-transportation",
+      "intent": "definition",
+      "concept": "traffic",
+      "keywords": [
+        "traffic",
+        "congestion",
+        "flow",
+        "capacity",
+        "demand",
+        "lane",
+        "commute",
+        "movement",
+        "vehicles",
+        "along",
+        "road",
+        "network"
+      ],
+      "patterns": [
+        "what is traffic",
+        "traffic",
+        "explain traffic",
+        "definition of traffic",
+        "traffic meaning",
+        "what is traffic congestion",
+        "why is there always traffic",
+        "what is induced demand",
+        "ano ang traffic",
+        "unsa ang traffic"
+      ],
+      "answer": "Traffic is the movement of vehicles along a road network, and the word covers two very different things that are constantly confused: the amount of traffic, meaning how many vehicles, and the flow, meaning how quickly they get through. Volume above capacity is what produces congestion, and the relationship is not a smooth line: a road holds close to its maximum flow when moving freely, and adding vehicles past that point reduces throughput, because the time lost to interference and to vehicles waiting to merge exceeds the capacity gained. That is why the empty road at three in the morning moves faster than the full one at six. Demand is the other half, and the most effective interventions reduce it rather than trying to absorb it: spreading hours so not everyone travels at once, moving trips closer to home, sharing a vehicle, or choosing a mode that uses less road space. Adding capacity reliably induces demand, so a new lane fills and returns to the same congestion, which is why transport planning stopped treating widening as a solution decades ago.",
+      "variations": [
+        "Volume above capacity is what produces congestion, and the relationship is not a smooth line: a road holds close to its maximum flow when moving freely, and adding vehicles past that point reduces throughput, because the time lost to interference and to vehicles waiting to merge exceeds the capacity gained. Traffic is the movement of vehicles along a road network, and the word covers two very different things that are constantly confused: the amount of traffic, meaning how many vehicles, and the flow, meaning how quickly they get through. That is why the empty road at three in the morning moves faster than the full one at six. Demand is the other half, and the most effective interventions reduce it rather than trying to absorb it: spreading hours so not everyone travels at once, moving trips closer to home, sharing a vehicle, or choosing a mode that uses less road space. Adding capacity reliably induces demand, so a new lane fills and returns to the same congestion, which is why transport planning stopped treating widening as a solution decades ago.",
+        "That is why the empty road at three in the morning moves faster than the full one at six. Traffic is the movement of vehicles along a road network, and the word covers two very different things that are constantly confused: the amount of traffic, meaning how many vehicles, and the flow, meaning how quickly they get through. Volume above capacity is what produces congestion, and the relationship is not a smooth line: a road holds close to its maximum flow when moving freely, and adding vehicles past that point reduces throughput, because the time lost to interference and to vehicles waiting to merge exceeds the capacity gained. Demand is the other half, and the most effective interventions reduce it rather than trying to absorb it: spreading hours so not everyone travels at once, moving trips closer to home, sharing a vehicle, or choosing a mode that uses less road space. Adding capacity reliably induces demand, so a new lane fills and returns to the same congestion, which is why transport planning stopped treating widening as a solution decades ago."
+      ],
+      "tl": "traffic",
+      "bis": "traffic"
+    }
+  ],
+  "lang": "english",
+  "group": "general-knowledge",
+  "sub": "transportation",
+  "title": "Transportation",
+  "groupTitle": "General Knowledge"
+}

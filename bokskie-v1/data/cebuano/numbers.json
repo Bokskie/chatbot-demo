@@ -1,0 +1,216 @@
+{
+  "topic": "cebuano-numbers",
+  "entries": [
+    {
+      "id": "ceb-numbers-000001",
+      "topic": "cebuano-numbers",
+      "intent": "definition",
+      "concept": "usa",
+      "keywords": [
+        "usa",
+        "one",
+        "isa",
+        "indefinite",
+        "article",
+        "duha",
+        "numero",
+        "english",
+        "usab"
+      ],
+      "patterns": [
+        "what is usa",
+        "usa",
+        "explain usa",
+        "definition of usa",
+        "usa meaning",
+        "unsa ang usa",
+        "usa o isa",
+        "ibig sabihin ng usa",
+        "ano ang isa",
+        "unsa ang usa"
+      ],
+      "answer": "Ang usa mao ang numero nga isa, nga ang \"one\" sa English, nga ang \"isa\" sa Filipino. Sa Cebuano, ang \"usa\" usab nga mao ang indefinite article, nga usa ka tawo, usa ka balay, usa ka kausab. Tungod nga, ang \"usa\" mao hangtod naa apil ang konsepto sa: duha, usa, usa, duha, tetro.",
+      "variations": [
+        "Sa Cebuano, ang \"usa\" usab nga mao ang indefinite article, nga usa ka tawo, usa ka balay, usa ka kausab. Ang usa mao ang numero nga isa, nga ang \"one\" sa English, nga ang \"isa\" sa Filipino. Tungod nga, ang \"usa\" mao hangtod naa apil ang konsepto sa: duha, usa, usa, duha, tetro.",
+        "Tungod nga, ang \"usa\" mao hangtod naa apil ang konsepto sa: duha, usa, usa, duha, tetro. Ang usa mao ang numero nga isa, nga ang \"one\" sa English, nga ang \"isa\" sa Filipino. Sa Cebuano, ang \"usa\" usab nga mao ang indefinite article, nga usa ka tawo, usa ka balay, usa ka kausab."
+      ],
+      "tl": "isa",
+      "bis": "usa"
+    },
+    {
+      "id": "ceb-numbers-000002",
+      "topic": "cebuano-numbers",
+      "intent": "definition",
+      "concept": "duha",
+      "keywords": [
+        "duha",
+        "two",
+        "dalawa",
+        "tolo",
+        "upat",
+        "numero"
+      ],
+      "patterns": [
+        "what is duha",
+        "duha",
+        "explain duha",
+        "definition of duha",
+        "duha meaning",
+        "unsa ang duha",
+        "duha o dalawa",
+        "ibig sabihin ng duha",
+        "ano ang dalawa",
+        "unsa ang duha"
+      ],
+      "answer": "Ang duha mao ang numero nga two, nga ang \"dalawa\" sa Filipino. Sa Cebuano, ang \"duha\" ug ang \"tolo\" usa nga sistema: duha, tulo, upat, limsi, unus, unus, walo, siyam, usa, disyus. Nga kung duha ka pulong lang, ang \"duha\" nga lang ang gamit, nga kung tolo ka, ang \"tolo\" nga lang.",
+      "variations": [
+        "Sa Cebuano, ang \"duha\" ug ang \"tolo\" usa nga sistema: duha, tulo, upat, limsi, unus, unus, walo, siyam, usa, disyus. Ang duha mao ang numero nga two, nga ang \"dalawa\" sa Filipino. Nga kung duha ka pulong lang, ang \"duha\" nga lang ang gamit, nga kung tolo ka, ang \"tolo\" nga lang.",
+        "Nga kung duha ka pulong lang, ang \"duha\" nga lang ang gamit, nga kung tolo ka, ang \"tolo\" nga lang. Ang duha mao ang numero nga two, nga ang \"dalawa\" sa Filipino. Sa Cebuano, ang \"duha\" ug ang \"tolo\" usa nga sistema: duha, tulo, upat, limsi, unus, unus, walo, siyam, usa, disyus."
+      ],
+      "tl": "dalawa",
+      "bis": "duha"
+    },
+    {
+      "id": "ceb-numbers-000003",
+      "topic": "cebuano-numbers",
+      "intent": "definition",
+      "concept": "tolo",
+      "keywords": [
+        "tolo",
+        "tolu",
+        "three",
+        "tatlo",
+        "tanan",
+        "lahat",
+        "numero"
+      ],
+      "patterns": [
+        "what is tolo",
+        "tolo",
+        "explain tolo",
+        "definition of tolo",
+        "tolo meaning",
+        "unsa ang tolo",
+        "tolo o tatlo",
+        "ibig sabihin ng tolo",
+        "ano ang tatlo",
+        "unsa ang tolo"
+      ],
+      "answer": "Ang tolo mao ang numero nga three, nga ang \"tatlo\" sa Filipino. Sa Cebuano, ang \"tolo\" usab nga mao ang tanan, nga ang \"tolo\" nga lahat, nga isa nga konsepto: usa ka konsepto para sa \"all\", ug usa para sa \"three\". Mao man gyud ang pinaka-nalimbag nga ambigwidad sa Cebuano.",
+      "variations": [
+        "Sa Cebuano, ang \"tolo\" usab nga mao ang tanan, nga ang \"tolo\" nga lahat, nga isa nga konsepto: usa ka konsepto para sa \"all\", ug usa para sa \"three\". Ang tolo mao ang numero nga three, nga ang \"tatlo\" sa Filipino. Mao man gyud ang pinaka-nalimbag nga ambigwidad sa Cebuano.",
+        "Mao man gyud ang pinaka-nalimbag nga ambigwidad sa Cebuano. Ang tolo mao ang numero nga three, nga ang \"tatlo\" sa Filipino. Sa Cebuano, ang \"tolo\" usab nga mao ang tanan, nga ang \"tolo\" nga lahat, nga isa nga konsepto: usa ka konsepto para sa \"all\", ug usa para sa \"three\"."
+      ],
+      "tl": "tatlo",
+      "bis": "tolo"
+    },
+    {
+      "id": "ceb-numbers-000004",
+      "topic": "cebuano-numbers",
+      "intent": "definition",
+      "concept": "upat",
+      "keywords": [
+        "upat",
+        "four",
+        "apat",
+        "naputol",
+        "numero",
+        "bisaya"
+      ],
+      "patterns": [
+        "what is upat",
+        "upat",
+        "explain upat",
+        "definition of upat",
+        "upat meaning",
+        "unsa ang upat",
+        "upat o apat",
+        "ibig sabihin ng upat",
+        "ano ang apat",
+        "unsa ang upat"
+      ],
+      "answer": "Ang upat mao ang numero nga four, nga ang \"apat\" sa Filipino. Sa Cebuano, ang \"upat\" nga pulong, nga usa nga konsepto, nga apan ang \"upat\" usab nga mao ang \"naputol\" nga sulat, nga usa lang kaayo nga konsepto. Ang upat kaayo na sa Bisaya.",
+      "variations": [
+        "Sa Cebuano, ang \"upat\" nga pulong, nga usa nga konsepto, nga apan ang \"upat\" usab nga mao ang \"naputol\" nga sulat, nga usa lang kaayo nga konsepto. Ang upat mao ang numero nga four, nga ang \"apat\" sa Filipino. Ang upat kaayo na sa Bisaya.",
+        "Ang upat kaayo na sa Bisaya. Ang upat mao ang numero nga four, nga ang \"apat\" sa Filipino. Sa Cebuano, ang \"upat\" nga pulong, nga usa nga konsepto, nga apan ang \"upat\" usab nga mao ang \"naputol\" nga sulat, nga usa lang kaayo nga konsepto."
+      ],
+      "tl": "apat",
+      "bis": "upat"
+    },
+    {
+      "id": "ceb-numbers-000005",
+      "topic": "cebuano-numbers",
+      "intent": "definition",
+      "concept": "limsi",
+      "keywords": [
+        "limsi",
+        "five",
+        "lima",
+        "limsa",
+        "dili",
+        "numero"
+      ],
+      "patterns": [
+        "what is limsi",
+        "limsi",
+        "explain limsi",
+        "definition of limsi",
+        "limsi meaning",
+        "unsa ang limsi",
+        "limsi o lima",
+        "ibig sabihin ng limsi",
+        "ano ang lima",
+        "unsa ang limsi"
+      ],
+      "answer": "Ang limsi mao ang numero nga five, nga ang \"lima\" sa Filipino. Sa Cebuano, ang \"limsi\" usab nga mao ang limsa, nga dili, nga usa nga konsepto: ang limsi nga limsa, ang limsi nga oo? dili, ang limsi nga limsi. Sa Bisaya, ang limsi mao usab nga lima.",
+      "variations": [
+        "Sa Cebuano, ang \"limsi\" usab nga mao ang limsa, nga dili, nga usa nga konsepto: ang limsi nga limsa, ang limsi nga oo? Ang limsi mao ang numero nga five, nga ang \"lima\" sa Filipino. dili, ang limsi nga limsi. Sa Bisaya, ang limsi mao usab nga lima.",
+        "dili, ang limsi nga limsi. Ang limsi mao ang numero nga five, nga ang \"lima\" sa Filipino. Sa Cebuano, ang \"limsi\" usab nga mao ang limsa, nga dili, nga usa nga konsepto: ang limsi nga limsa, ang limsi nga oo? Sa Bisaya, ang limsi mao usab nga lima."
+      ],
+      "tl": "lima",
+      "bis": "limsi"
+    },
+    {
+      "id": "ceb-numbers-000006",
+      "topic": "cebuano-numbers",
+      "intent": "definition",
+      "concept": "unsa",
+      "keywords": [
+        "unsa",
+        "what",
+        "tanong",
+        "butang",
+        "kana",
+        "dili",
+        "ano",
+        "hingpili",
+        "nimo",
+        "bisaya"
+      ],
+      "patterns": [
+        "what is unsa",
+        "unsa",
+        "explain unsa",
+        "definition of unsa",
+        "unsa meaning",
+        "unsa ang unsa",
+        "unsa o what",
+        "ibig sabihin ng unsa",
+        "ano ang ano",
+        "unsa ang unsa"
+      ],
+      "answer": "Ang unsa mao ang tanong nga hingpili sa butang: unsa ka, unsa to, unsa nimo. Sa Bisaya, kana. Usab, ang unsa nga giingon nga dili pa natukod, nga usa nga konsepto: usa ka pa kaayo, usa ka unsa, usa ka dili nga.",
+      "variations": [
+        "Sa Bisaya, kana. Ang unsa mao ang tanong nga hingpili sa butang: unsa ka, unsa to, unsa nimo. Usab, ang unsa nga giingon nga dili pa natukod, nga usa nga konsepto: usa ka pa kaayo, usa ka unsa, usa ka dili nga.",
+        "Usab, ang unsa nga giingon nga dili pa natukod, nga usa nga konsepto: usa ka pa kaayo, usa ka unsa, usa ka dili nga. Ang unsa mao ang tanong nga hingpili sa butang: unsa ka, unsa to, unsa nimo. Sa Bisaya, kana."
+      ],
+      "tl": "ano",
+      "bis": "unsa"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "numbers",
+  "title": "Numbers",
+  "groupTitle": "Cebuano"
+}

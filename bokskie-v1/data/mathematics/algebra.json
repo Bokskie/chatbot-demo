@@ -1,0 +1,79 @@
+{
+  "topic": "mathematics-algebra",
+  "entries": [
+    {
+      "id": "mat-algebra-000001",
+      "topic": "mathematics-algebra",
+      "intent": "definition",
+      "concept": "linear equation",
+      "keywords": [
+        "linear equation",
+        "isolate",
+        "slope",
+        "linear",
+        "equation",
+        "term",
+        "first",
+        "power",
+        "variable"
+      ],
+      "patterns": [
+        "what is linear equation",
+        "linear equation",
+        "explain linear equation",
+        "definition of linear equation",
+        "linear equation meaning",
+        "what is a linear equation",
+        "how to solve a linear equation",
+        "is a linear equation a straight line",
+        "ano ang linear na equation",
+        "unsa ang linear equation"
+      ],
+      "answer": "A linear equation is one in which each term is to the first power and no variable appears multiplied by another, which in two variables is a straight line when plotted. The general form is ax plus by equals c, and solving means isolating one variable, which is done by moving terms across the equality and keeping the operation on both sides. The trap is the one that produces the most wrong answers: multiplying or dividing only one side of the equals sign, so 2x equals 4 becomes 2x equals 8. Anything from a fraction or a root on a variable is not linear even though the equation is still solvable, and the growth is a straight line because the rate of change is constant by definition. The word linear is also used more loosely in higher mathematics to mean a mapping that preserves addition and scaling, which is a different and more general idea.",
+      "variations": [
+        "The general form is ax plus by equals c, and solving means isolating one variable, which is done by moving terms across the equality and keeping the operation on both sides. A linear equation is one in which each term is to the first power and no variable appears multiplied by another, which in two variables is a straight line when plotted. The trap is the one that produces the most wrong answers: multiplying or dividing only one side of the equals sign, so 2x equals 4 becomes 2x equals 8. Anything from a fraction or a root on a variable is not linear even though the equation is still solvable, and the growth is a straight line because the rate of change is constant by definition. The word linear is also used more loosely in higher mathematics to mean a mapping that preserves addition and scaling, which is a different and more general idea.",
+        "The trap is the one that produces the most wrong answers: multiplying or dividing only one side of the equals sign, so 2x equals 4 becomes 2x equals 8. A linear equation is one in which each term is to the first power and no variable appears multiplied by another, which in two variables is a straight line when plotted. The general form is ax plus by equals c, and solving means isolating one variable, which is done by moving terms across the equality and keeping the operation on both sides. Anything from a fraction or a root on a variable is not linear even though the equation is still solvable, and the growth is a straight line because the rate of change is constant by definition. The word linear is also used more loosely in higher mathematics to mean a mapping that preserves addition and scaling, which is a different and more general idea."
+      ],
+      "tl": "linear na equation",
+      "bis": "linear equation"
+    },
+    {
+      "id": "mat-algebra-000002",
+      "topic": "mathematics-algebra",
+      "intent": "howto",
+      "concept": "quadratic",
+      "keywords": [
+        "quadratic",
+        "equation",
+        "solve",
+        "roots",
+        "discriminant",
+        "parabola",
+        "squared",
+        "plus",
+        "equals",
+        "zero"
+      ],
+      "patterns": [
+        "what is quadratic",
+        "quadratic",
+        "explain quadratic",
+        "definition of quadratic",
+        "quadratic meaning",
+        "how do i solve a quadratic",
+        "quadratic formula",
+        "how to solve equations"
+      ],
+      "answer": "A quadratic equation has the form ax squared plus bx plus c, equals zero. The quadratic formula solves it: x equals minus b, plus or minus the square root of b squared minus 4ac, all over 2a. The part under the square root is the discriminant - if it is positive there are two real roots, zero means one, negative means none. Graphically the curve is a parabola and the roots are where it crosses the axis.",
+      "variations": [
+        "The quadratic formula solves it: x equals minus b, plus or minus the square root of b squared minus 4ac, all over 2a. A quadratic equation has the form ax squared plus bx plus c, equals zero. The part under the square root is the discriminant - if it is positive there are two real roots, zero means one, negative means none. Graphically the curve is a parabola and the roots are where it crosses the axis.",
+        "The part under the square root is the discriminant - if it is positive there are two real roots, zero means one, negative means none. A quadratic equation has the form ax squared plus bx plus c, equals zero. The quadratic formula solves it: x equals minus b, plus or minus the square root of b squared minus 4ac, all over 2a. Graphically the curve is a parabola and the roots are where it crosses the axis."
+      ]
+    }
+  ],
+  "lang": "english",
+  "group": "mathematics",
+  "sub": "algebra",
+  "title": "Algebra",
+  "groupTitle": "Mathematics"
+}

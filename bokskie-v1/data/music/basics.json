@@ -1,0 +1,126 @@
+{
+  "topic": "music-basics",
+  "entries": [
+    {
+      "id": "mus-basics-000001",
+      "topic": "music-basics",
+      "intent": "definition",
+      "concept": "melody",
+      "keywords": [
+        "melody",
+        "tune",
+        "notes",
+        "key",
+        "rhythm",
+        "sing",
+        "hum",
+        "resolve",
+        "note",
+        "line",
+        "recognised",
+        "follows"
+      ],
+      "patterns": [
+        "what is melody",
+        "melody",
+        "explain melody",
+        "definition of melody",
+        "melody meaning",
+        "what is a melody",
+        "melody vs rhythm",
+        "what is a note in music",
+        "ano ang melody",
+        "unsa ang melody"
+      ],
+      "answer": "A melody is the line of notes that a tune is recognised by, and it is the part the ear follows, sitting on top of whatever is underneath it. What separates melody from rhythm is that rhythm is when things happen and melody is which notes happen, so a song can have a rhythm you can clap and a melody you can sing, and tapping the first gives no clue about the second. Melodies work within a key and tend to resolve towards it, and the sense that a tune has finished rather than simply stopped is that effect: the ear is waiting for the note that settles the tension, and a melody that never does that feels unfinished even when it is technically complete. This is why national anthems and hymns are easy to remember and hard to alter, since both depend on a memorable line over a steady pulse. A related practical note is that most people can sing a tune they have heard once, so learning by ear is normal and not a sign of a bad ear.",
+      "variations": [
+        "What separates melody from rhythm is that rhythm is when things happen and melody is which notes happen, so a song can have a rhythm you can clap and a melody you can sing, and tapping the first gives no clue about the second. A melody is the line of notes that a tune is recognised by, and it is the part the ear follows, sitting on top of whatever is underneath it. Melodies work within a key and tend to resolve towards it, and the sense that a tune has finished rather than simply stopped is that effect: the ear is waiting for the note that settles the tension, and a melody that never does that feels unfinished even when it is technically complete. This is why national anthems and hymns are easy to remember and hard to alter, since both depend on a memorable line over a steady pulse. A related practical note is that most people can sing a tune they have heard once, so learning by ear is normal and not a sign of a bad ear.",
+        "Melodies work within a key and tend to resolve towards it, and the sense that a tune has finished rather than simply stopped is that effect: the ear is waiting for the note that settles the tension, and a melody that never does that feels unfinished even when it is technically complete. A melody is the line of notes that a tune is recognised by, and it is the part the ear follows, sitting on top of whatever is underneath it. What separates melody from rhythm is that rhythm is when things happen and melody is which notes happen, so a song can have a rhythm you can clap and a melody you can sing, and tapping the first gives no clue about the second. This is why national anthems and hymns are easy to remember and hard to alter, since both depend on a memorable line over a steady pulse. A related practical note is that most people can sing a tune they have heard once, so learning by ear is normal and not a sign of a bad ear."
+      ],
+      "tl": "melody",
+      "bis": "melody"
+    },
+    {
+      "id": "mus-basics-000002",
+      "topic": "music-basics",
+      "intent": "definition",
+      "concept": "chord",
+      "keywords": [
+        "chord",
+        "triad",
+        "major",
+        "minor",
+        "harmony",
+        "thirds",
+        "key",
+        "progression",
+        "several",
+        "notes",
+        "sounded",
+        "together",
+        "makes"
+      ],
+      "patterns": [
+        "what is chord",
+        "chord",
+        "explain chord",
+        "definition of chord",
+        "chord meaning",
+        "what is a chord",
+        "major vs minor chord",
+        "how do chords work",
+        "ano ang chord",
+        "unsa ang chord"
+      ],
+      "answer": "A chord is several notes sounded together, and what makes it more than that is that the notes are chosen to relate, usually in thirds so that they form a stack rather than a cluster. A triad is the commonest one, built from a root, a third and a fifth, and whether it sounds settled or tense depends on which third: a major third under a root gives a major chord and a minor third gives a minor, which is the entire difference between the two in most people's ears. Chords get their character from how they move, so a sequence of the same chord repeated sounds static and a progression that returns home sounds finished, which is the same resolution the ear does in a melody. They also name the key, which is why a song is described as being in C and that is really a statement about its chords rather than about its tune.",
+      "variations": [
+        "A triad is the commonest one, built from a root, a third and a fifth, and whether it sounds settled or tense depends on which third: a major third under a root gives a major chord and a minor third gives a minor, which is the entire difference between the two in most people's ears. A chord is several notes sounded together, and what makes it more than that is that the notes are chosen to relate, usually in thirds so that they form a stack rather than a cluster. Chords get their character from how they move, so a sequence of the same chord repeated sounds static and a progression that returns home sounds finished, which is the same resolution the ear does in a melody. They also name the key, which is why a song is described as being in C and that is really a statement about its chords rather than about its tune.",
+        "Chords get their character from how they move, so a sequence of the same chord repeated sounds static and a progression that returns home sounds finished, which is the same resolution the ear does in a melody. A chord is several notes sounded together, and what makes it more than that is that the notes are chosen to relate, usually in thirds so that they form a stack rather than a cluster. A triad is the commonest one, built from a root, a third and a fifth, and whether it sounds settled or tense depends on which third: a major third under a root gives a major chord and a minor third gives a minor, which is the entire difference between the two in most people's ears. They also name the key, which is why a song is described as being in C and that is really a statement about its chords rather than about its tune."
+      ],
+      "tl": "chord",
+      "bis": "chord"
+    },
+    {
+      "id": "mus-basics-000003",
+      "topic": "music-basics",
+      "intent": "definition",
+      "concept": "tempo",
+      "keywords": [
+        "tempo",
+        "bpm",
+        "speed",
+        "pulse",
+        "key",
+        "fast",
+        "slow",
+        "music",
+        "separate",
+        "decision",
+        "tune"
+      ],
+      "patterns": [
+        "what is tempo",
+        "tempo",
+        "explain tempo",
+        "definition of tempo",
+        "tempo meaning",
+        "what is bpm",
+        "does tempo change the key",
+        "ano ang tempo",
+        "unsa ang tempo"
+      ],
+      "answer": "Tempo is how fast the music is, and it is a separate decision from what key the music is in, so a tune can be recognisable at any speed while sounding completely different. It is counted in beats per minute, and a song in one key will often be given a different tempo than the same song in another key, which is a technical necessity rather than a choice: raising the pitch without changing the speed would change the song. What makes a tempo feel right is usually its relation to the words, and a singer who rushes a slow song or drags a fast one makes it sound worse without changing a note. Tempo also interacts with the body: a faster pulse raises arousal, which is why a march feels different from a lullaby at the same key, and why a piece of music played at the wrong tempo can feel anxious or lifeless rather than merely mis-timed.",
+      "variations": [
+        "It is counted in beats per minute, and a song in one key will often be given a different tempo than the same song in another key, which is a technical necessity rather than a choice: raising the pitch without changing the speed would change the song. Tempo is how fast the music is, and it is a separate decision from what key the music is in, so a tune can be recognisable at any speed while sounding completely different. What makes a tempo feel right is usually its relation to the words, and a singer who rushes a slow song or drags a fast one makes it sound worse without changing a note. Tempo also interacts with the body: a faster pulse raises arousal, which is why a march feels different from a lullaby at the same key, and why a piece of music played at the wrong tempo can feel anxious or lifeless rather than merely mis-timed.",
+        "What makes a tempo feel right is usually its relation to the words, and a singer who rushes a slow song or drags a fast one makes it sound worse without changing a note. Tempo is how fast the music is, and it is a separate decision from what key the music is in, so a tune can be recognisable at any speed while sounding completely different. It is counted in beats per minute, and a song in one key will often be given a different tempo than the same song in another key, which is a technical necessity rather than a choice: raising the pitch without changing the speed would change the song. Tempo also interacts with the body: a faster pulse raises arousal, which is why a march feels different from a lullaby at the same key, and why a piece of music played at the wrong tempo can feel anxious or lifeless rather than merely mis-timed."
+      ],
+      "tl": "tempo",
+      "bis": "tempo"
+    }
+  ],
+  "lang": "english",
+  "group": "music",
+  "sub": "basics",
+  "title": "Music basics",
+  "groupTitle": "Music"
+}

@@ -1,0 +1,48 @@
+{
+  "topic": "filipino-technology",
+  "entries": [
+    {
+      "id": "fil-technology-000001",
+      "topic": "filipino-technology",
+      "intent": "definition",
+      "concept": "teknolohiya",
+      "keywords": [
+        "teknolohiya",
+        "technology",
+        "gadget",
+        "device",
+        "advanced",
+        "field",
+        "innovation",
+        "equipment",
+        "means",
+        "general",
+        "word",
+        "covering"
+      ],
+      "patterns": [
+        "what is teknolohiya",
+        "teknolohiya",
+        "explain teknolohiya",
+        "definition of teknolohiya",
+        "teknolohiya meaning",
+        "anong meaning ng teknolohiya",
+        "what is technology",
+        "ano ang teknolohiya",
+        "unsa ang teknolohiya"
+      ],
+      "answer": "Teknolohiya means technology, and it is the general word covering anything from a phone to a satellite, with a technical word behind it rather than an everyday one. The word is used for the field and for the things themselves, so it is common to hear it about a country as well as about a device, meaning how advanced a place is. What is hard for a learner is that Filipino distinguishes little between the general and the specific, so the word that English reserves for a phone or a computer is the same one used for a national research programme. The related everyday words are the borrowed ones, and they are the ones actually used in shops and schools: kompyuter, telepono and internet are all understood everywhere, while teknolohiya is the word you hear in a speech or a headline.",
+      "variations": [
+        "The word is used for the field and for the things themselves, so it is common to hear it about a country as well as about a device, meaning how advanced a place is. Teknolohiya means technology, and it is the general word covering anything from a phone to a satellite, with a technical word behind it rather than an everyday one. What is hard for a learner is that Filipino distinguishes little between the general and the specific, so the word that English reserves for a phone or a computer is the same one used for a national research programme. The related everyday words are the borrowed ones, and they are the ones actually used in shops and schools: kompyuter, telepono and internet are all understood everywhere, while teknolohiya is the word you hear in a speech or a headline.",
+        "What is hard for a learner is that Filipino distinguishes little between the general and the specific, so the word that English reserves for a phone or a computer is the same one used for a national research programme. Teknolohiya means technology, and it is the general word covering anything from a phone to a satellite, with a technical word behind it rather than an everyday one. The word is used for the field and for the things themselves, so it is common to hear it about a country as well as about a device, meaning how advanced a place is. The related everyday words are the borrowed ones, and they are the ones actually used in shops and schools: kompyuter, telepono and internet are all understood everywhere, while teknolohiya is the word you hear in a speech or a headline."
+      ],
+      "tl": "teknolohiya",
+      "bis": "teknolohiya"
+    }
+  ],
+  "lang": "tagalog",
+  "group": "filipino",
+  "sub": "technology",
+  "title": "Technology",
+  "groupTitle": "Filipino"
+}

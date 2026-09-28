@@ -1,0 +1,46 @@
+{
+  "topic": "filipino-slang",
+  "entries": [
+    {
+      "id": "fil-slang-000001",
+      "topic": "filipino-slang",
+      "intent": "definition",
+      "concept": "chikiting",
+      "keywords": [
+        "chikiting",
+        "kids",
+        "children",
+        "slang",
+        "cebuano",
+        "street",
+        "anak",
+        "informal",
+        "means",
+        "derived"
+      ],
+      "patterns": [
+        "what is chikiting",
+        "chikiting",
+        "explain chikiting",
+        "definition of chikiting",
+        "chikiting meaning",
+        "anong meaning ng chikiting",
+        "chikiting sa cebuano",
+        "ano ang mga anak",
+        "unsa ang chikiting"
+      ],
+      "answer": "Chikiting means kids or children, and it is a Cebuano-derived word now standard in Tagalog slang, which is the clearest example of the two languages mixing. It comes from Cebuano, where the ordinary word for a child is bata, and the Cebuano plural or affectionate form entered Manila speech through street culture and is now the neutral word among younger Filipinos, including in schools and offices. The older Tagalog word anak covers a child of any age, a son or daughter, and is still the correct word in formal writing, so the two are not interchangeable in every register: anak refers to your own child or to a child being discussed formally, while chikiting is the general affectionate term for any child. A learner who uses chikiting is not making an error so much as choosing a register, and the same is true of the Cebuano-derived words that have entered the language in the past decades.",
+      "variations": [
+        "It comes from Cebuano, where the ordinary word for a child is bata, and the Cebuano plural or affectionate form entered Manila speech through street culture and is now the neutral word among younger Filipinos, including in schools and offices. Chikiting means kids or children, and it is a Cebuano-derived word now standard in Tagalog slang, which is the clearest example of the two languages mixing. The older Tagalog word anak covers a child of any age, a son or daughter, and is still the correct word in formal writing, so the two are not interchangeable in every register: anak refers to your own child or to a child being discussed formally, while chikiting is the general affectionate term for any child. A learner who uses chikiting is not making an error so much as choosing a register, and the same is true of the Cebuano-derived words that have entered the language in the past decades.",
+        "The older Tagalog word anak covers a child of any age, a son or daughter, and is still the correct word in formal writing, so the two are not interchangeable in every register: anak refers to your own child or to a child being discussed formally, while chikiting is the general affectionate term for any child. Chikiting means kids or children, and it is a Cebuano-derived word now standard in Tagalog slang, which is the clearest example of the two languages mixing. It comes from Cebuano, where the ordinary word for a child is bata, and the Cebuano plural or affectionate form entered Manila speech through street culture and is now the neutral word among younger Filipinos, including in schools and offices. A learner who uses chikiting is not making an error so much as choosing a register, and the same is true of the Cebuano-derived words that have entered the language in the past decades."
+      ],
+      "tl": "mga anak",
+      "bis": "chikiting"
+    }
+  ],
+  "lang": "tagalog",
+  "group": "filipino",
+  "sub": "slang",
+  "title": "Slang",
+  "groupTitle": "Filipino"
+}

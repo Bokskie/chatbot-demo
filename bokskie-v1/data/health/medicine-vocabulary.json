@@ -1,0 +1,208 @@
+{
+  "topic": "health-medicine-vocabulary",
+  "entries": [
+    {
+      "id": "hea-medicine-vocabulary-000001",
+      "topic": "health-medicine-vocabulary",
+      "intent": "definition",
+      "concept": "cold remedies",
+      "keywords": [
+        "cold remedies",
+        "cold",
+        "cough",
+        "syrup",
+        "antibiotic",
+        "virus",
+        "colds",
+        "caused",
+        "viruses",
+        "antibiotics",
+        "nothing",
+        "against"
+      ],
+      "patterns": [
+        "what is cold remedies",
+        "cold remedies",
+        "explain cold remedies",
+        "definition of cold remedies",
+        "cold remedies meaning",
+        "do cold medicines work",
+        "should i take antibiotics for a cold",
+        "is honey good for a cough",
+        "ano ang gamot sa ubo",
+        "unsa ang gamot sa ubo"
+      ],
+      "answer": "Colds are caused by viruses, and antibiotics do nothing against viruses, so taking them for a cold is the most common reason they stop working when they are genuinely needed. Most over-the-counter cold medicines treat congestion and cough rather than shortening the illness, and the things that reliably help are time, fluids and rest. Warm honey liquid has some evidence behind it for soothing a cough in adults and children over one year, and must never be given to an infant. See a doctor if a cold lasts more than about ten days, worsens after improving, or comes with high fever, breathing difficulty or severe pain.",
+      "variations": [
+        "Most over-the-counter cold medicines treat congestion and cough rather than shortening the illness, and the things that reliably help are time, fluids and rest. Colds are caused by viruses, and antibiotics do nothing against viruses, so taking them for a cold is the most common reason they stop working when they are genuinely needed. Warm honey liquid has some evidence behind it for soothing a cough in adults and children over one year, and must never be given to an infant. See a doctor if a cold lasts more than about ten days, worsens after improving, or comes with high fever, breathing difficulty or severe pain.",
+        "Warm honey liquid has some evidence behind it for soothing a cough in adults and children over one year, and must never be given to an infant. Colds are caused by viruses, and antibiotics do nothing against viruses, so taking them for a cold is the most common reason they stop working when they are genuinely needed. Most over-the-counter cold medicines treat congestion and cough rather than shortening the illness, and the things that reliably help are time, fluids and rest. See a doctor if a cold lasts more than about ten days, worsens after improving, or comes with high fever, breathing difficulty or severe pain."
+      ],
+      "tl": "gamot sa ubo",
+      "bis": "gamot sa ubo",
+      "source": "CDC notes antibiotics are ineffective against viral colds. Evidence for specific over-the-counter cold remedies is mixed, and honey for cough must not be given to infants under one year.",
+      "confidence": 0.7
+    },
+    {
+      "id": "hea-medicine-vocabulary-000002",
+      "topic": "health-medicine-vocabulary",
+      "intent": "definition",
+      "concept": "antibiotics",
+      "keywords": [
+        "antibiotics",
+        "antibiotic",
+        "penicillin",
+        "bacteria",
+        "resistance",
+        "antibayot",
+        "medicines",
+        "kill",
+        "stop",
+        "reproducing"
+      ],
+      "patterns": [
+        "what is antibiotics",
+        "antibiotics",
+        "explain antibiotics",
+        "definition of antibiotics",
+        "antibiotics meaning",
+        "why do antibiotics not work on viruses",
+        "when should i take antibiotics",
+        "what is antibiotic resistance",
+        "ano ang antibayot",
+        "unsa ang antibayot"
+      ],
+      "answer": "Antibiotics are medicines that kill bacteria or stop them reproducing, and they have no effect whatsoever on viruses. Using them for a viral infection does nothing for the patient and drives resistance, which is the reason many infections have become harder to treat. They should only be taken when prescribed, for the full duration given, and never shared or saved for later. Taking leftover or borrowed antibiotics is a common and entirely avoidable cause of harm.",
+      "variations": [
+        "Using them for a viral infection does nothing for the patient and drives resistance, which is the reason many infections have become harder to treat. Antibiotics are medicines that kill bacteria or stop them reproducing, and they have no effect whatsoever on viruses. They should only be taken when prescribed, for the full duration given, and never shared or saved for later. Taking leftover or borrowed antibiotics is a common and entirely avoidable cause of harm.",
+        "They should only be taken when prescribed, for the full duration given, and never shared or saved for later. Antibiotics are medicines that kill bacteria or stop them reproducing, and they have no effect whatsoever on viruses. Using them for a viral infection does nothing for the patient and drives resistance, which is the reason many infections have become harder to treat. Taking leftover or borrowed antibiotics is a common and entirely avoidable cause of harm."
+      ],
+      "tl": "antibayot",
+      "bis": "antibayot"
+    },
+    {
+      "id": "hea-medicine-vocabulary-000003",
+      "topic": "health-medicine-vocabulary",
+      "intent": "definition",
+      "concept": "mental health",
+      "keywords": [
+        "mental health",
+        "mental",
+        "depression",
+        "anxiety",
+        "wellbeing",
+        "therapy",
+        "kaloobloob",
+        "health",
+        "emotional",
+        "psychological",
+        "social",
+        "state"
+      ],
+      "patterns": [
+        "what is mental health",
+        "mental health",
+        "explain mental health",
+        "definition of mental health",
+        "mental health meaning",
+        "how do i know if i am depressed",
+        "is depression curable",
+        "ano ang kaloobloob",
+        "unsa ang kaloobloob"
+      ],
+      "answer": "Mental health is the emotional, psychological and social state of a person, and it moves along a range rather than sitting at a fixed level. Common conditions include anxiety disorders, depression, bipolar disorder and post-traumatic stress, and all of them are treatable. Difficulty sleeping, loss of interest in things you used to enjoy, hopelessness and changes in appetite or concentration are worth taking seriously rather than explained away. Help is available through general practitioners as well as specialists, and seeking it is ordinary maintenance rather than an admission of serious illness.",
+      "variations": [
+        "Common conditions include anxiety disorders, depression, bipolar disorder and post-traumatic stress, and all of them are treatable. Mental health is the emotional, psychological and social state of a person, and it moves along a range rather than sitting at a fixed level. Difficulty sleeping, loss of interest in things you used to enjoy, hopelessness and changes in appetite or concentration are worth taking seriously rather than explained away. Help is available through general practitioners as well as specialists, and seeking it is ordinary maintenance rather than an admission of serious illness.",
+        "Difficulty sleeping, loss of interest in things you used to enjoy, hopelessness and changes in appetite or concentration are worth taking seriously rather than explained away. Mental health is the emotional, psychological and social state of a person, and it moves along a range rather than sitting at a fixed level. Common conditions include anxiety disorders, depression, bipolar disorder and post-traumatic stress, and all of them are treatable. Help is available through general practitioners as well as specialists, and seeking it is ordinary maintenance rather than an admission of serious illness."
+      ],
+      "tl": "kaloobloob",
+      "bis": "kaloobloob"
+    },
+    {
+      "id": "hea-medicine-vocabulary-000004",
+      "topic": "health-medicine-vocabulary",
+      "intent": "definition",
+      "concept": "complaint",
+      "keywords": [
+        "complaint",
+        "symptom",
+        "sign",
+        "subjective",
+        "objective",
+        "patient",
+        "pattern",
+        "history",
+        "reklamo",
+        "medicine",
+        "person",
+        "reports",
+        "bothering",
+        "treating"
+      ],
+      "patterns": [
+        "what is complaint",
+        "complaint",
+        "explain complaint",
+        "definition of complaint",
+        "complaint meaning",
+        "what is a complaint in medicine",
+        "symptom vs sign",
+        "what should you tell a doctor",
+        "ano ang reklamo",
+        "unsa ang complaint"
+      ],
+      "answer": "A complaint in medicine is what a person reports as bothering them, and treating it as a clue rather than a conclusion is the whole discipline: it records that something is happening without claiming what it is. A complaint is subjective and in the patient's words, while a sign is something observed or measured, so a pain and a tiredness are complaints and a raised temperature or a rash are signs. The two are related because a patient can use a word that actually describes an observable feature, and taking a symptom as a finding is the error behind a great deal of unnecessary testing. A complaint is also not a cause, and suppressing one that looks like the illness, such as a fever, can make someone comfortable while leaving the problem untouched. The most useful thing to record is the pattern rather than the single worst episode: when it began, how it has changed, and what improves or worsens it.",
+      "variations": [
+        "A complaint is subjective and in the patient's words, while a sign is something observed or measured, so a pain and a tiredness are complaints and a raised temperature or a rash are signs. A complaint in medicine is what a person reports as bothering them, and treating it as a clue rather than a conclusion is the whole discipline: it records that something is happening without claiming what it is. The two are related because a patient can use a word that actually describes an observable feature, and taking a symptom as a finding is the error behind a great deal of unnecessary testing. A complaint is also not a cause, and suppressing one that looks like the illness, such as a fever, can make someone comfortable while leaving the problem untouched. The most useful thing to record is the pattern rather than the single worst episode: when it began, how it has changed, and what improves or worsens it.",
+        "The two are related because a patient can use a word that actually describes an observable feature, and taking a symptom as a finding is the error behind a great deal of unnecessary testing. A complaint in medicine is what a person reports as bothering them, and treating it as a clue rather than a conclusion is the whole discipline: it records that something is happening without claiming what it is. A complaint is subjective and in the patient's words, while a sign is something observed or measured, so a pain and a tiredness are complaints and a raised temperature or a rash are signs. A complaint is also not a cause, and suppressing one that looks like the illness, such as a fever, can make someone comfortable while leaving the problem untouched. The most useful thing to record is the pattern rather than the single worst episode: when it began, how it has changed, and what improves or worsens it."
+      ],
+      "tl": "reklamo",
+      "bis": "complaint"
+    },
+    {
+      "id": "hea-medicine-vocabulary-000005",
+      "topic": "health-medicine-vocabulary",
+      "intent": "definition",
+      "concept": "side effect",
+      "keywords": [
+        "side effect",
+        "adverse",
+        "reaction",
+        "interaction",
+        "withdrawal",
+        "mild",
+        "severe",
+        "report",
+        "side",
+        "effect",
+        "anything",
+        "medicine",
+        "prescribed",
+        "word"
+      ],
+      "patterns": [
+        "what is side effect",
+        "side effect",
+        "explain side effect",
+        "definition of side effect",
+        "side effect meaning",
+        "what is a side effect",
+        "what are drug interactions",
+        "is a side effect the same as an allergy",
+        "ano ang side effect",
+        "unsa ang side effect"
+      ],
+      "answer": "A side effect is anything a medicine does that was not the effect it was prescribed for, and the word covers everything from a mild nuisance to a serious problem, which is why it is not a claim that something is harmful. Most are mild and predictable and often appear in the first days, and the body frequently adapts to them, so the ones that matter are the ones that do not go away and the ones that appear suddenly much later. The reason a person is asked at a consultation what else they take is interaction, since two drugs can each be fine alone and produce a problem together, and this is more common in people managing several conditions. A related effect that a beginner mixes up is a withdrawal effect, which is what the body produces when a drug it has adapted to is removed, and it is a different mechanism from a side effect even though the symptoms can look the same. The practical guidance is to report rather than to stop, because a dose can often be adjusted, and because not reporting means the same thing happens to the next person.",
+      "variations": [
+        "Most are mild and predictable and often appear in the first days, and the body frequently adapts to them, so the ones that matter are the ones that do not go away and the ones that appear suddenly much later. A side effect is anything a medicine does that was not the effect it was prescribed for, and the word covers everything from a mild nuisance to a serious problem, which is why it is not a claim that something is harmful. The reason a person is asked at a consultation what else they take is interaction, since two drugs can each be fine alone and produce a problem together, and this is more common in people managing several conditions. A related effect that a beginner mixes up is a withdrawal effect, which is what the body produces when a drug it has adapted to is removed, and it is a different mechanism from a side effect even though the symptoms can look the same. The practical guidance is to report rather than to stop, because a dose can often be adjusted, and because not reporting means the same thing happens to the next person.",
+        "The reason a person is asked at a consultation what else they take is interaction, since two drugs can each be fine alone and produce a problem together, and this is more common in people managing several conditions. A side effect is anything a medicine does that was not the effect it was prescribed for, and the word covers everything from a mild nuisance to a serious problem, which is why it is not a claim that something is harmful. Most are mild and predictable and often appear in the first days, and the body frequently adapts to them, so the ones that matter are the ones that do not go away and the ones that appear suddenly much later. A related effect that a beginner mixes up is a withdrawal effect, which is what the body produces when a drug it has adapted to is removed, and it is a different mechanism from a side effect even though the symptoms can look the same. The practical guidance is to report rather than to stop, because a dose can often be adjusted, and because not reporting means the same thing happens to the next person."
+      ],
+      "tl": "side effect",
+      "bis": "side effect"
+    }
+  ],
+  "lang": "english",
+  "group": "health",
+  "sub": "medicine-vocabulary",
+  "title": "Medicine vocabulary",
+  "groupTitle": "Health"
+}

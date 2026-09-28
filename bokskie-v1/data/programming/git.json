@@ -1,0 +1,123 @@
+{
+  "topic": "programming-git",
+  "entries": [
+    {
+      "id": "pro-git-000001",
+      "topic": "programming-git",
+      "intent": "definition",
+      "concept": "branch",
+      "keywords": [
+        "branch",
+        "reference",
+        "commit",
+        "merge",
+        "tracking",
+        "feature",
+        "sangay",
+        "version",
+        "control",
+        "movable",
+        "name",
+        "pointing"
+      ],
+      "patterns": [
+        "what is branch",
+        "branch",
+        "explain branch",
+        "definition of branch",
+        "branch meaning",
+        "what is a branch in git",
+        "how do i create a branch",
+        "what is the default branch",
+        "ano ang sangay",
+        "unsa ang branch"
+      ],
+      "answer": "A branch in version control is a movable name pointing at a commit, and the point that confuses beginners is that a branch is not a copy of the code and not a separate folder. Creating one is instantaneous and costs nothing, because it is a reference, and switching to it changes the working directory to the state that reference points at. The default branch is the one that receives merges and is the branch you should always be able to fall back to. Feature work belongs on a named branch so that it can be reviewed and merged separately, and the workflow people call branch-per-issue is simply one branch per piece of work. Branches can also point at other branches, which is called tracking, and the pairing is what makes git pull on that branch update the copy on the server as well. A branch that was never merged is not deleted by a delete command without a flag, and the flag is a real safety net: it means the commits are not gone, just unreachable.",
+      "variations": [
+        "Creating one is instantaneous and costs nothing, because it is a reference, and switching to it changes the working directory to the state that reference points at. A branch in version control is a movable name pointing at a commit, and the point that confuses beginners is that a branch is not a copy of the code and not a separate folder. The default branch is the one that receives merges and is the branch you should always be able to fall back to. Feature work belongs on a named branch so that it can be reviewed and merged separately, and the workflow people call branch-per-issue is simply one branch per piece of work. Branches can also point at other branches, which is called tracking, and the pairing is what makes git pull on that branch update the copy on the server as well. A branch that was never merged is not deleted by a delete command without a flag, and the flag is a real safety net: it means the commits are not gone, just unreachable.",
+        "The default branch is the one that receives merges and is the branch you should always be able to fall back to. A branch in version control is a movable name pointing at a commit, and the point that confuses beginners is that a branch is not a copy of the code and not a separate folder. Creating one is instantaneous and costs nothing, because it is a reference, and switching to it changes the working directory to the state that reference points at. Feature work belongs on a named branch so that it can be reviewed and merged separately, and the workflow people call branch-per-issue is simply one branch per piece of work. Branches can also point at other branches, which is called tracking, and the pairing is what makes git pull on that branch update the copy on the server as well. A branch that was never merged is not deleted by a delete command without a flag, and the flag is a real safety net: it means the commits are not gone, just unreachable."
+      ],
+      "tl": "sangay",
+      "bis": "branch"
+    },
+    {
+      "id": "pro-git-000002",
+      "topic": "programming-git",
+      "intent": "definition",
+      "concept": "rebase",
+      "keywords": [
+        "rebase",
+        "history",
+        "commit",
+        "merge",
+        "hash",
+        "linear",
+        "i-rebase",
+        "replays",
+        "commits",
+        "branch",
+        "another"
+      ],
+      "patterns": [
+        "what is rebase",
+        "rebase",
+        "explain rebase",
+        "definition of rebase",
+        "rebase meaning",
+        "merge vs rebase",
+        "is rebase safe",
+        "ano ang i-rebase",
+        "unsa ang rebase"
+      ],
+      "answer": "Rebase replays the commits of one branch on top of another, so the history becomes a straight line of your own work sitting on top of the branch you started from. The result looks cleaner and produces a much easier review, which is why it is recommended for work that has not been shared with anyone. The cost is that the commit hashes are rewritten, since each commit has a new parent, so a rebased branch is not interchangeable with the original and rebasing something already pushed to a shared branch forces everyone else to redo their work. Merge is the alternative: it keeps both histories and records a single commit joining them, which is honest about the fact that two lines of work existed and needs no coordination. The practical rule is to merge shared work and rebase your own, and to stop rebasing a branch that is already public rather than trying to repair it afterwards.",
+      "variations": [
+        "The result looks cleaner and produces a much easier review, which is why it is recommended for work that has not been shared with anyone. Rebase replays the commits of one branch on top of another, so the history becomes a straight line of your own work sitting on top of the branch you started from. The cost is that the commit hashes are rewritten, since each commit has a new parent, so a rebased branch is not interchangeable with the original and rebasing something already pushed to a shared branch forces everyone else to redo their work. Merge is the alternative: it keeps both histories and records a single commit joining them, which is honest about the fact that two lines of work existed and needs no coordination. The practical rule is to merge shared work and rebase your own, and to stop rebasing a branch that is already public rather than trying to repair it afterwards.",
+        "The cost is that the commit hashes are rewritten, since each commit has a new parent, so a rebased branch is not interchangeable with the original and rebasing something already pushed to a shared branch forces everyone else to redo their work. Rebase replays the commits of one branch on top of another, so the history becomes a straight line of your own work sitting on top of the branch you started from. The result looks cleaner and produces a much easier review, which is why it is recommended for work that has not been shared with anyone. Merge is the alternative: it keeps both histories and records a single commit joining them, which is honest about the fact that two lines of work existed and needs no coordination. The practical rule is to merge shared work and rebase your own, and to stop rebasing a branch that is already public rather than trying to repair it afterwards."
+      ],
+      "tl": "i-rebase",
+      "bis": "rebase"
+    },
+    {
+      "id": "pro-git-000003",
+      "topic": "programming-git",
+      "intent": "definition",
+      "concept": "git",
+      "keywords": [
+        "git",
+        "commit",
+        "branch",
+        "merge",
+        "repository",
+        "version",
+        "control",
+        "system",
+        "records",
+        "history",
+        "project"
+      ],
+      "patterns": [
+        "what is git",
+        "git",
+        "explain git",
+        "definition of git",
+        "git meaning",
+        "what is a git branch",
+        "how do i use git",
+        "ano ang git",
+        "unsa ang git"
+      ],
+      "answer": "Git is a version control system, so it records the history of a project and lets you see what changed, when and by whom. A commit is one snapshot, and a branch is a movable label pointing at a commit, which is why branching is cheap enough to do per feature. The habit that matters is committing and merging often, because a branch left alone for a month is a conflict nobody wants.",
+      "variations": [
+        "A commit is one snapshot, and a branch is a movable label pointing at a commit, which is why branching is cheap enough to do per feature. Git is a version control system, so it records the history of a project and lets you see what changed, when and by whom. The habit that matters is committing and merging often, because a branch left alone for a month is a conflict nobody wants.",
+        "The habit that matters is committing and merging often, because a branch left alone for a month is a conflict nobody wants. Git is a version control system, so it records the history of a project and lets you see what changed, when and by whom. A commit is one snapshot, and a branch is a movable label pointing at a commit, which is why branching is cheap enough to do per feature."
+      ],
+      "tl": "git",
+      "bis": "git"
+    }
+  ],
+  "lang": "english",
+  "group": "programming",
+  "sub": "git",
+  "title": "Git",
+  "groupTitle": "Programming"
+}

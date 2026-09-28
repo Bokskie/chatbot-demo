@@ -1,0 +1,51 @@
+{
+  "topic": "cebuano-english-cebuano",
+  "entries": [
+    {
+      "id": "ceb-english-cebuano-000001",
+      "topic": "cebuano-english-cebuano",
+      "intent": "definition",
+      "concept": "how to",
+      "keywords": [
+        "how to",
+        "translation",
+        "marker",
+        "register",
+        "tense",
+        "meaning",
+        "sentence",
+        "pagsasalin",
+        "translating",
+        "english",
+        "cebuano",
+        "fails",
+        "level",
+        "whole"
+      ],
+      "patterns": [
+        "what is how to",
+        "how to",
+        "explain how to",
+        "definition of how to",
+        "how to meaning",
+        "unsaon nga magtranslate english to bisaya",
+        "why is translation hard",
+        "unsaon nga grammatika",
+        "ano ang pagsasalin",
+        "unsa ang pagsasalin"
+      ],
+      "answer": "Translating between English and Cebuano fails most often at the level of the whole sentence rather than the individual word, and the reason is that the two languages organise a sentence differently. Word order is the first thing to check: the subject, the verb and the object go in one order in English and are rearranged by the affixes in Cebuano, so a direct word-for-word attempt produces something that is grammatical and wrong. The second is the marker, the short word attached to a name or a question word, which English does not use in the same way and which has to be added even when the sentence looks complete without it. The third is the choice of register, since a polite English sentence and a polite Cebuano sentence use different words rather than the same words in a different tone. The practical method is to translate the meaning of the whole sentence, find the Cebuano verb that carries it, and let the affixes do the work of tense and actor rather than translating each piece.",
+      "variations": [
+        "Word order is the first thing to check: the subject, the verb and the object go in one order in English and are rearranged by the affixes in Cebuano, so a direct word-for-word attempt produces something that is grammatical and wrong. Translating between English and Cebuano fails most often at the level of the whole sentence rather than the individual word, and the reason is that the two languages organise a sentence differently. The second is the marker, the short word attached to a name or a question word, which English does not use in the same way and which has to be added even when the sentence looks complete without it. The third is the choice of register, since a polite English sentence and a polite Cebuano sentence use different words rather than the same words in a different tone. The practical method is to translate the meaning of the whole sentence, find the Cebuano verb that carries it, and let the affixes do the work of tense and actor rather than translating each piece.",
+        "The second is the marker, the short word attached to a name or a question word, which English does not use in the same way and which has to be added even when the sentence looks complete without it. Translating between English and Cebuano fails most often at the level of the whole sentence rather than the individual word, and the reason is that the two languages organise a sentence differently. Word order is the first thing to check: the subject, the verb and the object go in one order in English and are rearranged by the affixes in Cebuano, so a direct word-for-word attempt produces something that is grammatical and wrong. The third is the choice of register, since a polite English sentence and a polite Cebuano sentence use different words rather than the same words in a different tone. The practical method is to translate the meaning of the whole sentence, find the Cebuano verb that carries it, and let the affixes do the work of tense and actor rather than translating each piece."
+      ],
+      "tl": "pagsasalin",
+      "bis": "pagsasalin"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "english-cebuano",
+  "title": "English to Cebuano",
+  "groupTitle": "Cebuano"
+}

@@ -1,0 +1,122 @@
+{
+  "topic": "cebuano-common-phrases",
+  "entries": [
+    {
+      "id": "ceb-common-phrases-000001",
+      "topic": "cebuano-common-phrases",
+      "intent": "definition",
+      "concept": "walay ikaw",
+      "keywords": [
+        "walay ikaw",
+        "polite",
+        "informal",
+        "walay",
+        "ikaw",
+        "standard",
+        "reply",
+        "thank",
+        "cebuano"
+      ],
+      "patterns": [
+        "what is walay ikaw",
+        "walay ikaw",
+        "explain walay ikaw",
+        "definition of walay ikaw",
+        "walay ikaw meaning",
+        "unsaon nga mo sabutin ang salamat",
+        "how to reply to thank you in bisaya",
+        "ano ang walang ikaw",
+        "unsa ang walay ikaw"
+      ],
+      "answer": "Walay ikaw is the standard reply to a thank you in Cebuano, and it is not a reciprocal thanks at all: it literally says I have nothing, meaning there is no need for thanks. A speaker learning from English tends to answer with the equivalent of you are welcome and sounds slightly off to a native ear, because the phrasing implies the person is giving something and you are declining it. The alternative that does mean you are welcome is mao gyud kaayo, used after a meal or in a general sense. A third option is the short polite acknowledgement, okay or sige, which acknowledges and moves on without the formality. In a group setting ka is the one you use to a man and kita to a woman, and kamo to several people, so picking the wrong pronoun is the most common pronunciation-adjacent mistake in this phrase.",
+      "variations": [
+        "A speaker learning from English tends to answer with the equivalent of you are welcome and sounds slightly off to a native ear, because the phrasing implies the person is giving something and you are declining it. Walay ikaw is the standard reply to a thank you in Cebuano, and it is not a reciprocal thanks at all: it literally says I have nothing, meaning there is no need for thanks. The alternative that does mean you are welcome is mao gyud kaayo, used after a meal or in a general sense. A third option is the short polite acknowledgement, okay or sige, which acknowledges and moves on without the formality. In a group setting ka is the one you use to a man and kita to a woman, and kamo to several people, so picking the wrong pronoun is the most common pronunciation-adjacent mistake in this phrase.",
+        "The alternative that does mean you are welcome is mao gyud kaayo, used after a meal or in a general sense. Walay ikaw is the standard reply to a thank you in Cebuano, and it is not a reciprocal thanks at all: it literally says I have nothing, meaning there is no need for thanks. A speaker learning from English tends to answer with the equivalent of you are welcome and sounds slightly off to a native ear, because the phrasing implies the person is giving something and you are declining it. A third option is the short polite acknowledgement, okay or sige, which acknowledges and moves on without the formality. In a group setting ka is the one you use to a man and kita to a woman, and kamo to several people, so picking the wrong pronoun is the most common pronunciation-adjacent mistake in this phrase."
+      ],
+      "tl": "walang ikaw",
+      "bis": "walay ikaw"
+    },
+    {
+      "id": "ceb-common-phrases-000002",
+      "topic": "cebuano-common-phrases",
+      "intent": "definition",
+      "concept": "kaayo rgyud",
+      "keywords": [
+        "kaayo rgyud",
+        "welcome",
+        "nothing",
+        "reply",
+        "thanks",
+        "apology",
+        "phrase",
+        "gracious",
+        "kaayo",
+        "rgyud",
+        "stock",
+        "answer",
+        "someone",
+        "means"
+      ],
+      "patterns": [
+        "what is kaayo rgyud",
+        "kaayo rgyud",
+        "explain kaayo rgyud",
+        "definition of kaayo rgyud",
+        "kaayo rgyud meaning",
+        "unsa meaning nga kaayo rgyud",
+        "unsaon nga sabutin ang salamat",
+        "ano ang mao gyud kaayo",
+        "unsa ang maayo gyud"
+      ],
+      "answer": "Kaayo rgyud is the stock answer used when someone thanks you, and it means you are very welcome or it is nothing at all. The word rgyud at the end carries most of the meaning, since without it kaayo alone would simply be good, so kaayo rgyud is a set phrase rather than two words. A learner coming from English will usually reach for the literal equivalent of you are welcome, which is understood in Cebuano, but the natural reply is this one or walay ikaw, and using them is what makes a speaker sound like a speaker rather than a reader. It is also used as a response to an apology, where it carries the same reassurance, and it appears after an invitation is accepted, as a way of being gracious. The closely related mao gyud kaayo means exactly that, it is really good, and is the version used after food or drink.",
+      "variations": [
+        "The word rgyud at the end carries most of the meaning, since without it kaayo alone would simply be good, so kaayo rgyud is a set phrase rather than two words. Kaayo rgyud is the stock answer used when someone thanks you, and it means you are very welcome or it is nothing at all. A learner coming from English will usually reach for the literal equivalent of you are welcome, which is understood in Cebuano, but the natural reply is this one or walay ikaw, and using them is what makes a speaker sound like a speaker rather than a reader. It is also used as a response to an apology, where it carries the same reassurance, and it appears after an invitation is accepted, as a way of being gracious. The closely related mao gyud kaayo means exactly that, it is really good, and is the version used after food or drink.",
+        "A learner coming from English will usually reach for the literal equivalent of you are welcome, which is understood in Cebuano, but the natural reply is this one or walay ikaw, and using them is what makes a speaker sound like a speaker rather than a reader. Kaayo rgyud is the stock answer used when someone thanks you, and it means you are very welcome or it is nothing at all. The word rgyud at the end carries most of the meaning, since without it kaayo alone would simply be good, so kaayo rgyud is a set phrase rather than two words. It is also used as a response to an apology, where it carries the same reassurance, and it appears after an invitation is accepted, as a way of being gracious. The closely related mao gyud kaayo means exactly that, it is really good, and is the version used after food or drink."
+      ],
+      "tl": "mao gyud kaayo",
+      "bis": "maayo gyud"
+    },
+    {
+      "id": "ceb-common-phrases-000003",
+      "topic": "cebuano-common-phrases",
+      "intent": "definition",
+      "concept": "tuigay mo",
+      "keywords": [
+        "tuigay mo",
+        "polite",
+        "disagreement",
+        "decline",
+        "indirect",
+        "pronoun",
+        "invitation",
+        "tuigay",
+        "recognisable",
+        "phrases",
+        "cebuano"
+      ],
+      "patterns": [
+        "what is tuigay mo",
+        "tuigay mo",
+        "explain tuigay mo",
+        "definition of tuigay mo",
+        "tuigay mo meaning",
+        "unsaon nga tuigay mo",
+        "polite way to say no in bisaya",
+        "ano ang ayaw ko",
+        "unsa ang tuigay mo"
+      ],
+      "answer": "Tuigay mo is one of the most recognisable phrases of polite disagreement in Cebuano, and its whole force comes from the pronoun it uses. It is a third person form, roughly if he were here, so it states a position without directly confronting the person you are talking to, which is why it is used to turn down an invitation, decline a price, or push back on a suggestion in a group. The direct form to a man is dili, used bare, and to a woman kita, so the difference between dili and tuigay mo is the difference between saying no to someone and saying no about someone. A learner who uses only the direct form will be understood perfectly well and may come across as blunt without meaning to. The same pronoun shift appears in the polite form of several other verbs, and learning the pattern once makes the rest straightforward.",
+      "variations": [
+        "It is a third person form, roughly if he were here, so it states a position without directly confronting the person you are talking to, which is why it is used to turn down an invitation, decline a price, or push back on a suggestion in a group. Tuigay mo is one of the most recognisable phrases of polite disagreement in Cebuano, and its whole force comes from the pronoun it uses. The direct form to a man is dili, used bare, and to a woman kita, so the difference between dili and tuigay mo is the difference between saying no to someone and saying no about someone. A learner who uses only the direct form will be understood perfectly well and may come across as blunt without meaning to. The same pronoun shift appears in the polite form of several other verbs, and learning the pattern once makes the rest straightforward.",
+        "The direct form to a man is dili, used bare, and to a woman kita, so the difference between dili and tuigay mo is the difference between saying no to someone and saying no about someone. Tuigay mo is one of the most recognisable phrases of polite disagreement in Cebuano, and its whole force comes from the pronoun it uses. It is a third person form, roughly if he were here, so it states a position without directly confronting the person you are talking to, which is why it is used to turn down an invitation, decline a price, or push back on a suggestion in a group. A learner who uses only the direct form will be understood perfectly well and may come across as blunt without meaning to. The same pronoun shift appears in the polite form of several other verbs, and learning the pattern once makes the rest straightforward."
+      ],
+      "tl": "ayaw ko",
+      "bis": "tuigay mo"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "common-phrases",
+  "title": "Common phrases",
+  "groupTitle": "Cebuano"
+}

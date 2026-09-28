@@ -1,0 +1,85 @@
+{
+  "topic": "filipino-family",
+  "entries": [
+    {
+      "id": "fil-family-000001",
+      "topic": "filipino-family",
+      "intent": "definition",
+      "concept": "pamilya",
+      "keywords": [
+        "pamilya",
+        "household",
+        "kin",
+        "elder",
+        "ito",
+        "ita",
+        "parents",
+        "respect",
+        "means",
+        "family",
+        "filipino",
+        "refers"
+      ],
+      "patterns": [
+        "what is pamilya",
+        "pamilya",
+        "explain pamilya",
+        "definition of pamilya",
+        "pamilya meaning",
+        "anong meaning ng pamilya",
+        "ano ang ito",
+        "ano ang pamilya",
+        "unsa ang pamilya"
+      ],
+      "answer": "Pamilya means family, and in Filipino it refers to a household rather than to a set of blood relatives, which is the detail that trips up English speakers. The word covers the people living together, so a grandmother in the same house is pamilya while an aunt living in another province is not, even though she is family in English. The members have specific terms and the choice of term carries respect: ama and ina for parents, and for a male elder ito for an older brother or a male cousin and ita for the older sister or a female cousin, while the words for a younger one differ depending on whether the speaker is male or female. Saying ito to a woman of your parents' generation is a serious error, and the word also doubles as a respectful address to an elder of either gender. The wider kin group is sometimes distinguished with a different word, and in the Philippines the family is often the unit that handles care, finance and decision making together.",
+      "variations": [
+        "The word covers the people living together, so a grandmother in the same house is pamilya while an aunt living in another province is not, even though she is family in English. Pamilya means family, and in Filipino it refers to a household rather than to a set of blood relatives, which is the detail that trips up English speakers. The members have specific terms and the choice of term carries respect: ama and ina for parents, and for a male elder ito for an older brother or a male cousin and ita for the older sister or a female cousin, while the words for a younger one differ depending on whether the speaker is male or female. Saying ito to a woman of your parents' generation is a serious error, and the word also doubles as a respectful address to an elder of either gender. The wider kin group is sometimes distinguished with a different word, and in the Philippines the family is often the unit that handles care, finance and decision making together.",
+        "The members have specific terms and the choice of term carries respect: ama and ina for parents, and for a male elder ito for an older brother or a male cousin and ita for the older sister or a female cousin, while the words for a younger one differ depending on whether the speaker is male or female. Pamilya means family, and in Filipino it refers to a household rather than to a set of blood relatives, which is the detail that trips up English speakers. The word covers the people living together, so a grandmother in the same house is pamilya while an aunt living in another province is not, even though she is family in English. Saying ito to a woman of your parents' generation is a serious error, and the word also doubles as a respectful address to an elder of either gender. The wider kin group is sometimes distinguished with a different word, and in the Philippines the family is often the unit that handles care, finance and decision making together."
+      ],
+      "tl": "pamilya",
+      "bis": "pamilya"
+    },
+    {
+      "id": "fil-family-000002",
+      "topic": "filipino-family",
+      "intent": "definition",
+      "concept": "kapatid",
+      "keywords": [
+        "kapatid",
+        "sibling",
+        "brother",
+        "sister",
+        "cousin",
+        "ate",
+        "manang",
+        "address",
+        "means",
+        "word",
+        "covers"
+      ],
+      "patterns": [
+        "what is kapatid",
+        "kapatid",
+        "explain kapatid",
+        "definition of kapatid",
+        "kapatid meaning",
+        "anong meaning ng kapatid",
+        "ano ang ate",
+        "ano ang kapatid",
+        "unsa ang kapatid"
+      ],
+      "answer": "Kapatid means sibling, and it is the word that covers a brother, a sister, a half-sibling or a cousin, so it is broader than the English word it usually translates. The distinction is made by the term of address rather than by a separate noun, and those terms differ by sex and by relative age: a male addresses an older male as kapatid or manong and an older female as ate, while a female uses manang for an older female and manghino for an older male. The older-woman term also doubles as a respectful address to a female elder who is not related, which is why it appears in offices and shops, and the same is true of the male equivalents. A word sometimes used for a sibling of the same sex and age is a kapatid, and the relationship word is independent of who is talking: two siblings may call each other differently depending on which is older.",
+      "variations": [
+        "The distinction is made by the term of address rather than by a separate noun, and those terms differ by sex and by relative age: a male addresses an older male as kapatid or manong and an older female as ate, while a female uses manang for an older female and manghino for an older male. Kapatid means sibling, and it is the word that covers a brother, a sister, a half-sibling or a cousin, so it is broader than the English word it usually translates. The older-woman term also doubles as a respectful address to a female elder who is not related, which is why it appears in offices and shops, and the same is true of the male equivalents. A word sometimes used for a sibling of the same sex and age is a kapatid, and the relationship word is independent of who is talking: two siblings may call each other differently depending on which is older.",
+        "The older-woman term also doubles as a respectful address to a female elder who is not related, which is why it appears in offices and shops, and the same is true of the male equivalents. Kapatid means sibling, and it is the word that covers a brother, a sister, a half-sibling or a cousin, so it is broader than the English word it usually translates. The distinction is made by the term of address rather than by a separate noun, and those terms differ by sex and by relative age: a male addresses an older male as kapatid or manong and an older female as ate, while a female uses manang for an older female and manghino for an older male. A word sometimes used for a sibling of the same sex and age is a kapatid, and the relationship word is independent of who is talking: two siblings may call each other differently depending on which is older."
+      ],
+      "tl": "kapatid",
+      "bis": "kapatid"
+    }
+  ],
+  "lang": "tagalog",
+  "group": "filipino",
+  "sub": "family",
+  "title": "Family",
+  "groupTitle": "Filipino"
+}

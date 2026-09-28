@@ -1,0 +1,124 @@
+{
+  "topic": "cebuano-directions",
+  "entries": [
+    {
+      "id": "ceb-directions-000001",
+      "topic": "cebuano-directions",
+      "intent": "definition",
+      "concept": "tuyd",
+      "keywords": [
+        "tuyd",
+        "follow",
+        "after",
+        "behind",
+        "path",
+        "leader",
+        "track",
+        "transitive",
+        "sundan",
+        "means",
+        "someone",
+        "everyday"
+      ],
+      "patterns": [
+        "what is tuyd",
+        "tuyd",
+        "explain tuyd",
+        "definition of tuyd",
+        "tuyd meaning",
+        "unsa meaning nga tuyd",
+        "unsaon nga tuyd",
+        "ano ang sundan",
+        "unsa ang tuyd"
+      ],
+      "answer": "Tuyd means to follow or to go after someone, and it is the everyday word for walking behind, following a road, and tracking something. As a verb it is the ordinary word for following a person to a place, as in gitawag nako siya ngadto pa tuyd, and it also covers following a path, so tuyd ang dalan means follow the road. The related sense of following a rule or a leader is carried by the same word, so tuyd kaayo means to do as you are told, and that ambiguity is normal rather than a problem. Tuyd is a transitive verb, so it takes an object: a bare tuyd is heard as follow me, while tuyd ka means follow you and tuyd nato means the two of us follow each other. A learner often reaches for sunod, which is closely related and does mean to follow or next, and the two are used almost interchangeably, with tuyd slightly more common in speech.",
+      "variations": [
+        "As a verb it is the ordinary word for following a person to a place, as in gitawag nako siya ngadto pa tuyd, and it also covers following a path, so tuyd ang dalan means follow the road. Tuyd means to follow or to go after someone, and it is the everyday word for walking behind, following a road, and tracking something. The related sense of following a rule or a leader is carried by the same word, so tuyd kaayo means to do as you are told, and that ambiguity is normal rather than a problem. Tuyd is a transitive verb, so it takes an object: a bare tuyd is heard as follow me, while tuyd ka means follow you and tuyd nato means the two of us follow each other. A learner often reaches for sunod, which is closely related and does mean to follow or next, and the two are used almost interchangeably, with tuyd slightly more common in speech.",
+        "The related sense of following a rule or a leader is carried by the same word, so tuyd kaayo means to do as you are told, and that ambiguity is normal rather than a problem. Tuyd means to follow or to go after someone, and it is the everyday word for walking behind, following a road, and tracking something. As a verb it is the ordinary word for following a person to a place, as in gitawag nako siya ngadto pa tuyd, and it also covers following a path, so tuyd ang dalan means follow the road. Tuyd is a transitive verb, so it takes an object: a bare tuyd is heard as follow me, while tuyd ka means follow you and tuyd nato means the two of us follow each other. A learner often reaches for sunod, which is closely related and does mean to follow or next, and the two are used almost interchangeably, with tuyd slightly more common in speech."
+      ],
+      "tl": "sundan",
+      "bis": "tuyd"
+    },
+    {
+      "id": "ceb-directions-000002",
+      "topic": "cebuano-directions",
+      "intent": "definition",
+      "concept": "imong",
+      "keywords": [
+        "imong",
+        "your",
+        "possessive",
+        "yours",
+        "respectful",
+        "form",
+        "tone",
+        "iyo",
+        "ikaw",
+        "word",
+        "fills",
+        "english"
+      ],
+      "patterns": [
+        "what is imong",
+        "imong",
+        "explain imong",
+        "definition of imong",
+        "imong meaning",
+        "unsa meaning nga imong",
+        "atong vs imong",
+        "ano ang iyo",
+        "unsa ang imong"
+      ],
+      "answer": "Imong is the possessive form of ikaw, and it is the word that fills the gap where English says your or yours, so it is a form rather than a separate word. Its use is narrow and that is the part worth knowing: it applies only to the second person singular, so it is right for one man or one woman and wrong for a group, which takes kamo, and it is never used for the first or third person. Within that, the ending carries the distance: plain imong marks what belongs to or concerns you, the longer form ang imong attaches to a word coming after it, and atong is the respectful version used with someone older or of higher status. Saying imong to a group is a number error rather than a grammar mistake, and dropping the final letter of the word sounds hurried rather than casual.",
+      "variations": [
+        "Its use is narrow and that is the part worth knowing: it applies only to the second person singular, so it is right for one man or one woman and wrong for a group, which takes kamo, and it is never used for the first or third person. Imong is the possessive form of ikaw, and it is the word that fills the gap where English says your or yours, so it is a form rather than a separate word. Within that, the ending carries the distance: plain imong marks what belongs to or concerns you, the longer form ang imong attaches to a word coming after it, and atong is the respectful version used with someone older or of higher status. Saying imong to a group is a number error rather than a grammar mistake, and dropping the final letter of the word sounds hurried rather than casual.",
+        "Within that, the ending carries the distance: plain imong marks what belongs to or concerns you, the longer form ang imong attaches to a word coming after it, and atong is the respectful version used with someone older or of higher status. Imong is the possessive form of ikaw, and it is the word that fills the gap where English says your or yours, so it is a form rather than a separate word. Its use is narrow and that is the part worth knowing: it applies only to the second person singular, so it is right for one man or one woman and wrong for a group, which takes kamo, and it is never used for the first or third person. Saying imong to a group is a number error rather than a grammar mistake, and dropping the final letter of the word sounds hurried rather than casual."
+      ],
+      "tl": "iyo",
+      "bis": "imong"
+    },
+    {
+      "id": "ceb-directions-000003",
+      "topic": "cebuano-directions",
+      "intent": "definition",
+      "concept": "ngadto",
+      "keywords": [
+        "ngadto",
+        "there",
+        "place",
+        "to",
+        "destination",
+        "direction",
+        "away",
+        "here",
+        "doon",
+        "means",
+        "word",
+        "marks"
+      ],
+      "patterns": [
+        "what is ngadto",
+        "ngadto",
+        "explain ngadto",
+        "definition of ngadto",
+        "ngadto meaning",
+        "unsa meaning nga ngadto",
+        "ngadto vs diri",
+        "ano ang doon",
+        "unsa ang ngadto"
+      ],
+      "answer": "Ngadto means to a place, in the direction of, and it is the word that marks where an action is going rather than where it is, which is a distinction English usually leaves to a preposition. The paired word is diri, meaning here or to this place, so ngadto and diri together cover going away and coming here. What makes it useful for a learner is that it appears with a place in exactly the position where English would use to: say you went to the market and the Cebuano puts the verb for going and ngadto together, with the place itself unmarked. A related word, diriin, means to or until for a destination, and it is what you use when the place is a person rather than a location, so saying you went to a person rather than to a place takes the other word. A learner who uses ngadto with a person will be understood but will sound as though the person were a location.",
+      "variations": [
+        "The paired word is diri, meaning here or to this place, so ngadto and diri together cover going away and coming here. Ngadto means to a place, in the direction of, and it is the word that marks where an action is going rather than where it is, which is a distinction English usually leaves to a preposition. What makes it useful for a learner is that it appears with a place in exactly the position where English would use to: say you went to the market and the Cebuano puts the verb for going and ngadto together, with the place itself unmarked. A related word, diriin, means to or until for a destination, and it is what you use when the place is a person rather than a location, so saying you went to a person rather than to a place takes the other word. A learner who uses ngadto with a person will be understood but will sound as though the person were a location.",
+        "What makes it useful for a learner is that it appears with a place in exactly the position where English would use to: say you went to the market and the Cebuano puts the verb for going and ngadto together, with the place itself unmarked. Ngadto means to a place, in the direction of, and it is the word that marks where an action is going rather than where it is, which is a distinction English usually leaves to a preposition. The paired word is diri, meaning here or to this place, so ngadto and diri together cover going away and coming here. A related word, diriin, means to or until for a destination, and it is what you use when the place is a person rather than a location, so saying you went to a person rather than to a place takes the other word. A learner who uses ngadto with a person will be understood but will sound as though the person were a location."
+      ],
+      "tl": "doon",
+      "bis": "ngadto"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "directions",
+  "title": "Directions",
+  "groupTitle": "Cebuano"
+}

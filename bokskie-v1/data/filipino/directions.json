@@ -1,0 +1,46 @@
+{
+  "topic": "filipino-directions",
+  "entries": [
+    {
+      "id": "fil-directions-000001",
+      "topic": "filipino-directions",
+      "intent": "definition",
+      "concept": "saan",
+      "keywords": [
+        "saan",
+        "where",
+        "destination",
+        "place",
+        "going",
+        "asa",
+        "means",
+        "question",
+        "word",
+        "asking"
+      ],
+      "patterns": [
+        "what is saan",
+        "saan",
+        "explain saan",
+        "definition of saan",
+        "saan meaning",
+        "anong meaning ng saan",
+        "sino vs saan",
+        "ano ang asa",
+        "unsa ang asa"
+      ],
+      "answer": "Saan means where, and it is the question word for asking about a place or a destination. It is short and unstressed, so it also works as a general question on its own, which is why saan ka can be understood as how are you in a greeting in the same way that unsa ka and asa ka do in Cebuano. The full form takes na when it links forward, so saan na ka going asks where you are heading. Saan is the one people mix up with sino, which asks who, and the two are easy to confuse when spoken quickly, though the words share no letters. It is also used for an indirect object, so saying where the money went is the same word. A related phrase worth knowing is dito, meaning here, and the answer to saan ka is often a pair of these rather than a place name.",
+      "variations": [
+        "It is short and unstressed, so it also works as a general question on its own, which is why saan ka can be understood as how are you in a greeting in the same way that unsa ka and asa ka do in Cebuano. Saan means where, and it is the question word for asking about a place or a destination. The full form takes na when it links forward, so saan na ka going asks where you are heading. Saan is the one people mix up with sino, which asks who, and the two are easy to confuse when spoken quickly, though the words share no letters. It is also used for an indirect object, so saying where the money went is the same word. A related phrase worth knowing is dito, meaning here, and the answer to saan ka is often a pair of these rather than a place name.",
+        "The full form takes na when it links forward, so saan na ka going asks where you are heading. Saan means where, and it is the question word for asking about a place or a destination. It is short and unstressed, so it also works as a general question on its own, which is why saan ka can be understood as how are you in a greeting in the same way that unsa ka and asa ka do in Cebuano. Saan is the one people mix up with sino, which asks who, and the two are easy to confuse when spoken quickly, though the words share no letters. It is also used for an indirect object, so saying where the money went is the same word. A related phrase worth knowing is dito, meaning here, and the answer to saan ka is often a pair of these rather than a place name."
+      ],
+      "tl": "asa",
+      "bis": "asa"
+    }
+  ],
+  "lang": "tagalog",
+  "group": "filipino",
+  "sub": "directions",
+  "title": "Directions",
+  "groupTitle": "Filipino"
+}

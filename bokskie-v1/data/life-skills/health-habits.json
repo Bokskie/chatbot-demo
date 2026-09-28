@@ -1,0 +1,130 @@
+{
+  "topic": "life-skills-health-habits",
+  "entries": [
+    {
+      "id": "lif-health-habits-000001",
+      "topic": "life-skills-health-habits",
+      "intent": "definition",
+      "concept": "losing weight",
+      "keywords": [
+        "losing weight",
+        "weight",
+        "diet",
+        "exercise",
+        "protein",
+        "calorie",
+        "metabolism",
+        "hunger",
+        "timbang",
+        "losing",
+        "mostly",
+        "question",
+        "whether",
+        "body"
+      ],
+      "patterns": [
+        "what is losing weight",
+        "losing weight",
+        "explain losing weight",
+        "definition of losing weight",
+        "losing weight meaning",
+        "how do i lose weight",
+        "how to lose weight fast",
+        "why cant i lose weight",
+        "ano ang timbang",
+        "unsa ang timbang"
+      ],
+      "answer": "Losing weight is mostly a question of whether the body is taking in more energy than it uses, and the honest difficulty is that the body defends a weight rather than aiming at a goal. A person who eats less for a week loses, and then the body reduces what it burns and increases how strongly it signals hunger, which is why most diets end in a return rather than in a plateau at a new level. That is the explanation behind the advice to make the change small enough to keep, because a plan that survives a bad month beats a plan that is optimal in a good one. Muscle matters more than people expect, since a body with more muscle uses more energy at rest, so resistance training and protein are doing more work than the amount of exercise people assume. The genuinely useful habits are unglamorous: eating enough protein, sleeping, walking a lot, and reducing liquid calories, which are the ones that are easy to drink and easy to underestimate.",
+      "variations": [
+        "A person who eats less for a week loses, and then the body reduces what it burns and increases how strongly it signals hunger, which is why most diets end in a return rather than in a plateau at a new level. Losing weight is mostly a question of whether the body is taking in more energy than it uses, and the honest difficulty is that the body defends a weight rather than aiming at a goal. That is the explanation behind the advice to make the change small enough to keep, because a plan that survives a bad month beats a plan that is optimal in a good one. Muscle matters more than people expect, since a body with more muscle uses more energy at rest, so resistance training and protein are doing more work than the amount of exercise people assume. The genuinely useful habits are unglamorous: eating enough protein, sleeping, walking a lot, and reducing liquid calories, which are the ones that are easy to drink and easy to underestimate.",
+        "That is the explanation behind the advice to make the change small enough to keep, because a plan that survives a bad month beats a plan that is optimal in a good one. Losing weight is mostly a question of whether the body is taking in more energy than it uses, and the honest difficulty is that the body defends a weight rather than aiming at a goal. A person who eats less for a week loses, and then the body reduces what it burns and increases how strongly it signals hunger, which is why most diets end in a return rather than in a plateau at a new level. Muscle matters more than people expect, since a body with more muscle uses more energy at rest, so resistance training and protein are doing more work than the amount of exercise people assume. The genuinely useful habits are unglamorous: eating enough protein, sleeping, walking a lot, and reducing liquid calories, which are the ones that are easy to drink and easy to underestimate."
+      ],
+      "tl": "timbang",
+      "bis": "timbang"
+    },
+    {
+      "id": "lif-health-habits-000002",
+      "topic": "life-skills-health-habits",
+      "intent": "definition",
+      "concept": "food coma",
+      "keywords": [
+        "food coma",
+        "tired",
+        "sleepy",
+        "eating",
+        "drowsiness",
+        "pagod",
+        "feeling",
+        "straight",
+        "after",
+        "common"
+      ],
+      "patterns": [
+        "what is food coma",
+        "food coma",
+        "explain food coma",
+        "definition of food coma",
+        "food coma meaning",
+        "why do i feel tired after eating",
+        "is food coma real",
+        "why am i sleepy after meals",
+        "ano ang pagod",
+        "unsa ang pagod"
+      ],
+      "answer": "Feeling tired straight after eating is common enough to have a name, and the usual explanation is that the body sends a lot of blood to the gut to handle the meal, which leaves less for everything else at the same moment. A large meal of mostly carbohydrate produces a rise and then a fall in blood sugar, and the fall is felt as drowsiness, which is the part people notice. The other mechanisms are real and easier to control: eating a very large volume, lying down soon afterwards, and a meal late in the evening. What is not the cause is worth saying, because the folk explanation about blood going to the stomach is only half true. The useful adjustments are smaller meals, protein and vegetables alongside the rice, and not going straight to bed, and for most people that is enough. A feeling of exhaustion after every meal is worth having looked at, since it is not normal and can point at blood sugar or thyroid problems.",
+      "variations": [
+        "A large meal of mostly carbohydrate produces a rise and then a fall in blood sugar, and the fall is felt as drowsiness, which is the part people notice. Feeling tired straight after eating is common enough to have a name, and the usual explanation is that the body sends a lot of blood to the gut to handle the meal, which leaves less for everything else at the same moment. The other mechanisms are real and easier to control: eating a very large volume, lying down soon afterwards, and a meal late in the evening. What is not the cause is worth saying, because the folk explanation about blood going to the stomach is only half true. The useful adjustments are smaller meals, protein and vegetables alongside the rice, and not going straight to bed, and for most people that is enough. A feeling of exhaustion after every meal is worth having looked at, since it is not normal and can point at blood sugar or thyroid problems.",
+        "The other mechanisms are real and easier to control: eating a very large volume, lying down soon afterwards, and a meal late in the evening. Feeling tired straight after eating is common enough to have a name, and the usual explanation is that the body sends a lot of blood to the gut to handle the meal, which leaves less for everything else at the same moment. A large meal of mostly carbohydrate produces a rise and then a fall in blood sugar, and the fall is felt as drowsiness, which is the part people notice. What is not the cause is worth saying, because the folk explanation about blood going to the stomach is only half true. The useful adjustments are smaller meals, protein and vegetables alongside the rice, and not going straight to bed, and for most people that is enough. A feeling of exhaustion after every meal is worth having looked at, since it is not normal and can point at blood sugar or thyroid problems."
+      ],
+      "tl": "pagod",
+      "bis": "pagod"
+    },
+    {
+      "id": "lif-health-habits-000003",
+      "topic": "life-skills-health-habits",
+      "intent": "definition",
+      "concept": "sleep better",
+      "keywords": [
+        "sleep better",
+        "sleep",
+        "routine",
+        "caffeine",
+        "alcohol",
+        "morning",
+        "light",
+        "tulog",
+        "katulog",
+        "sleeping",
+        "better",
+        "mostly",
+        "ends",
+        "rather",
+        "middle"
+      ],
+      "patterns": [
+        "what is sleep better",
+        "sleep better",
+        "explain sleep better",
+        "definition of sleep better",
+        "sleep better meaning",
+        "how do i sleep better",
+        "how to fall asleep fast",
+        "why cant i sleep",
+        "ano ang tulog",
+        "unsa ang katulog"
+      ],
+      "answer": "Sleeping better is mostly about the two ends of the day rather than the middle of the night, because what decides how rested someone feels is when they went to bed and when they got up. The strongest levers are a consistent wake-up time, daylight in the morning, and a fixed wind-down that ends well before bed, and all three work through the body clock rather than through trying harder to sleep. The most common mistake is spending an hour fighting it, because lying awake teaches the bed that it is a place for being anxious, which is why the standard advice is to get up if it has gone on. Alcohol and a heavy meal close to bed both disrupt the sleep that follows, and caffeine stays in the body far longer than people expect, so an afternoon coffee is still working at midnight. The thing that most reliably fixes a bad week is not a better routine but a weekend lie-in, which shifts the clock and makes the following week harder again.",
+      "variations": [
+        "The strongest levers are a consistent wake-up time, daylight in the morning, and a fixed wind-down that ends well before bed, and all three work through the body clock rather than through trying harder to sleep. Sleeping better is mostly about the two ends of the day rather than the middle of the night, because what decides how rested someone feels is when they went to bed and when they got up. The most common mistake is spending an hour fighting it, because lying awake teaches the bed that it is a place for being anxious, which is why the standard advice is to get up if it has gone on. Alcohol and a heavy meal close to bed both disrupt the sleep that follows, and caffeine stays in the body far longer than people expect, so an afternoon coffee is still working at midnight. The thing that most reliably fixes a bad week is not a better routine but a weekend lie-in, which shifts the clock and makes the following week harder again.",
+        "The most common mistake is spending an hour fighting it, because lying awake teaches the bed that it is a place for being anxious, which is why the standard advice is to get up if it has gone on. Sleeping better is mostly about the two ends of the day rather than the middle of the night, because what decides how rested someone feels is when they went to bed and when they got up. The strongest levers are a consistent wake-up time, daylight in the morning, and a fixed wind-down that ends well before bed, and all three work through the body clock rather than through trying harder to sleep. Alcohol and a heavy meal close to bed both disrupt the sleep that follows, and caffeine stays in the body far longer than people expect, so an afternoon coffee is still working at midnight. The thing that most reliably fixes a bad week is not a better routine but a weekend lie-in, which shifts the clock and makes the following week harder again."
+      ],
+      "tl": "tulog",
+      "bis": "katulog"
+    }
+  ],
+  "lang": "english",
+  "group": "life-skills",
+  "sub": "health-habits",
+  "title": "Health habits",
+  "groupTitle": "Life skills"
+}

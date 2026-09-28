@@ -1,0 +1,127 @@
+{
+  "topic": "finance-saving",
+  "entries": [
+    {
+      "id": "fin-saving-000001",
+      "topic": "finance-saving",
+      "intent": "definition",
+      "concept": "savings",
+      "keywords": [
+        "savings",
+        "save",
+        "ipon",
+        "emergency",
+        "fund",
+        "account",
+        "deposit",
+        "safety",
+        "saving",
+        "setting",
+        "money",
+        "aside",
+        "rather",
+        "spending"
+      ],
+      "patterns": [
+        "what is savings",
+        "savings",
+        "explain savings",
+        "definition of savings",
+        "savings meaning",
+        "how do i save money",
+        "paano mag-ipon",
+        "ano ang ipon",
+        "unsa ang ipon"
+      ],
+      "answer": "Saving is setting money aside rather than spending it, and the number that matters is not the amount but whether the person can leave it alone. That is why a separate account is the whole technique: money that is hard to reach is money that stays saved, and the intention to save is not defeated by a small emergency because the emergency is exactly what an emergency fund is for. The other half is that savings sitting in a normal account earns very little, so the honest answer in most economies is that savings buy safety and not much more, and a person should know that before assuming otherwise. In the Philippines a common first step is a savings account at a small rural bank or a cooperative, which often accepts a low opening deposit and keeps the money in the same neighbourhood. The genuine mistake people make is treating a fund meant for emergencies as a fund meant to be spent deliberately, and then having nothing when the month goes wrong.",
+      "variations": [
+        "That is why a separate account is the whole technique: money that is hard to reach is money that stays saved, and the intention to save is not defeated by a small emergency because the emergency is exactly what an emergency fund is for. Saving is setting money aside rather than spending it, and the number that matters is not the amount but whether the person can leave it alone. The other half is that savings sitting in a normal account earns very little, so the honest answer in most economies is that savings buy safety and not much more, and a person should know that before assuming otherwise. In the Philippines a common first step is a savings account at a small rural bank or a cooperative, which often accepts a low opening deposit and keeps the money in the same neighbourhood. The genuine mistake people make is treating a fund meant for emergencies as a fund meant to be spent deliberately, and then having nothing when the month goes wrong.",
+        "The other half is that savings sitting in a normal account earns very little, so the honest answer in most economies is that savings buy safety and not much more, and a person should know that before assuming otherwise. Saving is setting money aside rather than spending it, and the number that matters is not the amount but whether the person can leave it alone. That is why a separate account is the whole technique: money that is hard to reach is money that stays saved, and the intention to save is not defeated by a small emergency because the emergency is exactly what an emergency fund is for. In the Philippines a common first step is a savings account at a small rural bank or a cooperative, which often accepts a low opening deposit and keeps the money in the same neighbourhood. The genuine mistake people make is treating a fund meant for emergencies as a fund meant to be spent deliberately, and then having nothing when the month goes wrong."
+      ],
+      "tl": "ipon",
+      "bis": "ipon"
+    },
+    {
+      "id": "fin-saving-000002",
+      "topic": "finance-saving",
+      "intent": "definition",
+      "concept": "compound interest",
+      "keywords": [
+        "compound interest",
+        "interest",
+        "growth",
+        "exponential",
+        "time",
+        "invest",
+        "owe",
+        "yield",
+        "compound",
+        "calculated",
+        "original",
+        "amount",
+        "already"
+      ],
+      "patterns": [
+        "what is compound interest",
+        "compound interest",
+        "explain compound interest",
+        "definition of compound interest",
+        "compound interest meaning",
+        "how does compound interest work",
+        "is compound interest good",
+        "ano ang compound interest",
+        "unsa ang compound interest"
+      ],
+      "answer": "Compound interest is interest calculated on the original amount and on the interest already added, so the growth is exponential rather than linear, and it is the single most useful idea in personal finance. The effect is invisible for a while and then becomes dominant: a small regular amount left alone over decades can end up several times what was contributed, while the same amount added as a lump sum at the end is worth far less because it had no time to compound. That asymmetry is the entire argument for starting early rather than starting big, and it is why advice about investing almost always mentions time before it mentions amount. The honest side is that it works in both directions, so a credit card balance charged at compounding interest becomes a debt that grows the same way, and most people meet compound interest as a creditor first. The rule is simply to let money earn and never let money owe.",
+      "variations": [
+        "The effect is invisible for a while and then becomes dominant: a small regular amount left alone over decades can end up several times what was contributed, while the same amount added as a lump sum at the end is worth far less because it had no time to compound. Compound interest is interest calculated on the original amount and on the interest already added, so the growth is exponential rather than linear, and it is the single most useful idea in personal finance. That asymmetry is the entire argument for starting early rather than starting big, and it is why advice about investing almost always mentions time before it mentions amount. The honest side is that it works in both directions, so a credit card balance charged at compounding interest becomes a debt that grows the same way, and most people meet compound interest as a creditor first. The rule is simply to let money earn and never let money owe.",
+        "That asymmetry is the entire argument for starting early rather than starting big, and it is why advice about investing almost always mentions time before it mentions amount. Compound interest is interest calculated on the original amount and on the interest already added, so the growth is exponential rather than linear, and it is the single most useful idea in personal finance. The effect is invisible for a while and then becomes dominant: a small regular amount left alone over decades can end up several times what was contributed, while the same amount added as a lump sum at the end is worth far less because it had no time to compound. The honest side is that it works in both directions, so a credit card balance charged at compounding interest becomes a debt that grows the same way, and most people meet compound interest as a creditor first. The rule is simply to let money earn and never let money owe."
+      ],
+      "tl": "compound interest",
+      "bis": "compound interest"
+    },
+    {
+      "id": "fin-saving-000003",
+      "topic": "finance-saving",
+      "intent": "definition",
+      "concept": "emergency fund",
+      "keywords": [
+        "emergency fund",
+        "emergency",
+        "fund",
+        "expenses",
+        "buffer",
+        "savings",
+        "cash",
+        "money",
+        "held",
+        "specifically",
+        "sudden"
+      ],
+      "patterns": [
+        "what is emergency fund",
+        "emergency fund",
+        "explain emergency fund",
+        "definition of emergency fund",
+        "emergency fund meaning",
+        "how much emergency fund",
+        "what is an emergency fund",
+        "emergency fund amount",
+        "ano ang emergency fund",
+        "unsa ang emergency fund"
+      ],
+      "answer": "An emergency fund is money held specifically for sudden necessary costs, and its purpose is the part people get wrong: it is not an investment and it is not a buffer for anything optional, it exists so that a broken phone, a hospital bill or a lost month of work does not become debt. The usual guidance is three to six months of ordinary expenses, which is a large number when income is irregular, and a smaller number is a real improvement rather than a failed attempt. Where it is held is a trade-off between access and return, and a plain deposit account is usually right precisely because the return does not matter here. The test of whether a fund is adequate is not its size but whether it prevented someone from borrowing, and for a household that has never had to borrow in an emergency, the fund is doing its job even at one month of expenses.",
+      "variations": [
+        "The usual guidance is three to six months of ordinary expenses, which is a large number when income is irregular, and a smaller number is a real improvement rather than a failed attempt. An emergency fund is money held specifically for sudden necessary costs, and its purpose is the part people get wrong: it is not an investment and it is not a buffer for anything optional, it exists so that a broken phone, a hospital bill or a lost month of work does not become debt. Where it is held is a trade-off between access and return, and a plain deposit account is usually right precisely because the return does not matter here. The test of whether a fund is adequate is not its size but whether it prevented someone from borrowing, and for a household that has never had to borrow in an emergency, the fund is doing its job even at one month of expenses.",
+        "Where it is held is a trade-off between access and return, and a plain deposit account is usually right precisely because the return does not matter here. An emergency fund is money held specifically for sudden necessary costs, and its purpose is the part people get wrong: it is not an investment and it is not a buffer for anything optional, it exists so that a broken phone, a hospital bill or a lost month of work does not become debt. The usual guidance is three to six months of ordinary expenses, which is a large number when income is irregular, and a smaller number is a real improvement rather than a failed attempt. The test of whether a fund is adequate is not its size but whether it prevented someone from borrowing, and for a household that has never had to borrow in an emergency, the fund is doing its job even at one month of expenses."
+      ],
+      "tl": "emergency fund",
+      "bis": "emergency fund"
+    }
+  ],
+  "lang": "english",
+  "group": "finance",
+  "sub": "saving",
+  "title": "Saving",
+  "groupTitle": "Finance"
+}

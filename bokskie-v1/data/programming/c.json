@@ -1,0 +1,192 @@
+{
+  "topic": "programming-c",
+  "entries": [
+    {
+      "id": "pro-c-000001",
+      "topic": "programming-c",
+      "intent": "definition",
+      "concept": "c language",
+      "keywords": [
+        "c language",
+        "pointer",
+        "ffi",
+        "C",
+        "compiled",
+        "level",
+        "language",
+        "invented",
+        "bell",
+        "labs"
+      ],
+      "patterns": [
+        "what is c language",
+        "c language",
+        "explain c language",
+        "definition of c language",
+        "c language meaning",
+        "what is c programming",
+        "is c hard to learn",
+        "what is c language used for",
+        "ano ang C",
+        "unsa ang C"
+      ],
+      "answer": "C is a compiled, low-level language invented at Bell Labs in 1972 and still the layer almost every other language is written on top of. It gives you manual control over memory, raw pointers and direct access to the hardware, and in exchange it offers almost no safety: there are no classes, no automatic memory management and no bounds checking, so a mistake in one routine can corrupt memory that belongs to a completely different part of the program. Its simplicity is a feature in systems work, because an operating system, a driver or a compiler can be written in it without a runtime underneath. C is also the lingua franca for foreign function interfaces, so almost every language can call into C code, and that is why native extensions everywhere are written in it. The standard is maintained by the ISO and the current widely supported revision is C23, though C17 and C11 remain common.",
+      "variations": [
+        "It gives you manual control over memory, raw pointers and direct access to the hardware, and in exchange it offers almost no safety: there are no classes, no automatic memory management and no bounds checking, so a mistake in one routine can corrupt memory that belongs to a completely different part of the program. C is a compiled, low-level language invented at Bell Labs in 1972 and still the layer almost every other language is written on top of. Its simplicity is a feature in systems work, because an operating system, a driver or a compiler can be written in it without a runtime underneath. C is also the lingua franca for foreign function interfaces, so almost every language can call into C code, and that is why native extensions everywhere are written in it. The standard is maintained by the ISO and the current widely supported revision is C23, though C17 and C11 remain common.",
+        "Its simplicity is a feature in systems work, because an operating system, a driver or a compiler can be written in it without a runtime underneath. C is a compiled, low-level language invented at Bell Labs in 1972 and still the layer almost every other language is written on top of. It gives you manual control over memory, raw pointers and direct access to the hardware, and in exchange it offers almost no safety: there are no classes, no automatic memory management and no bounds checking, so a mistake in one routine can corrupt memory that belongs to a completely different part of the program. C is also the lingua franca for foreign function interfaces, so almost every language can call into C code, and that is why native extensions everywhere are written in it. The standard is maintained by the ISO and the current widely supported revision is C23, though C17 and C11 remain common."
+      ],
+      "tl": "C",
+      "bis": "C"
+    },
+    {
+      "id": "pro-c-000002",
+      "topic": "programming-c",
+      "intent": "definition",
+      "concept": "pointer",
+      "keywords": [
+        "pointer",
+        "address",
+        "dereference",
+        "variable",
+        "stores",
+        "memory",
+        "rather"
+      ],
+      "patterns": [
+        "what is pointer",
+        "pointer",
+        "explain pointer",
+        "definition of pointer",
+        "pointer meaning",
+        "what is a pointer in c",
+        "why are pointers dangerous",
+        "what is dereferencing",
+        "ano ang pointer",
+        "unsa ang pointer"
+      ],
+      "answer": "A pointer is a variable that stores a memory address rather than a value, which is C's central mechanism for referring to data without copying it. You declare one with the asterisk, for example int *p, and it can then point at a variable, at a position inside an array, or at nothing at all when its value is null. Two operations do the real work: the dereference operator reads or writes what the address points at, and the address-of operator takes the address of a variable so it can be pointed at. Because the language cannot check that the address is still valid, a pointer left dangling after the memory it referred to is freed, or a pointer cast from the wrong type, is undefined behaviour, and the compiler is entitled to assume your program never does it. This is why a garbage-collected language gives you pointers in a form it can monitor and plain C does not, and why the same buffer overrun in C can overwrite unrelated variables without any error message.",
+      "variations": [
+        "You declare one with the asterisk, for example int *p, and it can then point at a variable, at a position inside an array, or at nothing at all when its value is null. A pointer is a variable that stores a memory address rather than a value, which is C's central mechanism for referring to data without copying it. Two operations do the real work: the dereference operator reads or writes what the address points at, and the address-of operator takes the address of a variable so it can be pointed at. Because the language cannot check that the address is still valid, a pointer left dangling after the memory it referred to is freed, or a pointer cast from the wrong type, is undefined behaviour, and the compiler is entitled to assume your program never does it. This is why a garbage-collected language gives you pointers in a form it can monitor and plain C does not, and why the same buffer overrun in C can overwrite unrelated variables without any error message.",
+        "Two operations do the real work: the dereference operator reads or writes what the address points at, and the address-of operator takes the address of a variable so it can be pointed at. A pointer is a variable that stores a memory address rather than a value, which is C's central mechanism for referring to data without copying it. You declare one with the asterisk, for example int *p, and it can then point at a variable, at a position inside an array, or at nothing at all when its value is null. Because the language cannot check that the address is still valid, a pointer left dangling after the memory it referred to is freed, or a pointer cast from the wrong type, is undefined behaviour, and the compiler is entitled to assume your program never does it. This is why a garbage-collected language gives you pointers in a form it can monitor and plain C does not, and why the same buffer overrun in C can overwrite unrelated variables without any error message."
+      ],
+      "tl": "pointer",
+      "bis": "pointer"
+    },
+    {
+      "id": "pro-c-000003",
+      "topic": "programming-c",
+      "intent": "definition",
+      "concept": "memory leak",
+      "keywords": [
+        "memory leak",
+        "allocation",
+        "free",
+        "valgrind",
+        "release",
+        "memory",
+        "leak",
+        "program",
+        "allocated",
+        "longer",
+        "never"
+      ],
+      "patterns": [
+        "what is memory leak",
+        "memory leak",
+        "explain memory leak",
+        "definition of memory leak",
+        "memory leak meaning",
+        "what is a memory leak",
+        "how do i fix a memory leak",
+        "does c have memory leaks",
+        "ano ang memory leak",
+        "unsa ang memory leak"
+      ],
+      "answer": "A memory leak is memory a program allocated, no longer needs, and never handed back, so the process holds it for as long as it runs. In C the allocation is manual, so the matching release is manual too, and every place that acquires memory is a place that can forget to release it. A leak is not a crash by itself; the symptom is that memory use climbs over hours or days until the operating system runs out and kills the process, which is why it usually shows up in long-running servers rather than short command line tools. It is also a security concern, because a process that leaks predictably can be pushed past its limits on purpose. Tools like valgrind and the address sanitizers exist because the compiler cannot find these on its own, and the practical defences are to keep the allocation and the release in the same scope and to prefer owning structures that release themselves.",
+      "variations": [
+        "In C the allocation is manual, so the matching release is manual too, and every place that acquires memory is a place that can forget to release it. A memory leak is memory a program allocated, no longer needs, and never handed back, so the process holds it for as long as it runs. A leak is not a crash by itself; the symptom is that memory use climbs over hours or days until the operating system runs out and kills the process, which is why it usually shows up in long-running servers rather than short command line tools. It is also a security concern, because a process that leaks predictably can be pushed past its limits on purpose. Tools like valgrind and the address sanitizers exist because the compiler cannot find these on its own, and the practical defences are to keep the allocation and the release in the same scope and to prefer owning structures that release themselves.",
+        "A leak is not a crash by itself; the symptom is that memory use climbs over hours or days until the operating system runs out and kills the process, which is why it usually shows up in long-running servers rather than short command line tools. A memory leak is memory a program allocated, no longer needs, and never handed back, so the process holds it for as long as it runs. In C the allocation is manual, so the matching release is manual too, and every place that acquires memory is a place that can forget to release it. It is also a security concern, because a process that leaks predictably can be pushed past its limits on purpose. Tools like valgrind and the address sanitizers exist because the compiler cannot find these on its own, and the practical defences are to keep the allocation and the release in the same scope and to prefer owning structures that release themselves."
+      ],
+      "tl": "memory leak",
+      "bis": "memory leak"
+    },
+    {
+      "id": "pro-c-000004",
+      "topic": "programming-c",
+      "intent": "definition",
+      "concept": "malloc",
+      "keywords": [
+        "malloc",
+        "heap",
+        "calloc",
+        "realloc",
+        "free",
+        "function",
+        "reserves",
+        "block",
+        "memory"
+      ],
+      "patterns": [
+        "what is malloc",
+        "malloc",
+        "explain malloc",
+        "definition of malloc",
+        "malloc meaning",
+        "what does malloc do",
+        "what is the difference between malloc and calloc",
+        "do i have to free malloc",
+        "ano ang malloc",
+        "unsa ang memory allocation"
+      ],
+      "answer": "malloc is the C function that reserves a block of memory from the heap and returns a pointer to its start, and it is the entry point for every manually managed allocation in the language. Its signature takes a size in bytes and returns a null pointer on failure rather than a valid address, which is why the idiomatic C checks the result before using it. The size argument is the classic trap: the function has no idea what type you meant, so passing the wrong count for a struct writes past the end of the block and produces undefined behaviour. The related family matters as well, calloc takes a count and a size and zeroes the memory, realloc moves a block to a new size, and free releases it exactly once. Because free does not clear the pointer, a stale copy left behind is a dangling pointer and the single most common source of use-after-free bugs in real C code.",
+      "variations": [
+        "Its signature takes a size in bytes and returns a null pointer on failure rather than a valid address, which is why the idiomatic C checks the result before using it. malloc is the C function that reserves a block of memory from the heap and returns a pointer to its start, and it is the entry point for every manually managed allocation in the language. The size argument is the classic trap: the function has no idea what type you meant, so passing the wrong count for a struct writes past the end of the block and produces undefined behaviour. The related family matters as well, calloc takes a count and a size and zeroes the memory, realloc moves a block to a new size, and free releases it exactly once. Because free does not clear the pointer, a stale copy left behind is a dangling pointer and the single most common source of use-after-free bugs in real C code.",
+        "The size argument is the classic trap: the function has no idea what type you meant, so passing the wrong count for a struct writes past the end of the block and produces undefined behaviour. malloc is the C function that reserves a block of memory from the heap and returns a pointer to its start, and it is the entry point for every manually managed allocation in the language. Its signature takes a size in bytes and returns a null pointer on failure rather than a valid address, which is why the idiomatic C checks the result before using it. The related family matters as well, calloc takes a count and a size and zeroes the memory, realloc moves a block to a new size, and free releases it exactly once. Because free does not clear the pointer, a stale copy left behind is a dangling pointer and the single most common source of use-after-free bugs in real C code."
+      ],
+      "tl": "malloc",
+      "bis": "memory allocation"
+    },
+    {
+      "id": "pro-c-000005",
+      "topic": "programming-c",
+      "intent": "definition",
+      "concept": "undefined behavior",
+      "keywords": [
+        "undefined behavior",
+        "sanitizer",
+        "optimizer",
+        "miscompile",
+        "undefined",
+        "behaviour",
+        "standard's",
+        "saying",
+        "program",
+        "left"
+      ],
+      "patterns": [
+        "what is undefined behavior",
+        "undefined behavior",
+        "explain undefined behavior",
+        "definition of undefined behavior",
+        "undefined behavior meaning",
+        "what is undefined behaviour",
+        "why does undefined behaviour cause random bugs",
+        "how do i detect undefined behaviour",
+        "ano ang undefined behaviour",
+        "unsa ang undefined behaviour"
+      ],
+      "answer": "Undefined behaviour is the C standard's way of saying that a program has left the range where the language guarantees any result at all, and the compiler is free to assume it never happens. Reading an array past its end, dereferencing a null pointer, overflowing a signed integer or modifying a variable twice between sequence points all count, and the consequence is that the optimiser may reorder, delete or fabricate code on the assumption the situation never arises. That is why undefined behaviour does not merely produce a wrong number: it can cause code far away from the mistake to stop running, and the bug appears to move between builds for no visible reason. Sanitizers such as address sanitizer and undefined behaviour sanitizer instrument the program to report the exact operation at run time, which is the practical way to find it, because the compiler itself will not warn about most of these cases.",
+      "variations": [
+        "Reading an array past its end, dereferencing a null pointer, overflowing a signed integer or modifying a variable twice between sequence points all count, and the consequence is that the optimiser may reorder, delete or fabricate code on the assumption the situation never arises. Undefined behaviour is the C standard's way of saying that a program has left the range where the language guarantees any result at all, and the compiler is free to assume it never happens. That is why undefined behaviour does not merely produce a wrong number: it can cause code far away from the mistake to stop running, and the bug appears to move between builds for no visible reason. Sanitizers such as address sanitizer and undefined behaviour sanitizer instrument the program to report the exact operation at run time, which is the practical way to find it, because the compiler itself will not warn about most of these cases.",
+        "That is why undefined behaviour does not merely produce a wrong number: it can cause code far away from the mistake to stop running, and the bug appears to move between builds for no visible reason. Undefined behaviour is the C standard's way of saying that a program has left the range where the language guarantees any result at all, and the compiler is free to assume it never happens. Reading an array past its end, dereferencing a null pointer, overflowing a signed integer or modifying a variable twice between sequence points all count, and the consequence is that the optimiser may reorder, delete or fabricate code on the assumption the situation never arises. Sanitizers such as address sanitizer and undefined behaviour sanitizer instrument the program to report the exact operation at run time, which is the practical way to find it, because the compiler itself will not warn about most of these cases."
+      ],
+      "tl": "undefined behaviour",
+      "bis": "undefined behaviour"
+    }
+  ],
+  "lang": "english",
+  "group": "programming",
+  "sub": "c",
+  "title": "C",
+  "groupTitle": "Programming"
+}

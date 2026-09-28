@@ -1,0 +1,86 @@
+{
+  "topic": "filipino-health-vocabulary",
+  "entries": [
+    {
+      "id": "fil-health-vocabulary-000001",
+      "topic": "filipino-health-vocabulary",
+      "intent": "definition",
+      "concept": "sakit",
+      "keywords": [
+        "sakit",
+        "illness",
+        "pain",
+        "sick",
+        "achy",
+        "defect",
+        "symptom",
+        "kramat",
+        "means",
+        "sickness",
+        "covers",
+        "both"
+      ],
+      "patterns": [
+        "what is sakit",
+        "sakit",
+        "explain sakit",
+        "definition of sakit",
+        "sakit meaning",
+        "anong meaning ng sakit",
+        "may sakit ako",
+        "ano ang kramat",
+        "unsa ang kramat"
+      ],
+      "answer": "Sakit means sickness or pain, and it covers both the state of being ill and the painful feeling, so the context decides which. When you say may sakit ako it is usually about being unwell, and when you point at a part of the body and say sakit it is about pain in that place. A third use is to complain, so ayoko na, sayop na ako means I am fed up, which is closer to being tired of something than to illness and is one of the most common idioms in the language. The word also has an older and still current sense of defect or fault, so a machine may be described as may sakit as well, and the phrase may kasakit-an covers both meanings exactly. A related word is pamamagitan, meaning the middle, which is the word used in phrases like aking sinat ng lamang, I only got a cold, and the final nasal is what distinguishes the two.",
+      "variations": [
+        "When you say may sakit ako it is usually about being unwell, and when you point at a part of the body and say sakit it is about pain in that place. Sakit means sickness or pain, and it covers both the state of being ill and the painful feeling, so the context decides which. A third use is to complain, so ayoko na, sayop na ako means I am fed up, which is closer to being tired of something than to illness and is one of the most common idioms in the language. The word also has an older and still current sense of defect or fault, so a machine may be described as may sakit as well, and the phrase may kasakit-an covers both meanings exactly. A related word is pamamagitan, meaning the middle, which is the word used in phrases like aking sinat ng lamang, I only got a cold, and the final nasal is what distinguishes the two.",
+        "A third use is to complain, so ayoko na, sayop na ako means I am fed up, which is closer to being tired of something than to illness and is one of the most common idioms in the language. Sakit means sickness or pain, and it covers both the state of being ill and the painful feeling, so the context decides which. When you say may sakit ako it is usually about being unwell, and when you point at a part of the body and say sakit it is about pain in that place. The word also has an older and still current sense of defect or fault, so a machine may be described as may sakit as well, and the phrase may kasakit-an covers both meanings exactly. A related word is pamamagitan, meaning the middle, which is the word used in phrases like aking sinat ng lamang, I only got a cold, and the final nasal is what distinguishes the two."
+      ],
+      "tl": "kramat",
+      "bis": "kramat"
+    },
+    {
+      "id": "fil-health-vocabulary-000002",
+      "topic": "filipino-health-vocabulary",
+      "intent": "definition",
+      "concept": "gamot",
+      "keywords": [
+        "gamot",
+        "medicine",
+        "drug",
+        "tablet",
+        "prescription",
+        "treatment",
+        "pharmacy",
+        "traditional",
+        "means",
+        "general",
+        "word",
+        "covering"
+      ],
+      "patterns": [
+        "what is gamot",
+        "gamot",
+        "explain gamot",
+        "definition of gamot",
+        "gamot meaning",
+        "anong meaning ng gamot",
+        "ano ang botika",
+        "ano ang gamot",
+        "unsa ang gamot"
+      ],
+      "answer": "Gamot means medicine, and it is the general word covering anything taken to treat an illness, whether a prescription tablet, a traditional preparation or something bought over the counter. The word does not distinguish between the scientific and the traditional, which is a real difference from English, and so a phrase about gamot and about a hilot remedy can sound more similar than the two things actually are. For a specific prescribed drug, Filipino uses the English medical term or the generic word, while gamot is what a person says in a clinic when asked generally what they are taking. The related word for the traditional massage and treatment practice is hilot, which is also a real part of health care in the Philippines and one that people use alongside, rather than instead of, a formal prescription. A separate word for the place you buy it, botika, means pharmacy.",
+      "variations": [
+        "The word does not distinguish between the scientific and the traditional, which is a real difference from English, and so a phrase about gamot and about a hilot remedy can sound more similar than the two things actually are. Gamot means medicine, and it is the general word covering anything taken to treat an illness, whether a prescription tablet, a traditional preparation or something bought over the counter. For a specific prescribed drug, Filipino uses the English medical term or the generic word, while gamot is what a person says in a clinic when asked generally what they are taking. The related word for the traditional massage and treatment practice is hilot, which is also a real part of health care in the Philippines and one that people use alongside, rather than instead of, a formal prescription. A separate word for the place you buy it, botika, means pharmacy.",
+        "For a specific prescribed drug, Filipino uses the English medical term or the generic word, while gamot is what a person says in a clinic when asked generally what they are taking. Gamot means medicine, and it is the general word covering anything taken to treat an illness, whether a prescription tablet, a traditional preparation or something bought over the counter. The word does not distinguish between the scientific and the traditional, which is a real difference from English, and so a phrase about gamot and about a hilot remedy can sound more similar than the two things actually are. The related word for the traditional massage and treatment practice is hilot, which is also a real part of health care in the Philippines and one that people use alongside, rather than instead of, a formal prescription. A separate word for the place you buy it, botika, means pharmacy."
+      ],
+      "tl": "gamot",
+      "bis": "gamot"
+    }
+  ],
+  "lang": "tagalog",
+  "group": "filipino",
+  "sub": "health-vocabulary",
+  "title": "Health vocabulary",
+  "groupTitle": "Filipino"
+}

@@ -1,0 +1,175 @@
+{
+  "topic": "life-skills-home-skills",
+  "entries": [
+    {
+      "id": "lif-home-skills-000001",
+      "topic": "life-skills-home-skills",
+      "intent": "definition",
+      "concept": "tying a tie",
+      "keywords": [
+        "tying a tie",
+        "knot",
+        "loop",
+        "necktie",
+        "tie",
+        "tight",
+        "slip",
+        "mirror",
+        "hti",
+        "pati",
+        "tied",
+        "loops",
+        "tighten",
+        "onto",
+        "reason",
+        "method"
+      ],
+      "patterns": [
+        "what is tying a tie",
+        "tying a tie",
+        "explain tying a tie",
+        "definition of tying a tie",
+        "tying a tie meaning",
+        "how do i tie a tie",
+        "how to tie a necktie",
+        "tie a tie knot",
+        "ano ang hti",
+        "unsa ang pati"
+      ],
+      "answer": "A tie is tied by making two loops that tighten onto each other, and the reason the method works is that each pass through the loop is what shortens it. The wide end goes around the back of the body, crosses over, comes up through the loop at the neck, and is then passed down through the loop it just made, which is the point most people get wrong: they pull the wide end through the original loop instead of the new one, and the knot never tightens. Once through, holding the knot and pulling the blade down shortens the loop the same way, and the finished knot is a double slip that can be pulled tighter later without coming undone. It is worth practising twice with the eyes closed, because a tie is a motor task and reading about it does almost nothing.",
+      "variations": [
+        "The wide end goes around the back of the body, crosses over, comes up through the loop at the neck, and is then passed down through the loop it just made, which is the point most people get wrong: they pull the wide end through the original loop instead of the new one, and the knot never tightens. A tie is tied by making two loops that tighten onto each other, and the reason the method works is that each pass through the loop is what shortens it. Once through, holding the knot and pulling the blade down shortens the loop the same way, and the finished knot is a double slip that can be pulled tighter later without coming undone. It is worth practising twice with the eyes closed, because a tie is a motor task and reading about it does almost nothing.",
+        "Once through, holding the knot and pulling the blade down shortens the loop the same way, and the finished knot is a double slip that can be pulled tighter later without coming undone. A tie is tied by making two loops that tighten onto each other, and the reason the method works is that each pass through the loop is what shortens it. The wide end goes around the back of the body, crosses over, comes up through the loop at the neck, and is then passed down through the loop it just made, which is the point most people get wrong: they pull the wide end through the original loop instead of the new one, and the knot never tightens. It is worth practising twice with the eyes closed, because a tie is a motor task and reading about it does almost nothing."
+      ],
+      "tl": "hti",
+      "bis": "pati"
+    },
+    {
+      "id": "lif-home-skills-000002",
+      "topic": "life-skills-home-skills",
+      "intent": "definition",
+      "concept": "cooking rice",
+      "keywords": [
+        "cooking rice",
+        "rice",
+        "ratio",
+        "water",
+        "rinse",
+        "rest",
+        "grain",
+        "sticky",
+        "bigas",
+        "cooking",
+        "wash",
+        "nearly",
+        "every"
+      ],
+      "patterns": [
+        "what is cooking rice",
+        "cooking rice",
+        "explain cooking rice",
+        "definition of cooking rice",
+        "cooking rice meaning",
+        "how do i cook rice",
+        "how to cook perfect rice",
+        "why is my rice sticky",
+        "ano ang bigas",
+        "unsa ang bigas"
+      ],
+      "answer": "Cooking rice is a ratio and a wash, and nearly every failure comes from getting one of those two wrong. The ratio is roughly one part rice to one and a quarter to one and a half parts water depending on the grain and on the cooker, and short grain generally takes less water than long. Rinsing matters more than it looks because the surface starch on unwashed grains makes them stick together into a solid mass, and one or two changes of water removes it. Letting it rest after cooking, with the heat off and the lid on, is the step people skip and it is the difference between grains that have separated and a single block. Salt and oil change the texture rather than the timing: oil coats each grain and keeps them apart, which is why a fried rice fries rather than steams.",
+      "variations": [
+        "The ratio is roughly one part rice to one and a quarter to one and a half parts water depending on the grain and on the cooker, and short grain generally takes less water than long. Cooking rice is a ratio and a wash, and nearly every failure comes from getting one of those two wrong. Rinsing matters more than it looks because the surface starch on unwashed grains makes them stick together into a solid mass, and one or two changes of water removes it. Letting it rest after cooking, with the heat off and the lid on, is the step people skip and it is the difference between grains that have separated and a single block. Salt and oil change the texture rather than the timing: oil coats each grain and keeps them apart, which is why a fried rice fries rather than steams.",
+        "Rinsing matters more than it looks because the surface starch on unwashed grains makes them stick together into a solid mass, and one or two changes of water removes it. Cooking rice is a ratio and a wash, and nearly every failure comes from getting one of those two wrong. The ratio is roughly one part rice to one and a quarter to one and a half parts water depending on the grain and on the cooker, and short grain generally takes less water than long. Letting it rest after cooking, with the heat off and the lid on, is the step people skip and it is the difference between grains that have separated and a single block. Salt and oil change the texture rather than the timing: oil coats each grain and keeps them apart, which is why a fried rice fries rather than steams."
+      ],
+      "tl": "bigas",
+      "bis": "bigas"
+    },
+    {
+      "id": "lif-home-skills-000003",
+      "topic": "life-skills-home-skills",
+      "intent": "definition",
+      "concept": "making coffee",
+      "keywords": [
+        "making coffee",
+        "grind",
+        "brew",
+        "roast",
+        "water",
+        "filter",
+        "extraction",
+        "bitter",
+        "kape",
+        "coffee",
+        "extracted",
+        "roasted",
+        "bean",
+        "useful"
+      ],
+      "patterns": [
+        "what is making coffee",
+        "making coffee",
+        "explain making coffee",
+        "definition of making coffee",
+        "making coffee meaning",
+        "how do i make coffee",
+        "how to brew coffee",
+        "why is my coffee bitter",
+        "ano ang kape",
+        "unsa ang kape"
+      ],
+      "answer": "Coffee is bitter because of what is extracted from the roasted bean, and the useful part is knowing which variables are actually doing the work. The dominant one is the grind, since a soluble substance dissolves faster when the surface area is larger, and a pre-ground supermarket coffee is usually ground too fine for a filter and too coarse for an espresso machine. The second is the water, and both temperature and what is dissolved in it change the result, which is why the same coffee tastes different in Manila and elsewhere and why filtered water changes it at home. Strength and bitterness are also different things: a stronger brew can be extracted less and taste milder, so the fix for a cup that is bitter is usually less time and coarser rather than less coffee. The last variable is freshness, and roasted coffee loses most of its aroma within weeks even though it does not turn stale as tea does.",
+      "variations": [
+        "The dominant one is the grind, since a soluble substance dissolves faster when the surface area is larger, and a pre-ground supermarket coffee is usually ground too fine for a filter and too coarse for an espresso machine. Coffee is bitter because of what is extracted from the roasted bean, and the useful part is knowing which variables are actually doing the work. The second is the water, and both temperature and what is dissolved in it change the result, which is why the same coffee tastes different in Manila and elsewhere and why filtered water changes it at home. Strength and bitterness are also different things: a stronger brew can be extracted less and taste milder, so the fix for a cup that is bitter is usually less time and coarser rather than less coffee. The last variable is freshness, and roasted coffee loses most of its aroma within weeks even though it does not turn stale as tea does.",
+        "The second is the water, and both temperature and what is dissolved in it change the result, which is why the same coffee tastes different in Manila and elsewhere and why filtered water changes it at home. Coffee is bitter because of what is extracted from the roasted bean, and the useful part is knowing which variables are actually doing the work. The dominant one is the grind, since a soluble substance dissolves faster when the surface area is larger, and a pre-ground supermarket coffee is usually ground too fine for a filter and too coarse for an espresso machine. Strength and bitterness are also different things: a stronger brew can be extracted less and taste milder, so the fix for a cup that is bitter is usually less time and coarser rather than less coffee. The last variable is freshness, and roasted coffee loses most of its aroma within weeks even though it does not turn stale as tea does."
+      ],
+      "tl": "kape",
+      "bis": "kape"
+    },
+    {
+      "id": "lif-home-skills-000004",
+      "topic": "life-skills-home-skills",
+      "intent": "definition",
+      "concept": "changing a tyre",
+      "keywords": [
+        "changing a tyre",
+        "flat",
+        "jack",
+        "nut",
+        "wheel",
+        "spare",
+        "tyre",
+        "tighten",
+        "chock",
+        "gulong",
+        "changed",
+        "loosening",
+        "nuts",
+        "before"
+      ],
+      "patterns": [
+        "what is changing a tyre",
+        "changing a tyre",
+        "explain changing a tyre",
+        "definition of changing a tyre",
+        "changing a tyre meaning",
+        "how do i change a tyre",
+        "how to change a flat tyre",
+        "what tools to change a tyre",
+        "ano ang gulong",
+        "unsa ang gulong"
+      ],
+      "answer": "A flat tyre is changed by loosening the nuts before the wheel comes off, because tightening a nut requires the wheel to be held still, and that is the step order that catches people out. The car is first made safe with a handbrake, a wheel chock and the correct spare, since a car on a slope with the wheel off is a car that can move. The nuts are loosened while the tyre is still on the ground, which is where a jack alone cannot hold the weight, and the wheel comes off, the new one goes on, and the nuts go on finger tight before the vehicle is lowered. Only then are they tightened properly, in a star pattern rather than in a circle, because going round in a circle tightens one and then shakes the others loose. Putting the spare on a motorway and then driving off is the one case where the advice is simply to call for help instead.",
+      "variations": [
+        "The car is first made safe with a handbrake, a wheel chock and the correct spare, since a car on a slope with the wheel off is a car that can move. A flat tyre is changed by loosening the nuts before the wheel comes off, because tightening a nut requires the wheel to be held still, and that is the step order that catches people out. The nuts are loosened while the tyre is still on the ground, which is where a jack alone cannot hold the weight, and the wheel comes off, the new one goes on, and the nuts go on finger tight before the vehicle is lowered. Only then are they tightened properly, in a star pattern rather than in a circle, because going round in a circle tightens one and then shakes the others loose. Putting the spare on a motorway and then driving off is the one case where the advice is simply to call for help instead.",
+        "The nuts are loosened while the tyre is still on the ground, which is where a jack alone cannot hold the weight, and the wheel comes off, the new one goes on, and the nuts go on finger tight before the vehicle is lowered. A flat tyre is changed by loosening the nuts before the wheel comes off, because tightening a nut requires the wheel to be held still, and that is the step order that catches people out. The car is first made safe with a handbrake, a wheel chock and the correct spare, since a car on a slope with the wheel off is a car that can move. Only then are they tightened properly, in a star pattern rather than in a circle, because going round in a circle tightens one and then shakes the others loose. Putting the spare on a motorway and then driving off is the one case where the advice is simply to call for help instead."
+      ],
+      "tl": "gulong",
+      "bis": "gulong"
+    }
+  ],
+  "lang": "english",
+  "group": "life-skills",
+  "sub": "home-skills",
+  "title": "Home skills",
+  "groupTitle": "Life skills"
+}

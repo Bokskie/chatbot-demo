@@ -1,0 +1,187 @@
+{
+  "topic": "conversations-recommendations",
+  "entries": [
+    {
+      "id": "con-recommendations-000001",
+      "topic": "conversations-recommendations",
+      "intent": "definition",
+      "concept": "recommendation",
+      "keywords": [
+        "recommendation",
+        "suggestion",
+        "tip",
+        "ideya",
+        "payo",
+        "opinion",
+        "advice",
+        "worth",
+        "decide",
+        "gideya",
+        "something",
+        "trying",
+        "honest"
+      ],
+      "patterns": [
+        "what is recommendation",
+        "recommendation",
+        "explain recommendation",
+        "definition of recommendation",
+        "recommendation meaning",
+        "anong recommendation",
+        "any good suggestions",
+        "give me tips",
+        "ano ang ideya",
+        "unsa ang gideya"
+      ],
+      "answer": "A recommendation is a suggestion of something worth trying, and the honest limitation is that it is only ever an opinion drawn from a range of options, so a recommendation is useful for a person who has not decided and useless to one who has. That distinction matters for how a recommendation gets made: the most valuable form names what it is good for, because \"try this if you want something quick\" is a decision someone can act on while a bare list of names is not. A second limit is that a recommender only knows what it has seen, so the most popular option will dominate and a better option will never appear, which is why asking a person for a recommendation and getting a famous one is the normal outcome rather than a sign the person is unoriginal. The word in Filipino for an idea or tip is ideya or payo, and a tip is specifically advice rather than an object, so a recommendation for a place and a tip about how to behave there are different things.",
+      "variations": [
+        "That distinction matters for how a recommendation gets made: the most valuable form names what it is good for, because \"try this if you want something quick\" is a decision someone can act on while a bare list of names is not. A recommendation is a suggestion of something worth trying, and the honest limitation is that it is only ever an opinion drawn from a range of options, so a recommendation is useful for a person who has not decided and useless to one who has. A second limit is that a recommender only knows what it has seen, so the most popular option will dominate and a better option will never appear, which is why asking a person for a recommendation and getting a famous one is the normal outcome rather than a sign the person is unoriginal. The word in Filipino for an idea or tip is ideya or payo, and a tip is specifically advice rather than an object, so a recommendation for a place and a tip about how to behave there are different things.",
+        "A second limit is that a recommender only knows what it has seen, so the most popular option will dominate and a better option will never appear, which is why asking a person for a recommendation and getting a famous one is the normal outcome rather than a sign the person is unoriginal. A recommendation is a suggestion of something worth trying, and the honest limitation is that it is only ever an opinion drawn from a range of options, so a recommendation is useful for a person who has not decided and useless to one who has. That distinction matters for how a recommendation gets made: the most valuable form names what it is good for, because \"try this if you want something quick\" is a decision someone can act on while a bare list of names is not. The word in Filipino for an idea or tip is ideya or payo, and a tip is specifically advice rather than an object, so a recommendation for a place and a tip about how to behave there are different things."
+      ],
+      "tl": "ideya",
+      "bis": "gideya"
+    },
+    {
+      "id": "con-recommendations-000002",
+      "topic": "conversations-recommendations",
+      "intent": "definition",
+      "concept": "good food",
+      "keywords": [
+        "good food",
+        "sinigang",
+        "adobo",
+        "ulam",
+        "cook",
+        "choose",
+        "light",
+        "pagkain",
+        "good",
+        "everyday",
+        "filipino",
+        "food",
+        "worth",
+        "choosing"
+      ],
+      "patterns": [
+        "what is good food",
+        "good food",
+        "explain good food",
+        "definition of good food",
+        "good food meaning",
+        "ano maganda ulam",
+        "anong pagkain ang masarap",
+        "what should i cook",
+        "good filipino food",
+        "ano ang pagkain",
+        "unsa ang pagkain"
+      ],
+      "answer": "Good everyday Filipino food is worth choosing by how you want to spend the evening rather than by what is famous, because the classic dishes are well known and the question is usually what to cook. Sinigang is a sour soup of meat or fish with a lot of vegetables, which is a good answer for someone who wants something light and is cooking for a few people. Kare kare is a peanut stew that is rich and takes a while, so it suits a weekend rather than a Tuesday. Adobo is the quickest of the three and the most forgiving, since it improves the longer it sits, and it is the safest recommendation for a cook who has never made anything from scratch. If the question is what to eat rather than what to cook, the answer is usually ulam with rice, and almost any of these will do. A newcomer should know that Filipino food assumes rice, and a dish without it is a snack rather than a meal.",
+      "variations": [
+        "Sinigang is a sour soup of meat or fish with a lot of vegetables, which is a good answer for someone who wants something light and is cooking for a few people. Good everyday Filipino food is worth choosing by how you want to spend the evening rather than by what is famous, because the classic dishes are well known and the question is usually what to cook. Kare kare is a peanut stew that is rich and takes a while, so it suits a weekend rather than a Tuesday. Adobo is the quickest of the three and the most forgiving, since it improves the longer it sits, and it is the safest recommendation for a cook who has never made anything from scratch. If the question is what to eat rather than what to cook, the answer is usually ulam with rice, and almost any of these will do. A newcomer should know that Filipino food assumes rice, and a dish without it is a snack rather than a meal.",
+        "Kare kare is a peanut stew that is rich and takes a while, so it suits a weekend rather than a Tuesday. Good everyday Filipino food is worth choosing by how you want to spend the evening rather than by what is famous, because the classic dishes are well known and the question is usually what to cook. Sinigang is a sour soup of meat or fish with a lot of vegetables, which is a good answer for someone who wants something light and is cooking for a few people. Adobo is the quickest of the three and the most forgiving, since it improves the longer it sits, and it is the safest recommendation for a cook who has never made anything from scratch. If the question is what to eat rather than what to cook, the answer is usually ulam with rice, and almost any of these will do. A newcomer should know that Filipino food assumes rice, and a dish without it is a snack rather than a meal."
+      ],
+      "tl": "pagkain",
+      "bis": "pagkain"
+    },
+    {
+      "id": "con-recommendations-000003",
+      "topic": "conversations-recommendations",
+      "intent": "definition",
+      "concept": "movie to watch",
+      "keywords": [
+        "movie to watch",
+        "watch",
+        "film",
+        "series",
+        "comedy",
+        "horror",
+        "evening",
+        "advisable",
+        "worth",
+        "maganda",
+        "panoorin",
+        "panatilihin",
+        "choosing",
+        "something",
+        "question",
+        "mood",
+        "time"
+      ],
+      "patterns": [
+        "what is movie to watch",
+        "movie to watch",
+        "explain movie to watch",
+        "definition of movie to watch",
+        "movie to watch meaning",
+        "ano maganda panoorin",
+        "what to watch",
+        "anong pelikula",
+        "any good movie to watch",
+        "magandang panoorin",
+        "ano ang advisable",
+        "unsa ang advisable"
+      ],
+      "answer": "Choosing something to watch is a question about mood and time rather than about quality, and the honest answer is that the best pick depends on how much attention you have. For a long evening a series is better than a film, because stopping halfway through a series is easier than stopping halfway through a film and leaving a story unresolved. A film of about two hours suits an evening where you want to follow one thing from start to finish, and a comedy is the most forgiving choice because it does not punish being distracted. Horror is the opposite: it depends entirely on not being interrupted, and a phone notification ruins it more than a bad film does. Philippine viewers are used to local films, and the ones from the 1990s in particular have a warmth that newer ones do not, which is worth knowing when someone recommends an old one.",
+      "variations": [
+        "For a long evening a series is better than a film, because stopping halfway through a series is easier than stopping halfway through a film and leaving a story unresolved. Choosing something to watch is a question about mood and time rather than about quality, and the honest answer is that the best pick depends on how much attention you have. A film of about two hours suits an evening where you want to follow one thing from start to finish, and a comedy is the most forgiving choice because it does not punish being distracted. Horror is the opposite: it depends entirely on not being interrupted, and a phone notification ruins it more than a bad film does. Philippine viewers are used to local films, and the ones from the 1990s in particular have a warmth that newer ones do not, which is worth knowing when someone recommends an old one.",
+        "A film of about two hours suits an evening where you want to follow one thing from start to finish, and a comedy is the most forgiving choice because it does not punish being distracted. Choosing something to watch is a question about mood and time rather than about quality, and the honest answer is that the best pick depends on how much attention you have. For a long evening a series is better than a film, because stopping halfway through a series is easier than stopping halfway through a film and leaving a story unresolved. Horror is the opposite: it depends entirely on not being interrupted, and a phone notification ruins it more than a bad film does. Philippine viewers are used to local films, and the ones from the 1990s in particular have a warmth that newer ones do not, which is worth knowing when someone recommends an old one."
+      ],
+      "tl": "advisable",
+      "bis": "advisable"
+    },
+    {
+      "id": "con-recommendations-000004",
+      "topic": "conversations-recommendations",
+      "intent": "definition",
+      "concept": "libro",
+      "keywords": [
+        "libro",
+        "novel",
+        "essay",
+        "author",
+        "read",
+        "length",
+        "mood",
+        "advisable",
+        "worth",
+        "suggestion",
+        "maganda",
+        "babasahin",
+        "sundan",
+        "choosing",
+        "book",
+        "different",
+        "question",
+        "something",
+        "watch"
+      ],
+      "patterns": [
+        "what is libro",
+        "libro",
+        "explain libro",
+        "definition of libro",
+        "libro meaning",
+        "ano magandang libro",
+        "anong babasahin",
+        "what book should i read",
+        "good books",
+        "magandang libro",
+        "maganda libro",
+        "ano ang advisable",
+        "unsa ang advisable"
+      ],
+      "answer": "Choosing a book is a different question from choosing something to watch, because a book is a commitment measured in hours rather than an evening, and the honest advice is to pick for the mood rather than for the reputation. A novel is for when someone wants to be carried somewhere, an essay collection for when they want to be interested rather than absorbed, and a textbook is not a leisure choice at all even when it is the only thing on the desk. Filipino readers are strongly oriented towards local writing, and the works of Nick Joaquin and the newer contemporary writers are widely read, while a recommendation of an English novel works better if it is matched to a length the person will actually finish. The one thing worth saying to anyone is that starting is the hard part and a book abandoned in the first chapter was not badly chosen, it was badly matched.",
+      "variations": [
+        "A novel is for when someone wants to be carried somewhere, an essay collection for when they want to be interested rather than absorbed, and a textbook is not a leisure choice at all even when it is the only thing on the desk. Choosing a book is a different question from choosing something to watch, because a book is a commitment measured in hours rather than an evening, and the honest advice is to pick for the mood rather than for the reputation. Filipino readers are strongly oriented towards local writing, and the works of Nick Joaquin and the newer contemporary writers are widely read, while a recommendation of an English novel works better if it is matched to a length the person will actually finish. The one thing worth saying to anyone is that starting is the hard part and a book abandoned in the first chapter was not badly chosen, it was badly matched.",
+        "Filipino readers are strongly oriented towards local writing, and the works of Nick Joaquin and the newer contemporary writers are widely read, while a recommendation of an English novel works better if it is matched to a length the person will actually finish. Choosing a book is a different question from choosing something to watch, because a book is a commitment measured in hours rather than an evening, and the honest advice is to pick for the mood rather than for the reputation. A novel is for when someone wants to be carried somewhere, an essay collection for when they want to be interested rather than absorbed, and a textbook is not a leisure choice at all even when it is the only thing on the desk. The one thing worth saying to anyone is that starting is the hard part and a book abandoned in the first chapter was not badly chosen, it was badly matched."
+      ],
+      "tl": "advisable",
+      "bis": "advisable"
+    }
+  ],
+  "lang": "english",
+  "group": "conversations",
+  "sub": "recommendations",
+  "title": "Recommendations",
+  "groupTitle": "Conversations"
+}

@@ -1,0 +1,196 @@
+{
+  "topic": "technology-cloud",
+  "entries": [
+    {
+      "id": "tec-cloud-000001",
+      "topic": "technology-cloud",
+      "intent": "definition",
+      "concept": "cloud computing",
+      "keywords": [
+        "cloud computing",
+        "elasticity",
+        "infrastructure",
+        "capacity",
+        "metering",
+        "rented",
+        "cloud",
+        "computing",
+        "delivering",
+        "services",
+        "internet",
+        "instead"
+      ],
+      "patterns": [
+        "what is cloud computing",
+        "cloud computing",
+        "explain cloud computing",
+        "definition of cloud computing",
+        "cloud computing meaning",
+        "what are the benefits of cloud",
+        "is cloud cheaper",
+        "ano ang cloud computing",
+        "unsa ang cloud computing"
+      ],
+      "answer": "Cloud computing is delivering computing services over the internet instead of running them on hardware you own, and the three things that get rented are compute, storage and networking. The defining property is elasticity: capacity can be added when demand rises and released when it falls, so a site handles a traffic spike without buying a machine that is idle the rest of the week. The second property is that the resources live in someone else's data centre, which removes the capital cost and the maintenance work but also removes direct control over the hardware and the location of your data. The third is the billing model, where a service can be charged per hour of use or even per request, so the cost follows the usage rather than the largest machine you bought. The main criticism is the bill that surprises people: an under-optimised program is charged exactly as much as a well-written one, and a service left running costs money quietly every month.",
+      "variations": [
+        "The defining property is elasticity: capacity can be added when demand rises and released when it falls, so a site handles a traffic spike without buying a machine that is idle the rest of the week. Cloud computing is delivering computing services over the internet instead of running them on hardware you own, and the three things that get rented are compute, storage and networking. The second property is that the resources live in someone else's data centre, which removes the capital cost and the maintenance work but also removes direct control over the hardware and the location of your data. The third is the billing model, where a service can be charged per hour of use or even per request, so the cost follows the usage rather than the largest machine you bought. The main criticism is the bill that surprises people: an under-optimised program is charged exactly as much as a well-written one, and a service left running costs money quietly every month.",
+        "The second property is that the resources live in someone else's data centre, which removes the capital cost and the maintenance work but also removes direct control over the hardware and the location of your data. Cloud computing is delivering computing services over the internet instead of running them on hardware you own, and the three things that get rented are compute, storage and networking. The defining property is elasticity: capacity can be added when demand rises and released when it falls, so a site handles a traffic spike without buying a machine that is idle the rest of the week. The third is the billing model, where a service can be charged per hour of use or even per request, so the cost follows the usage rather than the largest machine you bought. The main criticism is the bill that surprises people: an under-optimised program is charged exactly as much as a well-written one, and a service left running costs money quietly every month."
+      ],
+      "tl": "cloud computing",
+      "bis": "cloud computing"
+    },
+    {
+      "id": "tec-cloud-000002",
+      "topic": "technology-cloud",
+      "intent": "definition",
+      "concept": "saas",
+      "keywords": [
+        "saas",
+        "subscription",
+        "browser",
+        "vendor",
+        "maintenance",
+        "licence",
+        "software",
+        "service",
+        "cloud",
+        "model",
+        "provider",
+        "runs"
+      ],
+      "patterns": [
+        "what is saas",
+        "saas",
+        "explain saas",
+        "definition of saas",
+        "saas meaning",
+        "is gmail saas",
+        "difference between saas and on premise",
+        "ano ang saas",
+        "unsa ang SaaS"
+      ],
+      "answer": "Software as a service is the cloud model where the provider runs the software and you access it through a browser or an app, with nothing to install and nothing to maintain. The provider handles the infrastructure, the updates, the backups and the uptime, and the customer manages only their own data and accounts. This is why a webmail or a spreadsheet no longer needs installing, and it is the reason a small organisation can run what used to require a server room. The pricing follows the same shape: a subscription per user per month, sometimes with tiers that limit features, and it is a predictable cost rather than a licence you buy and host. The trade is the loss of control, since the software lives on someone else's platform and access depends on a network connection, and the data is in a system you do not administer yourself. Most software a student or office uses now is SaaS, and the older pattern of a one-off purchase that you installed yourself is now the exception.",
+      "variations": [
+        "The provider handles the infrastructure, the updates, the backups and the uptime, and the customer manages only their own data and accounts. Software as a service is the cloud model where the provider runs the software and you access it through a browser or an app, with nothing to install and nothing to maintain. This is why a webmail or a spreadsheet no longer needs installing, and it is the reason a small organisation can run what used to require a server room. The pricing follows the same shape: a subscription per user per month, sometimes with tiers that limit features, and it is a predictable cost rather than a licence you buy and host. The trade is the loss of control, since the software lives on someone else's platform and access depends on a network connection, and the data is in a system you do not administer yourself. Most software a student or office uses now is SaaS, and the older pattern of a one-off purchase that you installed yourself is now the exception.",
+        "This is why a webmail or a spreadsheet no longer needs installing, and it is the reason a small organisation can run what used to require a server room. Software as a service is the cloud model where the provider runs the software and you access it through a browser or an app, with nothing to install and nothing to maintain. The provider handles the infrastructure, the updates, the backups and the uptime, and the customer manages only their own data and accounts. The pricing follows the same shape: a subscription per user per month, sometimes with tiers that limit features, and it is a predictable cost rather than a licence you buy and host. The trade is the loss of control, since the software lives on someone else's platform and access depends on a network connection, and the data is in a system you do not administer yourself. Most software a student or office uses now is SaaS, and the older pattern of a one-off purchase that you installed yourself is now the exception."
+      ],
+      "tl": "saas",
+      "bis": "SaaS"
+    },
+    {
+      "id": "tec-cloud-000003",
+      "topic": "technology-cloud",
+      "intent": "definition",
+      "concept": "paas",
+      "keywords": [
+        "paas",
+        "platform",
+        "runtime",
+        "deploy",
+        "container",
+        "serverless",
+        "managed",
+        "developer",
+        "service",
+        "middle",
+        "model",
+        "provider",
+        "manages"
+      ],
+      "patterns": [
+        "what is paas",
+        "paas",
+        "explain paas",
+        "definition of paas",
+        "paas meaning",
+        "what is platform as a service",
+        "is heroku paas",
+        "ano ang paas",
+        "unsa ang PaaS"
+      ],
+      "answer": "Platform as a service is the middle model, where the provider manages the operating system and the runtime and you deploy only your own code and configuration. The gain is that there is no server to patch and no operating system to install, so a developer can publish an application without ever seeing a machine, and the platform handles scaling, routing and often the database. The cost is that you work inside the provider's constraints: the supported language list, the configuration format, the deployment model and the pricing all belong to them. A container service sits near this end, with the platform scheduling the image and the application packaged inside it, and serverless sits furthest, where you supply a function and the platform runs it per request and bills only the time it used. The practical advice is to start with the smallest model that removes the work you do not want to do, because moving down a level later is easy and moving back up is not.",
+      "variations": [
+        "The gain is that there is no server to patch and no operating system to install, so a developer can publish an application without ever seeing a machine, and the platform handles scaling, routing and often the database. Platform as a service is the middle model, where the provider manages the operating system and the runtime and you deploy only your own code and configuration. The cost is that you work inside the provider's constraints: the supported language list, the configuration format, the deployment model and the pricing all belong to them. A container service sits near this end, with the platform scheduling the image and the application packaged inside it, and serverless sits furthest, where you supply a function and the platform runs it per request and bills only the time it used. The practical advice is to start with the smallest model that removes the work you do not want to do, because moving down a level later is easy and moving back up is not.",
+        "The cost is that you work inside the provider's constraints: the supported language list, the configuration format, the deployment model and the pricing all belong to them. Platform as a service is the middle model, where the provider manages the operating system and the runtime and you deploy only your own code and configuration. The gain is that there is no server to patch and no operating system to install, so a developer can publish an application without ever seeing a machine, and the platform handles scaling, routing and often the database. A container service sits near this end, with the platform scheduling the image and the application packaged inside it, and serverless sits furthest, where you supply a function and the platform runs it per request and bills only the time it used. The practical advice is to start with the smallest model that removes the work you do not want to do, because moving down a level later is easy and moving back up is not."
+      ],
+      "tl": "paas",
+      "bis": "PaaS"
+    },
+    {
+      "id": "tec-cloud-000004",
+      "topic": "technology-cloud",
+      "intent": "definition",
+      "concept": "load balancing",
+      "keywords": [
+        "load balancing",
+        "balancer",
+        "throughput",
+        "load",
+        "balancing",
+        "spreading",
+        "incoming",
+        "requests",
+        "across"
+      ],
+      "patterns": [
+        "what is load balancing",
+        "load balancing",
+        "explain load balancing",
+        "definition of load balancing",
+        "load balancing meaning",
+        "what is a load balancer",
+        "difference between vertical and horizontal scaling",
+        "ano ang load balancing",
+        "unsa ang load balancing"
+      ],
+      "answer": "Load balancing is spreading incoming requests across several server instances so that no single one becomes the bottleneck and so that a failure of one does not take the service down. The balancer sits in front of the servers, receives the connection, picks a target using a rule such as round robin, least connections or the source address, and forwards it. The benefit is twofold and both matter: it raises throughput, and it provides high availability because a health check can remove a dead instance from the pool without anyone noticing. The health check is the part that is often underestimated, because a server that is running but unable to serve is still receiving traffic unless something measures readiness rather than mere existence. Scaling is the related idea and it comes in two forms, vertical, which means a bigger machine, and horizontal, which means more machines, and only the second one is limited by the largest single machine you can buy.",
+      "variations": [
+        "The balancer sits in front of the servers, receives the connection, picks a target using a rule such as round robin, least connections or the source address, and forwards it. Load balancing is spreading incoming requests across several server instances so that no single one becomes the bottleneck and so that a failure of one does not take the service down. The benefit is twofold and both matter: it raises throughput, and it provides high availability because a health check can remove a dead instance from the pool without anyone noticing. The health check is the part that is often underestimated, because a server that is running but unable to serve is still receiving traffic unless something measures readiness rather than mere existence. Scaling is the related idea and it comes in two forms, vertical, which means a bigger machine, and horizontal, which means more machines, and only the second one is limited by the largest single machine you can buy.",
+        "The benefit is twofold and both matter: it raises throughput, and it provides high availability because a health check can remove a dead instance from the pool without anyone noticing. Load balancing is spreading incoming requests across several server instances so that no single one becomes the bottleneck and so that a failure of one does not take the service down. The balancer sits in front of the servers, receives the connection, picks a target using a rule such as round robin, least connections or the source address, and forwards it. The health check is the part that is often underestimated, because a server that is running but unable to serve is still receiving traffic unless something measures readiness rather than mere existence. Scaling is the related idea and it comes in two forms, vertical, which means a bigger machine, and horizontal, which means more machines, and only the second one is limited by the largest single machine you can buy."
+      ],
+      "tl": "load balancing",
+      "bis": "load balancing"
+    },
+    {
+      "id": "tec-cloud-000005",
+      "topic": "technology-cloud",
+      "intent": "definition",
+      "concept": "iaas",
+      "keywords": [
+        "iaas",
+        "instance",
+        "infrastructure",
+        "responsibility",
+        "tenancy",
+        "service",
+        "cloud",
+        "model",
+        "closest",
+        "renting"
+      ],
+      "patterns": [
+        "what is iaas",
+        "iaas",
+        "explain iaas",
+        "definition of iaas",
+        "iaas meaning",
+        "is a cloud instance a virtual machine",
+        "difference between iaas and paas",
+        "ano ang iaas",
+        "unsa ang IaaS"
+      ],
+      "answer": "Infrastructure as a service is the cloud model closest to renting a physical machine, where the provider supplies the computing power, storage and networking and you install whatever you want on top. That means you are responsible for the operating system, the security patches, the network configuration and everything in between, exactly as you would be on a server you bought. The usual comparison is with a virtual machine, and the two are not really different in kind: a virtual machine is software that emulates hardware, so a cloud instance is in practice a virtual machine running on someone else's larger machine, with the difference that it appeared in under a minute and disappears when you delete it. Because of that division of responsibility, the security failures in this model are almost always configuration mistakes by the customer rather than vulnerabilities in the platform. The economics work when utilisation is low or spiky, since you stop paying for hardware that sits idle.",
+      "variations": [
+        "That means you are responsible for the operating system, the security patches, the network configuration and everything in between, exactly as you would be on a server you bought. Infrastructure as a service is the cloud model closest to renting a physical machine, where the provider supplies the computing power, storage and networking and you install whatever you want on top. The usual comparison is with a virtual machine, and the two are not really different in kind: a virtual machine is software that emulates hardware, so a cloud instance is in practice a virtual machine running on someone else's larger machine, with the difference that it appeared in under a minute and disappears when you delete it. Because of that division of responsibility, the security failures in this model are almost always configuration mistakes by the customer rather than vulnerabilities in the platform. The economics work when utilisation is low or spiky, since you stop paying for hardware that sits idle.",
+        "The usual comparison is with a virtual machine, and the two are not really different in kind: a virtual machine is software that emulates hardware, so a cloud instance is in practice a virtual machine running on someone else's larger machine, with the difference that it appeared in under a minute and disappears when you delete it. Infrastructure as a service is the cloud model closest to renting a physical machine, where the provider supplies the computing power, storage and networking and you install whatever you want on top. That means you are responsible for the operating system, the security patches, the network configuration and everything in between, exactly as you would be on a server you bought. Because of that division of responsibility, the security failures in this model are almost always configuration mistakes by the customer rather than vulnerabilities in the platform. The economics work when utilisation is low or spiky, since you stop paying for hardware that sits idle."
+      ],
+      "tl": "iaas",
+      "bis": "IaaS"
+    }
+  ],
+  "lang": "english",
+  "group": "technology",
+  "sub": "cloud",
+  "title": "Cloud",
+  "groupTitle": "Technology"
+}

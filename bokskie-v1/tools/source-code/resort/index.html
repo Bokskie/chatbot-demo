@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malay Bay Resort</title>
+  <style>
+    /* ---- the whole design lives in these six lines ---- */
+    :root {
+      --sand:  #f5efe4;
+      --deep:  #14342f;
+      --sea:   #2e7d74;
+      --gold:  #c9a227;
+      --ink:   #1d2321;
+      --paper: #ffffff;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--ink);
+      line-height: 1.6;
+      background: var(--sand);
+    }
+
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 0 1.25rem; }
+
+    /* ---- header ---- */
+    header {
+      background: var(--deep);
+      color: var(--paper);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 0;
+      flex-wrap: wrap;
+    }
+    .brand { font-size: 1.3rem; letter-spacing: .05em; }
+    .brand span { color: var(--gold); }
+
+    .nav-links { display: flex; gap: 1.5rem; list-style: none; }
+    .nav-links a { color: var(--paper); text-decoration: none; font-size: .95rem; }
+    .nav-links a:hover { color: var(--gold); }
+
+    /* The menu button is a hidden checkbox, so the mobile menu needs
+       no JavaScript at all. */
+    #nav-toggle { position: absolute; opacity: 0; }
+    #nav-toggle:focus-visible + label { outline: 2px solid var(--gold); }
+    label.menu {
+      display: none;
+      cursor: pointer;
+      font-size: 1.4rem;
+      color: var(--paper);
+      padding: .25rem .5rem;
+    }
+
+    @media (max-width: 700px) {
+      label.menu { display: block; }
+      .nav-links {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        gap: .75rem;
+        padding-bottom: 1rem;
+      }
+      #nav-toggle:checked ~ .nav-links { display: flex; }
+    }
+
+    /* ---- hero ---- */
+    .hero {
+      background: linear-gradient(160deg, var(--deep) 0%, var(--sea) 100%);
+      color: var(--paper);
+      text-align: center;
+      padding: 7rem 1.25rem;
+    }
+    .hero h1 { font-size: clamp(2rem, 6vw, 3.5rem); line-height: 1.15; }
+    .hero p { max-width: 46ch; margin: 1.25rem auto 2rem; opacity: .92; }
+
+    .btn {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--deep);
+      padding: .8rem 1.8rem;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: bold;
+      border: 0;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .btn:hover { filter: brightness(1.08); }
+
+    /* ---- sections ---- */
+    section { padding: 4.5rem 0; }
+    section:nth-of-type(even) { background: var(--paper); }
+    .head { text-align: center; max-width: 60ch; margin: 0 auto 2.5rem; }
+    .head h2 { font-size: clamp(1.6rem, 4vw, 2.4rem); color: var(--deep); }
+    .head p { margin-top: .75rem; color: #55605c; }
+
+    /* auto-fit is the whole responsive story: cards wrap into as many
+       columns as fit, with no media query. */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: var(--paper);
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 2px 14px rgba(0,0,0,.07);
+    }
+    section:nth-of-type(even) .card { border: 1px solid #e6ded0; }
+
+    /* stand-in images, so nothing external can go missing */
+    .photo { height: 180px; }
+    .p1 { background: linear-gradient(135deg, #2e7d74, #14342f); }
+    .p2 { background: linear-gradient(135deg, #c9a227, #8c6d15); }
+    .p3 { background: linear-gradient(135deg, #4a9d94, #1f5f58); }
+    .p4 { background: linear-gradient(135deg, #6b8f71, #2f4a35); }
+    .p5 { background: linear-gradient(135deg, #d9b980, #a8843f); }
+
+    .card-body { padding: 1.25rem; }
+    .card h3 { color: var(--deep); margin-bottom: .5rem; }
+    .price { color: var(--gold); font-weight: bold; font-size: 1.1rem; }
+
+    .amenity { text-align: center; padding: 1.5rem 1rem; }
+    .amenity b { display: block; font-size: 2rem; color: var(--sea); }
+
+    /* ---- booking form ---- */
+    form {
+      background: var(--paper);
+      padding: 2rem;
+      border-radius: 14px;
+      max-width: 640px;
+      margin: 0 auto;
+      box-shadow: 0 2px 14px rgba(0,0,0,.07);
+    }
+    label { display: block; font-weight: bold; margin-top: 1rem; }
+    input, select {
+      width: 100%;
+      padding: .7rem;
+      border: 1px solid #cfc6b4;
+      border-radius: 8px;
+      font: inherit;
+      margin-top: .35rem;
+    }
+    input:focus, select:focus {
+      outline: 2px solid var(--sea);
+      border-color: var(--sea);
+    }
+    .err { color: #a1281f; font-size: .85rem; margin-top: .25rem; }
+    #out {
+      margin-top: 1.25rem;
+      padding: 1rem;
+      border-radius: 8px;
+      background: #e6f2ef;
+      border-left: 4px solid var(--sea);
+      display: none;
+    }
+    #out.show { display: block; }
+
+    footer {
+      background: var(--deep);
+      color: #b9c6c2;
+      text-align: center;
+      padding: 2.5rem 1.25rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="wrap">
+      <div class="brand">Malay <span>Bay</span></div>
+      <input type="checkbox" id="nav-toggle">
+      <label for="nav-toggle" class="menu">&#9776;</label>
+      <ul class="nav-links">
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#amenities">Amenities</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#book">Book</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Where the forest meets the sea</h1>
+    <p>Sixteen villas on a private bay, an infinity pool that runs to
+       the horizon, and nothing between you and the water but sand.</p>
+    <a class="btn" href="#book">Check availability</a>
+  </div>
+
+  <section id="rooms">
+    <div class="wrap">
+      <div class="head">
+        <h2>Rooms &amp; villas</h2>
+        <p>Every one faces the water. Prices are per night and include
+           breakfast and the boat transfer.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <div class="photo p1"></div>
+          <div class="card-body">
+            <h3>Garden Room</h3>
+            <p>Ground floor, terrace onto the palms. The best value on
+               the property and the quietest of the three.</p>
+            <p class="price">&#8369;4,200 / night</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="photo p2"></div>
+          <div class="card-body">
+            <h3>Ocean Villa</h3>
+            <p>Full sea view with a private plunge pool. The one people
+               book six months ahead.</p>
+            <p class="price">&#8369;11,500 / night</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="photo p3"></div>
+          <div class="card-body">
+            <h3>Cliff Suite</h3>
+            <p>Top of the headland, glass on two sides, and breakfast on
+               the deck whether you want it or not.</p>
+            <p class="price">&#8369;18,900 / night</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="amenities">
+    <div class="wrap">
+      <div class="head"><h2>What is included</h2></div>
+      <div class="grid">
+        <div class="amenity"><b>&#127866;</b>Infinity pool</div>
+        <div class="amenity"><b>&#127754;</b>Open-air spa</div>
+        <div class="amenity"><b>&#127769;</b>Private beach</div>
+        <div class="amenity"><b>&#128;</b>Boat transfer</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="wrap">
+      <div class="head"><h2>The bay</h2></div>
+      <div class="grid">
+        <div class="card"><div class="photo p4" style="height:220px"></div></div>
+        <div class="card"><div class="photo p5" style="height:220px"></div></div>
+        <div class="card"><div class="photo p1" style="height:220px"></div></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="book">
+    <div class="wrap">
+      <div class="head">
+        <h2>Book your stay</h2>
+        <p>Nothing is charged here. This is a demo, so the form only
+           shows you what it does.</p>
+      </div>
+      <form id="book-form" novalidate>
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" autocomplete="name">
+        <div class="err" id="err-name"></div>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email">
+        <div class="err" id="err-email"></div>
+
+        <label for="room">Room type</label>
+        <select id="room" name="room">
+          <option>Garden Room</option>
+          <option>Ocean Villa</option>
+          <option>Cliff Suite</option>
+        </select>
+
+        <label for="checkin">Arrive</label>
+        <input id="checkin" name="checkin" type="date">
+
+        <label for="checkout">Leave</label>
+        <input id="checkout" name="checkout" type="date">
+        <div class="err" id="err-dates"></div>
+
+        <p style="margin-top:1.5rem">
+          <button class="btn" type="submit">Request booking</button>
+        </p>
+        <div id="out" role="status"></div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>Malay Bay Resort &middot; Palawan, Philippines</p>
+    <p>&copy; <span id="year"></span> Malay Bay Resort</p>
+  </footer>
+
+  <script>
+    // The footer year, so it never goes stale.
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    var form = document.getElementById('book-form');
+    var out  = document.getElementById('out');
+
+    // Reads 'YYYY-MM-DD' and writes it the way a person writes a date.
+    function pretty(iso) {
+      if (!iso) return '';
+      var d = new Date(iso + 'T00:00:00');
+      if (isNaN(d.getTime())) return iso;
+      return d.toLocaleDateString('en-PH',
+             { day: 'numeric', month: 'long', year: 'numeric' });
+    }
+
+    function setError(field, message) {
+      document.getElementById('err-' + field).textContent = message;
+    }
+
+    form.addEventListener('submit', function (event) {
+      // Stops the page reloading, so the reader does not lose their place.
+      event.preventDefault();
+
+      // One object holding every named field in the form.
+      var data = new FormData(form);
+      var name  = String(data.get('name') || '').trim();
+      var email = String(data.get('email') || '').trim();
+      var checkIn  = data.get('checkin')  || '';
+      var checkOut = data.get('checkout') || '';
+      var ok = true;
+
+      setError('name', '');
+      setError('email', '');
+      setError('dates', '');
+
+      if (name.length < 2) {
+        setError('name', 'Please tell me your name.');
+        ok = false;
+      }
+
+      // The simple test: something, an @, something, a dot, something.
+      if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
+        setError('email', 'That email does not look complete.');
+        ok = false;
+      }
+
+      if (!checkIn || !checkOut) {
+        setError('dates', 'Pick both dates.');
+        ok = false;
+      } else if (new Date(checkOut) <= new Date(checkIn)) {
+        setError('dates', 'Leaving has to be after arriving.');
+        ok = false;
+      }
+
+      if (!ok) return;
+
+      // Replace this block when you connect a real booking service:
+      // send the FormData to your endpoint instead of showing a
+      // confirmation on the page.
+      out.className = 'show';
+      out.textContent =
+        'Thanks ' + name + ' - your request for the ' + data.get('room') +
+        ' from ' + pretty(checkIn) + ' to ' + pretty(checkOut) +
+        ' is noted. We reply to ' + email + ' within the day.';
+    });
+  </script>
+</body>
+</html>
+

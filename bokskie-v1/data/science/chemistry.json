@@ -1,0 +1,324 @@
+{
+  "topic": "science-chemistry",
+  "entries": [
+    {
+      "id": "sci-chemistry-000001",
+      "topic": "science-chemistry",
+      "intent": "definition",
+      "concept": "atom",
+      "keywords": [
+        "atom",
+        "proton",
+        "neutron",
+        "electron",
+        "nucleus",
+        "smallest",
+        "unit",
+        "ordinary",
+        "matter",
+        "keeps"
+      ],
+      "patterns": [
+        "what is atom",
+        "atom",
+        "explain atom",
+        "definition of atom",
+        "atom meaning",
+        "what is an atom",
+        "what is inside an atom",
+        "what is an atomic number",
+        "ano ang atom",
+        "unsa ang atom"
+      ],
+      "answer": "An atom is the smallest unit of ordinary matter that keeps an element's properties, made of a nucleus of protons and neutrons surrounded by electrons. The number of protons is the atomic number and it alone defines which element it is, so changing it changes the element. The electrons determine the chemistry, and the electron shells filling in a particular pattern is the whole reason the periodic table has a shape.",
+      "variations": [
+        "The number of protons is the atomic number and it alone defines which element it is, so changing it changes the element. An atom is the smallest unit of ordinary matter that keeps an element's properties, made of a nucleus of protons and neutrons surrounded by electrons. The electrons determine the chemistry, and the electron shells filling in a particular pattern is the whole reason the periodic table has a shape.",
+        "The electrons determine the chemistry, and the electron shells filling in a particular pattern is the whole reason the periodic table has a shape. An atom is the smallest unit of ordinary matter that keeps an element's properties, made of a nucleus of protons and neutrons surrounded by electrons. The number of protons is the atomic number and it alone defines which element it is, so changing it changes the element."
+      ],
+      "tl": "atom",
+      "bis": "atom"
+    },
+    {
+      "id": "sci-chemistry-000002",
+      "topic": "science-chemistry",
+      "intent": "definition",
+      "concept": "periodic table",
+      "keywords": [
+        "periodic table",
+        "element",
+        "group",
+        "period",
+        "valence",
+        "atomic",
+        "periodic",
+        "table",
+        "arranges",
+        "elements",
+        "number"
+      ],
+      "patterns": [
+        "what is periodic table",
+        "periodic table",
+        "explain periodic table",
+        "definition of periodic table",
+        "periodic table meaning",
+        "how is the periodic table organised",
+        "what does group number mean",
+        "why are there no gaps",
+        "ano ang periodic table",
+        "unsa ang periodic table"
+      ],
+      "answer": "The periodic table arranges the elements by atomic number, which puts elements with similar electron structures into the same column. That is why it works as a predictor rather than a list, because an element's position tells you how it will react and the group number gives the valence electrons. The table has no gaps and no exceptions, which is a stronger claim about physics than it looks.",
+      "variations": [
+        "That is why it works as a predictor rather than a list, because an element's position tells you how it will react and the group number gives the valence electrons. The periodic table arranges the elements by atomic number, which puts elements with similar electron structures into the same column. The table has no gaps and no exceptions, which is a stronger claim about physics than it looks.",
+        "The table has no gaps and no exceptions, which is a stronger claim about physics than it looks. The periodic table arranges the elements by atomic number, which puts elements with similar electron structures into the same column. That is why it works as a predictor rather than a list, because an element's position tells you how it will react and the group number gives the valence electrons."
+      ],
+      "tl": "periodic table",
+      "bis": "periodic table"
+    },
+    {
+      "id": "sci-chemistry-000003",
+      "topic": "science-chemistry",
+      "intent": "definition",
+      "concept": "chemical bond",
+      "keywords": [
+        "chemical bond",
+        "bond",
+        "covalent",
+        "ionic",
+        "metallic",
+        "electron",
+        "molecule",
+        "atoms",
+        "being",
+        "bonded",
+        "lower",
+        "energy"
+      ],
+      "patterns": [
+        "what is chemical bond",
+        "chemical bond",
+        "explain chemical bond",
+        "definition of chemical bond",
+        "chemical bond meaning",
+        "what is a chemical bond",
+        "difference between ionic and covalent",
+        "what is valence",
+        "ano ang chemical bond",
+        "unsa ang chemical bond"
+      ],
+      "answer": "Atoms bond because being bonded is a lower energy state than being separate, and the type of bond is decided by how the electrons are shared or transferred. Covalent bonds share electron pairs and produce the familiar molecules, ionic bonds are a transfer that leaves charged ions, and metallic bonds are a shared sea of electrons holding a lattice together. Bond type predicts properties well, which is why it is taught before any reaction.",
+      "variations": [
+        "Covalent bonds share electron pairs and produce the familiar molecules, ionic bonds are a transfer that leaves charged ions, and metallic bonds are a shared sea of electrons holding a lattice together. Atoms bond because being bonded is a lower energy state than being separate, and the type of bond is decided by how the electrons are shared or transferred. Bond type predicts properties well, which is why it is taught before any reaction.",
+        "Bond type predicts properties well, which is why it is taught before any reaction. Atoms bond because being bonded is a lower energy state than being separate, and the type of bond is decided by how the electrons are shared or transferred. Covalent bonds share electron pairs and produce the familiar molecules, ionic bonds are a transfer that leaves charged ions, and metallic bonds are a shared sea of electrons holding a lattice together."
+      ],
+      "tl": "chemical bond",
+      "bis": "chemical bond"
+    },
+    {
+      "id": "sci-chemistry-000004",
+      "topic": "science-chemistry",
+      "intent": "definition",
+      "concept": "molecule",
+      "keywords": [
+        "molecule",
+        "atom",
+        "fixed",
+        "arrangement",
+        "water",
+        "moles",
+        "identity",
+        "substance",
+        "molekyul",
+        "atoms",
+        "joined",
+        "defining"
+      ],
+      "patterns": [
+        "what is molecule",
+        "molecule",
+        "explain molecule",
+        "definition of molecule",
+        "molecule meaning",
+        "what is a molecule",
+        "difference between molecule and compound",
+        "how many molecules in a drop",
+        "ano ang molekyul",
+        "unsa ang molecule"
+      ],
+      "answer": "A molecule is two or more atoms joined in a fixed arrangement, and the defining property is that a molecule has a definite size and shape, which is what separates it from the substance it forms part of. Water is the standard example: two hydrogen atoms and one oxygen atom joined at an angle, and because the shape is fixed the properties of water are fixed, which is why it behaves the same way everywhere rather than varying with the batch. That word is important, because a liquid such as water is not a pile of separate molecules each the same size, while in a gas the molecules are far apart and the substance has no fixed shape of its own. Molecules are also mostly far smaller than what can be seen, so a single drop contains an enormous number of them and the number is the reason chemical quantities are described in moles. A molecule is the smallest particle of a substance that keeps its identity, and splitting a water molecule gives hydrogen and oxygen, which are different substances with none of water's properties.",
+      "variations": [
+        "Water is the standard example: two hydrogen atoms and one oxygen atom joined at an angle, and because the shape is fixed the properties of water are fixed, which is why it behaves the same way everywhere rather than varying with the batch. A molecule is two or more atoms joined in a fixed arrangement, and the defining property is that a molecule has a definite size and shape, which is what separates it from the substance it forms part of. That word is important, because a liquid such as water is not a pile of separate molecules each the same size, while in a gas the molecules are far apart and the substance has no fixed shape of its own. Molecules are also mostly far smaller than what can be seen, so a single drop contains an enormous number of them and the number is the reason chemical quantities are described in moles. A molecule is the smallest particle of a substance that keeps its identity, and splitting a water molecule gives hydrogen and oxygen, which are different substances with none of water's properties.",
+        "That word is important, because a liquid such as water is not a pile of separate molecules each the same size, while in a gas the molecules are far apart and the substance has no fixed shape of its own. A molecule is two or more atoms joined in a fixed arrangement, and the defining property is that a molecule has a definite size and shape, which is what separates it from the substance it forms part of. Water is the standard example: two hydrogen atoms and one oxygen atom joined at an angle, and because the shape is fixed the properties of water are fixed, which is why it behaves the same way everywhere rather than varying with the batch. Molecules are also mostly far smaller than what can be seen, so a single drop contains an enormous number of them and the number is the reason chemical quantities are described in moles. A molecule is the smallest particle of a substance that keeps its identity, and splitting a water molecule gives hydrogen and oxygen, which are different substances with none of water's properties."
+      ],
+      "tl": "molekyul",
+      "bis": "molecule"
+    },
+    {
+      "id": "sci-chemistry-000005",
+      "topic": "science-chemistry",
+      "intent": "definition",
+      "concept": "mixture",
+      "keywords": [
+        "mixture",
+        "compound",
+        "separation",
+        "physical",
+        "solution",
+        "properties",
+        "alloy",
+        "element",
+        "combination",
+        "substances",
+        "together",
+        "joined",
+        "single"
+      ],
+      "patterns": [
+        "what is mixture",
+        "mixture",
+        "explain mixture",
+        "definition of mixture",
+        "mixture meaning",
+        "what is a mixture",
+        "mixture vs compound",
+        "how do you separate a mixture",
+        "ano ang mixture",
+        "unsa ang mixture"
+      ],
+      "answer": "A mixture is a combination of substances that are together but not joined, and the single test is whether each part keeps its own properties and can be separated again. Air is the everyday example, since the nitrogen and oxygen in it are mixed rather than bonded, and each one is still nitrogen or oxygen after you take it back out. That is what separates a mixture from a compound: a compound is a fixed ratio joined in a definite arrangement with properties of its own, while a mixture can vary in proportion and keeps the properties of its parts. A second difference is that mixtures are separated by physical means such as filtering, distilling or letting something settle, while a compound has to be broken chemically. The same logic explains why the melting point of a mixture is not a single clean temperature the way a pure substance is, and why alloying a metal changes its properties without producing anything new.",
+      "variations": [
+        "Air is the everyday example, since the nitrogen and oxygen in it are mixed rather than bonded, and each one is still nitrogen or oxygen after you take it back out. A mixture is a combination of substances that are together but not joined, and the single test is whether each part keeps its own properties and can be separated again. That is what separates a mixture from a compound: a compound is a fixed ratio joined in a definite arrangement with properties of its own, while a mixture can vary in proportion and keeps the properties of its parts. A second difference is that mixtures are separated by physical means such as filtering, distilling or letting something settle, while a compound has to be broken chemically. The same logic explains why the melting point of a mixture is not a single clean temperature the way a pure substance is, and why alloying a metal changes its properties without producing anything new.",
+        "That is what separates a mixture from a compound: a compound is a fixed ratio joined in a definite arrangement with properties of its own, while a mixture can vary in proportion and keeps the properties of its parts. A mixture is a combination of substances that are together but not joined, and the single test is whether each part keeps its own properties and can be separated again. Air is the everyday example, since the nitrogen and oxygen in it are mixed rather than bonded, and each one is still nitrogen or oxygen after you take it back out. A second difference is that mixtures are separated by physical means such as filtering, distilling or letting something settle, while a compound has to be broken chemically. The same logic explains why the melting point of a mixture is not a single clean temperature the way a pure substance is, and why alloying a metal changes its properties without producing anything new."
+      ],
+      "tl": "mixture",
+      "bis": "mixture"
+    },
+    {
+      "id": "sci-chemistry-000006",
+      "topic": "science-chemistry",
+      "intent": "definition",
+      "concept": "solvent",
+      "keywords": [
+        "solvent",
+        "solute",
+        "dissolve",
+        "solution",
+        "soap",
+        "polar",
+        "saturated",
+        "temperature",
+        "solente",
+        "substance",
+        "dissolves",
+        "another",
+        "being",
+        "dissolved"
+      ],
+      "patterns": [
+        "what is solvent",
+        "solvent",
+        "explain solvent",
+        "definition of solvent",
+        "solvent meaning",
+        "what is a solvent",
+        "what is a solute",
+        "like dissolves like",
+        "ano ang solente",
+        "unsa ang solvent"
+      ],
+      "answer": "A solvent is a substance that dissolves another, and the substance being dissolved is the solute, and together they form a solution. Water is the everyday example and dissolves a surprising amount: salt, sugar, most acids and bases, and a family of molecules called ionic compounds because they split into charged pieces in it. What it does not dissolve is the important half of the story, and this is why washing cannot remove every kind of stain. Oil does not dissolve in water, which is why a greasy pan needs soap: soap molecules have a water-friendly end and an oil-friendly end, so they bridge the two and let the oil wash away. The general rule is that like dissolves like, meaning a polar solvent dissolves polar substances and a non-polar one dissolves non-polar substances, and that single idea explains most of the cases. Temperature and the amount of solute also matter, since a saturated solution holds as much as it can at that temperature, and most solids dissolve better in a hot liquid, which is why a hot drink takes sugar faster than a cold one.",
+      "variations": [
+        "Water is the everyday example and dissolves a surprising amount: salt, sugar, most acids and bases, and a family of molecules called ionic compounds because they split into charged pieces in it. A solvent is a substance that dissolves another, and the substance being dissolved is the solute, and together they form a solution. What it does not dissolve is the important half of the story, and this is why washing cannot remove every kind of stain. Oil does not dissolve in water, which is why a greasy pan needs soap: soap molecules have a water-friendly end and an oil-friendly end, so they bridge the two and let the oil wash away. The general rule is that like dissolves like, meaning a polar solvent dissolves polar substances and a non-polar one dissolves non-polar substances, and that single idea explains most of the cases. Temperature and the amount of solute also matter, since a saturated solution holds as much as it can at that temperature, and most solids dissolve better in a hot liquid, which is why a hot drink takes sugar faster than a cold one.",
+        "What it does not dissolve is the important half of the story, and this is why washing cannot remove every kind of stain. A solvent is a substance that dissolves another, and the substance being dissolved is the solute, and together they form a solution. Water is the everyday example and dissolves a surprising amount: salt, sugar, most acids and bases, and a family of molecules called ionic compounds because they split into charged pieces in it. Oil does not dissolve in water, which is why a greasy pan needs soap: soap molecules have a water-friendly end and an oil-friendly end, so they bridge the two and let the oil wash away. The general rule is that like dissolves like, meaning a polar solvent dissolves polar substances and a non-polar one dissolves non-polar substances, and that single idea explains most of the cases. Temperature and the amount of solute also matter, since a saturated solution holds as much as it can at that temperature, and most solids dissolve better in a hot liquid, which is why a hot drink takes sugar faster than a cold one."
+      ],
+      "tl": "solente",
+      "bis": "solvent"
+    },
+    {
+      "id": "sci-chemistry-000007",
+      "topic": "science-chemistry",
+      "intent": "definition",
+      "concept": "concentration",
+      "keywords": [
+        "concentration",
+        "molarity",
+        "grams",
+        "saturated",
+        "dilute",
+        "solubility",
+        "temperature",
+        "konsentrasyon",
+        "substance",
+        "present",
+        "amount",
+        "solution",
+        "units"
+      ],
+      "patterns": [
+        "what is concentration",
+        "concentration",
+        "explain concentration",
+        "definition of concentration",
+        "concentration meaning",
+        "what is molarity",
+        "what is the difference between concentrated and dilute",
+        "ano ang konsentrasyon",
+        "unsa ang concentration"
+      ],
+      "answer": "Concentration is how much of a substance is present in a given amount of solution, and the units are the practical part, since the same quantity can be expressed in several ways that are not interchangeable. The everyday one is grams per litre or per hundred millilitres, which is what a medicine label states, while the precise chemistry one is moles per litre, called molarity, which is what a calculation uses. Both describe the same thing and neither is wrong, so the danger is a number being read in the wrong unit. Concentration also changes with temperature: a gas becomes less soluble in a warmer liquid, which is why a warm fizzy drink goes flat faster than a cold one, and a closed container of it holds its gas better when chilled. The two words people confuse are concentrated, meaning strong, and diluted, meaning weakened, and the act of weakening is dilution, which is a dilution calculation.",
+      "variations": [
+        "The everyday one is grams per litre or per hundred millilitres, which is what a medicine label states, while the precise chemistry one is moles per litre, called molarity, which is what a calculation uses. Concentration is how much of a substance is present in a given amount of solution, and the units are the practical part, since the same quantity can be expressed in several ways that are not interchangeable. Both describe the same thing and neither is wrong, so the danger is a number being read in the wrong unit. Concentration also changes with temperature: a gas becomes less soluble in a warmer liquid, which is why a warm fizzy drink goes flat faster than a cold one, and a closed container of it holds its gas better when chilled. The two words people confuse are concentrated, meaning strong, and diluted, meaning weakened, and the act of weakening is dilution, which is a dilution calculation.",
+        "Both describe the same thing and neither is wrong, so the danger is a number being read in the wrong unit. Concentration is how much of a substance is present in a given amount of solution, and the units are the practical part, since the same quantity can be expressed in several ways that are not interchangeable. The everyday one is grams per litre or per hundred millilitres, which is what a medicine label states, while the precise chemistry one is moles per litre, called molarity, which is what a calculation uses. Concentration also changes with temperature: a gas becomes less soluble in a warmer liquid, which is why a warm fizzy drink goes flat faster than a cold one, and a closed container of it holds its gas better when chilled. The two words people confuse are concentrated, meaning strong, and diluted, meaning weakened, and the act of weakening is dilution, which is a dilution calculation."
+      ],
+      "tl": "konsentrasyon",
+      "bis": "concentration"
+    },
+    {
+      "id": "sci-chemistry-000008",
+      "topic": "science-chemistry",
+      "intent": "definition",
+      "concept": "reaction",
+      "keywords": [
+        "reaction",
+        "equation",
+        "combustion",
+        "catalyst",
+        "conservation",
+        "synthesis",
+        "reactant",
+        "product",
+        "reaksyon",
+        "chemical",
+        "process",
+        "substances",
+        "converted",
+        "another"
+      ],
+      "patterns": [
+        "what is reaction",
+        "reaction",
+        "explain reaction",
+        "definition of reaction",
+        "reaction meaning",
+        "what is a chemical reaction",
+        "what is a catalyst",
+        "how do you balance an equation",
+        "ano ang reaksyon",
+        "unsa ang chemical reaction"
+      ],
+      "answer": "A chemical reaction is the process where one set of substances is converted into another, and it is a rearrangement of atoms rather than a creation or destruction of matter. The atoms on one side of an equation are the same atoms on the other, only reassembled, which is why the law of conservation of mass holds and why mass appears to be lost when gas escapes an open container. The types that matter are synthesis, where two substances combine into one, decomposition, where one breaks down, single replacement, double replacement, and combustion, which is the common one the word also names. Some are fast and energetic, like combustion, and some are slow and silent, like rusting or the browning of a cut apple, and a reaction can also be driven backwards by changing conditions. Catalysts speed a reaction without being used up, and they work by lowering the energy needed for the step rather than by adding energy, which is the part that trips people up.",
+      "variations": [
+        "The atoms on one side of an equation are the same atoms on the other, only reassembled, which is why the law of conservation of mass holds and why mass appears to be lost when gas escapes an open container. A chemical reaction is the process where one set of substances is converted into another, and it is a rearrangement of atoms rather than a creation or destruction of matter. The types that matter are synthesis, where two substances combine into one, decomposition, where one breaks down, single replacement, double replacement, and combustion, which is the common one the word also names. Some are fast and energetic, like combustion, and some are slow and silent, like rusting or the browning of a cut apple, and a reaction can also be driven backwards by changing conditions. Catalysts speed a reaction without being used up, and they work by lowering the energy needed for the step rather than by adding energy, which is the part that trips people up.",
+        "The types that matter are synthesis, where two substances combine into one, decomposition, where one breaks down, single replacement, double replacement, and combustion, which is the common one the word also names. A chemical reaction is the process where one set of substances is converted into another, and it is a rearrangement of atoms rather than a creation or destruction of matter. The atoms on one side of an equation are the same atoms on the other, only reassembled, which is why the law of conservation of mass holds and why mass appears to be lost when gas escapes an open container. Some are fast and energetic, like combustion, and some are slow and silent, like rusting or the browning of a cut apple, and a reaction can also be driven backwards by changing conditions. Catalysts speed a reaction without being used up, and they work by lowering the energy needed for the step rather than by adding energy, which is the part that trips people up."
+      ],
+      "tl": "reaksyon",
+      "bis": "chemical reaction"
+    }
+  ],
+  "lang": "english",
+  "group": "science",
+  "sub": "chemistry",
+  "title": "Chemistry",
+  "groupTitle": "Science"
+}

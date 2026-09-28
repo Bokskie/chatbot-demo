@@ -1,0 +1,48 @@
+{
+  "topic": "cebuano-grammar",
+  "entries": [
+    {
+      "id": "ceb-grammar-000001",
+      "topic": "cebuano-grammar",
+      "intent": "definition",
+      "concept": "affix",
+      "keywords": [
+        "affix",
+        "prefix",
+        "suffix",
+        "infix",
+        "root",
+        "marker",
+        "tense",
+        "panlapi",
+        "added",
+        "front",
+        "back"
+      ],
+      "patterns": [
+        "what is affix",
+        "affix",
+        "explain affix",
+        "definition of affix",
+        "affix meaning",
+        "unsa meaning nga affix",
+        "unsaon nga affix",
+        "paunsa gramatika sa bisaya",
+        "ano ang panlapi",
+        "unsa ang affix"
+      ],
+      "answer": "An affix is a prefix or suffix added to the front or back of a root to change its meaning, and Cebuano uses them heavily, which is why a learner can recognise a word but still not know it. The three types are the prefix, the infix and the suffix, and the affix does not come first in word order: the actor marker therefore appears before the verb but after the subject, so the sentence order and the affix order are two different things and mixing them up produces a sentence that is grammatical-looking and wrong. The markers also encode who did the action, whether it is finished or ongoing, and whether the action goes toward or away from something, all from three or four syllables attached to a single root. This is why the same root covers a whole family of meanings, and why a dictionary often lists the root and lets you generate the rest. The practical consequence is that learning Cebuano is learning which affixes take which arguments, not memorising large word lists.",
+      "variations": [
+        "The three types are the prefix, the infix and the suffix, and the affix does not come first in word order: the actor marker therefore appears before the verb but after the subject, so the sentence order and the affix order are two different things and mixing them up produces a sentence that is grammatical-looking and wrong. An affix is a prefix or suffix added to the front or back of a root to change its meaning, and Cebuano uses them heavily, which is why a learner can recognise a word but still not know it. The markers also encode who did the action, whether it is finished or ongoing, and whether the action goes toward or away from something, all from three or four syllables attached to a single root. This is why the same root covers a whole family of meanings, and why a dictionary often lists the root and lets you generate the rest. The practical consequence is that learning Cebuano is learning which affixes take which arguments, not memorising large word lists.",
+        "The markers also encode who did the action, whether it is finished or ongoing, and whether the action goes toward or away from something, all from three or four syllables attached to a single root. An affix is a prefix or suffix added to the front or back of a root to change its meaning, and Cebuano uses them heavily, which is why a learner can recognise a word but still not know it. The three types are the prefix, the infix and the suffix, and the affix does not come first in word order: the actor marker therefore appears before the verb but after the subject, so the sentence order and the affix order are two different things and mixing them up produces a sentence that is grammatical-looking and wrong. This is why the same root covers a whole family of meanings, and why a dictionary often lists the root and lets you generate the rest. The practical consequence is that learning Cebuano is learning which affixes take which arguments, not memorising large word lists."
+      ],
+      "tl": "panlapi",
+      "bis": "affix"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "grammar",
+  "title": "Grammar",
+  "groupTitle": "Cebuano"
+}

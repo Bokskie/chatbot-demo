@@ -1,0 +1,192 @@
+{
+  "topic": "mathematics-statistics",
+  "entries": [
+    {
+      "id": "mat-statistics-000001",
+      "topic": "mathematics-statistics",
+      "intent": "definition",
+      "concept": "mean",
+      "keywords": [
+        "mean",
+        "average",
+        "arithmetic",
+        "outlier",
+        "skewed",
+        "every",
+        "value",
+        "data"
+      ],
+      "patterns": [
+        "what is mean",
+        "mean",
+        "explain mean",
+        "definition of mean",
+        "mean meaning",
+        "what is the mean",
+        "is mean the same as average",
+        "why is the mean misleading",
+        "ano ang mean",
+        "unsa ang mean"
+      ],
+      "answer": "The mean is the arithmetic average: add every value in a data set and divide by how many there are. It is the measure people mean when they say average in conversation, and its weakness is that it is pulled hard by a single extreme value, so five people reporting 50, 51, 52, 53 and 900 have a mean above 200 and a median of 52. That sensitivity is a feature in one direction and a trap in the other. A company is tempted to report the mean salary because it is larger, and a set of test scores with one very low result can look reasonable on average while telling you nothing about the student who failed. The related weighted mean is the general form: multiply each value by how much it should count, divide by the sum of the weights, and every mark you have ever computed on a curved scale is one of these.",
+      "variations": [
+        "It is the measure people mean when they say average in conversation, and its weakness is that it is pulled hard by a single extreme value, so five people reporting 50, 51, 52, 53 and 900 have a mean above 200 and a median of 52. The mean is the arithmetic average: add every value in a data set and divide by how many there are. That sensitivity is a feature in one direction and a trap in the other. A company is tempted to report the mean salary because it is larger, and a set of test scores with one very low result can look reasonable on average while telling you nothing about the student who failed. The related weighted mean is the general form: multiply each value by how much it should count, divide by the sum of the weights, and every mark you have ever computed on a curved scale is one of these.",
+        "That sensitivity is a feature in one direction and a trap in the other. The mean is the arithmetic average: add every value in a data set and divide by how many there are. It is the measure people mean when they say average in conversation, and its weakness is that it is pulled hard by a single extreme value, so five people reporting 50, 51, 52, 53 and 900 have a mean above 200 and a median of 52. A company is tempted to report the mean salary because it is larger, and a set of test scores with one very low result can look reasonable on average while telling you nothing about the student who failed. The related weighted mean is the general form: multiply each value by how much it should count, divide by the sum of the weights, and every mark you have ever computed on a curved scale is one of these."
+      ],
+      "tl": "mean",
+      "bis": "mean"
+    },
+    {
+      "id": "mat-statistics-000002",
+      "topic": "mathematics-statistics",
+      "intent": "definition",
+      "concept": "median",
+      "keywords": [
+        "median",
+        "sorted",
+        "income",
+        "middle",
+        "value",
+        "once",
+        "data"
+      ],
+      "patterns": [
+        "what is median",
+        "median",
+        "explain median",
+        "definition of median",
+        "median meaning",
+        "what is the median",
+        "median vs mean",
+        "when do i use median",
+        "ano ang median",
+        "unsa ang median"
+      ],
+      "answer": "The median is the middle value once the data is sorted, and it is the measure to use when the data has extreme values or when the average has been distorted by them. With an odd number of values it is the middle one, and with an even number it is the average of the two in the centre, so it is always an actual observation rather than a number that appeared nowhere in the set. That property is why it is the right summary for income, house prices and waiting times: a report of the typical house price in a city is much more honest as a median, because a handful of mansions will drag the mean far above what most buyers pay. Reporting both is the honest habit, because the gap between the two is itself information: a large difference says the distribution is lopsided, and a small difference says the data are fairly symmetric.",
+      "variations": [
+        "With an odd number of values it is the middle one, and with an even number it is the average of the two in the centre, so it is always an actual observation rather than a number that appeared nowhere in the set. The median is the middle value once the data is sorted, and it is the measure to use when the data has extreme values or when the average has been distorted by them. That property is why it is the right summary for income, house prices and waiting times: a report of the typical house price in a city is much more honest as a median, because a handful of mansions will drag the mean far above what most buyers pay. Reporting both is the honest habit, because the gap between the two is itself information: a large difference says the distribution is lopsided, and a small difference says the data are fairly symmetric.",
+        "That property is why it is the right summary for income, house prices and waiting times: a report of the typical house price in a city is much more honest as a median, because a handful of mansions will drag the mean far above what most buyers pay. The median is the middle value once the data is sorted, and it is the measure to use when the data has extreme values or when the average has been distorted by them. With an odd number of values it is the middle one, and with an even number it is the average of the two in the centre, so it is always an actual observation rather than a number that appeared nowhere in the set. Reporting both is the honest habit, because the gap between the two is itself information: a large difference says the distribution is lopsided, and a small difference says the data are fairly symmetric."
+      ],
+      "tl": "median",
+      "bis": "median"
+    },
+    {
+      "id": "mat-statistics-000003",
+      "topic": "mathematics-statistics",
+      "intent": "definition",
+      "concept": "mode",
+      "keywords": [
+        "mode",
+        "category",
+        "bimodal",
+        "distribution",
+        "frequency",
+        "value",
+        "appears",
+        "data",
+        "three",
+        "measures"
+      ],
+      "patterns": [
+        "what is mode",
+        "mode",
+        "explain mode",
+        "definition of mode",
+        "mode meaning",
+        "what is the mode",
+        "can a data set have no mode",
+        "what is mode in statistics",
+        "ano ang mode",
+        "unsa ang mode"
+      ],
+      "answer": "The mode is the value that appears most often in a data set, and it is the only one of the three measures of central tendency that describes the shape of the data rather than its magnitude. A data set can have one mode, several modes, or no mode at all if every value occurs equally often, which is why mode is the only answer that can be a set of values or absent. It is the right choice for categorical data, where there is nothing to average: the most common grade, the most frequently chosen flavour, the most reported symptom. Mode is also the measure that survives when the number of observations is small, since a mean of two values is not a description of anything. The part people forget is that a bimodal distribution is a genuine finding rather than a problem to tidy, because two peaks usually means the sample is really two different populations that have been measured together.",
+      "variations": [
+        "A data set can have one mode, several modes, or no mode at all if every value occurs equally often, which is why mode is the only answer that can be a set of values or absent. The mode is the value that appears most often in a data set, and it is the only one of the three measures of central tendency that describes the shape of the data rather than its magnitude. It is the right choice for categorical data, where there is nothing to average: the most common grade, the most frequently chosen flavour, the most reported symptom. Mode is also the measure that survives when the number of observations is small, since a mean of two values is not a description of anything. The part people forget is that a bimodal distribution is a genuine finding rather than a problem to tidy, because two peaks usually means the sample is really two different populations that have been measured together.",
+        "It is the right choice for categorical data, where there is nothing to average: the most common grade, the most frequently chosen flavour, the most reported symptom. The mode is the value that appears most often in a data set, and it is the only one of the three measures of central tendency that describes the shape of the data rather than its magnitude. A data set can have one mode, several modes, or no mode at all if every value occurs equally often, which is why mode is the only answer that can be a set of values or absent. Mode is also the measure that survives when the number of observations is small, since a mean of two values is not a description of anything. The part people forget is that a bimodal distribution is a genuine finding rather than a problem to tidy, because two peaks usually means the sample is really two different populations that have been measured together."
+      ],
+      "tl": "mode",
+      "bis": "mode"
+    },
+    {
+      "id": "mat-statistics-000004",
+      "topic": "mathematics-statistics",
+      "intent": "definition",
+      "concept": "standard deviation",
+      "keywords": [
+        "standard deviation",
+        "variance",
+        "spread",
+        "distribution",
+        "outliers",
+        "units",
+        "standard",
+        "deviation",
+        "measures",
+        "values",
+        "around"
+      ],
+      "patterns": [
+        "what is standard deviation",
+        "standard deviation",
+        "explain standard deviation",
+        "definition of standard deviation",
+        "standard deviation meaning",
+        "difference between variance and standard deviation",
+        "what does a large standard deviation mean",
+        "ano ang standard deviation",
+        "unsa ang standard deviation"
+      ],
+      "answer": "The standard deviation measures how spread out the values are around the mean, in the same units as the data itself, which is what makes it more useful than a range. The calculation squares each deviation from the mean so that numbers above and below do not cancel, takes the average of those squares, and then takes the square root to return to the original units. The square root is not decoration: without it the answer is called the variance and is expressed in squared units, so a variance of 25 means a standard deviation of 5, and confusing the two is the most common arithmetic mistake in the topic. The interpretation is concrete, because for a roughly bell-shaped set about 68 percent of the values lie within one standard deviation of the mean and about 95 percent within two. A large standard deviation means individual values are far from the average, so quoting the mean alone would be misleading.",
+      "variations": [
+        "The calculation squares each deviation from the mean so that numbers above and below do not cancel, takes the average of those squares, and then takes the square root to return to the original units. The standard deviation measures how spread out the values are around the mean, in the same units as the data itself, which is what makes it more useful than a range. The square root is not decoration: without it the answer is called the variance and is expressed in squared units, so a variance of 25 means a standard deviation of 5, and confusing the two is the most common arithmetic mistake in the topic. The interpretation is concrete, because for a roughly bell-shaped set about 68 percent of the values lie within one standard deviation of the mean and about 95 percent within two. A large standard deviation means individual values are far from the average, so quoting the mean alone would be misleading.",
+        "The square root is not decoration: without it the answer is called the variance and is expressed in squared units, so a variance of 25 means a standard deviation of 5, and confusing the two is the most common arithmetic mistake in the topic. The standard deviation measures how spread out the values are around the mean, in the same units as the data itself, which is what makes it more useful than a range. The calculation squares each deviation from the mean so that numbers above and below do not cancel, takes the average of those squares, and then takes the square root to return to the original units. The interpretation is concrete, because for a roughly bell-shaped set about 68 percent of the values lie within one standard deviation of the mean and about 95 percent within two. A large standard deviation means individual values are far from the average, so quoting the mean alone would be misleading."
+      ],
+      "tl": "standard deviation",
+      "bis": "standard deviation"
+    },
+    {
+      "id": "mat-statistics-000005",
+      "topic": "mathematics-statistics",
+      "intent": "definition",
+      "concept": "correlation",
+      "keywords": [
+        "correlation",
+        "coefficient",
+        "negative",
+        "variable",
+        "causation",
+        "linear",
+        "scatter",
+        "strong",
+        "measures",
+        "strongly",
+        "variables",
+        "move",
+        "together"
+      ],
+      "patterns": [
+        "what is correlation",
+        "correlation",
+        "explain correlation",
+        "definition of correlation",
+        "correlation meaning",
+        "does correlation imply causation",
+        "what does a correlation of 0 mean",
+        "ano ang correlation",
+        "unsa ang correlation"
+      ],
+      "answer": "Correlation measures how strongly two variables move together, and the number runs from minus one to plus one. A coefficient near positive one means that as one variable rises the other rises too, near negative one means they move in opposite directions, and near zero means knowing one tells you nothing useful about the other. The sign is the direction and the magnitude, ignoring the sign, is the strength, and a common trap is treating a strong correlation as a causal relationship when it may only be that both are driven by something else, the classic example being ice cream sales and drownings rising together because of summer heat. The limit matters too: correlation is a linear measure, so a clear but curved relationship can score near zero, and a figure computed from very few observations is not reliable. Correlation does not imply causation, and the other phrase worth remembering is that correlation calculated on aggregated data can invert once the individuals are examined.",
+      "variations": [
+        "A coefficient near positive one means that as one variable rises the other rises too, near negative one means they move in opposite directions, and near zero means knowing one tells you nothing useful about the other. Correlation measures how strongly two variables move together, and the number runs from minus one to plus one. The sign is the direction and the magnitude, ignoring the sign, is the strength, and a common trap is treating a strong correlation as a causal relationship when it may only be that both are driven by something else, the classic example being ice cream sales and drownings rising together because of summer heat. The limit matters too: correlation is a linear measure, so a clear but curved relationship can score near zero, and a figure computed from very few observations is not reliable. Correlation does not imply causation, and the other phrase worth remembering is that correlation calculated on aggregated data can invert once the individuals are examined.",
+        "The sign is the direction and the magnitude, ignoring the sign, is the strength, and a common trap is treating a strong correlation as a causal relationship when it may only be that both are driven by something else, the classic example being ice cream sales and drownings rising together because of summer heat. Correlation measures how strongly two variables move together, and the number runs from minus one to plus one. A coefficient near positive one means that as one variable rises the other rises too, near negative one means they move in opposite directions, and near zero means knowing one tells you nothing useful about the other. The limit matters too: correlation is a linear measure, so a clear but curved relationship can score near zero, and a figure computed from very few observations is not reliable. Correlation does not imply causation, and the other phrase worth remembering is that correlation calculated on aggregated data can invert once the individuals are examined."
+      ],
+      "tl": "correlation",
+      "bis": "correlation"
+    }
+  ],
+  "lang": "english",
+  "group": "mathematics",
+  "sub": "statistics",
+  "title": "Statistics",
+  "groupTitle": "Mathematics"
+}

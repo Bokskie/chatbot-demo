@@ -1,0 +1,89 @@
+{
+  "topic": "life-skills-job-hunting",
+  "entries": [
+    {
+      "id": "lif-job-hunting-000001",
+      "topic": "life-skills-job-hunting",
+      "intent": "definition",
+      "concept": "cover letter",
+      "keywords": [
+        "cover letter",
+        "resume",
+        "apply",
+        "hiring",
+        "employer",
+        "letter",
+        "specific",
+        "paragraph",
+        "cover",
+        "short",
+        "page",
+        "explaining",
+        "right"
+      ],
+      "patterns": [
+        "what is cover letter",
+        "cover letter",
+        "explain cover letter",
+        "definition of cover letter",
+        "cover letter meaning",
+        "how do i write a cover letter",
+        "what is a cover letter",
+        "cover letter tips",
+        "ano ang cover letter",
+        "unsa ang cover letter"
+      ],
+      "answer": "A cover letter is a short page explaining why you are the right person for one specific job, and its job is the opposite of a resume's. A resume lists what you have done; the cover letter argues why that matters here, in a paragraph rather than a list, and it is read before the resume by whoever is shortlisting. The part that decides it is usually the first line, because a letter that opens by explaining why the company is famous shows the reader has not yet made the connection to themselves. The second is specificity: a claim supported by a concrete thing you did beats an adjective about yourself, and \"I reduced the queue by a third\" is doing work that \"I am hardworking\" is not. In the Philippines it is also common to be asked for one even when applying online, and a two-page essay about your life story is the standard failure. Keep it short enough to be read in under a minute.",
+      "variations": [
+        "A resume lists what you have done; the cover letter argues why that matters here, in a paragraph rather than a list, and it is read before the resume by whoever is shortlisting. A cover letter is a short page explaining why you are the right person for one specific job, and its job is the opposite of a resume's. The part that decides it is usually the first line, because a letter that opens by explaining why the company is famous shows the reader has not yet made the connection to themselves. The second is specificity: a claim supported by a concrete thing you did beats an adjective about yourself, and \"I reduced the queue by a third\" is doing work that \"I am hardworking\" is not. In the Philippines it is also common to be asked for one even when applying online, and a two-page essay about your life story is the standard failure. Keep it short enough to be read in under a minute.",
+        "The part that decides it is usually the first line, because a letter that opens by explaining why the company is famous shows the reader has not yet made the connection to themselves. A cover letter is a short page explaining why you are the right person for one specific job, and its job is the opposite of a resume's. A resume lists what you have done; the cover letter argues why that matters here, in a paragraph rather than a list, and it is read before the resume by whoever is shortlisting. The second is specificity: a claim supported by a concrete thing you did beats an adjective about yourself, and \"I reduced the queue by a third\" is doing work that \"I am hardworking\" is not. In the Philippines it is also common to be asked for one even when applying online, and a two-page essay about your life story is the standard failure. Keep it short enough to be read in under a minute."
+      ],
+      "tl": "cover letter",
+      "bis": "cover letter"
+    },
+    {
+      "id": "lif-job-hunting-000002",
+      "topic": "life-skills-job-hunting",
+      "intent": "definition",
+      "concept": "interview",
+      "keywords": [
+        "interview",
+        "hiring",
+        "question",
+        "salary",
+        "employer",
+        "nervous",
+        "story",
+        "test",
+        "whether",
+        "working",
+        "manageable",
+        "worth"
+      ],
+      "patterns": [
+        "what is interview",
+        "interview",
+        "explain interview",
+        "definition of interview",
+        "interview meaning",
+        "how to prepare for an interview",
+        "what questions should i ask",
+        "how to answer tell me about yourself",
+        "ano ang interview",
+        "unsa ang interview"
+      ],
+      "answer": "An interview is a test of whether working with you will be manageable, and it is worth treating it that way rather than as a test of knowledge, because the knowledge a job needs is usually learnable and the part people have to assess is harder to change. Preparation that actually helps is specific: knowing what the company does, having two or three questions ready, and being able to say honestly why you want the work. The most common failure is reciting a prepared answer, because the interviewer can tell, and the second most common is having no questions at all, which reads as no interest rather than as nerves. A useful technique is to treat an answer as an explanation out loud, in the middle of a story, rather than a list of attributes, because an explanation can be followed and a list can only be judged. Salary is legitimately asked about, and asking what the range for the role is is less awkward than naming a figure first.",
+      "variations": [
+        "Preparation that actually helps is specific: knowing what the company does, having two or three questions ready, and being able to say honestly why you want the work. An interview is a test of whether working with you will be manageable, and it is worth treating it that way rather than as a test of knowledge, because the knowledge a job needs is usually learnable and the part people have to assess is harder to change. The most common failure is reciting a prepared answer, because the interviewer can tell, and the second most common is having no questions at all, which reads as no interest rather than as nerves. A useful technique is to treat an answer as an explanation out loud, in the middle of a story, rather than a list of attributes, because an explanation can be followed and a list can only be judged. Salary is legitimately asked about, and asking what the range for the role is is less awkward than naming a figure first.",
+        "The most common failure is reciting a prepared answer, because the interviewer can tell, and the second most common is having no questions at all, which reads as no interest rather than as nerves. An interview is a test of whether working with you will be manageable, and it is worth treating it that way rather than as a test of knowledge, because the knowledge a job needs is usually learnable and the part people have to assess is harder to change. Preparation that actually helps is specific: knowing what the company does, having two or three questions ready, and being able to say honestly why you want the work. A useful technique is to treat an answer as an explanation out loud, in the middle of a story, rather than a list of attributes, because an explanation can be followed and a list can only be judged. Salary is legitimately asked about, and asking what the range for the role is is less awkward than naming a figure first."
+      ],
+      "tl": "interview",
+      "bis": "interview"
+    }
+  ],
+  "lang": "english",
+  "group": "life-skills",
+  "sub": "job-hunting",
+  "title": "Job hunting",
+  "groupTitle": "Life skills"
+}

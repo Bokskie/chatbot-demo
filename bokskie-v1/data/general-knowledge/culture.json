@@ -1,0 +1,123 @@
+{
+  "topic": "general-knowledge-culture",
+  "entries": [
+    {
+      "id": "gen-culture-000001",
+      "topic": "general-knowledge-culture",
+      "intent": "definition",
+      "concept": "culture",
+      "keywords": [
+        "culture",
+        "values",
+        "beliefs",
+        "customs",
+        "subculture",
+        "ethnocentrism",
+        "tradition",
+        "society",
+        "kultura",
+        "shared",
+        "practices"
+      ],
+      "patterns": [
+        "what is culture",
+        "culture",
+        "explain culture",
+        "definition of culture",
+        "culture meaning",
+        "what is the difference between culture and society",
+        "what is a subculture",
+        "ano ang culture",
+        "unsa ang kultura"
+      ],
+      "answer": "Culture is the shared set of beliefs, values, customs and practices that a group passes on and that shapes how its members understand the world. The parts people can point at, food, clothing, language, religion, festivals and art, are the visible layer; the deeper part is the assumptions underneath that most members never notice because everyone they know shares them. That is why culture is not a list of facts but a way of reading situations: how a person should be addressed, whether a promise is binding, what counts as respect, whether time is a resource or a fate. These are learned, not innate, which is the finding every anthropology student meets and the one that makes cultural difference something to describe rather than to grade. A related word is often confused with it: a subculture forms within a larger culture and keeps some shared values while rejecting others, and a counterculture rejects most of the dominant culture's values deliberately.",
+      "variations": [
+        "The parts people can point at, food, clothing, language, religion, festivals and art, are the visible layer; the deeper part is the assumptions underneath that most members never notice because everyone they know shares them. Culture is the shared set of beliefs, values, customs and practices that a group passes on and that shapes how its members understand the world. That is why culture is not a list of facts but a way of reading situations: how a person should be addressed, whether a promise is binding, what counts as respect, whether time is a resource or a fate. These are learned, not innate, which is the finding every anthropology student meets and the one that makes cultural difference something to describe rather than to grade. A related word is often confused with it: a subculture forms within a larger culture and keeps some shared values while rejecting others, and a counterculture rejects most of the dominant culture's values deliberately.",
+        "That is why culture is not a list of facts but a way of reading situations: how a person should be addressed, whether a promise is binding, what counts as respect, whether time is a resource or a fate. Culture is the shared set of beliefs, values, customs and practices that a group passes on and that shapes how its members understand the world. The parts people can point at, food, clothing, language, religion, festivals and art, are the visible layer; the deeper part is the assumptions underneath that most members never notice because everyone they know shares them. These are learned, not innate, which is the finding every anthropology student meets and the one that makes cultural difference something to describe rather than to grade. A related word is often confused with it: a subculture forms within a larger culture and keeps some shared values while rejecting others, and a counterculture rejects most of the dominant culture's values deliberately."
+      ],
+      "tl": "culture",
+      "bis": "kultura"
+    },
+    {
+      "id": "gen-culture-000002",
+      "topic": "general-knowledge-culture",
+      "intent": "definition",
+      "concept": "festival",
+      "keywords": [
+        "festival",
+        "celebration",
+        "annual",
+        "religious",
+        "harvest",
+        "community",
+        "observance",
+        "fiesta",
+        "recurring",
+        "occasion",
+        "marked",
+        "collective"
+      ],
+      "patterns": [
+        "what is festival",
+        "festival",
+        "explain festival",
+        "definition of festival",
+        "festival meaning",
+        "what is a festival",
+        "why do we celebrate festivals",
+        "what is a religious festival",
+        "ano ang festival",
+        "unsa ang fiesta"
+      ],
+      "answer": "A festival is a recurring occasion marked by collective celebration, and the interesting variation is in what it celebrates: the calendar, a harvest, a religious event, a national anniversary, or simply a community gathering. Many festivals follow the agricultural year, since that is what actually structured a rural community's time, and the Christian calendar absorbed a great many older ones when it spread, so a Christmas feast and a solstice celebration can now overlap. What they share is scale: a festival is not personal, it involves a crowd, it repeats, and it involves food, music and clothing that are more elaborate than ordinary days. Religious observances such as Christmas, Eid, the Passover and Diwali combine a story, a specific date, a set of practices and a communal meal, and the date is often fixed by a lunar or lunisolar calendar, which is why the Gregorian date moves. National days such as Independence Day are civic rather than religious and serve to state who the country believes it is, which is why official commemoration and ordinary celebration often look quite different.",
+      "variations": [
+        "Many festivals follow the agricultural year, since that is what actually structured a rural community's time, and the Christian calendar absorbed a great many older ones when it spread, so a Christmas feast and a solstice celebration can now overlap. A festival is a recurring occasion marked by collective celebration, and the interesting variation is in what it celebrates: the calendar, a harvest, a religious event, a national anniversary, or simply a community gathering. What they share is scale: a festival is not personal, it involves a crowd, it repeats, and it involves food, music and clothing that are more elaborate than ordinary days. Religious observances such as Christmas, Eid, the Passover and Diwali combine a story, a specific date, a set of practices and a communal meal, and the date is often fixed by a lunar or lunisolar calendar, which is why the Gregorian date moves. National days such as Independence Day are civic rather than religious and serve to state who the country believes it is, which is why official commemoration and ordinary celebration often look quite different.",
+        "What they share is scale: a festival is not personal, it involves a crowd, it repeats, and it involves food, music and clothing that are more elaborate than ordinary days. A festival is a recurring occasion marked by collective celebration, and the interesting variation is in what it celebrates: the calendar, a harvest, a religious event, a national anniversary, or simply a community gathering. Many festivals follow the agricultural year, since that is what actually structured a rural community's time, and the Christian calendar absorbed a great many older ones when it spread, so a Christmas feast and a solstice celebration can now overlap. Religious observances such as Christmas, Eid, the Passover and Diwali combine a story, a specific date, a set of practices and a communal meal, and the date is often fixed by a lunar or lunisolar calendar, which is why the Gregorian date moves. National days such as Independence Day are civic rather than religious and serve to state who the country believes it is, which is why official commemoration and ordinary celebration often look quite different."
+      ],
+      "tl": "festival",
+      "bis": "fiesta"
+    },
+    {
+      "id": "gen-culture-000003",
+      "topic": "general-knowledge-culture",
+      "intent": "definition",
+      "concept": "technology",
+      "keywords": [
+        "technology",
+        "application",
+        "invention",
+        "machine",
+        "automation",
+        "process",
+        "materials",
+        "knowledge",
+        "teknolohiya",
+        "practical",
+        "something",
+        "solve"
+      ],
+      "patterns": [
+        "what is technology",
+        "technology",
+        "explain technology",
+        "definition of technology",
+        "technology meaning",
+        "what is the difference between science and technology",
+        "ano ang teknolohiya",
+        "unsa ang teknolohiya"
+      ],
+      "answer": "Technology is the practical application of knowledge to make something solve a problem, and the word covers the method as well as the thing, so a country can be described as having advanced technology while a household has none. What separates technology from science is the purpose: science explains and predicts, and technology produces something that works, and the two feed each other rather than one leading the other in a fixed order. The categories that are usually meant are tools and machines, methods and processes, and materials, and within each the development has tended to move from doing something by hand to doing it by machine, which is the usual definition of automation. A useful caution is that older technologies do not disappear: a manual process survives where it is cheaper, more flexible or more robust than the automated version, which is why a spreadsheet and a paper ledger both still exist.",
+      "variations": [
+        "What separates technology from science is the purpose: science explains and predicts, and technology produces something that works, and the two feed each other rather than one leading the other in a fixed order. Technology is the practical application of knowledge to make something solve a problem, and the word covers the method as well as the thing, so a country can be described as having advanced technology while a household has none. The categories that are usually meant are tools and machines, methods and processes, and materials, and within each the development has tended to move from doing something by hand to doing it by machine, which is the usual definition of automation. A useful caution is that older technologies do not disappear: a manual process survives where it is cheaper, more flexible or more robust than the automated version, which is why a spreadsheet and a paper ledger both still exist.",
+        "The categories that are usually meant are tools and machines, methods and processes, and materials, and within each the development has tended to move from doing something by hand to doing it by machine, which is the usual definition of automation. Technology is the practical application of knowledge to make something solve a problem, and the word covers the method as well as the thing, so a country can be described as having advanced technology while a household has none. What separates technology from science is the purpose: science explains and predicts, and technology produces something that works, and the two feed each other rather than one leading the other in a fixed order. A useful caution is that older technologies do not disappear: a manual process survives where it is cheaper, more flexible or more robust than the automated version, which is why a spreadsheet and a paper ledger both still exist."
+      ],
+      "tl": "teknolohiya",
+      "bis": "teknolohiya"
+    }
+  ],
+  "lang": "english",
+  "group": "general-knowledge",
+  "sub": "culture",
+  "title": "Culture",
+  "groupTitle": "General Knowledge"
+}

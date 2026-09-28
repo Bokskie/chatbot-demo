@@ -1,0 +1,45 @@
+{
+  "topic": "cebuano-casual-conversation",
+  "entries": [
+    {
+      "id": "ceb-casual-conversation-000001",
+      "topic": "cebuano-casual-conversation",
+      "intent": "definition",
+      "concept": "kumusta",
+      "keywords": [
+        "kumusta",
+        "hello",
+        "greeting",
+        "kamusta",
+        "hi",
+        "cebuano",
+        "question",
+        "behind",
+        "time"
+      ],
+      "patterns": [
+        "what is kumusta",
+        "kumusta",
+        "explain kumusta",
+        "definition of kumusta",
+        "kumusta meaning",
+        "unsa meaning nga kumusta",
+        "unsaon nga mo sabutin ang kumusta",
+        "ano ang kumusta",
+        "unsa ang kumusta"
+      ],
+      "answer": "Kumusta is the Cebuano greeting and the question behind it at the same time, and the two meanings are so close that a learner has to learn them as one. Kumusta ka asks how you are, and kumusta is also used on its own as a greeting, so it does the work that hello and how are you do separately in English. The reply is usually kumusta man, maayo kaayo, or the very short okay, and the phrase is used throughout the day rather than only on meeting, so hearing it does not mean the person has just arrived. A variant, kamusta, is the same word with a different first letter, and the spelling in English is usually given as kumusta even though many people write kamusta. The second greeting people reach for is maayo na man, which is closer to a remark about how things are going than a formal hello.",
+      "variations": [
+        "Kumusta ka asks how you are, and kumusta is also used on its own as a greeting, so it does the work that hello and how are you do separately in English. Kumusta is the Cebuano greeting and the question behind it at the same time, and the two meanings are so close that a learner has to learn them as one. The reply is usually kumusta man, maayo kaayo, or the very short okay, and the phrase is used throughout the day rather than only on meeting, so hearing it does not mean the person has just arrived. A variant, kamusta, is the same word with a different first letter, and the spelling in English is usually given as kumusta even though many people write kamusta. The second greeting people reach for is maayo na man, which is closer to a remark about how things are going than a formal hello.",
+        "The reply is usually kumusta man, maayo kaayo, or the very short okay, and the phrase is used throughout the day rather than only on meeting, so hearing it does not mean the person has just arrived. Kumusta is the Cebuano greeting and the question behind it at the same time, and the two meanings are so close that a learner has to learn them as one. Kumusta ka asks how you are, and kumusta is also used on its own as a greeting, so it does the work that hello and how are you do separately in English. A variant, kamusta, is the same word with a different first letter, and the spelling in English is usually given as kumusta even though many people write kamusta. The second greeting people reach for is maayo na man, which is closer to a remark about how things are going than a formal hello."
+      ],
+      "tl": "kumusta",
+      "bis": "kumusta"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "casual-conversation",
+  "title": "Casual conversation",
+  "groupTitle": "Cebuano"
+}

@@ -1,0 +1,90 @@
+{
+  "topic": "cebuano-internet",
+  "entries": [
+    {
+      "id": "ceb-internet-000001",
+      "topic": "cebuano-internet",
+      "intent": "definition",
+      "concept": "wifi",
+      "keywords": [
+        "wifi",
+        "wireless",
+        "signal",
+        "network",
+        "password",
+        "connection",
+        "speed",
+        "router",
+        "cebuano",
+        "english",
+        "word",
+        "short",
+        "marketing"
+      ],
+      "patterns": [
+        "what is wifi",
+        "wifi",
+        "explain wifi",
+        "definition of wifi",
+        "wifi meaning",
+        "unsa meaning nga wifi",
+        "wifi meaning sa bisaya",
+        "unsaon nga mo connect sa wifi",
+        "ano ang wifi",
+        "unsa ang wifi"
+      ],
+      "answer": "Wifi is used in Cebuano as the English word, and it is short for a marketing phrase that is often claimed to stand for something it does not. What it actually describes is a family of standards for sending data over radio without wires, with a band trade-off behind the choice: a lower band reaches further and passes through walls better but is crowded by neighbouring networks, while a higher band is faster over a shorter distance. In a Cebuano household the network is often shared with relatives or neighbours, so the practical complaint is that several people using it at once makes it slow for everyone, which is congestion rather than a fault in the line. The words a speaker needs are the ones you actually hear in a shop, so naa man akong wifi means I have a wifi connection, and a person asking what the password is uses the English word for it directly.",
+      "variations": [
+        "What it actually describes is a family of standards for sending data over radio without wires, with a band trade-off behind the choice: a lower band reaches further and passes through walls better but is crowded by neighbouring networks, while a higher band is faster over a shorter distance. Wifi is used in Cebuano as the English word, and it is short for a marketing phrase that is often claimed to stand for something it does not. In a Cebuano household the network is often shared with relatives or neighbours, so the practical complaint is that several people using it at once makes it slow for everyone, which is congestion rather than a fault in the line. The words a speaker needs are the ones you actually hear in a shop, so naa man akong wifi means I have a wifi connection, and a person asking what the password is uses the English word for it directly.",
+        "In a Cebuano household the network is often shared with relatives or neighbours, so the practical complaint is that several people using it at once makes it slow for everyone, which is congestion rather than a fault in the line. Wifi is used in Cebuano as the English word, and it is short for a marketing phrase that is often claimed to stand for something it does not. What it actually describes is a family of standards for sending data over radio without wires, with a band trade-off behind the choice: a lower band reaches further and passes through walls better but is crowded by neighbouring networks, while a higher band is faster over a shorter distance. The words a speaker needs are the ones you actually hear in a shop, so naa man akong wifi means I have a wifi connection, and a person asking what the password is uses the English word for it directly."
+      ],
+      "tl": "wifi",
+      "bis": "wifi"
+    },
+    {
+      "id": "ceb-internet-000002",
+      "topic": "cebuano-internet",
+      "intent": "definition",
+      "concept": "website",
+      "keywords": [
+        "website",
+        "site",
+        "page",
+        "link",
+        "address",
+        "app",
+        "browser",
+        "open",
+        "cebuano",
+        "english",
+        "word",
+        "covers",
+        "whole"
+      ],
+      "patterns": [
+        "what is website",
+        "website",
+        "explain website",
+        "definition of website",
+        "website meaning",
+        "unsa meaning nga website",
+        "website meaning sa bisaya",
+        "unsaon nga mo access ang website",
+        "ano ang website",
+        "unsa ang website"
+      ],
+      "answer": "Website is used in Cebuano as the same English word, and it covers a whole site and a single page both, which is wider than English uses it. A Cebuano speaker will ask you to send the website, meaning the address, and does not distinguish the one page from the whole collection, so asking for a specific page inside a site is clearer if you name the section. The related words are the same story: a link is the address itself, and an app is the thing installed on a phone, so a phrase about a website usually means something you look at rather than something you install. The practical difference is the one English draws, between a site you open in a browser and an app on the device, and it is worth naming directly when asking someone to do something, because a person may be able to do it on one and not the other.",
+      "variations": [
+        "A Cebuano speaker will ask you to send the website, meaning the address, and does not distinguish the one page from the whole collection, so asking for a specific page inside a site is clearer if you name the section. Website is used in Cebuano as the same English word, and it covers a whole site and a single page both, which is wider than English uses it. The related words are the same story: a link is the address itself, and an app is the thing installed on a phone, so a phrase about a website usually means something you look at rather than something you install. The practical difference is the one English draws, between a site you open in a browser and an app on the device, and it is worth naming directly when asking someone to do something, because a person may be able to do it on one and not the other.",
+        "The related words are the same story: a link is the address itself, and an app is the thing installed on a phone, so a phrase about a website usually means something you look at rather than something you install. Website is used in Cebuano as the same English word, and it covers a whole site and a single page both, which is wider than English uses it. A Cebuano speaker will ask you to send the website, meaning the address, and does not distinguish the one page from the whole collection, so asking for a specific page inside a site is clearer if you name the section. The practical difference is the one English draws, between a site you open in a browser and an app on the device, and it is worth naming directly when asking someone to do something, because a person may be able to do it on one and not the other."
+      ],
+      "tl": "website",
+      "bis": "website"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "internet",
+  "title": "Internet",
+  "groupTitle": "Cebuano"
+}

@@ -1,0 +1,92 @@
+{
+  "topic": "music-instruments",
+  "entries": [
+    {
+      "id": "mus-instruments-000001",
+      "topic": "music-instruments",
+      "intent": "definition",
+      "concept": "instrument",
+      "keywords": [
+        "instrument",
+        "string",
+        "wind",
+        "percussion",
+        "keyboard",
+        "acoustic",
+        "electric",
+        "strings",
+        "keys",
+        "makes",
+        "sound",
+        "something",
+        "moving",
+        "families"
+      ],
+      "patterns": [
+        "what is instrument",
+        "instrument",
+        "explain instrument",
+        "definition of instrument",
+        "instrument meaning",
+        "what is an instrument",
+        "what is a percussion instrument",
+        "how many instrument families",
+        "ano ang instrument",
+        "unsa ang instrument"
+      ],
+      "answer": "An instrument makes sound through something moving, and the families are named after what moves, not after how they look or sound. A string instrument moves a stretched string, a wind one moves a column of air, a percussion one moves something struck, and a keyboard is a mechanism for playing the first two. That is why a piano is in two families at once and a guitar is closer to a violin than to a keyboard despite the appearance. What separates a cheap instrument from an expensive one is usually not the pitch accuracy but the response: a well-made instrument responds evenly to a soft touch, so dynamics, which is what makes a performance sound alive, are actually available. Learning to play any of them teaches the same thing, which is that the hard part is not the notes but the timing and the fact that a beginner's hands want to be three seconds ahead of the beat. Electric and digital instruments change what the family means, because a guitar without a pickup is acoustic and a synth is an instrument that generates the sound rather than producing it directly.",
+      "variations": [
+        "A string instrument moves a stretched string, a wind one moves a column of air, a percussion one moves something struck, and a keyboard is a mechanism for playing the first two. An instrument makes sound through something moving, and the families are named after what moves, not after how they look or sound. That is why a piano is in two families at once and a guitar is closer to a violin than to a keyboard despite the appearance. What separates a cheap instrument from an expensive one is usually not the pitch accuracy but the response: a well-made instrument responds evenly to a soft touch, so dynamics, which is what makes a performance sound alive, are actually available. Learning to play any of them teaches the same thing, which is that the hard part is not the notes but the timing and the fact that a beginner's hands want to be three seconds ahead of the beat. Electric and digital instruments change what the family means, because a guitar without a pickup is acoustic and a synth is an instrument that generates the sound rather than producing it directly.",
+        "That is why a piano is in two families at once and a guitar is closer to a violin than to a keyboard despite the appearance. An instrument makes sound through something moving, and the families are named after what moves, not after how they look or sound. A string instrument moves a stretched string, a wind one moves a column of air, a percussion one moves something struck, and a keyboard is a mechanism for playing the first two. What separates a cheap instrument from an expensive one is usually not the pitch accuracy but the response: a well-made instrument responds evenly to a soft touch, so dynamics, which is what makes a performance sound alive, are actually available. Learning to play any of them teaches the same thing, which is that the hard part is not the notes but the timing and the fact that a beginner's hands want to be three seconds ahead of the beat. Electric and digital instruments change what the family means, because a guitar without a pickup is acoustic and a synth is an instrument that generates the sound rather than producing it directly."
+      ],
+      "tl": "instrument",
+      "bis": "instrument"
+    },
+    {
+      "id": "mus-instruments-000002",
+      "topic": "music-instruments",
+      "intent": "definition",
+      "concept": "guitar",
+      "keywords": [
+        "guitar",
+        "string",
+        "fret",
+        "neck",
+        "strum",
+        "pick",
+        "acoustic",
+        "pickup",
+        "chord",
+        "gitara",
+        "instrument",
+        "hollow",
+        "body",
+        "decoration"
+      ],
+      "patterns": [
+        "what is guitar",
+        "guitar",
+        "explain guitar",
+        "definition of guitar",
+        "guitar meaning",
+        "what is a guitar",
+        "how does a guitar work",
+        "how many strings does a guitar have",
+        "ano ang gitara",
+        "unsa ang gitara"
+      ],
+      "answer": "A guitar is a string instrument with a hollow body, and the hollow part is not decoration: the sound comes from the air moving inside it, which is why the same strings on a solid electric guitar sound different and thinner. The strings are plucked or strummed, and what changes the tone is not the strings but how they are set in motion, since a plucked string rings until it stops while a strum of several is a different event entirely. Six strings is the standard and the intervals between them are mostly fourths, which is what shapes the position of the hand along the neck and why some chords are easier than others. Fretting a string shortens it, and shortening changes the pitch, which is the entire mechanism behind the instrument in one sentence. Electric guitars work the same way mechanically and use a pickup to sense the string, so the amplified sound is the same vibration rather than a different one.",
+      "variations": [
+        "The strings are plucked or strummed, and what changes the tone is not the strings but how they are set in motion, since a plucked string rings until it stops while a strum of several is a different event entirely. A guitar is a string instrument with a hollow body, and the hollow part is not decoration: the sound comes from the air moving inside it, which is why the same strings on a solid electric guitar sound different and thinner. Six strings is the standard and the intervals between them are mostly fourths, which is what shapes the position of the hand along the neck and why some chords are easier than others. Fretting a string shortens it, and shortening changes the pitch, which is the entire mechanism behind the instrument in one sentence. Electric guitars work the same way mechanically and use a pickup to sense the string, so the amplified sound is the same vibration rather than a different one.",
+        "Six strings is the standard and the intervals between them are mostly fourths, which is what shapes the position of the hand along the neck and why some chords are easier than others. A guitar is a string instrument with a hollow body, and the hollow part is not decoration: the sound comes from the air moving inside it, which is why the same strings on a solid electric guitar sound different and thinner. The strings are plucked or strummed, and what changes the tone is not the strings but how they are set in motion, since a plucked string rings until it stops while a strum of several is a different event entirely. Fretting a string shortens it, and shortening changes the pitch, which is the entire mechanism behind the instrument in one sentence. Electric guitars work the same way mechanically and use a pickup to sense the string, so the amplified sound is the same vibration rather than a different one."
+      ],
+      "tl": "gitara",
+      "bis": "gitara"
+    }
+  ],
+  "lang": "english",
+  "group": "music",
+  "sub": "instruments",
+  "title": "Instruments",
+  "groupTitle": "Music"
+}

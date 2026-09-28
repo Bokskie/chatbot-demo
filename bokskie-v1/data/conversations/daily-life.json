@@ -1,0 +1,266 @@
+{
+  "topic": "conversations-daily-life",
+  "entries": [
+    {
+      "id": "con-daily-life-000001",
+      "topic": "conversations-daily-life",
+      "intent": "definition",
+      "concept": "tired",
+      "keywords": [
+        "tired",
+        "pagod",
+        "exhausted",
+        "rest",
+        "kapayapaan",
+        "sleep",
+        "work",
+        "covers",
+        "being"
+      ],
+      "patterns": [
+        "what is tired",
+        "tired",
+        "explain tired",
+        "definition of tired",
+        "tired meaning",
+        "pagod na",
+        "meaning of pagod",
+        "kapayapaan meaning",
+        "tired in tagalog",
+        "ano ang pagod",
+        "unsa ang pagod"
+      ],
+      "answer": "Pagod is the Tagalog word for tired, and it covers being worn out from work as well as needing rest, so a person who says pagod na after a shift is reporting a state rather than asking a question. The stronger form, pagod na pagod, means exhausted, and the related kapayapaan means rest or peace, which is what a person is looking for when they say it. A distinction worth knowing is between the tiredness that sleep fixes and the one that sleep does not, since the second usually means something about the work itself and not about the hours, and telling them apart is a matter of whether a full night changes anything. The everyday advice in the Philippines reflects the heat: a person who is tired at three in the afternoon in May is usually hot rather than overworked, and the answer is a shower and water rather than sleep.",
+      "variations": [
+        "The stronger form, pagod na pagod, means exhausted, and the related kapayapaan means rest or peace, which is what a person is looking for when they say it. Pagod is the Tagalog word for tired, and it covers being worn out from work as well as needing rest, so a person who says pagod na after a shift is reporting a state rather than asking a question. A distinction worth knowing is between the tiredness that sleep fixes and the one that sleep does not, since the second usually means something about the work itself and not about the hours, and telling them apart is a matter of whether a full night changes anything. The everyday advice in the Philippines reflects the heat: a person who is tired at three in the afternoon in May is usually hot rather than overworked, and the answer is a shower and water rather than sleep.",
+        "A distinction worth knowing is between the tiredness that sleep fixes and the one that sleep does not, since the second usually means something about the work itself and not about the hours, and telling them apart is a matter of whether a full night changes anything. Pagod is the Tagalog word for tired, and it covers being worn out from work as well as needing rest, so a person who says pagod na after a shift is reporting a state rather than asking a question. The stronger form, pagod na pagod, means exhausted, and the related kapayapaan means rest or peace, which is what a person is looking for when they say it. The everyday advice in the Philippines reflects the heat: a person who is tired at three in the afternoon in May is usually hot rather than overworked, and the answer is a shower and water rather than sleep."
+      ],
+      "tl": "pagod",
+      "bis": "pagod"
+    },
+    {
+      "id": "con-daily-life-000002",
+      "topic": "conversations-daily-life",
+      "intent": "definition",
+      "concept": "magandang araw",
+      "keywords": [
+        "magandang araw",
+        "greeting",
+        "morning",
+        "afternoon",
+        "good",
+        "hello",
+        "din",
+        "courtesy",
+        "magandang",
+        "araw",
+        "common",
+        "saying"
+      ],
+      "patterns": [
+        "what is magandang araw",
+        "magandang araw",
+        "explain magandang araw",
+        "definition of magandang araw",
+        "magandang araw meaning",
+        "good morning in filipino",
+        "magandang gabi",
+        "paano bumati",
+        "ano ang magandang araw",
+        "unsa ang maayong adlaw"
+      ],
+      "answer": "Magandang araw is a greeting, the good day, and it is the most common way of saying good morning or good afternoon to someone in the Philippines, with the time word changing while the phrase stays the same. It is a greeting rather than a remark about the weather, which is why a person can say it on an entirely overcast morning. The reply is usually magandang araw din, with din meaning also, and the exchange is a small courtesy rather than a question that expects an answer about the weather. The related form magandang gabi is used at night and is closer to good evening, and saying it in the morning is understood but sounds slightly late. A learner who translates good morning literally produces something a Filipino understands but does not use, because the time is not said separately.",
+      "variations": [
+        "It is a greeting rather than a remark about the weather, which is why a person can say it on an entirely overcast morning. Magandang araw is a greeting, the good day, and it is the most common way of saying good morning or good afternoon to someone in the Philippines, with the time word changing while the phrase stays the same. The reply is usually magandang araw din, with din meaning also, and the exchange is a small courtesy rather than a question that expects an answer about the weather. The related form magandang gabi is used at night and is closer to good evening, and saying it in the morning is understood but sounds slightly late. A learner who translates good morning literally produces something a Filipino understands but does not use, because the time is not said separately.",
+        "The reply is usually magandang araw din, with din meaning also, and the exchange is a small courtesy rather than a question that expects an answer about the weather. Magandang araw is a greeting, the good day, and it is the most common way of saying good morning or good afternoon to someone in the Philippines, with the time word changing while the phrase stays the same. It is a greeting rather than a remark about the weather, which is why a person can say it on an entirely overcast morning. The related form magandang gabi is used at night and is closer to good evening, and saying it in the morning is understood but sounds slightly late. A learner who translates good morning literally produces something a Filipino understands but does not use, because the time is not said separately."
+      ],
+      "tl": "magandang araw",
+      "bis": "maayong adlaw"
+    },
+    {
+      "id": "con-daily-life-000003",
+      "topic": "conversations-daily-life",
+      "intent": "definition",
+      "concept": "ganda",
+      "keywords": [
+        "ganda",
+        "beauty",
+        "beautiful",
+        "nice",
+        "scent",
+        "fragrance",
+        "good",
+        "compliment",
+        "kaayo",
+        "noun",
+        "goodness"
+      ],
+      "patterns": [
+        "what is ganda",
+        "ganda",
+        "explain ganda",
+        "definition of ganda",
+        "ganda meaning",
+        "ang ganda",
+        "ganda ng araw",
+        "beauty in tagalog",
+        "oy ang ganda",
+        "ano ang ganda",
+        "unsa ang kaayo"
+      ],
+      "answer": "Ganda is the Tagalog noun for beauty or goodness, and it is the word people reach for when they are reacting to something they like rather than asking a question about it. Ang ganda pala ng araw is a remark about the weather turned into a compliment, and it is one of the most ordinary things a Filipino says in a conversation, often simply to keep a conversation going rather than to assert anything. Ganda is also the standard word for fragrance, in the sense of a scent, so a perfume is described as may ganda ito and the two senses are closer than they first look: a word meaning what is pleasing to the senses covers both. The adjective is maganda, which is what a person says when comparing options, and the noun is what they say when naming the quality. A learner should know the noun is much more common in speech than the adjective, which mostly appears when something is being chosen. The Cebuano word for the same idea is kaayo, which is a different word from the Filipino kayo meaning you, and a Cebuano speaker saying kaayo about the weather would be understood.",
+      "variations": [
+        "Ang ganda pala ng araw is a remark about the weather turned into a compliment, and it is one of the most ordinary things a Filipino says in a conversation, often simply to keep a conversation going rather than to assert anything. Ganda is the Tagalog noun for beauty or goodness, and it is the word people reach for when they are reacting to something they like rather than asking a question about it. Ganda is also the standard word for fragrance, in the sense of a scent, so a perfume is described as may ganda ito and the two senses are closer than they first look: a word meaning what is pleasing to the senses covers both. The adjective is maganda, which is what a person says when comparing options, and the noun is what they say when naming the quality. A learner should know the noun is much more common in speech than the adjective, which mostly appears when something is being chosen. The Cebuano word for the same idea is kaayo, which is a different word from the Filipino kayo meaning you, and a Cebuano speaker saying kaayo about the weather would be understood.",
+        "Ganda is also the standard word for fragrance, in the sense of a scent, so a perfume is described as may ganda ito and the two senses are closer than they first look: a word meaning what is pleasing to the senses covers both. Ganda is the Tagalog noun for beauty or goodness, and it is the word people reach for when they are reacting to something they like rather than asking a question about it. Ang ganda pala ng araw is a remark about the weather turned into a compliment, and it is one of the most ordinary things a Filipino says in a conversation, often simply to keep a conversation going rather than to assert anything. The adjective is maganda, which is what a person says when comparing options, and the noun is what they say when naming the quality. A learner should know the noun is much more common in speech than the adjective, which mostly appears when something is being chosen. The Cebuano word for the same idea is kaayo, which is a different word from the Filipino kayo meaning you, and a Cebuano speaker saying kaayo about the weather would be understood."
+      ],
+      "tl": "ganda",
+      "bis": "kaayo"
+    },
+    {
+      "id": "con-daily-life-000004",
+      "topic": "conversations-daily-life",
+      "intent": "definition",
+      "concept": "tikol",
+      "keywords": [
+        "tikol",
+        "bored",
+        "boring",
+        "unoccupied",
+        "tanab",
+        "kinababado",
+        "ordinary"
+      ],
+      "patterns": [
+        "what is tikol",
+        "tikol",
+        "explain tikol",
+        "definition of tikol",
+        "tikol meaning",
+        "tikol na",
+        "bored in tagalog",
+        "anong gawin pag bored",
+        "ano ang tikol",
+        "unsa ang kinababado"
+      ],
+      "answer": "Tikol means bored, and it is the ordinary Tagalog word for having nothing to do and not enjoying it. It is different from pagod, which is tiredness, and from malasahi, which is sadness: a bored person is not tired and not sad, they are simply unoccupied, and Filipino treats that as a real state worth naming rather than as nothing at all. The related tanab is to be bored, and a bored person is often described as nakatambok, which is a stronger word implying a person who does nothing and does not care. A related sense is boredom with a person, so tikol kay is to be bored of someone, and that is a distinct meaning rather than the same one. In the Philippines tikol is common on a day off, and the word that answers it is usually an activity rather than an explanation.",
+      "variations": [
+        "It is different from pagod, which is tiredness, and from malasahi, which is sadness: a bored person is not tired and not sad, they are simply unoccupied, and Filipino treats that as a real state worth naming rather than as nothing at all. Tikol means bored, and it is the ordinary Tagalog word for having nothing to do and not enjoying it. The related tanab is to be bored, and a bored person is often described as nakatambok, which is a stronger word implying a person who does nothing and does not care. A related sense is boredom with a person, so tikol kay is to be bored of someone, and that is a distinct meaning rather than the same one. In the Philippines tikol is common on a day off, and the word that answers it is usually an activity rather than an explanation.",
+        "The related tanab is to be bored, and a bored person is often described as nakatambok, which is a stronger word implying a person who does nothing and does not care. Tikol means bored, and it is the ordinary Tagalog word for having nothing to do and not enjoying it. It is different from pagod, which is tiredness, and from malasahi, which is sadness: a bored person is not tired and not sad, they are simply unoccupied, and Filipino treats that as a real state worth naming rather than as nothing at all. A related sense is boredom with a person, so tikol kay is to be bored of someone, and that is a distinct meaning rather than the same one. In the Philippines tikol is common on a day off, and the word that answers it is usually an activity rather than an explanation."
+      ],
+      "tl": "tikol",
+      "bis": "kinababado"
+    },
+    {
+      "id": "con-daily-life-000005",
+      "topic": "conversations-daily-life",
+      "intent": "definition",
+      "concept": "labado",
+      "keywords": [
+        "labado",
+        "laundry",
+        "labaduhan",
+        "nakahintay",
+        "maglaba",
+        "chore",
+        "washing",
+        "clothes"
+      ],
+      "patterns": [
+        "what is labado",
+        "labado",
+        "explain labado",
+        "definition of labado",
+        "labado meaning",
+        "labaduhan ako",
+        "anong araw ng labado",
+        "laundry in tagalog",
+        "ano ang labado",
+        "unsa ang labado"
+      ],
+      "answer": "Labado is the Tagalog word for laundry and also for the act of washing clothes, so labaduhan ako means I have to do the laundry. The pair is worth knowing because English keeps the noun and the verb as one word while Tagalog marks the difference with a prefix, and a learner who hears labado in two sentences has to work out which sense is meant from the affix. It is one of the ordinary chores a person mentions in passing rather than a subject they ask about, which is why a bot that only knows English words does badly on it. A related word, nakahintay, is what the washing is called when it is waiting to be hung out, and maglaba is the general verb for washing, which also covers dishes when the object says so.",
+      "variations": [
+        "The pair is worth knowing because English keeps the noun and the verb as one word while Tagalog marks the difference with a prefix, and a learner who hears labado in two sentences has to work out which sense is meant from the affix. Labado is the Tagalog word for laundry and also for the act of washing clothes, so labaduhan ako means I have to do the laundry. It is one of the ordinary chores a person mentions in passing rather than a subject they ask about, which is why a bot that only knows English words does badly on it. A related word, nakahintay, is what the washing is called when it is waiting to be hung out, and maglaba is the general verb for washing, which also covers dishes when the object says so.",
+        "It is one of the ordinary chores a person mentions in passing rather than a subject they ask about, which is why a bot that only knows English words does badly on it. Labado is the Tagalog word for laundry and also for the act of washing clothes, so labaduhan ako means I have to do the laundry. The pair is worth knowing because English keeps the noun and the verb as one word while Tagalog marks the difference with a prefix, and a learner who hears labado in two sentences has to work out which sense is meant from the affix. A related word, nakahintay, is what the washing is called when it is waiting to be hung out, and maglaba is the general verb for washing, which also covers dishes when the object says so."
+      ],
+      "tl": "labado",
+      "bis": "labado"
+    },
+    {
+      "id": "con-daily-life-000006",
+      "topic": "conversations-daily-life",
+      "intent": "definition",
+      "concept": "uma",
+      "keywords": [
+        "uma",
+        "rain",
+        "umuulan",
+        "maumulan",
+        "ulan",
+        "magulang",
+        "weather",
+        "ordinary",
+        "gabi"
+      ],
+      "patterns": [
+        "what is uma",
+        "uma",
+        "explain uma",
+        "definition of uma",
+        "uma meaning",
+        "umuulan",
+        "does it rain",
+        "magulang meaning",
+        "ano ang ulan",
+        "unsa ang ulan"
+      ],
+      "answer": "Uma means rain, and it is the ordinary Tagalog word for it, so uma ang gabi means it rained last night. The verb is umuulan, which is a contracted form meaning it is raining, and maumulan means to be about to rain, which is the form a person uses when the sky looks like it is about to turn. Ulan is also used, more formally or more in the provinces, and magulang is the related noun meaning a rainy season or a rainy day. The word is an ordinary part of conversation in the Philippines because the wet season is long enough to be worth talking about, and a person saying uma na probably is a statement about their plans rather than about the weather. A common confusion for a learner is with the verb umalis, which means to go out, since the two words look alike and mean opposite things for a plan.",
+      "variations": [
+        "The verb is umuulan, which is a contracted form meaning it is raining, and maumulan means to be about to rain, which is the form a person uses when the sky looks like it is about to turn. Uma means rain, and it is the ordinary Tagalog word for it, so uma ang gabi means it rained last night. Ulan is also used, more formally or more in the provinces, and magulang is the related noun meaning a rainy season or a rainy day. The word is an ordinary part of conversation in the Philippines because the wet season is long enough to be worth talking about, and a person saying uma na probably is a statement about their plans rather than about the weather. A common confusion for a learner is with the verb umalis, which means to go out, since the two words look alike and mean opposite things for a plan.",
+        "Ulan is also used, more formally or more in the provinces, and magulang is the related noun meaning a rainy season or a rainy day. Uma means rain, and it is the ordinary Tagalog word for it, so uma ang gabi means it rained last night. The verb is umuulan, which is a contracted form meaning it is raining, and maumulan means to be about to rain, which is the form a person uses when the sky looks like it is about to turn. The word is an ordinary part of conversation in the Philippines because the wet season is long enough to be worth talking about, and a person saying uma na probably is a statement about their plans rather than about the weather. A common confusion for a learner is with the verb umalis, which means to go out, since the two words look alike and mean opposite things for a plan."
+      ],
+      "tl": "ulan",
+      "bis": "ulan"
+    },
+    {
+      "id": "con-daily-life-000007",
+      "topic": "conversations-daily-life",
+      "intent": "definition",
+      "concept": "listahan",
+      "keywords": [
+        "listahan",
+        "list",
+        "shopping",
+        "task",
+        "playlist",
+        "todo",
+        "check",
+        "anything",
+        "written"
+      ],
+      "patterns": [
+        "what is listahan",
+        "listahan",
+        "explain listahan",
+        "definition of listahan",
+        "listahan meaning",
+        "anong listahan",
+        "paano gumawa ng listahan",
+        "list in tagalog",
+        "ano ang listahan",
+        "unsa ang listahan"
+      ],
+      "answer": "Listahan means a list, and it is the word for anything written down so it can be checked later: a shopping list, a task list, a playlist, a list of names. The related verb is maglista, and the English borrowing is also used, so maglista and gumawa ng listahan are both ordinary and often appear in the same conversation. What makes the word useful is that a Filipino response to a vague plan is very often to make a list, and a person asking what to do is sometimes really asking to be given something to tick off, since a list is easier to act on than advice. A list is also how a shopping trip is organised in practice, and a person who says maglala ako ng listahan has decided the question rather than asked it.",
+      "variations": [
+        "The related verb is maglista, and the English borrowing is also used, so maglista and gumawa ng listahan are both ordinary and often appear in the same conversation. Listahan means a list, and it is the word for anything written down so it can be checked later: a shopping list, a task list, a playlist, a list of names. What makes the word useful is that a Filipino response to a vague plan is very often to make a list, and a person asking what to do is sometimes really asking to be given something to tick off, since a list is easier to act on than advice. A list is also how a shopping trip is organised in practice, and a person who says maglala ako ng listahan has decided the question rather than asked it.",
+        "What makes the word useful is that a Filipino response to a vague plan is very often to make a list, and a person asking what to do is sometimes really asking to be given something to tick off, since a list is easier to act on than advice. Listahan means a list, and it is the word for anything written down so it can be checked later: a shopping list, a task list, a playlist, a list of names. The related verb is maglista, and the English borrowing is also used, so maglista and gumawa ng listahan are both ordinary and often appear in the same conversation. A list is also how a shopping trip is organised in practice, and a person who says maglala ako ng listahan has decided the question rather than asked it."
+      ],
+      "tl": "listahan",
+      "bis": "listahan"
+    }
+  ],
+  "lang": "english",
+  "group": "conversations",
+  "sub": "daily-life",
+  "title": "Daily life",
+  "groupTitle": "Conversations"
+}

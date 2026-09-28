@@ -1,0 +1,195 @@
+{
+  "topic": "programming-csharp",
+  "entries": [
+    {
+      "id": "pro-csharp-000001",
+      "topic": "programming-csharp",
+      "intent": "definition",
+      "concept": "csharp",
+      "keywords": [
+        "csharp",
+        "dotnet",
+        "var",
+        "properties",
+        "delegates",
+        "C#",
+        "managed",
+        "object",
+        "oriented",
+        "language",
+        "designed",
+        "microsoft"
+      ],
+      "patterns": [
+        "what is csharp",
+        "csharp",
+        "explain csharp",
+        "definition of csharp",
+        "csharp meaning",
+        "what is c sharp",
+        "is c# better than java",
+        "what is c# used for",
+        "ano ang C#",
+        "unsa ang C#"
+      ],
+      "answer": "C# is a managed, object-oriented language designed by Microsoft and run on the .NET runtime, and its defining feature is that memory is managed for you: the garbage collector reclaims objects you no longer reference, so there is no free and no manual allocation. It is statically typed with type inference through the var keyword, has value types that live on the stack for small simple data and reference types on the heap, and supports properties, delegates, events and asynchronous methods with the async and await pair built into the language. It is garbage collected rather than deterministic, which means a resource such as an open file is not released the instant it goes out of scope but when the collector gets to it, so the using statement exists to make the disposal time explicit for those cases. The language is deliberately close to Java and C++ in shape while differing in details, and the real point of comparison is usually Python, since both aim at readable code and rapid development.",
+      "variations": [
+        "It is statically typed with type inference through the var keyword, has value types that live on the stack for small simple data and reference types on the heap, and supports properties, delegates, events and asynchronous methods with the async and await pair built into the language. NET runtime, and its defining feature is that memory is managed for you: the garbage collector reclaims objects you no longer reference, so there is no free and no manual allocation. It is garbage collected rather than deterministic, which means a resource such as an open file is not released the instant it goes out of scope but when the collector gets to it, so the using statement exists to make the disposal time explicit for those cases. The language is deliberately close to Java and C++ in shape while differing in details, and the real point of comparison is usually Python, since both aim at readable code and rapid development.",
+        "It is garbage collected rather than deterministic, which means a resource such as an open file is not released the instant it goes out of scope but when the collector gets to it, so the using statement exists to make the disposal time explicit for those cases. NET runtime, and its defining feature is that memory is managed for you: the garbage collector reclaims objects you no longer reference, so there is no free and no manual allocation. It is statically typed with type inference through the var keyword, has value types that live on the stack for small simple data and reference types on the heap, and supports properties, delegates, events and asynchronous methods with the async and await pair built into the language. The language is deliberately close to Java and C++ in shape while differing in details, and the real point of comparison is usually Python, since both aim at readable code and rapid development."
+      ],
+      "tl": "C#",
+      "bis": "C#"
+    },
+    {
+      "id": "pro-csharp-000002",
+      "topic": "programming-csharp",
+      "intent": "definition",
+      "concept": "linq",
+      "keywords": [
+        "linq",
+        "query",
+        "lambda",
+        "enumerable",
+        "aggregate",
+        "language",
+        "integrated",
+        "feature",
+        "write",
+        "queries"
+      ],
+      "patterns": [
+        "what is linq",
+        "linq",
+        "explain linq",
+        "definition of linq",
+        "linq meaning",
+        "what does linq stand for",
+        "is linq slow",
+        "ano ang linq",
+        "unsa ang linq"
+      ],
+      "answer": "Language Integrated Query is the C# feature that lets you write queries directly in the language against collections, databases and XML instead of moving between the data and a separate query engine. The core operations are from for the source, where for filtering, select for projection, orderby for sorting, then groupby, join and aggregate functions such as count and sum, and a query ends with an execution method like ToList or First that actually runs it. It comes in two surface syntaxes, the query syntax that reads like SQL and the method syntax using extension methods, and they compile to the same thing, so the choice is readability. The deeper point is deferred execution: a query is a description of work, not the work itself, and nothing happens until it is enumerated, which is why iterating a query twice re-reads the source and why modifying a collection mid-enumeration throws.",
+      "variations": [
+        "The core operations are from for the source, where for filtering, select for projection, orderby for sorting, then groupby, join and aggregate functions such as count and sum, and a query ends with an execution method like ToList or First that actually runs it. Language Integrated Query is the C# feature that lets you write queries directly in the language against collections, databases and XML instead of moving between the data and a separate query engine. It comes in two surface syntaxes, the query syntax that reads like SQL and the method syntax using extension methods, and they compile to the same thing, so the choice is readability. The deeper point is deferred execution: a query is a description of work, not the work itself, and nothing happens until it is enumerated, which is why iterating a query twice re-reads the source and why modifying a collection mid-enumeration throws.",
+        "It comes in two surface syntaxes, the query syntax that reads like SQL and the method syntax using extension methods, and they compile to the same thing, so the choice is readability. Language Integrated Query is the C# feature that lets you write queries directly in the language against collections, databases and XML instead of moving between the data and a separate query engine. The core operations are from for the source, where for filtering, select for projection, orderby for sorting, then groupby, join and aggregate functions such as count and sum, and a query ends with an execution method like ToList or First that actually runs it. The deeper point is deferred execution: a query is a description of work, not the work itself, and nothing happens until it is enumerated, which is why iterating a query twice re-reads the source and why modifying a collection mid-enumeration throws."
+      ],
+      "tl": "linq",
+      "bis": "linq"
+    },
+    {
+      "id": "pro-csharp-000003",
+      "topic": "programming-csharp",
+      "intent": "definition",
+      "concept": "nullable reference type",
+      "keywords": [
+        "nullable reference type",
+        "nullable",
+        "annotation",
+        "warning",
+        "reference",
+        "types",
+        "feature",
+        "closes",
+        "oldest"
+      ],
+      "patterns": [
+        "what is nullable reference type",
+        "nullable reference type",
+        "explain nullable reference type",
+        "definition of nullable reference type",
+        "nullable reference type meaning",
+        "what are nullable reference types",
+        "should i enable nullable",
+        "what is the difference between null and nullable",
+        "ano ang nullable reference type",
+        "unsa ang nullable reference type"
+      ],
+      "answer": "Nullable reference types are a C# feature that closes one of the oldest holes in the language: it lets the compiler warn you when a reference that is supposed to hold a value is null. The declaration is an annotation, a question mark after the type, and the language then treats a variable of that type as non-nullable by default, so assigning null to it or dereferencing it without a check produces a warning rather than a runtime crash. Disabling the feature per project restores the older permissive behaviour, and the annotation is also how you document to a reader what is allowed to be absent. It is a static guarantee, not a runtime one, so the annotation is a claim you are making and the compiler checks the code against that claim. The common criticism is the long tail of warnings on older codebases, and the honest defence is that a null reference exception found in production is far more expensive than a few hundred warnings while you adopt it.",
+      "variations": [
+        "The declaration is an annotation, a question mark after the type, and the language then treats a variable of that type as non-nullable by default, so assigning null to it or dereferencing it without a check produces a warning rather than a runtime crash. Nullable reference types are a C# feature that closes one of the oldest holes in the language: it lets the compiler warn you when a reference that is supposed to hold a value is null. Disabling the feature per project restores the older permissive behaviour, and the annotation is also how you document to a reader what is allowed to be absent. It is a static guarantee, not a runtime one, so the annotation is a claim you are making and the compiler checks the code against that claim. The common criticism is the long tail of warnings on older codebases, and the honest defence is that a null reference exception found in production is far more expensive than a few hundred warnings while you adopt it.",
+        "Disabling the feature per project restores the older permissive behaviour, and the annotation is also how you document to a reader what is allowed to be absent. Nullable reference types are a C# feature that closes one of the oldest holes in the language: it lets the compiler warn you when a reference that is supposed to hold a value is null. The declaration is an annotation, a question mark after the type, and the language then treats a variable of that type as non-nullable by default, so assigning null to it or dereferencing it without a check produces a warning rather than a runtime crash. It is a static guarantee, not a runtime one, so the annotation is a claim you are making and the compiler checks the code against that claim. The common criticism is the long tail of warnings on older codebases, and the honest defence is that a null reference exception found in production is far more expensive than a few hundred warnings while you adopt it."
+      ],
+      "tl": "nullable reference type",
+      "bis": "nullable reference type"
+    },
+    {
+      "id": "pro-csharp-000004",
+      "topic": "programming-csharp",
+      "intent": "definition",
+      "concept": "value type",
+      "keywords": [
+        "value type",
+        "struct",
+        "boxing",
+        "copy",
+        "aliasing",
+        "primitive",
+        "value",
+        "type",
+        "variable",
+        "holds",
+        "data",
+        "itself"
+      ],
+      "patterns": [
+        "what is value type",
+        "value type",
+        "explain value type",
+        "definition of value type",
+        "value type meaning",
+        "what is a value type",
+        "difference between value type and reference type",
+        "what is boxing",
+        "ano ang value type",
+        "unsa ang value type"
+      ],
+      "answer": "A value type in C# is a type whose variable holds the data itself rather than a reference to data stored elsewhere, and the difference is visible in what happens when you assign one variable to another. Copying a value type copies the contents, so the two variables afterwards are independent. Copying a reference type copies the address, so both names point at the same object and a change through one is visible through the other. The built-in value types are the primitive numeric types, char, bool, decimal, and the struct keyword for your own, and a struct is a value type by default. Passing a large struct to a method copies it, which is a real cost in a hot loop, and boxing happens when a value type is stored in object or passed as an interface, which allocates and slows the operation down. The practical rule is to keep structs small and think carefully before making a class a struct, because the aliasing that surprises people in a reference type is exactly what they would want in a value type.",
+      "variations": [
+        "Copying a value type copies the contents, so the two variables afterwards are independent. A value type in C# is a type whose variable holds the data itself rather than a reference to data stored elsewhere, and the difference is visible in what happens when you assign one variable to another. Copying a reference type copies the address, so both names point at the same object and a change through one is visible through the other. The built-in value types are the primitive numeric types, char, bool, decimal, and the struct keyword for your own, and a struct is a value type by default. Passing a large struct to a method copies it, which is a real cost in a hot loop, and boxing happens when a value type is stored in object or passed as an interface, which allocates and slows the operation down. The practical rule is to keep structs small and think carefully before making a class a struct, because the aliasing that surprises people in a reference type is exactly what they would want in a value type.",
+        "Copying a reference type copies the address, so both names point at the same object and a change through one is visible through the other. A value type in C# is a type whose variable holds the data itself rather than a reference to data stored elsewhere, and the difference is visible in what happens when you assign one variable to another. Copying a value type copies the contents, so the two variables afterwards are independent. The built-in value types are the primitive numeric types, char, bool, decimal, and the struct keyword for your own, and a struct is a value type by default. Passing a large struct to a method copies it, which is a real cost in a hot loop, and boxing happens when a value type is stored in object or passed as an interface, which allocates and slows the operation down. The practical rule is to keep structs small and think carefully before making a class a struct, because the aliasing that surprises people in a reference type is exactly what they would want in a value type."
+      ],
+      "tl": "value type",
+      "bis": "value type"
+    },
+    {
+      "id": "pro-csharp-000005",
+      "topic": "programming-csharp",
+      "intent": "definition",
+      "concept": "dotnet",
+      "keywords": [
+        "dotnet",
+        "assembly",
+        "framework",
+        "platform",
+        "runtime",
+        "class",
+        "library",
+        "toolchain",
+        "compiles"
+      ],
+      "patterns": [
+        "what is dotnet",
+        "dotnet",
+        "explain dotnet",
+        "definition of dotnet",
+        "dotnet meaning",
+        "is dotnet the same as c#",
+        "what is the dotnet framework",
+        "ano ang dotnet",
+        "unsa ang dotnet"
+      ],
+      "answer": "The .NET platform is the runtime, class library and toolchain that C# compiles down to, and since its third generation it is cross-platform rather than tied to Windows. Compiling produces an intermediate assembly that the common language runtime loads and executes, so the same managed bytecode can run on Windows, Linux and macOS, which is what made cross-platform desktop and server applications practical without porting the codebase. The current generation is called .NET 5 and above, and it deliberately unifies what used to be several separate products such as .NET Framework and .NET Core onto one runtime. Alongside the runtime sit the base class library, the type system, and tooling such as the dotnet command line that builds, tests and publishes. The practical consequence for a developer is that the runtime version is a deployment target you choose, not a property of the machine.",
+      "variations": [
+        "Compiling produces an intermediate assembly that the common language runtime loads and executes, so the same managed bytecode can run on Windows, Linux and macOS, which is what made cross-platform desktop and server applications practical without porting the codebase. NET platform is the runtime, class library and toolchain that C# compiles down to, and since its third generation it is cross-platform rather than tied to Windows. NET Core onto one runtime. Alongside the runtime sit the base class library, the type system, and tooling such as the dotnet command line that builds, tests and publishes. The practical consequence for a developer is that the runtime version is a deployment target you choose, not a property of the machine.",
+        "NET Core onto one runtime. NET platform is the runtime, class library and toolchain that C# compiles down to, and since its third generation it is cross-platform rather than tied to Windows. Compiling produces an intermediate assembly that the common language runtime loads and executes, so the same managed bytecode can run on Windows, Linux and macOS, which is what made cross-platform desktop and server applications practical without porting the codebase. Alongside the runtime sit the base class library, the type system, and tooling such as the dotnet command line that builds, tests and publishes. The practical consequence for a developer is that the runtime version is a deployment target you choose, not a property of the machine."
+      ],
+      "tl": "dotnet",
+      "bis": "dotnet"
+    }
+  ],
+  "lang": "english",
+  "group": "programming",
+  "sub": "csharp",
+  "title": "C#",
+  "groupTitle": "Programming"
+}

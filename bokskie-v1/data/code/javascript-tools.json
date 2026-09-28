@@ -1,0 +1,98 @@
+{
+  "topic": "code-javascript-tools",
+  "entries": [
+    {
+      "id": "cod-javascript-tools-000001",
+      "topic": "code-javascript-tools",
+      "intent": "definition",
+      "concept": "calculator",
+      "keywords": [
+        "calculator",
+        "calc",
+        "arithmetic",
+        "website",
+        "tool",
+        "maths",
+        "math",
+        "keypad",
+        "template",
+        "working",
+        "file",
+        "small",
+        "worth",
+        "reading"
+      ],
+      "patterns": [
+        "what is calculator",
+        "calculator",
+        "explain calculator",
+        "definition of calculator",
+        "calculator meaning",
+        "make me a calculator",
+        "build a calculator app",
+        "create a simple calculator",
+        "i need a calculator",
+        "gawa ka ng calculator",
+        "calculator html css and javascript",
+        "ano ang calculator",
+        "unsa ang calculator"
+      ],
+      "answer": "A working calculator as one file, and a small one worth reading closely: the entire thing is four state variables, a keypad of buttons, and a single input function that every button routes into. The keyboard works as well as the mouse, because one keydown listener maps the operators, Enter, Backspace and Escape onto the same function the clicks use - so the two input methods cannot drift apart, because there is only one implementation to get right. Floating point noise is rounded at the display rather than in the calculation, which is what stops 0.1 + 0.2 showing as 0.30000000000000004, and dividing by zero returns an error rather than Infinity.",
+      "variations": [
+        "The keyboard works as well as the mouse, because one keydown listener maps the operators, Enter, Backspace and Escape onto the same function the clicks use - so the two input methods cannot drift apart, because there is only one implementation to get right. A working calculator as one file, and a small one worth reading closely: the entire thing is four state variables, a keypad of buttons, and a single input function that every button routes into. 30000000000000004, and dividing by zero returns an error rather than Infinity.",
+        "30000000000000004, and dividing by zero returns an error rather than Infinity. A working calculator as one file, and a small one worth reading closely: the entire thing is four state variables, a keypad of buttons, and a single input function that every button routes into. The keyboard works as well as the mouse, because one keydown listener maps the operators, Enter, Backspace and Escape onto the same function the clicks use - so the two input methods cannot drift apart, because there is only one implementation to get right."
+      ],
+      "tl": "calculator",
+      "bis": "calculator"
+    },
+    {
+      "id": "cod-javascript-tools-000002",
+      "topic": "code-javascript-tools",
+      "intent": "definition",
+      "concept": "todo list",
+      "keywords": [
+        "todo list",
+        "todo",
+        "to-do",
+        "task",
+        "list",
+        "tasks",
+        "app",
+        "checklist",
+        "website",
+        "template",
+        "localstorage",
+        "file",
+        "remembers",
+        "anything"
+      ],
+      "patterns": [
+        "what is todo list",
+        "todo list",
+        "explain todo list",
+        "definition of todo list",
+        "todo list meaning",
+        "make me a todo list",
+        "build a todo app",
+        "create a to do list",
+        "i need a checklist",
+        "gawa ka ng todo app",
+        "todo list html css and javascript",
+        "ano ang todo list",
+        "unsa ang todo list"
+      ],
+      "answer": "A to-do list as one file, and the only one here that remembers anything: tasks are kept in localStorage, so they survive a refresh and nothing ever leaves the browser. The state is a single array of objects and everything else - the visible list, the count, the three filters - is derived from it when the page redraws, so there is no second copy of anything to fall out of step. Task text is escaped before it is written into the page, which is what makes it safe to build the list with innerHTML at all. Clicking a task turns it into an editable field in place, where Enter keeps it and Escape puts it back.",
+      "variations": [
+        "The state is a single array of objects and everything else - the visible list, the count, the three filters - is derived from it when the page redraws, so there is no second copy of anything to fall out of step. A to-do list as one file, and the only one here that remembers anything: tasks are kept in localStorage, so they survive a refresh and nothing ever leaves the browser. Task text is escaped before it is written into the page, which is what makes it safe to build the list with innerHTML at all. Clicking a task turns it into an editable field in place, where Enter keeps it and Escape puts it back.",
+        "Task text is escaped before it is written into the page, which is what makes it safe to build the list with innerHTML at all. A to-do list as one file, and the only one here that remembers anything: tasks are kept in localStorage, so they survive a refresh and nothing ever leaves the browser. The state is a single array of objects and everything else - the visible list, the count, the three filters - is derived from it when the page redraws, so there is no second copy of anything to fall out of step. Clicking a task turns it into an editable field in place, where Enter keeps it and Escape puts it back."
+      ],
+      "tl": "todo list",
+      "bis": "todo list"
+    }
+  ],
+  "lang": "english",
+  "group": "code",
+  "sub": "javascript-tools",
+  "title": "JavaScript tools",
+  "groupTitle": "Code"
+}

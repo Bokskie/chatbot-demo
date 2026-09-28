@@ -1,0 +1,50 @@
+{
+  "topic": "cebuano-slang",
+  "entries": [
+    {
+      "id": "ceb-slang-000001",
+      "topic": "cebuano-slang",
+      "intent": "definition",
+      "concept": "jarg",
+      "keywords": [
+        "jarg",
+        "judge",
+        "scold",
+        "comment",
+        "slang",
+        "english",
+        "criticism",
+        "meaning",
+        "pagsusuri",
+        "cebuano",
+        "term",
+        "uncertain",
+        "origin"
+      ],
+      "patterns": [
+        "what is jarg",
+        "jarg",
+        "explain jarg",
+        "definition of jarg",
+        "jarg meaning",
+        "unsa meaning nga jarg",
+        "jarg meaning in bisaya",
+        "jarg english origin",
+        "ano ang pagsusuri",
+        "unsa ang jarg"
+      ],
+      "answer": "Jarg is a Cebuano slang term of uncertain origin, and it is one of the words most people in the Visayas use while not knowing it is borrowed, since it is a phonetic rendering of the English word judge. Its sense covers roughly two things: to assess or judge, as in jargan nga maayo ang iyang trabaho, and to scold or tell off, which is the sense that carries the slang edge. Used as a noun, jarg is a remark, a comment or a piece of criticism, and the phrase mao man gyud na siyag jarg is close to so it is just a comment, meaning the criticism does not carry much weight. It has almost no connection to being sent to jail, which is the reading an English speaker reaches for first, so that association is worth dropping early.",
+      "variations": [
+        "Its sense covers roughly two things: to assess or judge, as in jargan nga maayo ang iyang trabaho, and to scold or tell off, which is the sense that carries the slang edge. Jarg is a Cebuano slang term of uncertain origin, and it is one of the words most people in the Visayas use while not knowing it is borrowed, since it is a phonetic rendering of the English word judge. Used as a noun, jarg is a remark, a comment or a piece of criticism, and the phrase mao man gyud na siyag jarg is close to so it is just a comment, meaning the criticism does not carry much weight. It has almost no connection to being sent to jail, which is the reading an English speaker reaches for first, so that association is worth dropping early.",
+        "Used as a noun, jarg is a remark, a comment or a piece of criticism, and the phrase mao man gyud na siyag jarg is close to so it is just a comment, meaning the criticism does not carry much weight. Jarg is a Cebuano slang term of uncertain origin, and it is one of the words most people in the Visayas use while not knowing it is borrowed, since it is a phonetic rendering of the English word judge. Its sense covers roughly two things: to assess or judge, as in jargan nga maayo ang iyang trabaho, and to scold or tell off, which is the sense that carries the slang edge. It has almost no connection to being sent to jail, which is the reading an English speaker reaches for first, so that association is worth dropping early."
+      ],
+      "tl": "pagsusuri",
+      "bis": "jarg"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "slang",
+  "title": "Slang",
+  "groupTitle": "Cebuano"
+}

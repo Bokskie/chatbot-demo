@@ -1,0 +1,310 @@
+{
+  "topic": "science-astronomy",
+  "entries": [
+    {
+      "id": "sci-astronomy-000001",
+      "topic": "science-astronomy",
+      "intent": "definition",
+      "concept": "solar system",
+      "keywords": [
+        "solar system",
+        "sun",
+        "planets",
+        "orbit",
+        "asteroid",
+        "formation",
+        "system",
+        "together",
+        "everything",
+        "held"
+      ],
+      "patterns": [
+        "what is solar system",
+        "solar system",
+        "explain solar system",
+        "definition of solar system",
+        "solar system meaning",
+        "what is the solar system",
+        "how many planets are there",
+        "how was the solar system formed",
+        "ano ang solar system",
+        "unsa ang sistema ng sikat"
+      ],
+      "answer": "The solar system is the Sun together with everything held in orbit around it: eight planets, their moons, dwarf planets, asteroids, comets and a large band of icy debris called the Kuiper Belt. The four inner planets are small, rocky and close in, while the four outer ones are gas or ice giants much further out, and the arrangement is a leftover of how the system formed about 4.6 billion years ago from a collapsing cloud of gas and dust. The planets orbit in nearly the same direction and in nearly the same plane, which is the fossil record of that formation, and most orbit in almost circular paths because their own gravity and the Sun's have damped out anything else. The Sun holds more than 99.8 percent of the system's mass, so the centre of mass is effectively the Sun itself and every planet simply falls around it.",
+      "variations": [
+        "6 billion years ago from a collapsing cloud of gas and dust. The solar system is the Sun together with everything held in orbit around it: eight planets, their moons, dwarf planets, asteroids, comets and a large band of icy debris called the Kuiper Belt. The planets orbit in nearly the same direction and in nearly the same plane, which is the fossil record of that formation, and most orbit in almost circular paths because their own gravity and the Sun's have damped out anything else. 8 percent of the system's mass, so the centre of mass is effectively the Sun itself and every planet simply falls around it.",
+        "The planets orbit in nearly the same direction and in nearly the same plane, which is the fossil record of that formation, and most orbit in almost circular paths because their own gravity and the Sun's have damped out anything else. The solar system is the Sun together with everything held in orbit around it: eight planets, their moons, dwarf planets, asteroids, comets and a large band of icy debris called the Kuiper Belt. 6 billion years ago from a collapsing cloud of gas and dust. 8 percent of the system's mass, so the centre of mass is effectively the Sun itself and every planet simply falls around it."
+      ],
+      "tl": "solar system",
+      "bis": "sistema ng sikat"
+    },
+    {
+      "id": "sci-astronomy-000002",
+      "topic": "science-astronomy",
+      "intent": "definition",
+      "concept": "light year",
+      "keywords": [
+        "light year",
+        "parsec",
+        "distance",
+        "scale",
+        "light",
+        "year",
+        "unit",
+        "time",
+        "travels"
+      ],
+      "patterns": [
+        "what is light year",
+        "light year",
+        "explain light year",
+        "definition of light year",
+        "light year meaning",
+        "how far is a light year",
+        "how long is a light year in km",
+        "is a light year a unit of time",
+        "ano ang light year",
+        "unsa ang light year"
+      ],
+      "answer": "A light year is a unit of distance, not time, and it is the distance light travels in one year, which works out to roughly 9.46 trillion kilometres. That number is worth holding onto because it is the scale at which the rest of the universe becomes sensible: the nearest star after the Sun is about 4.2 light years away, the centre of our galaxy is about 26,000, and the nearest large galaxy beyond the Milky Way is over two million. The reason astronomers use it is that a light year is defined by the speed of light, which is the same everywhere, so it gives a common ruler for distances that no ordinary unit could span. The common confusion is treating it as a duration, but saying a journey will take ten light years is nonsense in the same way as saying it is ten kilometres long.",
+      "variations": [
+        "2 light years away, the centre of our galaxy is about 26,000, and the nearest large galaxy beyond the Milky Way is over two million. 46 trillion kilometres. The reason astronomers use it is that a light year is defined by the speed of light, which is the same everywhere, so it gives a common ruler for distances that no ordinary unit could span. The common confusion is treating it as a duration, but saying a journey will take ten light years is nonsense in the same way as saying it is ten kilometres long.",
+        "The reason astronomers use it is that a light year is defined by the speed of light, which is the same everywhere, so it gives a common ruler for distances that no ordinary unit could span. 46 trillion kilometres. 2 light years away, the centre of our galaxy is about 26,000, and the nearest large galaxy beyond the Milky Way is over two million. The common confusion is treating it as a duration, but saying a journey will take ten light years is nonsense in the same way as saying it is ten kilometres long."
+      ],
+      "tl": "light year",
+      "bis": "light year"
+    },
+    {
+      "id": "sci-astronomy-000003",
+      "topic": "science-astronomy",
+      "intent": "definition",
+      "concept": "exoplanet",
+      "keywords": [
+        "exoplanet",
+        "atmosphere",
+        "star",
+        "detection",
+        "telescope",
+        "planet",
+        "orbiting",
+        "matter",
+        "existence"
+      ],
+      "patterns": [
+        "what is exoplanet",
+        "exoplanet",
+        "explain exoplanet",
+        "definition of exoplanet",
+        "exoplanet meaning",
+        "what is an exoplanet",
+        "how do scientists find planets",
+        "what is the habitable zone",
+        "ano ang exoplanet",
+        "unsa ang exoplanet"
+      ],
+      "answer": "An exoplanet is a planet orbiting a star other than the Sun, and they matter because their existence was not a prediction from theory so much as something nobody had ever actually seen until a few decades ago. The first confirmed detections came in the 1990s, largely from the radial velocity method, which watches a star for the small periodic wobble in its motion caused by a planet pulling on it, and later from the transit method, which watches for the regular dimming when a planet passes in front of its star. The transit method is the one people describe as a silhouette, and it is also how the atmosphere is probed, because the starlight filtered through a planet's air carries chemical fingerprints. Thousands are now known, and the surprise is the variety: gas giants, rocky worlds, and systems with several planets in tight orbits unlike our own. The open question is how common Earth-sized planets in the habitable zone actually are.",
+      "variations": [
+        "The first confirmed detections came in the 1990s, largely from the radial velocity method, which watches a star for the small periodic wobble in its motion caused by a planet pulling on it, and later from the transit method, which watches for the regular dimming when a planet passes in front of its star. An exoplanet is a planet orbiting a star other than the Sun, and they matter because their existence was not a prediction from theory so much as something nobody had ever actually seen until a few decades ago. The transit method is the one people describe as a silhouette, and it is also how the atmosphere is probed, because the starlight filtered through a planet's air carries chemical fingerprints. Thousands are now known, and the surprise is the variety: gas giants, rocky worlds, and systems with several planets in tight orbits unlike our own. The open question is how common Earth-sized planets in the habitable zone actually are.",
+        "The transit method is the one people describe as a silhouette, and it is also how the atmosphere is probed, because the starlight filtered through a planet's air carries chemical fingerprints. An exoplanet is a planet orbiting a star other than the Sun, and they matter because their existence was not a prediction from theory so much as something nobody had ever actually seen until a few decades ago. The first confirmed detections came in the 1990s, largely from the radial velocity method, which watches a star for the small periodic wobble in its motion caused by a planet pulling on it, and later from the transit method, which watches for the regular dimming when a planet passes in front of its star. Thousands are now known, and the surprise is the variety: gas giants, rocky worlds, and systems with several planets in tight orbits unlike our own. The open question is how common Earth-sized planets in the habitable zone actually are."
+      ],
+      "tl": "exoplanet",
+      "bis": "exoplanet"
+    },
+    {
+      "id": "sci-astronomy-000004",
+      "topic": "science-astronomy",
+      "intent": "definition",
+      "concept": "telescope",
+      "keywords": [
+        "telescope",
+        "aperture",
+        "lens",
+        "mirror",
+        "resolution",
+        "radio",
+        "observatory",
+        "instrument",
+        "collects",
+        "light",
+        "area",
+        "larger"
+      ],
+      "patterns": [
+        "what is telescope",
+        "telescope",
+        "explain telescope",
+        "definition of telescope",
+        "telescope meaning",
+        "what is a telescope",
+        "how does a telescope work",
+        "why put telescopes in space",
+        "ano ang telescope",
+        "unsa ang telescope"
+      ],
+      "answer": "A telescope is an instrument that collects light over an area larger than your eye and concentrates it, and everything else it does is a consequence of that collection. The two designs are the refracting telescope, which uses a lens, and the reflecting telescope, which uses a curved mirror, with the reflecting design dominant for anything large because a mirror can be supported from behind and a lens cannot. Beyond gathering light, resolution is the other limit: two points can be separated only if the aperture is large enough relative to the wavelength, which is why a large telescope in space can see detail a larger one on the ground cannot, since the atmosphere blurs light before it arrives. The practical categories are the optical for visible light, the radio for long wavelengths, and the space observatories such as Hubble and James Webb that avoid atmospheric distortion entirely. A modern ground instrument uses adaptive optics, adjustable mirrors that correct for the distortion in real time.",
+      "variations": [
+        "The two designs are the refracting telescope, which uses a lens, and the reflecting telescope, which uses a curved mirror, with the reflecting design dominant for anything large because a mirror can be supported from behind and a lens cannot. A telescope is an instrument that collects light over an area larger than your eye and concentrates it, and everything else it does is a consequence of that collection. Beyond gathering light, resolution is the other limit: two points can be separated only if the aperture is large enough relative to the wavelength, which is why a large telescope in space can see detail a larger one on the ground cannot, since the atmosphere blurs light before it arrives. The practical categories are the optical for visible light, the radio for long wavelengths, and the space observatories such as Hubble and James Webb that avoid atmospheric distortion entirely. A modern ground instrument uses adaptive optics, adjustable mirrors that correct for the distortion in real time.",
+        "Beyond gathering light, resolution is the other limit: two points can be separated only if the aperture is large enough relative to the wavelength, which is why a large telescope in space can see detail a larger one on the ground cannot, since the atmosphere blurs light before it arrives. A telescope is an instrument that collects light over an area larger than your eye and concentrates it, and everything else it does is a consequence of that collection. The two designs are the refracting telescope, which uses a lens, and the reflecting telescope, which uses a curved mirror, with the reflecting design dominant for anything large because a mirror can be supported from behind and a lens cannot. The practical categories are the optical for visible light, the radio for long wavelengths, and the space observatories such as Hubble and James Webb that avoid atmospheric distortion entirely. A modern ground instrument uses adaptive optics, adjustable mirrors that correct for the distortion in real time."
+      ],
+      "tl": "telescope",
+      "bis": "telescope"
+    },
+    {
+      "id": "sci-astronomy-000005",
+      "topic": "science-astronomy",
+      "intent": "definition",
+      "concept": "satellite",
+      "keywords": [
+        "satellite",
+        "orbit",
+        "moon",
+        "gps",
+        "coverage",
+        "debris",
+        "object",
+        "placed",
+        "around",
+        "another"
+      ],
+      "patterns": [
+        "what is satellite",
+        "satellite",
+        "explain satellite",
+        "definition of satellite",
+        "satellite meaning",
+        "what is a satellite",
+        "how do satellites stay in orbit",
+        "what is a low earth orbit",
+        "ano ang satellite",
+        "unsa ang satellite"
+      ],
+      "answer": "A satellite is an object placed into orbit around another body, and the word covers two quite different things that are easy to confuse. A natural satellite is a body that a planet holds, so the Moon is Earth's only natural satellite and the other planets have their own sets. An artificial satellite is a machine put into orbit deliberately, and it stays up because it is continually falling toward the Earth and missing it, which is the clearest way to understand orbit at all: the thing is falling permanently and the curve of its fall keeps matching the curve of the surface. A satellite in low orbit follows the ground closely and is used for imaging and for the constellations that make global positioning work, while one in a higher orbit takes longer to pass over the same point, which is what a communications satellite at about 35,000 km above the equator relies on, because at that height it moves exactly as fast as the Earth turns. A satellite is not free to place just anywhere, since the lower band is crowded with debris from old launches.",
+      "variations": [
+        "A natural satellite is a body that a planet holds, so the Moon is Earth's only natural satellite and the other planets have their own sets. A satellite is an object placed into orbit around another body, and the word covers two quite different things that are easy to confuse. An artificial satellite is a machine put into orbit deliberately, and it stays up because it is continually falling toward the Earth and missing it, which is the clearest way to understand orbit at all: the thing is falling permanently and the curve of its fall keeps matching the curve of the surface. A satellite in low orbit follows the ground closely and is used for imaging and for the constellations that make global positioning work, while one in a higher orbit takes longer to pass over the same point, which is what a communications satellite at about 35,000 km above the equator relies on, because at that height it moves exactly as fast as the Earth turns. A satellite is not free to place just anywhere, since the lower band is crowded with debris from old launches.",
+        "An artificial satellite is a machine put into orbit deliberately, and it stays up because it is continually falling toward the Earth and missing it, which is the clearest way to understand orbit at all: the thing is falling permanently and the curve of its fall keeps matching the curve of the surface. A satellite is an object placed into orbit around another body, and the word covers two quite different things that are easy to confuse. A natural satellite is a body that a planet holds, so the Moon is Earth's only natural satellite and the other planets have their own sets. A satellite in low orbit follows the ground closely and is used for imaging and for the constellations that make global positioning work, while one in a higher orbit takes longer to pass over the same point, which is what a communications satellite at about 35,000 km above the equator relies on, because at that height it moves exactly as fast as the Earth turns. A satellite is not free to place just anywhere, since the lower band is crowded with debris from old launches."
+      ],
+      "tl": "satellite",
+      "bis": "satellite"
+    },
+    {
+      "id": "sci-astronomy-000006",
+      "topic": "science-astronomy",
+      "intent": "definition",
+      "concept": "comet",
+      "keywords": [
+        "comet",
+        "tail",
+        "ice",
+        "nucleus",
+        "orbit",
+        "periodic",
+        "halley",
+        "sublimation",
+        "kometa",
+        "small",
+        "body",
+        "system",
+        "mostly"
+      ],
+      "patterns": [
+        "what is comet",
+        "comet",
+        "explain comet",
+        "definition of comet",
+        "comet meaning",
+        "what is a comet",
+        "why does a comet tail point away from the sun",
+        "what is a periodic comet",
+        "ano ang kometa",
+        "unsa ang comet"
+      ],
+      "answer": "A comet is a small body in the solar system, mostly ice and dust, whose orbit brings it near the Sun at intervals, and the reason it is visible at all is what happens to it there. Far from the Sun the ice stays solid and it is a dark point of light. Approaching, the heat volatilises the ice into gas, and the gas and dust stream off, forming the tail. The tail always points away from the Sun rather than away from the comet, which is counter-intuitive and was one of the first things measured once comet orbits were understood well enough. That is the clue to what the tail is: it is matter being blown off, not a streak left behind as the comet travels. A comet has been called a dirty snowball for that reason, and the solid centre, the nucleus, is only a few kilometres across. Famous ones such as Halley's have orbits measured in decades or longer, so the same one returning on a schedule is a periodic comet.",
+      "variations": [
+        "Far from the Sun the ice stays solid and it is a dark point of light. A comet is a small body in the solar system, mostly ice and dust, whose orbit brings it near the Sun at intervals, and the reason it is visible at all is what happens to it there. Approaching, the heat volatilises the ice into gas, and the gas and dust stream off, forming the tail. The tail always points away from the Sun rather than away from the comet, which is counter-intuitive and was one of the first things measured once comet orbits were understood well enough. That is the clue to what the tail is: it is matter being blown off, not a streak left behind as the comet travels. A comet has been called a dirty snowball for that reason, and the solid centre, the nucleus, is only a few kilometres across. Famous ones such as Halley's have orbits measured in decades or longer, so the same one returning on a schedule is a periodic comet.",
+        "Approaching, the heat volatilises the ice into gas, and the gas and dust stream off, forming the tail. A comet is a small body in the solar system, mostly ice and dust, whose orbit brings it near the Sun at intervals, and the reason it is visible at all is what happens to it there. Far from the Sun the ice stays solid and it is a dark point of light. The tail always points away from the Sun rather than away from the comet, which is counter-intuitive and was one of the first things measured once comet orbits were understood well enough. That is the clue to what the tail is: it is matter being blown off, not a streak left behind as the comet travels. A comet has been called a dirty snowball for that reason, and the solid centre, the nucleus, is only a few kilometres across. Famous ones such as Halley's have orbits measured in decades or longer, so the same one returning on a schedule is a periodic comet."
+      ],
+      "tl": "kometa",
+      "bis": "comet"
+    },
+    {
+      "id": "sci-astronomy-000007",
+      "topic": "science-astronomy",
+      "intent": "definition",
+      "concept": "solar flare",
+      "keywords": [
+        "solar flare",
+        "sunspot",
+        "aurora",
+        "flare",
+        "sudden",
+        "violent",
+        "release",
+        "magnetic"
+      ],
+      "patterns": [
+        "what is solar flare",
+        "solar flare",
+        "explain solar flare",
+        "definition of solar flare",
+        "solar flare meaning",
+        "what is a solar flare",
+        "what is a coronal mass ejection",
+        "can a solar flare reach earth",
+        "ano ang solar flare",
+        "unsa ang solar flare"
+      ],
+      "answer": "A solar flare is a sudden, violent release of magnetic energy in the Sun's atmosphere that releases electromagnetic radiation across the whole spectrum, from radio waves to X-rays, and it happens in minutes rather than hours. The mechanism is magnetic reconnection, where twisted field lines suddenly untwist and release the energy that was stored in them, and the active regions where it occurs are the sunspot groups. Near the Earth the radiation arrives in about eight minutes, so a flare is visible as soon as it happens, while the material it throws out travels more slowly and takes a day or more to arrive, which is why the two events are described separately. The practical consequences fall into three kinds: radio blackouts for radio navigation and shortwave near the daylight side, radiation storms that polar aurora reach down towards mid latitudes, and a danger to astronauts and to satellites in low orbit who need shelter or a warning. A flare is a different phenomenon from a coronal mass ejection, which is the slower and much larger ejection of gas, and the confusion is common because a powerful active region produces both.",
+      "variations": [
+        "The mechanism is magnetic reconnection, where twisted field lines suddenly untwist and release the energy that was stored in them, and the active regions where it occurs are the sunspot groups. A solar flare is a sudden, violent release of magnetic energy in the Sun's atmosphere that releases electromagnetic radiation across the whole spectrum, from radio waves to X-rays, and it happens in minutes rather than hours. Near the Earth the radiation arrives in about eight minutes, so a flare is visible as soon as it happens, while the material it throws out travels more slowly and takes a day or more to arrive, which is why the two events are described separately. The practical consequences fall into three kinds: radio blackouts for radio navigation and shortwave near the daylight side, radiation storms that polar aurora reach down towards mid latitudes, and a danger to astronauts and to satellites in low orbit who need shelter or a warning. A flare is a different phenomenon from a coronal mass ejection, which is the slower and much larger ejection of gas, and the confusion is common because a powerful active region produces both.",
+        "Near the Earth the radiation arrives in about eight minutes, so a flare is visible as soon as it happens, while the material it throws out travels more slowly and takes a day or more to arrive, which is why the two events are described separately. A solar flare is a sudden, violent release of magnetic energy in the Sun's atmosphere that releases electromagnetic radiation across the whole spectrum, from radio waves to X-rays, and it happens in minutes rather than hours. The mechanism is magnetic reconnection, where twisted field lines suddenly untwist and release the energy that was stored in them, and the active regions where it occurs are the sunspot groups. The practical consequences fall into three kinds: radio blackouts for radio navigation and shortwave near the daylight side, radiation storms that polar aurora reach down towards mid latitudes, and a danger to astronauts and to satellites in low orbit who need shelter or a warning. A flare is a different phenomenon from a coronal mass ejection, which is the slower and much larger ejection of gas, and the confusion is common because a powerful active region produces both."
+      ],
+      "tl": "solar flare",
+      "bis": "solar flare"
+    },
+    {
+      "id": "sci-astronomy-000008",
+      "topic": "science-astronomy",
+      "intent": "definition",
+      "concept": "black hole",
+      "keywords": [
+        "black hole",
+        "singularity",
+        "gravitational",
+        "collapse",
+        "spacetime",
+        "accretion",
+        "einstein",
+        "black",
+        "hole",
+        "region",
+        "space",
+        "gravity",
+        "strong"
+      ],
+      "patterns": [
+        "what is black hole",
+        "black hole",
+        "explain black hole",
+        "definition of black hole",
+        "black hole meaning",
+        "what is a black hole",
+        "what is an event horizon",
+        "can you escape a black hole",
+        "ano ang black hole",
+        "unsa ang black hole"
+      ],
+      "answer": "A black hole is a region of space whose gravity is strong enough that nothing, including light, can escape it, and it is what remains when a very massive star collapses at the end of its life. It is not a solid object: it has no surface, and the boundary called the event horizon is a mathematical point in space beyond which every possible path leads inward, which is why it looks like an absence rather than a thing. The defining observation is that a supermassive black hole at the centre of a galaxy bends light so strongly that it can be detected indirectly, and when material falls in it heats up and radiates, which is what makes active galactic centres so bright. If you were falling in, from outside, you would cross the horizon without noticing anything unusual and only later notice that light from outside can no longer reach you. The prediction came from Einstein's general relativity in 1915 and the first direct image was published in 2019.",
+      "variations": [
+        "It is not a solid object: it has no surface, and the boundary called the event horizon is a mathematical point in space beyond which every possible path leads inward, which is why it looks like an absence rather than a thing. A black hole is a region of space whose gravity is strong enough that nothing, including light, can escape it, and it is what remains when a very massive star collapses at the end of its life. The defining observation is that a supermassive black hole at the centre of a galaxy bends light so strongly that it can be detected indirectly, and when material falls in it heats up and radiates, which is what makes active galactic centres so bright. If you were falling in, from outside, you would cross the horizon without noticing anything unusual and only later notice that light from outside can no longer reach you. The prediction came from Einstein's general relativity in 1915 and the first direct image was published in 2019.",
+        "The defining observation is that a supermassive black hole at the centre of a galaxy bends light so strongly that it can be detected indirectly, and when material falls in it heats up and radiates, which is what makes active galactic centres so bright. A black hole is a region of space whose gravity is strong enough that nothing, including light, can escape it, and it is what remains when a very massive star collapses at the end of its life. It is not a solid object: it has no surface, and the boundary called the event horizon is a mathematical point in space beyond which every possible path leads inward, which is why it looks like an absence rather than a thing. If you were falling in, from outside, you would cross the horizon without noticing anything unusual and only later notice that light from outside can no longer reach you. The prediction came from Einstein's general relativity in 1915 and the first direct image was published in 2019."
+      ],
+      "tl": "black hole",
+      "bis": "black hole"
+    }
+  ],
+  "lang": "english",
+  "group": "science",
+  "sub": "astronomy",
+  "title": "Astronomy",
+  "groupTitle": "Science"
+}

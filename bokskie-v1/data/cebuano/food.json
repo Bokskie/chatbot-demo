@@ -1,0 +1,224 @@
+{
+  "topic": "cebuano-food",
+  "entries": [
+    {
+      "id": "ceb-food-000001",
+      "topic": "cebuano-food",
+      "intent": "definition",
+      "concept": "pagkain",
+      "keywords": [
+        "pagkain",
+        "pagkaon",
+        "kaon",
+        "butang",
+        "lawas",
+        "tanom",
+        "gi-inom",
+        "tanan",
+        "inom"
+      ],
+      "patterns": [
+        "what is pagkain",
+        "pagkain",
+        "explain pagkain",
+        "definition of pagkain",
+        "pagkain meaning",
+        "unsa ang pagkain",
+        "ibig sabihin ng pagkain",
+        "unsa ang lawas",
+        "ano ang pagkain",
+        "unsa ang pagkaon"
+      ],
+      "answer": "Ang pagkain mao ang tanan nga gikan sa lawas o sa tanom nga gi-inom o gi-eat. Sa Bisaya, ang \"pagkaon\" nga pulong mao ang tanan, nga mao usab nga ang nga butang sa palay. Tungod kay nga, ang pagkain usa nga konsepto nga duha ka pulong: ang butang, ug ang pagkaon.",
+      "variations": [
+        "Sa Bisaya, ang \"pagkaon\" nga pulong mao ang tanan, nga mao usab nga ang nga butang sa palay. Ang pagkain mao ang tanan nga gikan sa lawas o sa tanom nga gi-inom o gi-eat. Tungod kay nga, ang pagkain usa nga konsepto nga duha ka pulong: ang butang, ug ang pagkaon.",
+        "Tungod kay nga, ang pagkain usa nga konsepto nga duha ka pulong: ang butang, ug ang pagkaon. Ang pagkain mao ang tanan nga gikan sa lawas o sa tanom nga gi-inom o gi-eat. Sa Bisaya, ang \"pagkaon\" nga pulong mao ang tanan, nga mao usab nga ang nga butang sa palay."
+      ],
+      "tl": "pagkain",
+      "bis": "pagkaon"
+    },
+    {
+      "id": "ceb-food-000002",
+      "topic": "cebuano-food",
+      "intent": "definition",
+      "concept": "tubig",
+      "keywords": [
+        "tubig",
+        "water",
+        "katuigan",
+        "mainit",
+        "inom",
+        "labaw",
+        "niini"
+      ],
+      "patterns": [
+        "what is tubig",
+        "tubig",
+        "explain tubig",
+        "definition of tubig",
+        "tubig meaning",
+        "unsa ang tubig",
+        "ibig sabihin ng tubig",
+        "tubig o mainit",
+        "ano ang tubig",
+        "unsa ang tubig"
+      ],
+      "answer": "Ang tubig mao ang nga gikan sa katuigan, nga mao ang labaw pa sa tubig nga gi-inom. Mao niini nga tubig, nga pipila nga tubig nga dili. Sa Cebuano, ang \"mainit nga tubig\" mao ang tubig nga naa sanag, nga ang \"hot water\" sa English, nga dili ang tubig nga init.",
+      "variations": [
+        "Mao niini nga tubig, nga pipila nga tubig nga dili. Ang tubig mao ang nga gikan sa katuigan, nga mao ang labaw pa sa tubig nga gi-inom. Sa Cebuano, ang \"mainit nga tubig\" mao ang tubig nga naa sanag, nga ang \"hot water\" sa English, nga dili ang tubig nga init.",
+        "Sa Cebuano, ang \"mainit nga tubig\" mao ang tubig nga naa sanag, nga ang \"hot water\" sa English, nga dili ang tubig nga init. Ang tubig mao ang nga gikan sa katuigan, nga mao ang labaw pa sa tubig nga gi-inom. Mao niini nga tubig, nga pipila nga tubig nga dili."
+      ],
+      "tl": "tubig",
+      "bis": "tubig"
+    },
+    {
+      "id": "ceb-food-000003",
+      "topic": "cebuano-food",
+      "intent": "definition",
+      "concept": "kanin",
+      "keywords": [
+        "kanin",
+        "rice",
+        "bigas",
+        "sinangag",
+        "hilaw",
+        "tubtob",
+        "hinugma",
+        "staple",
+        "filipino",
+        "tinibuk"
+      ],
+      "patterns": [
+        "what is kanin",
+        "kanin",
+        "explain kanin",
+        "definition of kanin",
+        "kanin meaning",
+        "unsa ang kanin",
+        "unsa ang sinangag",
+        "ibig sabihin ng kanin",
+        "ano ang bigas",
+        "unsa ang kanin"
+      ],
+      "answer": "Ang kanin mao ang hinugma nga bigas, nga staple sa Filipino. Ang tinibuk-ang kanin, ang hilaw, nga usa pa nga kanin, apan ang \"sinangag\" ang pulong nga kanin nga gi-tubtob. Ang \"puso\" o ang \"odang\" mao ang labaw sa kanin, nga mao usab kaayo nga hinugma.",
+      "variations": [
+        "Ang tinibuk-ang kanin, ang hilaw, nga usa pa nga kanin, apan ang \"sinangag\" ang pulong nga kanin nga gi-tubtob. Ang kanin mao ang hinugma nga bigas, nga staple sa Filipino. Ang \"puso\" o ang \"odang\" mao ang labaw sa kanin, nga mao usab kaayo nga hinugma.",
+        "Ang \"puso\" o ang \"odang\" mao ang labaw sa kanin, nga mao usab kaayo nga hinugma. Ang kanin mao ang hinugma nga bigas, nga staple sa Filipino. Ang tinibuk-ang kanin, ang hilaw, nga usa pa nga kanin, apan ang \"sinangag\" ang pulong nga kanin nga gi-tubtob."
+      ],
+      "tl": "bigas",
+      "bis": "kanin"
+    },
+    {
+      "id": "ceb-food-000004",
+      "topic": "cebuano-food",
+      "intent": "definition",
+      "concept": "karne",
+      "keywords": [
+        "karne",
+        "meat",
+        "manok",
+        "baboy",
+        "baka",
+        "hubog",
+        "lawas",
+        "hayop",
+        "cock"
+      ],
+      "patterns": [
+        "what is karne",
+        "karne",
+        "explain karne",
+        "definition of karne",
+        "karne meaning",
+        "unsa ang karne",
+        "unsa ang hubog",
+        "ibig sabihin ng karne",
+        "ano ang karne",
+        "unsa ang karne"
+      ],
+      "answer": "Ang karne mao ang lawas sa hayop nga gi-cock: manok, baboy, baka, karnero. Sa Cebuano, ang \"karne\" usab nga mao ang mga ulo ug pa-e, nga usa lang kaayo nga pulong, kay wala nga lahi. Ang hubog nga karne, ang karne nga hinugma, ang karne nga.nanindigan: tulo ka lahi nga paagi sa paghahawok.",
+      "variations": [
+        "Sa Cebuano, ang \"karne\" usab nga mao ang mga ulo ug pa-e, nga usa lang kaayo nga pulong, kay wala nga lahi. Ang karne mao ang lawas sa hayop nga gi-cock: manok, baboy, baka, karnero. nanindigan: tulo ka lahi nga paagi sa paghahawok.",
+        "nanindigan: tulo ka lahi nga paagi sa paghahawok. Ang karne mao ang lawas sa hayop nga gi-cock: manok, baboy, baka, karnero. Sa Cebuano, ang \"karne\" usab nga mao ang mga ulo ug pa-e, nga usa lang kaayo nga pulong, kay wala nga lahi."
+      ],
+      "tl": "karne",
+      "bis": "karne"
+    },
+    {
+      "id": "ceb-food-000005",
+      "topic": "cebuano-food",
+      "intent": "definition",
+      "concept": "nanindigan",
+      "keywords": [
+        "nanindigan",
+        "sinindigan",
+        "handay",
+        "kalamay",
+        "nasuba",
+        "earn",
+        "hinindigan",
+        "kinuha"
+      ],
+      "patterns": [
+        "what is nanindigan",
+        "nanindigan",
+        "explain nanindigan",
+        "definition of nanindigan",
+        "nanindigan meaning",
+        "unsa ang nanindigan",
+        "nanindigan o sinindigan",
+        "unsa ang nanindigang karne",
+        "ano ang hinindigan",
+        "unsa ang nanindigan"
+      ],
+      "answer": "Ang nanindigan mao ang handay: kinuha gikan sa kalamay, gikan sa nasuba o sa linihis, nga gikan usab nga dili na raw nga hinatabo. Sa Cebuano, ang \"nanindigan\" mao usab kaayo nga pulong sa Bisaya, nga ang \"sinindigan\". Mao man gyud na konsepto sa: something you earn.",
+      "variations": [
+        "Sa Cebuano, ang \"nanindigan\" mao usab kaayo nga pulong sa Bisaya, nga ang \"sinindigan\". Ang nanindigan mao ang handay: kinuha gikan sa kalamay, gikan sa nasuba o sa linihis, nga gikan usab nga dili na raw nga hinatabo. Mao man gyud na konsepto sa: something you earn.",
+        "Mao man gyud na konsepto sa: something you earn. Ang nanindigan mao ang handay: kinuha gikan sa kalamay, gikan sa nasuba o sa linihis, nga gikan usab nga dili na raw nga hinatabo. Sa Cebuano, ang \"nanindigan\" mao usab kaayo nga pulong sa Bisaya, nga ang \"sinindigan\"."
+      ],
+      "tl": "hinindigan",
+      "bis": "nanindigan"
+    },
+    {
+      "id": "ceb-food-000006",
+      "topic": "cebuano-food",
+      "intent": "definition",
+      "concept": "gikan",
+      "keywords": [
+        "gikan",
+        "from",
+        "naggikan",
+        "panahon",
+        "lugar",
+        "mula",
+        "usab",
+        "konsepto",
+        "tawo"
+      ],
+      "patterns": [
+        "what is gikan",
+        "gikan",
+        "explain gikan",
+        "definition of gikan",
+        "gikan meaning",
+        "unsa ang gikan",
+        "gikan o naggikan",
+        "ibig sabihin ng gikan",
+        "ano ang mula",
+        "unsa ang gikan"
+      ],
+      "answer": "Ang \"gikan\" mao ang usab nga konsepto: ang gikan sa usa ka lugar, ang gikan sa usa ka panahon, ang gikan sa usa ka tawo. Sa Cebuano, naa usab kaayo nga pulong: ang hinugma, ang gikan nga, ang naggikan. Mao nga ang pinaka-sulit nga pulong sa Cebuano, nga usa ka konsepto nga naa sa pipila nga liha.",
+      "variations": [
+        "Sa Cebuano, naa usab kaayo nga pulong: ang hinugma, ang gikan nga, ang naggikan. Ang \"gikan\" mao ang usab nga konsepto: ang gikan sa usa ka lugar, ang gikan sa usa ka panahon, ang gikan sa usa ka tawo. Mao nga ang pinaka-sulit nga pulong sa Cebuano, nga usa ka konsepto nga naa sa pipila nga liha.",
+        "Mao nga ang pinaka-sulit nga pulong sa Cebuano, nga usa ka konsepto nga naa sa pipila nga liha. Ang \"gikan\" mao ang usab nga konsepto: ang gikan sa usa ka lugar, ang gikan sa usa ka panahon, ang gikan sa usa ka tawo. Sa Cebuano, naa usab kaayo nga pulong: ang hinugma, ang gikan nga, ang naggikan."
+      ],
+      "tl": "mula",
+      "bis": "gikan"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "food",
+  "title": "Food",
+  "groupTitle": "Cebuano"
+}

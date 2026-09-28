@@ -1,0 +1,47 @@
+{
+  "topic": "cebuano-everyday-bisaya-conversations",
+  "entries": [
+    {
+      "id": "ceb-everyday-bisaya-conversations-000001",
+      "topic": "cebuano-everyday-bisaya-conversations",
+      "intent": "definition",
+      "concept": "unsa man",
+      "keywords": [
+        "unsa man",
+        "question",
+        "softening",
+        "particle",
+        "opener",
+        "conversational",
+        "unsa",
+        "common",
+        "cebuano",
+        "easy",
+        "miss"
+      ],
+      "patterns": [
+        "what is unsa man",
+        "unsa man",
+        "explain unsa man",
+        "definition of unsa man",
+        "unsa man meaning",
+        "unsaon nga mo gamit ang unsa man",
+        "what does man mean in bisaya",
+        "ano ang ano man",
+        "unsa ang unsa man"
+      ],
+      "answer": "Unsa man is a very common Cebuano question, and the man at the end is the part that is easy to miss, because it is not a separate word but a softening particle. Unsa alone asks what in a blunt way, and unsa man asks the same question in an ordinary conversational tone, and the two differ only in that one syllable. It is used both for a real question, as in unsa man ka, and as a general opener, where it means something like so or well, and a learner who translates it literally as what indeed will sometimes be right and sometimes not. The same particle works with other question words, so asa man asks where in a friendly way and kinsa man asks who, and a speaker who leaves it off by accident sounds impatient rather than wrong. It is one of the most useful things a learner can pick up, because it is used constantly in ordinary speech and it is never wrong to include it.",
+      "variations": [
+        "Unsa alone asks what in a blunt way, and unsa man asks the same question in an ordinary conversational tone, and the two differ only in that one syllable. Unsa man is a very common Cebuano question, and the man at the end is the part that is easy to miss, because it is not a separate word but a softening particle. It is used both for a real question, as in unsa man ka, and as a general opener, where it means something like so or well, and a learner who translates it literally as what indeed will sometimes be right and sometimes not. The same particle works with other question words, so asa man asks where in a friendly way and kinsa man asks who, and a speaker who leaves it off by accident sounds impatient rather than wrong. It is one of the most useful things a learner can pick up, because it is used constantly in ordinary speech and it is never wrong to include it.",
+        "It is used both for a real question, as in unsa man ka, and as a general opener, where it means something like so or well, and a learner who translates it literally as what indeed will sometimes be right and sometimes not. Unsa man is a very common Cebuano question, and the man at the end is the part that is easy to miss, because it is not a separate word but a softening particle. Unsa alone asks what in a blunt way, and unsa man asks the same question in an ordinary conversational tone, and the two differ only in that one syllable. The same particle works with other question words, so asa man asks where in a friendly way and kinsa man asks who, and a speaker who leaves it off by accident sounds impatient rather than wrong. It is one of the most useful things a learner can pick up, because it is used constantly in ordinary speech and it is never wrong to include it."
+      ],
+      "tl": "ano man",
+      "bis": "unsa man"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "everyday-bisaya-conversations",
+  "title": "Everyday Bisaya conversations",
+  "groupTitle": "Cebuano"
+}

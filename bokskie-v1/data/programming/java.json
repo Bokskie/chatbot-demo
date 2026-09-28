@@ -1,0 +1,194 @@
+{
+  "topic": "programming-java",
+  "entries": [
+    {
+      "id": "pro-java-000001",
+      "topic": "programming-java",
+      "intent": "definition",
+      "concept": "java",
+      "keywords": [
+        "java",
+        "bytecode",
+        "jvm",
+        "platform",
+        "portable",
+        "compiled",
+        "class",
+        "language",
+        "designed",
+        "code"
+      ],
+      "patterns": [
+        "what is java",
+        "java",
+        "explain java",
+        "definition of java",
+        "java meaning",
+        "is java compiled or interpreted",
+        "why is java platform independent",
+        "ano ang Java",
+        "unsa ang Java"
+      ],
+      "answer": "Java is a compiled, class-based language designed so that code written once runs on any machine with a Java Virtual Machine, which is the origin of the phrase write once, run anywhere. Code is compiled to bytecode rather than to machine instructions, so the JVM handles memory, garbage collection and portability, and the same .class file runs unmodified on Windows, Linux or macOS. It is statically typed, meaning every variable has a declared type checked before the program runs, and that is why Java errors about type mistakes at compile time instead of halfway through execution. It is also deliberately slower to start than a language compiled straight to native code, and that trade is the whole bargain: you give up a little speed and get a much smaller class of runtime bugs.",
+      "variations": [
+        "class file runs unmodified on Windows, Linux or macOS. Java is a compiled, class-based language designed so that code written once runs on any machine with a Java Virtual Machine, which is the origin of the phrase write once, run anywhere. It is statically typed, meaning every variable has a declared type checked before the program runs, and that is why Java errors about type mistakes at compile time instead of halfway through execution. It is also deliberately slower to start than a language compiled straight to native code, and that trade is the whole bargain: you give up a little speed and get a much smaller class of runtime bugs.",
+        "It is statically typed, meaning every variable has a declared type checked before the program runs, and that is why Java errors about type mistakes at compile time instead of halfway through execution. Java is a compiled, class-based language designed so that code written once runs on any machine with a Java Virtual Machine, which is the origin of the phrase write once, run anywhere. class file runs unmodified on Windows, Linux or macOS. It is also deliberately slower to start than a language compiled straight to native code, and that trade is the whole bargain: you give up a little speed and get a much smaller class of runtime bugs."
+      ],
+      "tl": "Java",
+      "bis": "Java"
+    },
+    {
+      "id": "pro-java-000002",
+      "topic": "programming-java",
+      "intent": "definition",
+      "concept": "jvm",
+      "keywords": [
+        "jvm",
+        "heap",
+        "java",
+        "virtual",
+        "machine",
+        "runtime",
+        "actually",
+        "executes"
+      ],
+      "patterns": [
+        "what is jvm",
+        "jvm",
+        "explain jvm",
+        "definition of jvm",
+        "jvm meaning",
+        "what is the jvm",
+        "how does java run on different operating systems",
+        "what does the jvm do",
+        "ano ang JVM",
+        "unsa ang JVM"
+      ],
+      "answer": "The Java Virtual Machine is the runtime that actually executes Java bytecode, and it sits between your compiled .class files and the operating system. When the JVM starts it verifies the bytecode for safety, allocates memory, resolves references to classes on demand, and hands the result to the processor through a just-in-time compiler that turns hot methods into native code while the program runs. That just-in-time step is why Java performance approaches compiled languages after the program has been running for a while, and why a short script pays a startup cost that a long-running service does not. Each operating system ships its own JVM build, which is exactly how one bytecode file can execute everywhere.",
+      "variations": [
+        "When the JVM starts it verifies the bytecode for safety, allocates memory, resolves references to classes on demand, and hands the result to the processor through a just-in-time compiler that turns hot methods into native code while the program runs. class files and the operating system. That just-in-time step is why Java performance approaches compiled languages after the program has been running for a while, and why a short script pays a startup cost that a long-running service does not. Each operating system ships its own JVM build, which is exactly how one bytecode file can execute everywhere.",
+        "That just-in-time step is why Java performance approaches compiled languages after the program has been running for a while, and why a short script pays a startup cost that a long-running service does not. class files and the operating system. When the JVM starts it verifies the bytecode for safety, allocates memory, resolves references to classes on demand, and hands the result to the processor through a just-in-time compiler that turns hot methods into native code while the program runs. Each operating system ships its own JVM build, which is exactly how one bytecode file can execute everywhere."
+      ],
+      "tl": "JVM",
+      "bis": "JVM"
+    },
+    {
+      "id": "pro-java-000003",
+      "topic": "programming-java",
+      "intent": "definition",
+      "concept": "garbage collection",
+      "keywords": [
+        "garbage collection",
+        "memory",
+        "reachability",
+        "heap",
+        "reference",
+        "leak",
+        "generation",
+        "garbage",
+        "collection",
+        "automatic",
+        "reclamation",
+        "running"
+      ],
+      "patterns": [
+        "what is garbage collection",
+        "garbage collection",
+        "explain garbage collection",
+        "definition of garbage collection",
+        "garbage collection meaning",
+        "how does garbage collection work",
+        "what causes a memory leak",
+        "does java have memory problems",
+        "ano ang garbage collection",
+        "unsa ang memory management"
+      ],
+      "answer": "Garbage collection is the automatic reclamation of memory that a running program no longer needs, and it removes an entire class of bug in which a program forgets to release memory it has finished with. The collector watches which objects are still reachable from variables and stack frames, and anything unreachable becomes eligible for reclamation; if a reference still points at an object nobody else can see, that object is never collected, which is a memory leak even though the collector is running correctly. Modern collectors such as those in Java and Go split the heap into generations so that most short-lived objects, which are the majority, are reclaimed cheaply in a young space and never incur the cost of a full collection. The practical consequence is that you stop thinking about free and reallocating memory during ordinary application logic, and the remaining leak in Java is almost always an accidentally retained reference rather than a forgotten free.",
+      "variations": [
+        "The collector watches which objects are still reachable from variables and stack frames, and anything unreachable becomes eligible for reclamation; if a reference still points at an object nobody else can see, that object is never collected, which is a memory leak even though the collector is running correctly. Garbage collection is the automatic reclamation of memory that a running program no longer needs, and it removes an entire class of bug in which a program forgets to release memory it has finished with. Modern collectors such as those in Java and Go split the heap into generations so that most short-lived objects, which are the majority, are reclaimed cheaply in a young space and never incur the cost of a full collection. The practical consequence is that you stop thinking about free and reallocating memory during ordinary application logic, and the remaining leak in Java is almost always an accidentally retained reference rather than a forgotten free.",
+        "Modern collectors such as those in Java and Go split the heap into generations so that most short-lived objects, which are the majority, are reclaimed cheaply in a young space and never incur the cost of a full collection. Garbage collection is the automatic reclamation of memory that a running program no longer needs, and it removes an entire class of bug in which a program forgets to release memory it has finished with. The collector watches which objects are still reachable from variables and stack frames, and anything unreachable becomes eligible for reclamation; if a reference still points at an object nobody else can see, that object is never collected, which is a memory leak even though the collector is running correctly. The practical consequence is that you stop thinking about free and reallocating memory during ordinary application logic, and the remaining leak in Java is almost always an accidentally retained reference rather than a forgotten free."
+      ],
+      "tl": "garbage collection",
+      "bis": "memory management"
+    },
+    {
+      "id": "pro-java-000004",
+      "topic": "programming-java",
+      "intent": "definition",
+      "concept": "exception handling",
+      "keywords": [
+        "exception handling",
+        "try",
+        "catch",
+        "finally",
+        "throw",
+        "exception",
+        "handling",
+        "java",
+        "structured",
+        "dealing",
+        "failure"
+      ],
+      "patterns": [
+        "what is exception handling",
+        "exception handling",
+        "explain exception handling",
+        "definition of exception handling",
+        "exception handling meaning",
+        "difference between checked and unchecked exceptions",
+        "how do try catch work",
+        "ano ang exception handling",
+        "unsa ang exception handling"
+      ],
+      "answer": "Exception handling in Java is a structured way of dealing with failure: code that might fail is wrapped in a try block, and the catch clauses that follow decide what to do about each type of failure, while finally runs regardless of outcome. Exceptions represent abnormal conditions and are objects, which means they can carry a message and a stack trace and can be thrown across method boundaries without every intermediate method having to know anything about them. A checked exception must be declared or handled, which forces the author to think about failure at every call site, and an unchecked runtime exception such as a null pointer reference signals a genuine programming mistake rather than an expected condition. The common criticism is that catch blocks that print and continue are worse than crashing, because they hide the fault and leave the program in an undefined state.",
+      "variations": [
+        "Exceptions represent abnormal conditions and are objects, which means they can carry a message and a stack trace and can be thrown across method boundaries without every intermediate method having to know anything about them. Exception handling in Java is a structured way of dealing with failure: code that might fail is wrapped in a try block, and the catch clauses that follow decide what to do about each type of failure, while finally runs regardless of outcome. A checked exception must be declared or handled, which forces the author to think about failure at every call site, and an unchecked runtime exception such as a null pointer reference signals a genuine programming mistake rather than an expected condition. The common criticism is that catch blocks that print and continue are worse than crashing, because they hide the fault and leave the program in an undefined state.",
+        "A checked exception must be declared or handled, which forces the author to think about failure at every call site, and an unchecked runtime exception such as a null pointer reference signals a genuine programming mistake rather than an expected condition. Exception handling in Java is a structured way of dealing with failure: code that might fail is wrapped in a try block, and the catch clauses that follow decide what to do about each type of failure, while finally runs regardless of outcome. Exceptions represent abnormal conditions and are objects, which means they can carry a message and a stack trace and can be thrown across method boundaries without every intermediate method having to know anything about them. The common criticism is that catch blocks that print and continue are worse than crashing, because they hide the fault and leave the program in an undefined state."
+      ],
+      "tl": "exception handling",
+      "bis": "exception handling"
+    },
+    {
+      "id": "pro-java-000005",
+      "topic": "programming-java",
+      "intent": "definition",
+      "concept": "maven",
+      "keywords": [
+        "maven",
+        "pom",
+        "dependency",
+        "repository",
+        "lifecycle",
+        "artifact",
+        "jar",
+        "build",
+        "management",
+        "tool",
+        "java"
+      ],
+      "patterns": [
+        "what is maven",
+        "maven",
+        "explain maven",
+        "definition of maven",
+        "maven meaning",
+        "what is pom xml",
+        "is maven better than gradle",
+        "ano ang Maven",
+        "unsa ang Maven"
+      ],
+      "answer": "Maven is a build and dependency management tool for Java, and its central idea is a pom.xml file that declares what a project depends on rather than shipping libraries alongside the source. When you declare a dependency, Maven resolves the version, downloads it and every library it needs into a local repository, and the versions of transitive dependencies are reconciled by mediation rules so that a whole project ends up with one consistent tree. Its lifecycle is a fixed sequence of phases and by convention the artifact name and version carry the coordinates that other projects use to depend on this one. The practical reason it exists is that a project with thirty jars on the classpath is impossible to reproduce by hand, and Maven replaced that with one declarative file. Gradle took the opposite approach with a programmable build script, and the real difference is that Maven is configuration while Gradle is code.",
+      "variations": [
+        "When you declare a dependency, Maven resolves the version, downloads it and every library it needs into a local repository, and the versions of transitive dependencies are reconciled by mediation rules so that a whole project ends up with one consistent tree. xml file that declares what a project depends on rather than shipping libraries alongside the source. Its lifecycle is a fixed sequence of phases and by convention the artifact name and version carry the coordinates that other projects use to depend on this one. The practical reason it exists is that a project with thirty jars on the classpath is impossible to reproduce by hand, and Maven replaced that with one declarative file. Gradle took the opposite approach with a programmable build script, and the real difference is that Maven is configuration while Gradle is code.",
+        "Its lifecycle is a fixed sequence of phases and by convention the artifact name and version carry the coordinates that other projects use to depend on this one. xml file that declares what a project depends on rather than shipping libraries alongside the source. When you declare a dependency, Maven resolves the version, downloads it and every library it needs into a local repository, and the versions of transitive dependencies are reconciled by mediation rules so that a whole project ends up with one consistent tree. The practical reason it exists is that a project with thirty jars on the classpath is impossible to reproduce by hand, and Maven replaced that with one declarative file. Gradle took the opposite approach with a programmable build script, and the real difference is that Maven is configuration while Gradle is code."
+      ],
+      "tl": "Maven",
+      "bis": "Maven"
+    }
+  ],
+  "lang": "english",
+  "group": "programming",
+  "sub": "java",
+  "title": "Java",
+  "groupTitle": "Programming"
+}

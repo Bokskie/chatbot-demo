@@ -1,0 +1,45 @@
+{
+  "topic": "filipino-everyday-filipino-conversations",
+  "entries": [
+    {
+      "id": "fil-everyday-filipino-conversations-000001",
+      "topic": "filipino-everyday-filipino-conversations",
+      "intent": "definition",
+      "concept": "salamat",
+      "keywords": [
+        "salamat",
+        "polite",
+        "reply",
+        "filipino",
+        "standard",
+        "thank",
+        "fuller",
+        "acknowledges"
+      ],
+      "patterns": [
+        "what is salamat",
+        "salamat",
+        "explain salamat",
+        "definition of salamat",
+        "salamat meaning",
+        "anong meaning ng salamat",
+        "paano magsalabat ng salamat",
+        "how do you reply to thank you",
+        "ano ang salamat",
+        "unsa ang salamat"
+      ],
+      "answer": "Salamat in Filipino is the standard thank you, and the fuller form acknowledges the specific thing rather than offering a vague thanks, so salamat sa pagtulong mo is thank you for your help. The reply is not a reciprocal thanks, because that implies a further favour being given, and the usual answers are walay ikaw, which literally says I have nothing and means there is no need, or mao gyud kaayo, which does mean you are welcome and is used after a meal. In Filipino the pronoun changes who you are talking to: ka is polite and used to an older person or someone being respected, while kayo is the plural you. A learner who uses kayo to a single elder will sound either too familiar or simply wrong depending on the relationship, so the distinction is worth learning early rather than treating it as optional politeness.",
+      "variations": [
+        "The reply is not a reciprocal thanks, because that implies a further favour being given, and the usual answers are walay ikaw, which literally says I have nothing and means there is no need, or mao gyud kaayo, which does mean you are welcome and is used after a meal. Salamat in Filipino is the standard thank you, and the fuller form acknowledges the specific thing rather than offering a vague thanks, so salamat sa pagtulong mo is thank you for your help. In Filipino the pronoun changes who you are talking to: ka is polite and used to an older person or someone being respected, while kayo is the plural you. A learner who uses kayo to a single elder will sound either too familiar or simply wrong depending on the relationship, so the distinction is worth learning early rather than treating it as optional politeness.",
+        "In Filipino the pronoun changes who you are talking to: ka is polite and used to an older person or someone being respected, while kayo is the plural you. Salamat in Filipino is the standard thank you, and the fuller form acknowledges the specific thing rather than offering a vague thanks, so salamat sa pagtulong mo is thank you for your help. The reply is not a reciprocal thanks, because that implies a further favour being given, and the usual answers are walay ikaw, which literally says I have nothing and means there is no need, or mao gyud kaayo, which does mean you are welcome and is used after a meal. A learner who uses kayo to a single elder will sound either too familiar or simply wrong depending on the relationship, so the distinction is worth learning early rather than treating it as optional politeness."
+      ],
+      "tl": "salamat",
+      "bis": "salamat"
+    }
+  ],
+  "lang": "tagalog",
+  "group": "filipino",
+  "sub": "everyday-filipino-conversations",
+  "title": "Everyday Filipino conversations",
+  "groupTitle": "Filipino"
+}

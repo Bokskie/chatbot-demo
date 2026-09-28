@@ -1,0 +1,656 @@
+{
+  "topic": "programming-everyday-why",
+  "entries": [
+    {
+      "id": "pro-everyday-why-000001",
+      "topic": "programming-everyday-why",
+      "intent": "definition",
+      "concept": "dreaming",
+      "keywords": [
+        "dreaming",
+        "sleep",
+        "brain",
+        "memory",
+        "rem",
+        "image",
+        "paralysis",
+        "meaning",
+        "panaginip",
+        "happens",
+        "particular",
+        "stage"
+      ],
+      "patterns": [
+        "what is dreaming",
+        "dreaming",
+        "explain dreaming",
+        "definition of dreaming",
+        "dreaming meaning",
+        "why do we dream",
+        "what is a dream",
+        "bakit nga nangidream",
+        "ano ang panaginip",
+        "unsa ang panaginip"
+      ],
+      "answer": "Dreaming happens during a particular stage of sleep in which the brain is active and the body is nearly paralysed, and what it is doing is not nothing. The most defensible account is that it is processing, mixing recent experience with existing memory, which is why a dream is usually familiar rather than strange, and why a person who lost a limb in a car crash may dream of it for years. The imagery comes from the same visual processing that waking perception uses, which is why the brain dreams in pictures rather than in words even for people who think in words. The paralysis is a real feature rather than a fault, and it stops the body acting out a dream. Whether the content carries meaning is the part nobody agrees on: a remembered dream can be tied to something going on, but the reliability of that link is low, and a dream is a poor basis for a decision.",
+      "variations": [
+        "The most defensible account is that it is processing, mixing recent experience with existing memory, which is why a dream is usually familiar rather than strange, and why a person who lost a limb in a car crash may dream of it for years. Dreaming happens during a particular stage of sleep in which the brain is active and the body is nearly paralysed, and what it is doing is not nothing. The imagery comes from the same visual processing that waking perception uses, which is why the brain dreams in pictures rather than in words even for people who think in words. The paralysis is a real feature rather than a fault, and it stops the body acting out a dream. Whether the content carries meaning is the part nobody agrees on: a remembered dream can be tied to something going on, but the reliability of that link is low, and a dream is a poor basis for a decision.",
+        "The imagery comes from the same visual processing that waking perception uses, which is why the brain dreams in pictures rather than in words even for people who think in words. Dreaming happens during a particular stage of sleep in which the brain is active and the body is nearly paralysed, and what it is doing is not nothing. The most defensible account is that it is processing, mixing recent experience with existing memory, which is why a dream is usually familiar rather than strange, and why a person who lost a limb in a car crash may dream of it for years. The paralysis is a real feature rather than a fault, and it stops the body acting out a dream. Whether the content carries meaning is the part nobody agrees on: a remembered dream can be tied to something going on, but the reliability of that link is low, and a dream is a poor basis for a decision."
+      ],
+      "tl": "panaginip",
+      "bis": "panaginip"
+    },
+    {
+      "id": "pro-everyday-why-000002",
+      "topic": "programming-everyday-why",
+      "intent": "definition",
+      "concept": "yawning",
+      "keywords": [
+        "yawning",
+        "oxygen",
+        "brain",
+        "cool",
+        "contagious",
+        "mirror",
+        "reflex",
+        "tired",
+        "bobo",
+        "deepens",
+        "intake",
+        "cools"
+      ],
+      "patterns": [
+        "what is yawning",
+        "yawning",
+        "explain yawning",
+        "definition of yawning",
+        "yawning meaning",
+        "why do we yawn",
+        "why is yawning contagious",
+        "bakit nga bobo ako",
+        "ano ang bobo",
+        "unsa ang bobo"
+      ],
+      "answer": "Yawning is the reflex that deepens the intake of oxygen and cools the brain, and the cooling part is the more interesting of the two explanations. The brain generates a lot of heat while thinking, and a yawn draws in a large volume of cooler air, which the blood carries away, and the drop is measurable at the surface of the brain. The other proposed function is arousal: yawning clusters around transitions, so it appears before a stressful or boring task and may be a way of shifting attention. The reason yawning is contagious is that it is one of the few things people mirror automatically, along with flinching, and the mechanism is thought to be a cue for the mirror system rather than a shared feeling. It says more about physiology than about tiredness in any individual case, which is why yawning in a meeting is not reliable evidence that anyone is bored.",
+      "variations": [
+        "The brain generates a lot of heat while thinking, and a yawn draws in a large volume of cooler air, which the blood carries away, and the drop is measurable at the surface of the brain. Yawning is the reflex that deepens the intake of oxygen and cools the brain, and the cooling part is the more interesting of the two explanations. The other proposed function is arousal: yawning clusters around transitions, so it appears before a stressful or boring task and may be a way of shifting attention. The reason yawning is contagious is that it is one of the few things people mirror automatically, along with flinching, and the mechanism is thought to be a cue for the mirror system rather than a shared feeling. It says more about physiology than about tiredness in any individual case, which is why yawning in a meeting is not reliable evidence that anyone is bored.",
+        "The other proposed function is arousal: yawning clusters around transitions, so it appears before a stressful or boring task and may be a way of shifting attention. Yawning is the reflex that deepens the intake of oxygen and cools the brain, and the cooling part is the more interesting of the two explanations. The brain generates a lot of heat while thinking, and a yawn draws in a large volume of cooler air, which the blood carries away, and the drop is measurable at the surface of the brain. The reason yawning is contagious is that it is one of the few things people mirror automatically, along with flinching, and the mechanism is thought to be a cue for the mirror system rather than a shared feeling. It says more about physiology than about tiredness in any individual case, which is why yawning in a meeting is not reliable evidence that anyone is bored."
+      ],
+      "tl": "bobo",
+      "bis": "bobo"
+    },
+    {
+      "id": "pro-everyday-why-000003",
+      "topic": "programming-everyday-why",
+      "intent": "definition",
+      "concept": "blinking",
+      "keywords": [
+        "blinking",
+        "eye",
+        "tears",
+        "wet",
+        "dust",
+        "cornea",
+        "reflex",
+        "dry",
+        "mata",
+        "keeps",
+        "surface",
+        "clear",
+        "several",
+        "jobs"
+      ],
+      "patterns": [
+        "what is blinking",
+        "blinking",
+        "explain blinking",
+        "definition of blinking",
+        "blinking meaning",
+        "why do we blink",
+        "why are my eyes tired",
+        "bakit nga mamiya ako",
+        "ano ang mata",
+        "unsa ang mata"
+      ],
+      "answer": "Blinking keeps the surface of the eye wet and clear, and it does several jobs at once, which is why it is hard to go long without blinking. The eyelids spread tears across the cornea so it stays moist, and that moisture is what the surface cells need in order to survive rather than drying out. They also sweep away dust and grit, which is the part people notice when the eye feels gritty. The reflex is not voluntary in the way a deliberate blink is, and it is driven by drying as much as by anything else, so a screen and a dry room both raise the rate without the person noticing. The average person blinks perhaps ten to twenty times a minute, and the rate falls sharply when the eyes are focused on a screen, which is one reason a long day of screen work leaves the eyes tired rather than strained in any muscular sense.",
+      "variations": [
+        "The eyelids spread tears across the cornea so it stays moist, and that moisture is what the surface cells need in order to survive rather than drying out. Blinking keeps the surface of the eye wet and clear, and it does several jobs at once, which is why it is hard to go long without blinking. They also sweep away dust and grit, which is the part people notice when the eye feels gritty. The reflex is not voluntary in the way a deliberate blink is, and it is driven by drying as much as by anything else, so a screen and a dry room both raise the rate without the person noticing. The average person blinks perhaps ten to twenty times a minute, and the rate falls sharply when the eyes are focused on a screen, which is one reason a long day of screen work leaves the eyes tired rather than strained in any muscular sense.",
+        "They also sweep away dust and grit, which is the part people notice when the eye feels gritty. Blinking keeps the surface of the eye wet and clear, and it does several jobs at once, which is why it is hard to go long without blinking. The eyelids spread tears across the cornea so it stays moist, and that moisture is what the surface cells need in order to survive rather than drying out. The reflex is not voluntary in the way a deliberate blink is, and it is driven by drying as much as by anything else, so a screen and a dry room both raise the rate without the person noticing. The average person blinks perhaps ten to twenty times a minute, and the rate falls sharply when the eyes are focused on a screen, which is one reason a long day of screen work leaves the eyes tired rather than strained in any muscular sense."
+      ],
+      "tl": "mata",
+      "bis": "mata"
+    },
+    {
+      "id": "pro-everyday-why-000004",
+      "topic": "programming-everyday-why",
+      "intent": "definition",
+      "concept": "magnetism",
+      "keywords": [
+        "magnetism",
+        "magnet",
+        "iron",
+        "field",
+        "pole",
+        "attract",
+        "compass",
+        "electron",
+        "attracts",
+        "magnetic",
+        "around"
+      ],
+      "patterns": [
+        "what is magnetism",
+        "magnetism",
+        "explain magnetism",
+        "definition of magnetism",
+        "magnetism meaning",
+        "how do magnets work",
+        "why does a magnet attract iron",
+        "bakit nga humahawak ang magnet",
+        "ano ang magnet",
+        "unsa ang magnet"
+      ],
+      "answer": "A magnet attracts iron because the magnetic field around it is produced by the motion of electric charge, and that is the whole mechanism. In an electron, moving charge means spinning, and the spin of a group of electrons in a material lines up with an external field, so the material develops its own field in the same direction, and a field in the same direction as the original attracts. This is why a magnet attracts iron, nickel and cobalt and does nothing to most other materials, which have their electron spins paired and therefore no net field. The two poles are a feature of the field rather than a pair of separate things, and cutting a magnet in half produces two smaller magnets each with both poles, which is the clearest demonstration that the pole is part of the field shape. The Earth itself has a field from the iron in its core, which is what makes a compass work and which also deflects most of the solar wind.",
+      "variations": [
+        "In an electron, moving charge means spinning, and the spin of a group of electrons in a material lines up with an external field, so the material develops its own field in the same direction, and a field in the same direction as the original attracts. A magnet attracts iron because the magnetic field around it is produced by the motion of electric charge, and that is the whole mechanism. This is why a magnet attracts iron, nickel and cobalt and does nothing to most other materials, which have their electron spins paired and therefore no net field. The two poles are a feature of the field rather than a pair of separate things, and cutting a magnet in half produces two smaller magnets each with both poles, which is the clearest demonstration that the pole is part of the field shape. The Earth itself has a field from the iron in its core, which is what makes a compass work and which also deflects most of the solar wind.",
+        "This is why a magnet attracts iron, nickel and cobalt and does nothing to most other materials, which have their electron spins paired and therefore no net field. A magnet attracts iron because the magnetic field around it is produced by the motion of electric charge, and that is the whole mechanism. In an electron, moving charge means spinning, and the spin of a group of electrons in a material lines up with an external field, so the material develops its own field in the same direction, and a field in the same direction as the original attracts. The two poles are a feature of the field rather than a pair of separate things, and cutting a magnet in half produces two smaller magnets each with both poles, which is the clearest demonstration that the pole is part of the field shape. The Earth itself has a field from the iron in its core, which is what makes a compass work and which also deflects most of the solar wind."
+      ],
+      "tl": "magnet",
+      "bis": "magnet"
+    },
+    {
+      "id": "pro-everyday-why-000005",
+      "topic": "programming-everyday-why",
+      "intent": "definition",
+      "concept": "fire hot",
+      "keywords": [
+        "fire hot",
+        "combustion",
+        "oxid",
+        "fuel",
+        "oxygen",
+        "reaction",
+        "energy",
+        "flame",
+        "sunog",
+        "fire",
+        "chemical",
+        "releases"
+      ],
+      "patterns": [
+        "what is fire hot",
+        "fire hot",
+        "explain fire hot",
+        "definition of fire hot",
+        "fire hot meaning",
+        "why is fire hot",
+        "what is combustion",
+        "bakit nga init ang sunog",
+        "ano ang sunog",
+        "unsa ang sunog"
+      ],
+      "answer": "Fire is hot because combustion is a chemical reaction that releases energy, and the reason the energy appears as heat is that the reaction happens faster than the heat can leave. Fire is a sustained oxidation, meaning fuel combining with oxygen, and the arrangement that matters is a large surface meeting the air over a small area so that heat goes into the fuel rather than into the air. That is the whole reason a candle works and a lump of coal does not: the wick has a high surface to volume ratio and keeps the fuel in contact with fresh air at the point where it is hottest. The heat is the energy of the chemical bonds being rearranged, and the visible flame is light from the excited gas, not the heat at all. A flame is also usefully self-limiting, since it consumes the fuel and the oxygen in its own vicinity and goes out when either runs out.",
+      "variations": [
+        "Fire is a sustained oxidation, meaning fuel combining with oxygen, and the arrangement that matters is a large surface meeting the air over a small area so that heat goes into the fuel rather than into the air. Fire is hot because combustion is a chemical reaction that releases energy, and the reason the energy appears as heat is that the reaction happens faster than the heat can leave. That is the whole reason a candle works and a lump of coal does not: the wick has a high surface to volume ratio and keeps the fuel in contact with fresh air at the point where it is hottest. The heat is the energy of the chemical bonds being rearranged, and the visible flame is light from the excited gas, not the heat at all. A flame is also usefully self-limiting, since it consumes the fuel and the oxygen in its own vicinity and goes out when either runs out.",
+        "That is the whole reason a candle works and a lump of coal does not: the wick has a high surface to volume ratio and keeps the fuel in contact with fresh air at the point where it is hottest. Fire is hot because combustion is a chemical reaction that releases energy, and the reason the energy appears as heat is that the reaction happens faster than the heat can leave. Fire is a sustained oxidation, meaning fuel combining with oxygen, and the arrangement that matters is a large surface meeting the air over a small area so that heat goes into the fuel rather than into the air. The heat is the energy of the chemical bonds being rearranged, and the visible flame is light from the excited gas, not the heat at all. A flame is also usefully self-limiting, since it consumes the fuel and the oxygen in its own vicinity and goes out when either runs out."
+      ],
+      "tl": "sunog",
+      "bis": "sunog"
+    },
+    {
+      "id": "pro-everyday-why-000006",
+      "topic": "programming-everyday-why",
+      "intent": "definition",
+      "concept": "green grass",
+      "keywords": [
+        "green grass",
+        "chlorophyll",
+        "absorb",
+        "reflect",
+        "light",
+        "leaf",
+        "yellow",
+        "photosynthesis",
+        "damo",
+        "grass",
+        "green",
+        "built"
+      ],
+      "patterns": [
+        "what is green grass",
+        "green grass",
+        "explain green grass",
+        "definition of green grass",
+        "green grass meaning",
+        "why is grass green",
+        "why are leaves green",
+        "bakit nga green ang damo",
+        "ano ang damo",
+        "unsa ang damo"
+      ],
+      "answer": "Grass is green because chlorophyll is built to absorb light rather than to look green, which is the whole explanation and the thing that surprises people. A green pigment looks green because it reflects green light back and takes the red and blue instead, and that arrangement is a chemical solution to a physical problem: a plant has to catch the energy in sunlight, and the most efficient way is to absorb as much of it as possible. It absorbs best in the blue and red ends of the spectrum, which is where sunlight carries most of its power, and what is left over to be reflected is the middle. The colour is not decorative at all, and the argument runs the other way too: a plant with no chlorophyll would be starved of energy, which is why the leaves of a plant deprived of light turn yellow.",
+      "variations": [
+        "A green pigment looks green because it reflects green light back and takes the red and blue instead, and that arrangement is a chemical solution to a physical problem: a plant has to catch the energy in sunlight, and the most efficient way is to absorb as much of it as possible. Grass is green because chlorophyll is built to absorb light rather than to look green, which is the whole explanation and the thing that surprises people. It absorbs best in the blue and red ends of the spectrum, which is where sunlight carries most of its power, and what is left over to be reflected is the middle. The colour is not decorative at all, and the argument runs the other way too: a plant with no chlorophyll would be starved of energy, which is why the leaves of a plant deprived of light turn yellow.",
+        "It absorbs best in the blue and red ends of the spectrum, which is where sunlight carries most of its power, and what is left over to be reflected is the middle. Grass is green because chlorophyll is built to absorb light rather than to look green, which is the whole explanation and the thing that surprises people. A green pigment looks green because it reflects green light back and takes the red and blue instead, and that arrangement is a chemical solution to a physical problem: a plant has to catch the energy in sunlight, and the most efficient way is to absorb as much of it as possible. The colour is not decorative at all, and the argument runs the other way too: a plant with no chlorophyll would be starved of energy, which is why the leaves of a plant deprived of light turn yellow."
+      ],
+      "tl": "damo",
+      "bis": "damo"
+    },
+    {
+      "id": "pro-everyday-why-000007",
+      "topic": "programming-everyday-why",
+      "intent": "definition",
+      "concept": "moon round",
+      "keywords": [
+        "moon round",
+        "phase",
+        "orbit",
+        "sphere",
+        "full",
+        "quarter",
+        "light",
+        "revolve",
+        "round",
+        "bulan",
+        "moon",
+        "looks",
+        "surprises",
+        "people",
+        "time"
+      ],
+      "patterns": [
+        "what is moon round",
+        "moon round",
+        "explain moon round",
+        "definition of moon round",
+        "moon round meaning",
+        "why is the moon round",
+        "what are the moon phases",
+        "why does the moon look full",
+        "ano ang bulan",
+        "unsa ang bulan"
+      ],
+      "answer": "The Moon looks round because it is round, and the part that surprises people is that it is round all the time. What changes is how much of the lit half faces the Earth, and the phases are a viewing geometry rather than anything happening to the Moon. At new Moon the lit side faces away from us, at first quarter we see half, at full the lit side faces us directly, and at last quarter the other half. Because the Moon orbits once every 27 days while Earth travels round the Sun, the cycle from one full Moon to the next is about 29 and a half days, which is why the phases do not line up exactly with a calendar month. The shape is a sphere rather than a disc because it formed from the same material as the rest of the solar system, and the near side keeps facing us because the Moon rotates once per orbit, which is a coincidence worth noticing and not a requirement of the physics.",
+      "variations": [
+        "What changes is how much of the lit half faces the Earth, and the phases are a viewing geometry rather than anything happening to the Moon. The Moon looks round because it is round, and the part that surprises people is that it is round all the time. At new Moon the lit side faces away from us, at first quarter we see half, at full the lit side faces us directly, and at last quarter the other half. Because the Moon orbits once every 27 days while Earth travels round the Sun, the cycle from one full Moon to the next is about 29 and a half days, which is why the phases do not line up exactly with a calendar month. The shape is a sphere rather than a disc because it formed from the same material as the rest of the solar system, and the near side keeps facing us because the Moon rotates once per orbit, which is a coincidence worth noticing and not a requirement of the physics.",
+        "At new Moon the lit side faces away from us, at first quarter we see half, at full the lit side faces us directly, and at last quarter the other half. The Moon looks round because it is round, and the part that surprises people is that it is round all the time. What changes is how much of the lit half faces the Earth, and the phases are a viewing geometry rather than anything happening to the Moon. Because the Moon orbits once every 27 days while Earth travels round the Sun, the cycle from one full Moon to the next is about 29 and a half days, which is why the phases do not line up exactly with a calendar month. The shape is a sphere rather than a disc because it formed from the same material as the rest of the solar system, and the near side keeps facing us because the Moon rotates once per orbit, which is a coincidence worth noticing and not a requirement of the physics."
+      ],
+      "tl": "bulan",
+      "bis": "bulan"
+    },
+    {
+      "id": "pro-everyday-why-000008",
+      "topic": "programming-everyday-why",
+      "intent": "definition",
+      "concept": "leaf colour change",
+      "keywords": [
+        "leaf colour change",
+        "autumn",
+        "fall",
+        "chlorophyll",
+        "carotenoid",
+        "anthocyanin",
+        "yellow",
+        "red",
+        "season",
+        "dahon",
+        "leaves",
+        "change",
+        "colour",
+        "green",
+        "pigment"
+      ],
+      "patterns": [
+        "what is leaf colour change",
+        "leaf colour change",
+        "explain leaf colour change",
+        "definition of leaf colour change",
+        "leaf colour change meaning",
+        "why do leaves change colour",
+        "why do leaves turn yellow",
+        "why do leaves fall",
+        "ano ang dahon",
+        "unsa ang dahon"
+      ],
+      "answer": "Leaves change colour because chlorophyll, the green pigment that does the work of catching sunlight, breaks down as the light shortens, and what colour a leaf turns reveals what was in it underneath the whole time. The yellow is carotenoids, which are present all year and simply hidden by the green. The red and purple are anthocyanins, which are made fresh in autumn rather than uncovered, so that colour is a new substance rather than an old one showing through. The reason trees spend the energy on them is that they are protective: they shield the leaf from the cold and the bright light of a low sun, which is a mild hazard in winter, and they are part of what the tree does before dropping the leaf. The timing is triggered by falling temperature and shortening day length rather than by cold itself, which is why a tree in the tropics may not change colour much at all.",
+      "variations": [
+        "The yellow is carotenoids, which are present all year and simply hidden by the green. Leaves change colour because chlorophyll, the green pigment that does the work of catching sunlight, breaks down as the light shortens, and what colour a leaf turns reveals what was in it underneath the whole time. The red and purple are anthocyanins, which are made fresh in autumn rather than uncovered, so that colour is a new substance rather than an old one showing through. The reason trees spend the energy on them is that they are protective: they shield the leaf from the cold and the bright light of a low sun, which is a mild hazard in winter, and they are part of what the tree does before dropping the leaf. The timing is triggered by falling temperature and shortening day length rather than by cold itself, which is why a tree in the tropics may not change colour much at all.",
+        "The red and purple are anthocyanins, which are made fresh in autumn rather than uncovered, so that colour is a new substance rather than an old one showing through. Leaves change colour because chlorophyll, the green pigment that does the work of catching sunlight, breaks down as the light shortens, and what colour a leaf turns reveals what was in it underneath the whole time. The yellow is carotenoids, which are present all year and simply hidden by the green. The reason trees spend the energy on them is that they are protective: they shield the leaf from the cold and the bright light of a low sun, which is a mild hazard in winter, and they are part of what the tree does before dropping the leaf. The timing is triggered by falling temperature and shortening day length rather than by cold itself, which is why a tree in the tropics may not change colour much at all."
+      ],
+      "tl": "dahon",
+      "bis": "dahon"
+    },
+    {
+      "id": "pro-everyday-why-000009",
+      "topic": "programming-everyday-why",
+      "intent": "definition",
+      "concept": "salty sea",
+      "keywords": [
+        "salty sea",
+        "salt",
+        "sodium",
+        "river",
+        "weathering",
+        "mineral",
+        "evaporate",
+        "ocean",
+        "asin",
+        "salty",
+        "rivers",
+        "washing",
+        "dissolved",
+        "minerals",
+        "land"
+      ],
+      "patterns": [
+        "what is salty sea",
+        "salty sea",
+        "explain salty sea",
+        "definition of salty sea",
+        "salty sea meaning",
+        "why is the sea salty",
+        "why is salt in the ocean",
+        "bakit nga asin ang dagat",
+        "ano ang asin",
+        "unsa ang asin"
+      ],
+      "answer": "The sea is salty because rivers have been washing dissolved minerals off the land and into the ocean for billions of years, and the water leaves but the salt stays. Rain falls on rock, picks up sodium, calcium, magnesium and other ions in a process called weathering, and carries them downhill into the sea. Water then evaporates back into the sky and falls again as rain, and the cycle repeats, so the ocean is a basin that has been accumulating for a very long time. Salt does not leave the way water does, because it is not volatile, so the concentration has built up until it reaches an equilibrium between what arrives and what is taken out in shells and sea spray. That is also why the sea is salty rather than a unique accident, and why a lake that drains periodically is fresh while the ocean, which does not, is not.",
+      "variations": [
+        "Rain falls on rock, picks up sodium, calcium, magnesium and other ions in a process called weathering, and carries them downhill into the sea. The sea is salty because rivers have been washing dissolved minerals off the land and into the ocean for billions of years, and the water leaves but the salt stays. Water then evaporates back into the sky and falls again as rain, and the cycle repeats, so the ocean is a basin that has been accumulating for a very long time. Salt does not leave the way water does, because it is not volatile, so the concentration has built up until it reaches an equilibrium between what arrives and what is taken out in shells and sea spray. That is also why the sea is salty rather than a unique accident, and why a lake that drains periodically is fresh while the ocean, which does not, is not.",
+        "Water then evaporates back into the sky and falls again as rain, and the cycle repeats, so the ocean is a basin that has been accumulating for a very long time. The sea is salty because rivers have been washing dissolved minerals off the land and into the ocean for billions of years, and the water leaves but the salt stays. Rain falls on rock, picks up sodium, calcium, magnesium and other ions in a process called weathering, and carries them downhill into the sea. Salt does not leave the way water does, because it is not volatile, so the concentration has built up until it reaches an equilibrium between what arrives and what is taken out in shells and sea spray. That is also why the sea is salty rather than a unique accident, and why a lake that drains periodically is fresh while the ocean, which does not, is not."
+      ],
+      "tl": "asin",
+      "bis": "asin"
+    },
+    {
+      "id": "pro-everyday-why-000010",
+      "topic": "programming-everyday-why",
+      "intent": "definition",
+      "concept": "volcano",
+      "keywords": [
+        "volcano",
+        "magma",
+        "lava",
+        "pressure",
+        "gas",
+        "crater",
+        "ash",
+        "erup",
+        "bulkan",
+        "erupts",
+        "rock",
+        "inside",
+        "molten"
+      ],
+      "patterns": [
+        "what is volcano",
+        "volcano",
+        "explain volcano",
+        "definition of volcano",
+        "volcano meaning",
+        "why do volcanoes erupt",
+        "what is a volcano",
+        "how do volcanoes erupt",
+        "ano ang bulkan",
+        "unsa ang bulkan"
+      ],
+      "answer": "A volcano erupts because the rock inside it is molten and under pressure, and the pressure is the part that is not obvious. Magma rises because it is less dense than the rock above it, and the gases dissolved in it come out of solution as it decompresses, which is what makes the gas expand. A rising column can then be trapped under a solid cap, so pressure builds until it exceeds the strength of the rock and the rock gives way in the least resistant direction available. This is why eruptions are usually preceded by small quakes as the magma moves, and why a volcano that has been quiet may be the one most worth watching. The two major types are different for a reason: a stratovolcano alternates layers of erupted material and has the viscous magma that traps gas and builds pressure, while a shield volcano runs mostly fluid basalt, spreads out and rarely produces a violent blast.",
+      "variations": [
+        "Magma rises because it is less dense than the rock above it, and the gases dissolved in it come out of solution as it decompresses, which is what makes the gas expand. A volcano erupts because the rock inside it is molten and under pressure, and the pressure is the part that is not obvious. A rising column can then be trapped under a solid cap, so pressure builds until it exceeds the strength of the rock and the rock gives way in the least resistant direction available. This is why eruptions are usually preceded by small quakes as the magma moves, and why a volcano that has been quiet may be the one most worth watching. The two major types are different for a reason: a stratovolcano alternates layers of erupted material and has the viscous magma that traps gas and builds pressure, while a shield volcano runs mostly fluid basalt, spreads out and rarely produces a violent blast.",
+        "A rising column can then be trapped under a solid cap, so pressure builds until it exceeds the strength of the rock and the rock gives way in the least resistant direction available. A volcano erupts because the rock inside it is molten and under pressure, and the pressure is the part that is not obvious. Magma rises because it is less dense than the rock above it, and the gases dissolved in it come out of solution as it decompresses, which is what makes the gas expand. This is why eruptions are usually preceded by small quakes as the magma moves, and why a volcano that has been quiet may be the one most worth watching. The two major types are different for a reason: a stratovolcano alternates layers of erupted material and has the viscous magma that traps gas and builds pressure, while a shield volcano runs mostly fluid basalt, spreads out and rarely produces a violent blast."
+      ],
+      "tl": "bulkan",
+      "bis": "bulkan"
+    },
+    {
+      "id": "pro-everyday-why-000011",
+      "topic": "programming-everyday-why",
+      "intent": "definition",
+      "concept": "ice slippery",
+      "keywords": [
+        "ice slippery",
+        "melt",
+        "film",
+        "water",
+        "surface",
+        "skate",
+        "friction",
+        "pressure",
+        "yelo",
+        "slippery",
+        "thin",
+        "forms",
+        "above"
+      ],
+      "patterns": [
+        "what is ice slippery",
+        "ice slippery",
+        "explain ice slippery",
+        "definition of ice slippery",
+        "ice slippery meaning",
+        "why is ice slippery",
+        "is ice slippery because of water",
+        "why do skates work",
+        "ano ang yelo",
+        "unsa ang yelo"
+      ],
+      "answer": "Ice is slippery because a thin film of water forms on it well above the point where it would be a drop, and the water is the point rather than a side effect. Below about zero degrees a surface of ice has a disordered outer layer of molecules that never quite locks in place, and a person skating or walking on it is sliding on that layer rather than on the solid structure. At around minus seven the surface itself begins to melt and that thin film gets thicker, which is why ice is less slippery near the melting point than when it is colder. A pressure that melts the ice under a skate explains the other part: the blade or the foot is the only thing keeping it in contact, and the whole technique is a way of balancing on that spot. Grit makes it worse rather than better, which is why street ice feels more dangerous than clean ice.",
+      "variations": [
+        "Below about zero degrees a surface of ice has a disordered outer layer of molecules that never quite locks in place, and a person skating or walking on it is sliding on that layer rather than on the solid structure. Ice is slippery because a thin film of water forms on it well above the point where it would be a drop, and the water is the point rather than a side effect. At around minus seven the surface itself begins to melt and that thin film gets thicker, which is why ice is less slippery near the melting point than when it is colder. A pressure that melts the ice under a skate explains the other part: the blade or the foot is the only thing keeping it in contact, and the whole technique is a way of balancing on that spot. Grit makes it worse rather than better, which is why street ice feels more dangerous than clean ice.",
+        "At around minus seven the surface itself begins to melt and that thin film gets thicker, which is why ice is less slippery near the melting point than when it is colder. Ice is slippery because a thin film of water forms on it well above the point where it would be a drop, and the water is the point rather than a side effect. Below about zero degrees a surface of ice has a disordered outer layer of molecules that never quite locks in place, and a person skating or walking on it is sliding on that layer rather than on the solid structure. A pressure that melts the ice under a skate explains the other part: the blade or the foot is the only thing keeping it in contact, and the whole technique is a way of balancing on that spot. Grit makes it worse rather than better, which is why street ice feels more dangerous than clean ice."
+      ],
+      "tl": "yelo",
+      "bis": "yelo"
+    },
+    {
+      "id": "pro-everyday-why-000012",
+      "topic": "programming-everyday-why",
+      "intent": "definition",
+      "concept": "hiccups",
+      "keywords": [
+        "hiccups",
+        "diaphragm",
+        "breath",
+        "spasm",
+        "sound",
+        "hiccup",
+        "rhythm",
+        "persistent",
+        "followed",
+        "sudden",
+        "closure"
+      ],
+      "patterns": [
+        "what is hiccups",
+        "hiccups",
+        "explain hiccups",
+        "definition of hiccups",
+        "hiccups meaning",
+        "why do we get hiccups",
+        "how do you stop a hiccup",
+        "what causes hiccups",
+        "ano ang hiccup",
+        "unsa ang hiccup"
+      ],
+      "answer": "A hiccup is a spasm of the diaphragm followed by the sudden closure of the vocal cords, and the sound is produced by that second part rather than by the muscle. Nobody has established a single cause, and the many that have been proposed agree on the mechanism: something irritates the diaphragm or the breathing control, and the signal arrives out of step. The most common triggers are eating too fast, drinking too much carbonated liquid, alcohol, and a sudden temperature change on the surface of the chest, which is why folk remedies involve drinking water upside down or being startled. Those remedies work for the same reason the problem resolves itself: they interrupt the rhythm, and a hiccup that has been running for a few minutes will usually stop when the pattern is broken. Persistent hiccups lasting more than a couple of days are a different matter and are a sign of something worth looking into rather than a joke.",
+      "variations": [
+        "Nobody has established a single cause, and the many that have been proposed agree on the mechanism: something irritates the diaphragm or the breathing control, and the signal arrives out of step. A hiccup is a spasm of the diaphragm followed by the sudden closure of the vocal cords, and the sound is produced by that second part rather than by the muscle. The most common triggers are eating too fast, drinking too much carbonated liquid, alcohol, and a sudden temperature change on the surface of the chest, which is why folk remedies involve drinking water upside down or being startled. Those remedies work for the same reason the problem resolves itself: they interrupt the rhythm, and a hiccup that has been running for a few minutes will usually stop when the pattern is broken. Persistent hiccups lasting more than a couple of days are a different matter and are a sign of something worth looking into rather than a joke.",
+        "The most common triggers are eating too fast, drinking too much carbonated liquid, alcohol, and a sudden temperature change on the surface of the chest, which is why folk remedies involve drinking water upside down or being startled. A hiccup is a spasm of the diaphragm followed by the sudden closure of the vocal cords, and the sound is produced by that second part rather than by the muscle. Nobody has established a single cause, and the many that have been proposed agree on the mechanism: something irritates the diaphragm or the breathing control, and the signal arrives out of step. Those remedies work for the same reason the problem resolves itself: they interrupt the rhythm, and a hiccup that has been running for a few minutes will usually stop when the pattern is broken. Persistent hiccups lasting more than a couple of days are a different matter and are a sign of something worth looking into rather than a joke."
+      ],
+      "tl": "hiccup",
+      "bis": "hiccup"
+    },
+    {
+      "id": "pro-everyday-why-000013",
+      "topic": "programming-everyday-why",
+      "intent": "definition",
+      "concept": "taste",
+      "keywords": [
+        "taste",
+        "tongue",
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "savoury",
+        "smell",
+        "receptor",
+        "lasa",
+        "chemistry",
+        "rather",
+        "sense",
+        "organ",
+        "forgotten"
+      ],
+      "patterns": [
+        "what is taste",
+        "taste",
+        "explain taste",
+        "definition of taste",
+        "taste meaning",
+        "how do we taste food",
+        "how many tastes can we taste",
+        "why cant i taste when i have a cold",
+        "ano ang lasa",
+        "unsa ang taste"
+      ],
+      "answer": "Taste is chemistry rather than a sense organ on its own, and the part that is often forgotten is that much of what people call taste is smell. The tongue carries receptors for the five basic tastes, which are sweet, sour, salty, bitter and savoury, and every one of them is a chemical dissolving on the surface and being detected. Everything else, which is most of what a person means by taste, comes from the aroma travelling up to the nose from the back of the mouth, and this is why food with a blocked nose tastes like almost nothing. Those five are not a complete list of what a tongue can detect: there is also umami for glutamate and a fat sensation, and the fat one is a real finding rather than a popular one. The reason a person cannot taste anything when they have a cold is the smell, not the taste, which is worth knowing because it is a quick and free way to check the two systems.",
+      "variations": [
+        "The tongue carries receptors for the five basic tastes, which are sweet, sour, salty, bitter and savoury, and every one of them is a chemical dissolving on the surface and being detected. Taste is chemistry rather than a sense organ on its own, and the part that is often forgotten is that much of what people call taste is smell. Everything else, which is most of what a person means by taste, comes from the aroma travelling up to the nose from the back of the mouth, and this is why food with a blocked nose tastes like almost nothing. Those five are not a complete list of what a tongue can detect: there is also umami for glutamate and a fat sensation, and the fat one is a real finding rather than a popular one. The reason a person cannot taste anything when they have a cold is the smell, not the taste, which is worth knowing because it is a quick and free way to check the two systems.",
+        "Everything else, which is most of what a person means by taste, comes from the aroma travelling up to the nose from the back of the mouth, and this is why food with a blocked nose tastes like almost nothing. Taste is chemistry rather than a sense organ on its own, and the part that is often forgotten is that much of what people call taste is smell. The tongue carries receptors for the five basic tastes, which are sweet, sour, salty, bitter and savoury, and every one of them is a chemical dissolving on the surface and being detected. Those five are not a complete list of what a tongue can detect: there is also umami for glutamate and a fat sensation, and the fat one is a real finding rather than a popular one. The reason a person cannot taste anything when they have a cold is the smell, not the taste, which is worth knowing because it is a quick and free way to check the two systems."
+      ],
+      "tl": "lasa",
+      "bis": "taste"
+    },
+    {
+      "id": "pro-everyday-why-000014",
+      "topic": "programming-everyday-why",
+      "intent": "definition",
+      "concept": "onion tears",
+      "keywords": [
+        "onion tears",
+        "onion",
+        "sulphur",
+        "enzyme",
+        "gas",
+        "acid",
+        "chop",
+        "cry",
+        "knife",
+        "sibuyas",
+        "chopping",
+        "makes",
+        "eyes",
+        "water",
+        "cutting"
+      ],
+      "patterns": [
+        "what is onion tears",
+        "onion tears",
+        "explain onion tears",
+        "definition of onion tears",
+        "onion tears meaning",
+        "why do onions make you cry",
+        "how to stop crying when cutting onion",
+        "why do onions sting",
+        "ano ang sibuyas",
+        "unsa ang sibuyas"
+      ],
+      "answer": "Chopping an onion makes your eyes water because cutting it breaks open cells and releases an enzyme and a compound that were kept apart inside them. The enzyme converts a sulphur-containing molecule in the cell into a gas, propanethial oxide, and the gas reaches the eye and reacts with the moisture there to make a mild acid. The eye does not know what acid is doing there, and the reflex it produces is the same one that produces tears to wash a real irritant out, so the burning and the watering are one response rather than a sad film. The practical consequences are all about getting the gas to not reach the eye. Cold reduces the enzyme activity, a sharp knife ruptures fewer cells at once rather than crushing them, cutting near the root end where the concentration is highest makes less of it, and a wet blade carries the liquid away instead of aerosolising it. A very hot pan briefly overwhelms the reaction before it starts, which is the only genuinely absurd piece of cooking advice that works.",
+      "variations": [
+        "The enzyme converts a sulphur-containing molecule in the cell into a gas, propanethial oxide, and the gas reaches the eye and reacts with the moisture there to make a mild acid. Chopping an onion makes your eyes water because cutting it breaks open cells and releases an enzyme and a compound that were kept apart inside them. The eye does not know what acid is doing there, and the reflex it produces is the same one that produces tears to wash a real irritant out, so the burning and the watering are one response rather than a sad film. The practical consequences are all about getting the gas to not reach the eye. Cold reduces the enzyme activity, a sharp knife ruptures fewer cells at once rather than crushing them, cutting near the root end where the concentration is highest makes less of it, and a wet blade carries the liquid away instead of aerosolising it. A very hot pan briefly overwhelms the reaction before it starts, which is the only genuinely absurd piece of cooking advice that works.",
+        "The eye does not know what acid is doing there, and the reflex it produces is the same one that produces tears to wash a real irritant out, so the burning and the watering are one response rather than a sad film. Chopping an onion makes your eyes water because cutting it breaks open cells and releases an enzyme and a compound that were kept apart inside them. The enzyme converts a sulphur-containing molecule in the cell into a gas, propanethial oxide, and the gas reaches the eye and reacts with the moisture there to make a mild acid. The practical consequences are all about getting the gas to not reach the eye. Cold reduces the enzyme activity, a sharp knife ruptures fewer cells at once rather than crushing them, cutting near the root end where the concentration is highest makes less of it, and a wet blade carries the liquid away instead of aerosolising it. A very hot pan briefly overwhelms the reaction before it starts, which is the only genuinely absurd piece of cooking advice that works."
+      ],
+      "tl": "sibuyas",
+      "bis": "sibuyas"
+    },
+    {
+      "id": "pro-everyday-why-000015",
+      "topic": "programming-everyday-why",
+      "intent": "definition",
+      "concept": "sweating",
+      "keywords": [
+        "sweating",
+        "sweat",
+        "cool",
+        "evaporat",
+        "humid",
+        "heat",
+        "salt",
+        "temperature",
+        "pawis",
+        "cooling",
+        "system",
+        "works",
+        "water",
+        "evaporates"
+      ],
+      "patterns": [
+        "what is sweating",
+        "sweating",
+        "explain sweating",
+        "definition of sweating",
+        "sweating meaning",
+        "why do we sweat",
+        "why is sweating cold",
+        "bakit nga pawis",
+        "ano ang pawis",
+        "unsa ang pawis"
+      ],
+      "answer": "We sweat because sweat is a cooling system, and it only works if the water evaporates. A hot body makes liquid sweat, carries it to the surface and lets it evaporate, and the energy needed to do that leaves the body, which is the entire mechanism. This is why humidity matters so much: in dry air sweat evaporates and you cool, while in humid air the air is already carrying so much water that it cannot take much more, so the sweat stays on the skin and drips without cooling anything. That is the whole explanation for why a humid day feels worse than a dry one at the same temperature. Salt in the sweat is what makes it a problem for someone with a condition that limits sweating, and it is why plain water is not a substitute for sweat lost over a long period.",
+      "variations": [
+        "A hot body makes liquid sweat, carries it to the surface and lets it evaporate, and the energy needed to do that leaves the body, which is the entire mechanism. We sweat because sweat is a cooling system, and it only works if the water evaporates. This is why humidity matters so much: in dry air sweat evaporates and you cool, while in humid air the air is already carrying so much water that it cannot take much more, so the sweat stays on the skin and drips without cooling anything. That is the whole explanation for why a humid day feels worse than a dry one at the same temperature. Salt in the sweat is what makes it a problem for someone with a condition that limits sweating, and it is why plain water is not a substitute for sweat lost over a long period.",
+        "This is why humidity matters so much: in dry air sweat evaporates and you cool, while in humid air the air is already carrying so much water that it cannot take much more, so the sweat stays on the skin and drips without cooling anything. We sweat because sweat is a cooling system, and it only works if the water evaporates. A hot body makes liquid sweat, carries it to the surface and lets it evaporate, and the energy needed to do that leaves the body, which is the entire mechanism. That is the whole explanation for why a humid day feels worse than a dry one at the same temperature. Salt in the sweat is what makes it a problem for someone with a condition that limits sweating, and it is why plain water is not a substitute for sweat lost over a long period."
+      ],
+      "tl": "pawis",
+      "bis": "pawis"
+    },
+    {
+      "id": "pro-everyday-why-000016",
+      "topic": "programming-everyday-why",
+      "intent": "definition",
+      "concept": "why do we sleep",
+      "keywords": [
+        "why do we sleep",
+        "rest",
+        "cycle",
+        "stage",
+        "memory",
+        "deep",
+        "repair",
+        "fatigue",
+        "tulog",
+        "katulog",
+        "sleep",
+        "simply",
+        "absence",
+        "being",
+        "awake",
+        "reason"
+      ],
+      "patterns": [
+        "what is why do we sleep",
+        "why do we sleep",
+        "explain why do we sleep",
+        "definition of why do we sleep",
+        "why do we sleep meaning",
+        "how much sleep do i need",
+        "bakit nga kailangan matulog",
+        "ano ang tulog",
+        "unsa ang katulog"
+      ],
+      "answer": "Sleep is not simply the absence of being awake, and the reason is that the body uses the time for maintenance and the brain uses it for something specific. Physically it repairs tissue, consolidates what was learned during the day into something that lasts, and runs through a cycle of stages rather than being one uniform state, with the deepest stage early in the night and the lightest towards morning. That is why a person who sleeps six hours in one block feels more tired than one who sleeps six hours in two, and why the last hour of the night is worth less than the first. Sleep feels necessary because being awake for a long time degrades attention and reaction time measurably, and that is not something a person can decide to push through, which is why sleep deprivation does so much damage compared with hunger.",
+      "variations": [
+        "Physically it repairs tissue, consolidates what was learned during the day into something that lasts, and runs through a cycle of stages rather than being one uniform state, with the deepest stage early in the night and the lightest towards morning. Sleep is not simply the absence of being awake, and the reason is that the body uses the time for maintenance and the brain uses it for something specific. That is why a person who sleeps six hours in one block feels more tired than one who sleeps six hours in two, and why the last hour of the night is worth less than the first. Sleep feels necessary because being awake for a long time degrades attention and reaction time measurably, and that is not something a person can decide to push through, which is why sleep deprivation does so much damage compared with hunger.",
+        "That is why a person who sleeps six hours in one block feels more tired than one who sleeps six hours in two, and why the last hour of the night is worth less than the first. Sleep is not simply the absence of being awake, and the reason is that the body uses the time for maintenance and the brain uses it for something specific. Physically it repairs tissue, consolidates what was learned during the day into something that lasts, and runs through a cycle of stages rather than being one uniform state, with the deepest stage early in the night and the lightest towards morning. Sleep feels necessary because being awake for a long time degrades attention and reaction time measurably, and that is not something a person can decide to push through, which is why sleep deprivation does so much damage compared with hunger."
+      ],
+      "tl": "tulog",
+      "bis": "katulog"
+    }
+  ],
+  "lang": "english",
+  "group": "programming",
+  "sub": "everyday-why",
+  "title": "Everyday why",
+  "groupTitle": "Programming"
+}

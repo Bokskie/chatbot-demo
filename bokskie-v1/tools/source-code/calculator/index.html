@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <style>
+    :root {
+      --bg:    #0f1115;
+      --panel: #1a1d23;
+      --key:   #262a32;
+      --key-2: #343944;
+      --text:  #f2f4f8;
+      --dim:   #8b93a1;
+      --accent:#4f9cf9;
+      --warn:  #ff7a59;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: var(--bg);
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif;
+      padding: 1.5rem;
+    }
+
+    .calc {
+      width: 100%;
+      max-width: 360px;
+      background: var(--panel);
+      border-radius: 20px;
+      padding: 1.25rem;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, .45);
+    }
+
+    /* ---- display ---- */
+    .screen {
+      background: #0b0d10;
+      border-radius: 12px;
+      padding: 1rem 1.1rem 1.1rem;
+      margin-bottom: 1rem;
+      text-align: right;
+      min-height: 108px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      overflow: hidden;
+    }
+    .history {
+      color: var(--dim);
+      font-size: .85rem;
+      min-height: 1.2em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      direction: rtl;              /* keep the tail of a long line visible */
+    }
+    .value {
+      font-size: 2.6rem;
+      font-weight: 300;
+      line-height: 1.15;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .value.too-long { font-size: 1.5rem; }
+    .value.too-longer { font-size: 1rem; }
+
+    /* ---- keypad ---- */
+    .pad { display: grid; grid-template-columns: repeat(4, 1fr); gap: .6rem; }
+    button {
+      font: inherit;
+      font-size: 1.3rem;
+      color: var(--text);
+      background: var(--key);
+      border: 0;
+      border-radius: 12px;
+      padding: 1.05rem 0;
+      cursor: pointer;
+      user-select: none;
+      transition: background .12s ease, transform .06s ease;
+    }
+    button:hover  { background: var(--key-2); }
+    button:active { transform: scale(.96); }
+    button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    button.op   { background: #2b3440; color: var(--accent); }
+    button.fn   { background: #2a2320; color: var(--warn); }
+    button.wide { grid-column: span 2; }
+  </style>
+</head>
+<body>
+  <main class="calc">
+    <div class="screen">
+      <div class="history" id="history">&nbsp;</div>
+      <div class="value" id="value">0</div>
+    </div>
+
+    <div class="pad" id="pad">
+      <button class="fn"  data-k="clear"  id="clear">C</button>
+      <button class="fn"  data-k="sign">+/&minus;</button>
+      <button class="fn"  data-k="percent">%</button>
+      <button class="op"  data-k="/">&divide;</button>
+
+      <button data-k="7">7</button>
+      <button data-k="8">8</button>
+      <button data-k="9">9</button>
+      <button class="op" data-k="*">&times;</button>
+
+      <button data-k="4">4</button>
+      <button data-k="5">5</button>
+      <button data-k="6">6</button>
+      <button class="op" data-k="-">&minus;</button>
+
+      <button data-k="1">1</button>
+      <button data-k="2">2</button>
+      <button data-k="3">3</button>
+      <button class="op" data-k="+">+</button>
+
+      <button class="wide" data-k="back">Backspace</button>
+      <button data-k="0">0</button>
+      <button data-k=".">.</button>
+      <button class="op" data-k="=">=</button>
+    </div>
+  </main>
+
+  <script>
+    /* ---- state ----
+       Four variables, which is all a calculator like this needs:
+       what is typed, what is remembered, the operator waiting to be
+       applied, and whether the next digit starts a fresh number. */
+    var typed = "0";     // the number on screen
+    var stored = null;   // the left-hand side of a pending operation
+    var op = null;       // '+', '-', '*', '/'
+    var fresh = true;    // true = the next digit replaces the screen
+
+    var valueEl = document.getElementById("value");
+    var historyEl = document.getElementById("history");
+
+    function show() {
+      valueEl.textContent = typed;
+      /* Shrink the text rather than let a long number run out of the
+         screen. Three steps is enough for anything a person can type
+         into a calculator this size. */
+      valueEl.className = "value" +
+        (typed.length > 11 ? " too-longer" : typed.length > 8 ? " too-long" : "");
+    }
+
+    /* Divide by zero is the one case that is not a number, so it is
+       handled rather than allowed through to produce Infinity. */
+    function apply(a, b, operator) {
+      if (operator === "+") return a + b;
+      if (operator === "-") return a - b;
+      if (operator === "*") return a * b;
+      if (operator === "/") return b === 0 ? NaN : a / b;
+      return b;
+    }
+
+    function format(n) {
+      if (n !== n) return "Error";              // NaN, i.e. / 0
+      if (!isFinite(n)) return "Error";
+      /* Rounded to 10 places so floating point noise such as
+         0.1 + 0.2 = 0.30000000000000004 does not reach the screen. */
+      return String(Math.round(n * 1e10) / 1e10);
+    }
+
+    function input(key) {
+      if (/^[0-9]$/.test(key)) {
+        typed = (fresh || typed === "0") ? key : typed + key;
+        fresh = false;
+      } else if (key === ".") {
+        if (fresh) { typed = "0."; fresh = false; }
+        else if (typed.indexOf(".") === -1) typed += ".";
+      } else if (key === "back") {
+        if (!fresh) {
+          typed = typed.length > 1 ? typed.slice(0, -1) : "0";
+          if (typed === "0") fresh = true;
+        }
+      } else if (key === "clear") {
+        typed = "0"; stored = null; op = null; fresh = true;
+        historyEl.textContent = " ";
+      } else if (key === "sign") {
+        typed = typed.charAt(0) === "-" ? typed.slice(1) : "-" + typed;
+      } else if (key === "percent") {
+        typed = format(parseFloat(typed) / 100);
+        fresh = true;
+      } else if (key === "=") {
+        if (op !== null && stored !== null) {
+          historyEl.textContent = stored + " " + op + " " + typed + " =";
+          typed = format(apply(stored, parseFloat(typed), op));
+          stored = null; op = null; fresh = true;
+        }
+      } else {
+        /* An operator: finish any operation already in progress, then
+           remember this one. That chaining rule is what lets
+           2 + 3 * 4 be evaluated left to right the way the buttons
+           were pressed, instead of jumping to a hidden precedence. */
+        if (op !== null && stored !== null && !fresh) {
+          typed = format(apply(stored, parseFloat(typed), op));
+        }
+        stored = parseFloat(typed);
+        op = key;
+        fresh = true;
+        historyEl.textContent = stored + " " + op;
+      }
+      show();
+    }
+
+    /* Delegation: one listener on the pad rather than 20 on the
+       buttons. The keypad is rebuilt by nothing, but if it ever were,
+       this would keep working. */
+    document.getElementById("pad").addEventListener("click", function (event) {
+      var key = event.target.getAttribute("data-k");
+      if (key) input(key);
+    });
+
+    /* The keyboard works too, which is the difference between a
+       calculator and a demonstration of a calculator. */
+    var KEYS = { "/": "/", "*": "*", "-": "-", "+": "+", "Enter": "=", "=": "=",
+                 "Backspace": "back", "Escape": "clear", "c": "clear",
+                 "%": "percent" };
+    document.addEventListener("keydown", function (event) {
+      var k = event.key;
+      if (/^[0-9.]$/.test(k)) { input(k); event.preventDefault(); }
+      else if (KEYS[k]) { input(KEYS[k]); event.preventDefault(); }
+    });
+
+    show();
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,158 @@
+{
+  "topic": "technology-computers",
+  "entries": [
+    {
+      "id": "tec-computers-000001",
+      "topic": "technology-computers",
+      "intent": "definition",
+      "concept": "von neumann architecture",
+      "keywords": [
+        "von neumann architecture",
+        "memory",
+        "cache",
+        "bottleneck",
+        "arkitektura",
+        "neumann",
+        "architecture",
+        "stored",
+        "program",
+        "design",
+        "modern"
+      ],
+      "patterns": [
+        "what is von neumann architecture",
+        "von neumann architecture",
+        "explain von neumann architecture",
+        "definition of von neumann architecture",
+        "von neumann architecture meaning",
+        "what does the cpu do",
+        "how does a computer execute a program",
+        "ano ang von neumann architecture",
+        "unsa ang arkitektura"
+      ],
+      "answer": "The von Neumann architecture is the stored-program design that made the modern computer general purpose rather than a calculator built for one job, and its defining feature is that the same memory holds both the program and the data being worked on. That single idea is why the machine can be reprogrammed without rewiring anything, since the instructions are fetched from memory the same way the data is and a program is just data that happens to be interpreted. The processor runs a fetch-decode-execute cycle, taking an instruction, working out what it means, carrying it out and moving on, with a program counter deciding which instruction comes next. The parts of the machine that follow from this are the control unit for deciding, the arithmetic and logic unit for computing, registers for the handful of values being worked on right now, and memory for everything else. The bottleneck that emerges from the design is the gap between processor and memory speed, called the von Neumann bottleneck, and it is why performance work is usually about moving less data rather than doing less work.",
+      "variations": [
+        "That single idea is why the machine can be reprogrammed without rewiring anything, since the instructions are fetched from memory the same way the data is and a program is just data that happens to be interpreted. The von Neumann architecture is the stored-program design that made the modern computer general purpose rather than a calculator built for one job, and its defining feature is that the same memory holds both the program and the data being worked on. The processor runs a fetch-decode-execute cycle, taking an instruction, working out what it means, carrying it out and moving on, with a program counter deciding which instruction comes next. The parts of the machine that follow from this are the control unit for deciding, the arithmetic and logic unit for computing, registers for the handful of values being worked on right now, and memory for everything else. The bottleneck that emerges from the design is the gap between processor and memory speed, called the von Neumann bottleneck, and it is why performance work is usually about moving less data rather than doing less work.",
+        "The processor runs a fetch-decode-execute cycle, taking an instruction, working out what it means, carrying it out and moving on, with a program counter deciding which instruction comes next. The von Neumann architecture is the stored-program design that made the modern computer general purpose rather than a calculator built for one job, and its defining feature is that the same memory holds both the program and the data being worked on. That single idea is why the machine can be reprogrammed without rewiring anything, since the instructions are fetched from memory the same way the data is and a program is just data that happens to be interpreted. The parts of the machine that follow from this are the control unit for deciding, the arithmetic and logic unit for computing, registers for the handful of values being worked on right now, and memory for everything else. The bottleneck that emerges from the design is the gap between processor and memory speed, called the von Neumann bottleneck, and it is why performance work is usually about moving less data rather than doing less work."
+      ],
+      "tl": "von neumann architecture",
+      "bis": "arkitektura"
+    },
+    {
+      "id": "tec-computers-000002",
+      "topic": "technology-computers",
+      "intent": "definition",
+      "concept": "multitasking",
+      "keywords": [
+        "multitasking",
+        "process",
+        "thread",
+        "scheduler",
+        "parallel",
+        "letting",
+        "processor",
+        "appear",
+        "several",
+        "programs"
+      ],
+      "patterns": [
+        "what is multitasking",
+        "multitasking",
+        "explain multitasking",
+        "definition of multitasking",
+        "multitasking meaning",
+        "difference between multitasking and multithreading",
+        "how does the os run two programs",
+        "ano ang multitasking",
+        "unsa ang multitasking"
+      ],
+      "answer": "Multitasking is letting one processor appear to run several programs at once by switching between them rapidly, and on a single core it is an illusion created by scheduling rather than genuine parallelism. The operating system gives each running program a slice of time, and when the slice runs out it saves the program state, switches to another, and returns later, which is why a browser tab can look frozen while audio keeps playing and the clock keeps ticking. Each program is isolated in its own address space so it cannot read another's memory, which is a security benefit as much as an organisational one. The context switch between programs is more expensive than between threads of one program, because more of the state has to be saved, which is why a machine with many cores changes the picture: work can then genuinely run in parallel rather than interleaved. The term is also used for a user perception rather than a mechanism, since switching a window on screen looks like multitasking even though only one thing was ever running.",
+      "variations": [
+        "The operating system gives each running program a slice of time, and when the slice runs out it saves the program state, switches to another, and returns later, which is why a browser tab can look frozen while audio keeps playing and the clock keeps ticking. Multitasking is letting one processor appear to run several programs at once by switching between them rapidly, and on a single core it is an illusion created by scheduling rather than genuine parallelism. Each program is isolated in its own address space so it cannot read another's memory, which is a security benefit as much as an organisational one. The context switch between programs is more expensive than between threads of one program, because more of the state has to be saved, which is why a machine with many cores changes the picture: work can then genuinely run in parallel rather than interleaved. The term is also used for a user perception rather than a mechanism, since switching a window on screen looks like multitasking even though only one thing was ever running.",
+        "Each program is isolated in its own address space so it cannot read another's memory, which is a security benefit as much as an organisational one. Multitasking is letting one processor appear to run several programs at once by switching between them rapidly, and on a single core it is an illusion created by scheduling rather than genuine parallelism. The operating system gives each running program a slice of time, and when the slice runs out it saves the program state, switches to another, and returns later, which is why a browser tab can look frozen while audio keeps playing and the clock keeps ticking. The context switch between programs is more expensive than between threads of one program, because more of the state has to be saved, which is why a machine with many cores changes the picture: work can then genuinely run in parallel rather than interleaved. The term is also used for a user perception rather than a mechanism, since switching a window on screen looks like multitasking even though only one thing was ever running."
+      ],
+      "tl": "multitasking",
+      "bis": "multitasking"
+    },
+    {
+      "id": "tec-computers-000003",
+      "topic": "technology-computers",
+      "intent": "definition",
+      "concept": "virtual memory",
+      "keywords": [
+        "virtual memory",
+        "paging",
+        "translation",
+        "isolation",
+        "swap",
+        "virtual",
+        "memory",
+        "technique",
+        "program",
+        "believe",
+        "continuous"
+      ],
+      "patterns": [
+        "what is virtual memory",
+        "virtual memory",
+        "explain virtual memory",
+        "definition of virtual memory",
+        "virtual memory meaning",
+        "what is paging",
+        "why does my computer slow down with many tabs",
+        "ano ang virtual memory",
+        "unsa ang virtual memory"
+      ],
+      "answer": "Virtual memory is the technique that lets each program believe it has its own continuous block of memory, even when the physical memory is shared, smaller, and non-contiguous. Each program gets its own address space, and the operating system maps the addresses it actually uses onto physical pages, so two programs can both believe they are at address 4000 without interfering. The mapping table is the page table, and the hardware caches its most recent use in a translation lookaside buffer, which is why enabling that hardware feature is such a large speedup. When a program touches a page that is not in memory the operation blocks and the operating system loads it from storage, which is paging and is the mechanism behind the freeze when memory has run out. The illusion works because most code touches its own memory in a localised way, so the scheme is affordable, and a separate address space is also what lets the operating system keep programs isolated from each other.",
+      "variations": [
+        "Each program gets its own address space, and the operating system maps the addresses it actually uses onto physical pages, so two programs can both believe they are at address 4000 without interfering. Virtual memory is the technique that lets each program believe it has its own continuous block of memory, even when the physical memory is shared, smaller, and non-contiguous. The mapping table is the page table, and the hardware caches its most recent use in a translation lookaside buffer, which is why enabling that hardware feature is such a large speedup. When a program touches a page that is not in memory the operation blocks and the operating system loads it from storage, which is paging and is the mechanism behind the freeze when memory has run out. The illusion works because most code touches its own memory in a localised way, so the scheme is affordable, and a separate address space is also what lets the operating system keep programs isolated from each other.",
+        "The mapping table is the page table, and the hardware caches its most recent use in a translation lookaside buffer, which is why enabling that hardware feature is such a large speedup. Virtual memory is the technique that lets each program believe it has its own continuous block of memory, even when the physical memory is shared, smaller, and non-contiguous. Each program gets its own address space, and the operating system maps the addresses it actually uses onto physical pages, so two programs can both believe they are at address 4000 without interfering. When a program touches a page that is not in memory the operation blocks and the operating system loads it from storage, which is paging and is the mechanism behind the freeze when memory has run out. The illusion works because most code touches its own memory in a localised way, so the scheme is affordable, and a separate address space is also what lets the operating system keep programs isolated from each other."
+      ],
+      "tl": "virtual memory",
+      "bis": "virtual memory"
+    },
+    {
+      "id": "tec-computers-000004",
+      "topic": "technology-computers",
+      "intent": "definition",
+      "concept": "firmware",
+      "keywords": [
+        "firmware",
+        "bios",
+        "uefi",
+        "boot",
+        "bootloader",
+        "post",
+        "software",
+        "stored",
+        "volatile",
+        "memory",
+        "device"
+      ],
+      "patterns": [
+        "what is firmware",
+        "firmware",
+        "explain firmware",
+        "definition of firmware",
+        "firmware meaning",
+        "what is bios",
+        "what is uefi",
+        "how does a computer boot",
+        "ano ang firmware",
+        "unsa ang firmware"
+      ],
+      "answer": "Firmware is software stored in non-volatile memory on the device itself and running before any operating system is involved, and its job is to bring the hardware to a state where it can accept an operating system. On a desktop the familiar example is the BIOS or its modern replacement UEFI, which initialises the memory, detects the connected devices, runs a power-on self test, reads the boot order and then loads the operating system from disk or network. On a phone, a router or a graphics card the same role is played by lower-level firmware that initialises that specific component, and on an embedded board it is often the only software present at all. The reason the replacement happened is that BIOS stored its configuration in a small chip with a limited space and a slow 16-bit interface, so large disks, fast boot and graphical menus were not practical, while UEFI loads a program from a much larger partition and is written in ordinary languages. Getting stuck in the firmware setup screen is the most common reason a machine that used to boot suddenly does not.",
+      "variations": [
+        "On a desktop the familiar example is the BIOS or its modern replacement UEFI, which initialises the memory, detects the connected devices, runs a power-on self test, reads the boot order and then loads the operating system from disk or network. Firmware is software stored in non-volatile memory on the device itself and running before any operating system is involved, and its job is to bring the hardware to a state where it can accept an operating system. On a phone, a router or a graphics card the same role is played by lower-level firmware that initialises that specific component, and on an embedded board it is often the only software present at all. The reason the replacement happened is that BIOS stored its configuration in a small chip with a limited space and a slow 16-bit interface, so large disks, fast boot and graphical menus were not practical, while UEFI loads a program from a much larger partition and is written in ordinary languages. Getting stuck in the firmware setup screen is the most common reason a machine that used to boot suddenly does not.",
+        "On a phone, a router or a graphics card the same role is played by lower-level firmware that initialises that specific component, and on an embedded board it is often the only software present at all. Firmware is software stored in non-volatile memory on the device itself and running before any operating system is involved, and its job is to bring the hardware to a state where it can accept an operating system. On a desktop the familiar example is the BIOS or its modern replacement UEFI, which initialises the memory, detects the connected devices, runs a power-on self test, reads the boot order and then loads the operating system from disk or network. The reason the replacement happened is that BIOS stored its configuration in a small chip with a limited space and a slow 16-bit interface, so large disks, fast boot and graphical menus were not practical, while UEFI loads a program from a much larger partition and is written in ordinary languages. Getting stuck in the firmware setup screen is the most common reason a machine that used to boot suddenly does not."
+      ],
+      "tl": "firmware",
+      "bis": "firmware"
+    }
+  ],
+  "lang": "english",
+  "group": "technology",
+  "sub": "computers",
+  "title": "Computers",
+  "groupTitle": "Technology"
+}

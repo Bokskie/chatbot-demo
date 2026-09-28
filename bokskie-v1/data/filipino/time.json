@@ -1,0 +1,85 @@
+{
+  "topic": "filipino-time",
+  "entries": [
+    {
+      "id": "fil-time-000001",
+      "topic": "filipino-time",
+      "intent": "definition",
+      "concept": "ngayon",
+      "keywords": [
+        "ngayon",
+        "now",
+        "today",
+        "present",
+        "tonight",
+        "already",
+        "filler",
+        "moment",
+        "karon",
+        "means",
+        "ordinary",
+        "word"
+      ],
+      "patterns": [
+        "what is ngayon",
+        "ngayon",
+        "explain ngayon",
+        "definition of ngayon",
+        "ngayon meaning",
+        "anong meaning ng ngayon",
+        "ngayong umaga",
+        "ano ang karon",
+        "unsa ang karon"
+      ],
+      "answer": "Ngayon means now, and it is the ordinary word for the present moment as opposed to before or later. It is also the word for today when combined with other time words, so ngayong araw means today, ngayong gabi means tonight, and ngayong umaga is used for this morning or, depending on when you say it, for tomorrow morning, which is the part that catches people out. The related set of words is what carries the whole system: kag yesterday, ngayon now, mamaya later, and bukas tomorrow, and each one attaches to a part of the day the same way. Another near word is nakaroon, meaning already, which pairs with ngayon for the contrast between it has already happened and it is happening. As a filler, ngayon often has no time meaning at all and is simply a pause equivalent to well or so, so a sentence can begin with it without saying anything about the clock.",
+      "variations": [
+        "It is also the word for today when combined with other time words, so ngayong araw means today, ngayong gabi means tonight, and ngayong umaga is used for this morning or, depending on when you say it, for tomorrow morning, which is the part that catches people out. Ngayon means now, and it is the ordinary word for the present moment as opposed to before or later. The related set of words is what carries the whole system: kag yesterday, ngayon now, mamaya later, and bukas tomorrow, and each one attaches to a part of the day the same way. Another near word is nakaroon, meaning already, which pairs with ngayon for the contrast between it has already happened and it is happening. As a filler, ngayon often has no time meaning at all and is simply a pause equivalent to well or so, so a sentence can begin with it without saying anything about the clock.",
+        "The related set of words is what carries the whole system: kag yesterday, ngayon now, mamaya later, and bukas tomorrow, and each one attaches to a part of the day the same way. Ngayon means now, and it is the ordinary word for the present moment as opposed to before or later. It is also the word for today when combined with other time words, so ngayong araw means today, ngayong gabi means tonight, and ngayong umaga is used for this morning or, depending on when you say it, for tomorrow morning, which is the part that catches people out. Another near word is nakaroon, meaning already, which pairs with ngayon for the contrast between it has already happened and it is happening. As a filler, ngayon often has no time meaning at all and is simply a pause equivalent to well or so, so a sentence can begin with it without saying anything about the clock."
+      ],
+      "tl": "karon",
+      "bis": "karon"
+    },
+    {
+      "id": "fil-time-000002",
+      "topic": "filipino-time",
+      "intent": "definition",
+      "concept": "kanino",
+      "keywords": [
+        "kanino",
+        "when",
+        "time",
+        "year",
+        "day",
+        "hour",
+        "kanus-a",
+        "means",
+        "question",
+        "word",
+        "asking"
+      ],
+      "patterns": [
+        "what is kanino",
+        "kanino",
+        "explain kanino",
+        "definition of kanino",
+        "kanino meaning",
+        "anong meaning ng kanino",
+        "kaninong oras",
+        "ano ang kanus-a",
+        "unsa ang kanus-a"
+      ],
+      "answer": "Kanino means when, and it is the question word for asking about time, so it covers a specific hour, a day, a month and a year without changing. The common forms attach to the rest of the question: kaninong oras asks what time it is, kaning oras means what time and is the phrase you use to ask a person, kaninong araw means what day, and kaninong taon means what year. The related question about place is saan and about a person is sino, and the three are the ones a learner mixes up first. Kanino is also used on its own as a general question, so kanino ka can be understood as how are you in a greeting, in the same unstressed way that asa ka and unsa ka work.",
+      "variations": [
+        "The common forms attach to the rest of the question: kaninong oras asks what time it is, kaning oras means what time and is the phrase you use to ask a person, kaninong araw means what day, and kaninong taon means what year. Kanino means when, and it is the question word for asking about time, so it covers a specific hour, a day, a month and a year without changing. The related question about place is saan and about a person is sino, and the three are the ones a learner mixes up first. Kanino is also used on its own as a general question, so kanino ka can be understood as how are you in a greeting, in the same unstressed way that asa ka and unsa ka work.",
+        "The related question about place is saan and about a person is sino, and the three are the ones a learner mixes up first. Kanino means when, and it is the question word for asking about time, so it covers a specific hour, a day, a month and a year without changing. The common forms attach to the rest of the question: kaninong oras asks what time it is, kaning oras means what time and is the phrase you use to ask a person, kaninong araw means what day, and kaninong taon means what year. Kanino is also used on its own as a general question, so kanino ka can be understood as how are you in a greeting, in the same unstressed way that asa ka and unsa ka work."
+      ],
+      "tl": "kanus-a",
+      "bis": "kanus-a"
+    }
+  ],
+  "lang": "tagalog",
+  "group": "filipino",
+  "sub": "time",
+  "title": "Time",
+  "groupTitle": "Filipino"
+}

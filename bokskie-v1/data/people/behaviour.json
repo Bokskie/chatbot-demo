@@ -1,0 +1,94 @@
+{
+  "topic": "people-behaviour",
+  "entries": [
+    {
+      "id": "peo-behaviour-000001",
+      "topic": "people-behaviour",
+      "intent": "definition",
+      "concept": "why do we procrastinate",
+      "keywords": [
+        "why do we procrastinate",
+        "delay",
+        "lazy",
+        "start",
+        "task",
+        "avoid",
+        "deadline",
+        "emotion",
+        "palampok",
+        "pig-ugma",
+        "procrastination",
+        "laziness",
+        "distinction",
+        "matters",
+        "confused",
+        "treated"
+      ],
+      "patterns": [
+        "what is why do we procrastinate",
+        "why do we procrastinate",
+        "explain why do we procrastinate",
+        "definition of why do we procrastinate",
+        "why do we procrastinate meaning",
+        "how do i stop procrastinating",
+        "am i lazy or procrastinating",
+        "ano ang palampok",
+        "unsa ang pig-ugma"
+      ],
+      "answer": "Procrastination is not laziness, and the distinction matters because the two are usually confused and treated with the same useless advice. A lazy person does not want to do the thing. Someone procrastinating wants to do it, would rather not be doing it right now, and cannot start, which is a different problem with a different cause. The most defensible account is that the task is emotionally unpleasant rather than difficult, and starting requires doing the unpleasant part immediately, so a person keeps trading a definite small discomfort now for an uncertain one later. This is why the usual advice about deadlines is not the answer: a deadline increases the unpleasantness and therefore the avoidance. What tends to work is making the first step small enough that the resistance does not engage, and treating a finished bad version as something that can be improved, which changes the question from whether to start into how much further to go.",
+      "variations": [
+        "A lazy person does not want to do the thing. Procrastination is not laziness, and the distinction matters because the two are usually confused and treated with the same useless advice. Someone procrastinating wants to do it, would rather not be doing it right now, and cannot start, which is a different problem with a different cause. The most defensible account is that the task is emotionally unpleasant rather than difficult, and starting requires doing the unpleasant part immediately, so a person keeps trading a definite small discomfort now for an uncertain one later. This is why the usual advice about deadlines is not the answer: a deadline increases the unpleasantness and therefore the avoidance. What tends to work is making the first step small enough that the resistance does not engage, and treating a finished bad version as something that can be improved, which changes the question from whether to start into how much further to go.",
+        "Someone procrastinating wants to do it, would rather not be doing it right now, and cannot start, which is a different problem with a different cause. Procrastination is not laziness, and the distinction matters because the two are usually confused and treated with the same useless advice. A lazy person does not want to do the thing. The most defensible account is that the task is emotionally unpleasant rather than difficult, and starting requires doing the unpleasant part immediately, so a person keeps trading a definite small discomfort now for an uncertain one later. This is why the usual advice about deadlines is not the answer: a deadline increases the unpleasantness and therefore the avoidance. What tends to work is making the first step small enough that the resistance does not engage, and treating a finished bad version as something that can be improved, which changes the question from whether to start into how much further to go."
+      ],
+      "tl": "palampok",
+      "bis": "pig-ugma"
+    },
+    {
+      "id": "peo-behaviour-000002",
+      "topic": "people-behaviour",
+      "intent": "definition",
+      "concept": "lying",
+      "keywords": [
+        "lying",
+        "honest",
+        "truth",
+        "deceive",
+        "omit",
+        "misdirect",
+        "belief",
+        "social",
+        "magsaysay",
+        "people",
+        "mostly",
+        "omission",
+        "misdirection",
+        "rather",
+        "saying"
+      ],
+      "patterns": [
+        "what is lying",
+        "lying",
+        "explain lying",
+        "definition of lying",
+        "lying meaning",
+        "why do people lie",
+        "is lying always bad",
+        "how to tell if someone is lying",
+        "ano ang magsaysay",
+        "unsa ang magsaysay"
+      ],
+      "answer": "People lie mostly by omission and by misdirection rather than by saying the opposite of the truth, which is why a person who has not fabricated anything may still be dishonest. The reason lying is common is that it reliably works in the short run: the benefit is immediate and the cost is usually deferred or never collected, and a social context where being pleasant matters more than being accurate pushes people towards the softer option. It is also not always deliberate, because a person who believes something is more often wrong than a person who is lying about it, and self-report is unreliable on this point in both directions. The useful distinction for a listener is between a claim that is mistaken, which can be corrected with information, and one that is constructed, which cannot, and the sign is whether the story changes when new detail arrives.",
+      "variations": [
+        "The reason lying is common is that it reliably works in the short run: the benefit is immediate and the cost is usually deferred or never collected, and a social context where being pleasant matters more than being accurate pushes people towards the softer option. People lie mostly by omission and by misdirection rather than by saying the opposite of the truth, which is why a person who has not fabricated anything may still be dishonest. It is also not always deliberate, because a person who believes something is more often wrong than a person who is lying about it, and self-report is unreliable on this point in both directions. The useful distinction for a listener is between a claim that is mistaken, which can be corrected with information, and one that is constructed, which cannot, and the sign is whether the story changes when new detail arrives.",
+        "It is also not always deliberate, because a person who believes something is more often wrong than a person who is lying about it, and self-report is unreliable on this point in both directions. People lie mostly by omission and by misdirection rather than by saying the opposite of the truth, which is why a person who has not fabricated anything may still be dishonest. The reason lying is common is that it reliably works in the short run: the benefit is immediate and the cost is usually deferred or never collected, and a social context where being pleasant matters more than being accurate pushes people towards the softer option. The useful distinction for a listener is between a claim that is mistaken, which can be corrected with information, and one that is constructed, which cannot, and the sign is whether the story changes when new detail arrives."
+      ],
+      "tl": "magsaysay",
+      "bis": "magsaysay"
+    }
+  ],
+  "lang": "english",
+  "group": "people",
+  "sub": "behaviour",
+  "title": "Human behaviour",
+  "groupTitle": "People"
+}

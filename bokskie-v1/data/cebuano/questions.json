@@ -1,0 +1,83 @@
+{
+  "topic": "cebuano-questions",
+  "entries": [
+    {
+      "id": "ceb-questions-000001",
+      "topic": "cebuano-questions",
+      "intent": "definition",
+      "concept": "pila",
+      "keywords": [
+        "pila",
+        "count",
+        "quantity",
+        "number",
+        "ask",
+        "ilan",
+        "means",
+        "question",
+        "word",
+        "unsa"
+      ],
+      "patterns": [
+        "what is pila",
+        "pila",
+        "explain pila",
+        "definition of pila",
+        "pila meaning",
+        "unsa meaning nga pila",
+        "difference between pila and pira",
+        "ano ang ilan",
+        "unsa ang pila"
+      ],
+      "answer": "Pila means how many, and it is the question word for a count, where unsa means what and kinsa means who. It is used before the noun being counted, so pila ka means how many people, and it also works on its own as a general question, so pila ka is understood as how many are you. A number is the usual answer, and the count itself is what makes this word different from unsa, which asks about identity or description rather than quantity. The near relative worth knowing is pira, which means how much and is used for money, price and weight, and the two differ by one letter, so pila and pira are the classic pair a learner mixes up. In practice pila takes a count and pira takes a price, and saying pira ka would be understood as how much are you worth, which is a very different question.",
+      "variations": [
+        "It is used before the noun being counted, so pila ka means how many people, and it also works on its own as a general question, so pila ka is understood as how many are you. Pila means how many, and it is the question word for a count, where unsa means what and kinsa means who. A number is the usual answer, and the count itself is what makes this word different from unsa, which asks about identity or description rather than quantity. The near relative worth knowing is pira, which means how much and is used for money, price and weight, and the two differ by one letter, so pila and pira are the classic pair a learner mixes up. In practice pila takes a count and pira takes a price, and saying pira ka would be understood as how much are you worth, which is a very different question.",
+        "A number is the usual answer, and the count itself is what makes this word different from unsa, which asks about identity or description rather than quantity. Pila means how many, and it is the question word for a count, where unsa means what and kinsa means who. It is used before the noun being counted, so pila ka means how many people, and it also works on its own as a general question, so pila ka is understood as how many are you. The near relative worth knowing is pira, which means how much and is used for money, price and weight, and the two differ by one letter, so pila and pira are the classic pair a learner mixes up. In practice pila takes a count and pira takes a price, and saying pira ka would be understood as how much are you worth, which is a very different question."
+      ],
+      "tl": "ilan",
+      "bis": "pila"
+    },
+    {
+      "id": "ceb-questions-000002",
+      "topic": "cebuano-questions",
+      "intent": "definition",
+      "concept": "pira",
+      "keywords": [
+        "pira",
+        "price",
+        "cost",
+        "weight",
+        "amount",
+        "market",
+        "magkano",
+        "means",
+        "question",
+        "word",
+        "money"
+      ],
+      "patterns": [
+        "what is pira",
+        "pira",
+        "explain pira",
+        "definition of pira",
+        "pira meaning",
+        "unsa meaning nga pira",
+        "pira vs pila",
+        "ano ang magkano",
+        "unsa ang pira"
+      ],
+      "answer": "Pira means how much, and it is the question word for an amount of money, a price, a weight or a quantity where a number would not be expected, which is the sense English gets from how much as opposed to how many. It is the word a market stallholder answers when asked the price, so pira ka means how much is it and the reply is a single number with the currency. The same word covers weight and portions, so pira ka imong timbal is asking how much your rice is worth by weight, and in a market context people often ask pira na ka to find out both. The distinction from pila, meaning how many, is the one a learner needs first, since the two words are a single letter apart and both are extremely common. Pira can also mean a whole amount rather than a price, as in dili pira, meaning not much, which is a different use entirely and very common as an understatement.",
+      "variations": [
+        "It is the word a market stallholder answers when asked the price, so pira ka means how much is it and the reply is a single number with the currency. Pira means how much, and it is the question word for an amount of money, a price, a weight or a quantity where a number would not be expected, which is the sense English gets from how much as opposed to how many. The same word covers weight and portions, so pira ka imong timbal is asking how much your rice is worth by weight, and in a market context people often ask pira na ka to find out both. The distinction from pila, meaning how many, is the one a learner needs first, since the two words are a single letter apart and both are extremely common. Pira can also mean a whole amount rather than a price, as in dili pira, meaning not much, which is a different use entirely and very common as an understatement.",
+        "The same word covers weight and portions, so pira ka imong timbal is asking how much your rice is worth by weight, and in a market context people often ask pira na ka to find out both. Pira means how much, and it is the question word for an amount of money, a price, a weight or a quantity where a number would not be expected, which is the sense English gets from how much as opposed to how many. It is the word a market stallholder answers when asked the price, so pira ka means how much is it and the reply is a single number with the currency. The distinction from pila, meaning how many, is the one a learner needs first, since the two words are a single letter apart and both are extremely common. Pira can also mean a whole amount rather than a price, as in dili pira, meaning not much, which is a different use entirely and very common as an understatement."
+      ],
+      "tl": "magkano",
+      "bis": "pira"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "questions",
+  "title": "Questions",
+  "groupTitle": "Cebuano"
+}

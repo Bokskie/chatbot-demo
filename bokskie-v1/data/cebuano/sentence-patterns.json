@@ -1,0 +1,89 @@
+{
+  "topic": "cebuano-sentence-patterns",
+  "entries": [
+    {
+      "id": "ceb-sentence-patterns-000001",
+      "topic": "cebuano-sentence-patterns",
+      "intent": "definition",
+      "concept": "naa",
+      "keywords": [
+        "naa",
+        "have",
+        "exists",
+        "wala",
+        "presence",
+        "possession",
+        "any",
+        "may",
+        "existential",
+        "word",
+        "cebuano",
+        "something",
+        "present",
+        "learner"
+      ],
+      "patterns": [
+        "what is naa",
+        "naa",
+        "explain naa",
+        "definition of naa",
+        "naa meaning",
+        "unsa meaning nga naa",
+        "naa wala difference",
+        "ano ang may",
+        "unsa ang naa"
+      ],
+      "answer": "Naa is the existential word in Cebuano, used to say that something is present, and it is the word a learner notices first because English has no single equivalent. It covers both that a thing exists somewhere and that a person has something, and the way the two are told apart is by what follows rather than by the word itself, so naa ka og kita means you have something while naa siya sa balay means he is at the house. The negative is wala, and the pair naa and wala with the thing in between is the pattern that covers every statement about presence or absence in the language. Naa is also used to mean there is any, as in naa man, meaning there is one somewhere, which is a different sense that a learner meets early and often mistakes.",
+      "variations": [
+        "It covers both that a thing exists somewhere and that a person has something, and the way the two are told apart is by what follows rather than by the word itself, so naa ka og kita means you have something while naa siya sa balay means he is at the house. Naa is the existential word in Cebuano, used to say that something is present, and it is the word a learner notices first because English has no single equivalent. The negative is wala, and the pair naa and wala with the thing in between is the pattern that covers every statement about presence or absence in the language. Naa is also used to mean there is any, as in naa man, meaning there is one somewhere, which is a different sense that a learner meets early and often mistakes.",
+        "The negative is wala, and the pair naa and wala with the thing in between is the pattern that covers every statement about presence or absence in the language. Naa is the existential word in Cebuano, used to say that something is present, and it is the word a learner notices first because English has no single equivalent. It covers both that a thing exists somewhere and that a person has something, and the way the two are told apart is by what follows rather than by the word itself, so naa ka og kita means you have something while naa siya sa balay means he is at the house. Naa is also used to mean there is any, as in naa man, meaning there is one somewhere, which is a different sense that a learner meets early and often mistakes."
+      ],
+      "tl": "may",
+      "bis": "naa"
+    },
+    {
+      "id": "ceb-sentence-patterns-000002",
+      "topic": "cebuano-sentence-patterns",
+      "intent": "definition",
+      "concept": "naa man",
+      "keywords": [
+        "naa man",
+        "indefinite",
+        "some",
+        "opener",
+        "existence",
+        "confirmation",
+        "article",
+        "may",
+        "means",
+        "somewhere",
+        "turns",
+        "plain",
+        "statement"
+      ],
+      "patterns": [
+        "what is naa man",
+        "naa man",
+        "explain naa man",
+        "definition of naa man",
+        "naa man meaning",
+        "unsa meaning nga naa man",
+        "naa man vs naa",
+        "ano ang may",
+        "unsa ang naa man"
+      ],
+      "answer": "Naa man means there is one somewhere, and the man at the end turns a plain statement into an indefinite one, so it is the word to reach for when something exists but you are not pointing at which one. It is the Cebuano equivalent of the a in English there is a market nearby, and it appears constantly in ordinary speech, so its absence is as noticeable as a missing article would be in English. A near phrase worth distinguishing is naa gyud, which means there really is one and carries a note of confirmation or surprise, so naa gyud ka is you are here after all. Used on its own, naa man also works as a general opener meaning so or well, much like unsa man, and that dual use is why a learner who has only met it as a phrase is caught out when they hear it open a sentence.",
+      "variations": [
+        "It is the Cebuano equivalent of the a in English there is a market nearby, and it appears constantly in ordinary speech, so its absence is as noticeable as a missing article would be in English. Naa man means there is one somewhere, and the man at the end turns a plain statement into an indefinite one, so it is the word to reach for when something exists but you are not pointing at which one. A near phrase worth distinguishing is naa gyud, which means there really is one and carries a note of confirmation or surprise, so naa gyud ka is you are here after all. Used on its own, naa man also works as a general opener meaning so or well, much like unsa man, and that dual use is why a learner who has only met it as a phrase is caught out when they hear it open a sentence.",
+        "A near phrase worth distinguishing is naa gyud, which means there really is one and carries a note of confirmation or surprise, so naa gyud ka is you are here after all. Naa man means there is one somewhere, and the man at the end turns a plain statement into an indefinite one, so it is the word to reach for when something exists but you are not pointing at which one. It is the Cebuano equivalent of the a in English there is a market nearby, and it appears constantly in ordinary speech, so its absence is as noticeable as a missing article would be in English. Used on its own, naa man also works as a general opener meaning so or well, much like unsa man, and that dual use is why a learner who has only met it as a phrase is caught out when they hear it open a sentence."
+      ],
+      "tl": "may",
+      "bis": "naa man"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "sentence-patterns",
+  "title": "Sentence patterns",
+  "groupTitle": "Cebuano"
+}

@@ -1,0 +1,52 @@
+{
+  "topic": "finance-banking",
+  "entries": [
+    {
+      "id": "fin-banking-000001",
+      "topic": "finance-banking",
+      "intent": "definition",
+      "concept": "how banks work",
+      "keywords": [
+        "how banks work",
+        "deposit",
+        "loan",
+        "interest",
+        "margin",
+        "saving",
+        "reserve",
+        "bank",
+        "borrow",
+        "bangko",
+        "opposite",
+        "money",
+        "understanding",
+        "both",
+        "makes"
+      ],
+      "patterns": [
+        "what is how banks work",
+        "how banks work",
+        "explain how banks work",
+        "definition of how banks work",
+        "how banks work meaning",
+        "how do banks work",
+        "what does a bank do",
+        "why do banks take deposits",
+        "ano ang bangko",
+        "unsa ang bangko"
+      ],
+      "answer": "A bank does two opposite things with the same money, and understanding both is what makes the rest obvious. It takes deposits, which it promises to return on demand, and it lends most of them out to people who will pay interest, and the difference between what it pays and what it charges is the bank's margin and its income. A person who leaves money on deposit is therefore lending to the bank, and one with a loan is borrowing from it, which is why the same institution is a saver and a borrower in different circumstances. The reason it can work at all is that deposits and loans need not match up one to one, since the bank is continuously receiving and repaying, so it only needs enough of one to cover withdrawals as they happen. Regulation is the part that makes the promise credible, because an institution that failed to honour deposits would be unable to borrow at all, so a requirement to hold a share of what people have deposited is what backs the word \"savings\".",
+      "variations": [
+        "It takes deposits, which it promises to return on demand, and it lends most of them out to people who will pay interest, and the difference between what it pays and what it charges is the bank's margin and its income. A bank does two opposite things with the same money, and understanding both is what makes the rest obvious. A person who leaves money on deposit is therefore lending to the bank, and one with a loan is borrowing from it, which is why the same institution is a saver and a borrower in different circumstances. The reason it can work at all is that deposits and loans need not match up one to one, since the bank is continuously receiving and repaying, so it only needs enough of one to cover withdrawals as they happen. Regulation is the part that makes the promise credible, because an institution that failed to honour deposits would be unable to borrow at all, so a requirement to hold a share of what people have deposited is what backs the word \"savings\".",
+        "A person who leaves money on deposit is therefore lending to the bank, and one with a loan is borrowing from it, which is why the same institution is a saver and a borrower in different circumstances. A bank does two opposite things with the same money, and understanding both is what makes the rest obvious. It takes deposits, which it promises to return on demand, and it lends most of them out to people who will pay interest, and the difference between what it pays and what it charges is the bank's margin and its income. The reason it can work at all is that deposits and loans need not match up one to one, since the bank is continuously receiving and repaying, so it only needs enough of one to cover withdrawals as they happen. Regulation is the part that makes the promise credible, because an institution that failed to honour deposits would be unable to borrow at all, so a requirement to hold a share of what people have deposited is what backs the word \"savings\"."
+      ],
+      "tl": "bangko",
+      "bis": "bangko"
+    }
+  ],
+  "lang": "english",
+  "group": "finance",
+  "sub": "banking",
+  "title": "Banking",
+  "groupTitle": "Finance"
+}

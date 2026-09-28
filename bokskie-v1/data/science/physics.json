@@ -1,0 +1,363 @@
+{
+  "topic": "science-physics",
+  "entries": [
+    {
+      "id": "sci-physics-000001",
+      "topic": "science-physics",
+      "intent": "definition",
+      "concept": "gravity",
+      "keywords": [
+        "gravity",
+        "gravitation",
+        "newton",
+        "attract",
+        "orbit",
+        "fall",
+        "mutual",
+        "attraction",
+        "anything",
+        "mass",
+        "object"
+      ],
+      "patterns": [
+        "what is gravity",
+        "gravity",
+        "explain gravity",
+        "definition of gravity",
+        "gravity meaning",
+        "how does gravity work",
+        "why do things fall",
+        "ano ang gravity",
+        "unsa ang gravity"
+      ],
+      "answer": "Gravity is the mutual attraction between anything with mass. The more mass an object has, and the closer it is, the stronger the pull. On Earth it is what makes things fall and what keeps you on the ground; in space it is what keeps the Moon in orbit. Newton described it as a force falling off with the square of distance, so doubling the distance quarters the pull.",
+      "variations": [
+        "The more mass an object has, and the closer it is, the stronger the pull. Gravity is the mutual attraction between anything with mass. On Earth it is what makes things fall and what keeps you on the ground; in space it is what keeps the Moon in orbit. Newton described it as a force falling off with the square of distance, so doubling the distance quarters the pull.",
+        "On Earth it is what makes things fall and what keeps you on the ground; in space it is what keeps the Moon in orbit. Gravity is the mutual attraction between anything with mass. The more mass an object has, and the closer it is, the stronger the pull. Newton described it as a force falling off with the square of distance, so doubling the distance quarters the pull."
+      ],
+      "tl": "gravity",
+      "bis": "gravity",
+      "langs": {
+        "tagalog": "Ang gravity ay ang pagkakawit sa pagitan ng dalawang bagay na may mass. Ito ang dahilan kung bakit bumagsak ang mga inihulog, bakit nananatiling nasa orbit ang Buwan, at bakit hindi ka lumulutang - hinihila ka ng Earth sa lahat ng oras, at hinihila mo rin ang Earth nang pantay-pantay. Sa ibabaw ng lupa, parang constant na pag-pull sa ibaba ang dating nito dahil malaki ang Earth at halos lahat ng mass nito ay nasa ilalim ng iyong paa, kaya halos hindi nagbabago ang direksyon habang gumagalaw ka. Lumalabo ito sa layo: sa dalawang beses ang layo mula sa sentro, isang-sapat ang lakas. Isang maling pagkaunawa ang tinatanggap na gravity ay umiiral lang sa ibaba - umiiral ito sa lahat ng direksyon sa pagitan ng mga mass, at iyan ang dahilan kung bakit ang orbit ay freefall.",
+        "bisaya": "Ang gravity mao ang attraction sa between sa duha ka butang nga naa nga mass. Kana man nga rason nga nga makatumba ang mga gihatay, nga nga nga orbit ang Moon, ug nga dili ka mahimong makatakaw - gi-pull ka gyud ni Earth sa tanan nga panahon, ug gi-pull ka usab ni Earth sa equal nga kantidad. Sa surface, mga kanunay nga pull down ang tanan nga naa nga feeling nato tungod sa dako ug dako pa kaayo nga Earth, ug kadto nga mass nga naa gyud sa ilawom nga imong feet, busa apil lang iya undi ang direction kon mousa ka. Mahumot kini sa kayo: kung dualha ang distansia gikan sa center, quarter lang ang kadaanan. Usa ka kasagaran nga sayop ang mga tawo: naa lang daw ang gravity sa ubos - naa gyud siya sa kada direksyon sa between sa mga mass, ug kana man nga rason nga freefall ang orbit."
+      },
+      "confidence": null
+    },
+    {
+      "id": "sci-physics-000002",
+      "topic": "science-physics",
+      "intent": "definition",
+      "concept": "energy",
+      "keywords": [
+        "energy",
+        "power",
+        "joule",
+        "work",
+        "capacity",
+        "cause",
+        "change",
+        "conserved"
+      ],
+      "patterns": [
+        "what is energy",
+        "energy",
+        "explain energy",
+        "definition of energy",
+        "energy meaning",
+        "energy conservation",
+        "what is power",
+        "law of conservation"
+      ],
+      "answer": "Energy is the capacity to do work or cause change, and it is conserved: it can move between forms or objects, but it does not simply appear or vanish. Power is the rate of using it, measured in watts, so a light bulb drawing 60 watts uses 60 joules every second it is on. The forms include kinetic, heat, chemical, electrical and light.",
+      "variations": [
+        "Power is the rate of using it, measured in watts, so a light bulb drawing 60 watts uses 60 joules every second it is on. Energy is the capacity to do work or cause change, and it is conserved: it can move between forms or objects, but it does not simply appear or vanish. The forms include kinetic, heat, chemical, electrical and light.",
+        "The forms include kinetic, heat, chemical, electrical and light. Energy is the capacity to do work or cause change, and it is conserved: it can move between forms or objects, but it does not simply appear or vanish. Power is the rate of using it, measured in watts, so a light bulb drawing 60 watts uses 60 joules every second it is on."
+      ]
+    },
+    {
+      "id": "sci-physics-000003",
+      "topic": "science-physics",
+      "intent": "definition",
+      "concept": "electricity",
+      "keywords": [
+        "electricity",
+        "current",
+        "voltage",
+        "resistance",
+        "ohm",
+        "conductor",
+        "kuryente",
+        "electric",
+        "flow",
+        "charge",
+        "material"
+      ],
+      "patterns": [
+        "what is electricity",
+        "electricity",
+        "explain electricity",
+        "definition of electricity",
+        "electricity meaning",
+        "what is electrical resistance",
+        "what is ohm's law",
+        "why does a light bulb glow",
+        "ano ang electricity",
+        "unsa ang kuryente"
+      ],
+      "answer": "Electric current is a flow of charge, and the resistance a material offers to that flow depends on its structure. Metals have free electrons that move easily and so conduct well, while materials with electrons locked into place insulate. The relationship is Ohm's law, where current is voltage divided by resistance, and the practical consequence is that heating a wire lowers its resistance, which is exactly why a bulb filament glows.",
+      "variations": [
+        "Metals have free electrons that move easily and so conduct well, while materials with electrons locked into place insulate. Electric current is a flow of charge, and the resistance a material offers to that flow depends on its structure. The relationship is Ohm's law, where current is voltage divided by resistance, and the practical consequence is that heating a wire lowers its resistance, which is exactly why a bulb filament glows.",
+        "The relationship is Ohm's law, where current is voltage divided by resistance, and the practical consequence is that heating a wire lowers its resistance, which is exactly why a bulb filament glows. Electric current is a flow of charge, and the resistance a material offers to that flow depends on its structure. Metals have free electrons that move easily and so conduct well, while materials with electrons locked into place insulate."
+      ],
+      "tl": "electricity",
+      "bis": "kuryente"
+    },
+    {
+      "id": "sci-physics-000004",
+      "topic": "science-physics",
+      "intent": "definition",
+      "concept": "momentum",
+      "keywords": [
+        "momentum",
+        "mass",
+        "velocity",
+        "vector",
+        "collision",
+        "conservation",
+        "impulse",
+        "rocket",
+        "quantity",
+        "motion",
+        "multiplied"
+      ],
+      "patterns": [
+        "what is momentum",
+        "momentum",
+        "explain momentum",
+        "definition of momentum",
+        "momentum meaning",
+        "what is conservation of momentum",
+        "momentum vs velocity",
+        "ano ang momentum",
+        "unsa ang momentum"
+      ],
+      "answer": "Momentum is the quantity of motion, and it is mass multiplied by velocity, so a heavy slow object and a light fast one can carry the same momentum. The reason it matters is conservation: in a closed system with no outside force, total momentum cannot change, and the everyday example is a stationary trolley that gains momentum in one direction and pushes a second trolley in the other, with the total before and after identical. This is what makes rockets work in empty space, since a rocket does not push against air, and what makes a collision dangerous even at low speed when the mass is large. Momentum is a vector, so direction is part of the value, and that is why a glancing blow does different damage from a head-on one: the component along the line of impact is the part that transfers. The conservation law for energy is separate and both apply at once, which is why a bouncing ball loses energy while the total momentum of the system stays the same.",
+      "variations": [
+        "The reason it matters is conservation: in a closed system with no outside force, total momentum cannot change, and the everyday example is a stationary trolley that gains momentum in one direction and pushes a second trolley in the other, with the total before and after identical. Momentum is the quantity of motion, and it is mass multiplied by velocity, so a heavy slow object and a light fast one can carry the same momentum. This is what makes rockets work in empty space, since a rocket does not push against air, and what makes a collision dangerous even at low speed when the mass is large. Momentum is a vector, so direction is part of the value, and that is why a glancing blow does different damage from a head-on one: the component along the line of impact is the part that transfers. The conservation law for energy is separate and both apply at once, which is why a bouncing ball loses energy while the total momentum of the system stays the same.",
+        "This is what makes rockets work in empty space, since a rocket does not push against air, and what makes a collision dangerous even at low speed when the mass is large. Momentum is the quantity of motion, and it is mass multiplied by velocity, so a heavy slow object and a light fast one can carry the same momentum. The reason it matters is conservation: in a closed system with no outside force, total momentum cannot change, and the everyday example is a stationary trolley that gains momentum in one direction and pushes a second trolley in the other, with the total before and after identical. Momentum is a vector, so direction is part of the value, and that is why a glancing blow does different damage from a head-on one: the component along the line of impact is the part that transfers. The conservation law for energy is separate and both apply at once, which is why a bouncing ball loses energy while the total momentum of the system stays the same."
+      ],
+      "tl": "momentum",
+      "bis": "momentum"
+    },
+    {
+      "id": "sci-physics-000005",
+      "topic": "science-physics",
+      "intent": "definition",
+      "concept": "wave",
+      "keywords": [
+        "wave",
+        "sound",
+        "light",
+        "frequency",
+        "amplitude",
+        "wavelength",
+        "interference",
+        "refraction",
+        "transfer",
+        "disturbance",
+        "medium",
+        "without",
+        "itself"
+      ],
+      "patterns": [
+        "what is wave",
+        "wave",
+        "explain wave",
+        "definition of wave",
+        "wave meaning",
+        "what is a wave",
+        "what is wavelength",
+        "why does sound not travel in space",
+        "ano ang wave",
+        "unsa ang wave"
+      ],
+      "answer": "A wave is the transfer of a disturbance through a medium without the medium itself moving permanently, which is the part that makes waves counter-intuitive: when a rope moves, the rope comes back to where it started, and what travelled is the shape. The two families are mechanical, which need something to carry the disturbance, such as sound needing air, and electromagnetic, which do not, which is why light crosses a vacuum and sound does not. The properties describe the wave: amplitude is how big the disturbance is and relates to loudness, wavelength is the distance between repeating points and relates to pitch in sound, and frequency is how many cycles pass per second. Wave speed equals frequency multiplied by wavelength, so raising the pitch without changing the medium means shortening the wavelength rather than speeding anything up. The behaviour at a boundary matters too: waves reflect, refract, diffract around obstacles and interfere with one another, and interference is why noise-cancelling headphones work by adding a wave that cancels the arriving one.",
+      "variations": [
+        "The two families are mechanical, which need something to carry the disturbance, such as sound needing air, and electromagnetic, which do not, which is why light crosses a vacuum and sound does not. A wave is the transfer of a disturbance through a medium without the medium itself moving permanently, which is the part that makes waves counter-intuitive: when a rope moves, the rope comes back to where it started, and what travelled is the shape. The properties describe the wave: amplitude is how big the disturbance is and relates to loudness, wavelength is the distance between repeating points and relates to pitch in sound, and frequency is how many cycles pass per second. Wave speed equals frequency multiplied by wavelength, so raising the pitch without changing the medium means shortening the wavelength rather than speeding anything up. The behaviour at a boundary matters too: waves reflect, refract, diffract around obstacles and interfere with one another, and interference is why noise-cancelling headphones work by adding a wave that cancels the arriving one.",
+        "The properties describe the wave: amplitude is how big the disturbance is and relates to loudness, wavelength is the distance between repeating points and relates to pitch in sound, and frequency is how many cycles pass per second. A wave is the transfer of a disturbance through a medium without the medium itself moving permanently, which is the part that makes waves counter-intuitive: when a rope moves, the rope comes back to where it started, and what travelled is the shape. The two families are mechanical, which need something to carry the disturbance, such as sound needing air, and electromagnetic, which do not, which is why light crosses a vacuum and sound does not. Wave speed equals frequency multiplied by wavelength, so raising the pitch without changing the medium means shortening the wavelength rather than speeding anything up. The behaviour at a boundary matters too: waves reflect, refract, diffract around obstacles and interfere with one another, and interference is why noise-cancelling headphones work by adding a wave that cancels the arriving one."
+      ],
+      "tl": "wave",
+      "bis": "wave"
+    },
+    {
+      "id": "sci-physics-000006",
+      "topic": "science-physics",
+      "intent": "definition",
+      "concept": "light scattering",
+      "keywords": [
+        "light scattering",
+        "rayleigh",
+        "sky",
+        "sunset",
+        "sunrise",
+        "atmosphere",
+        "wavelength",
+        "blue",
+        "red",
+        "langit",
+        "dilaw",
+        "umaga",
+        "scattering",
+        "light",
+        "sunsets",
+        "whole",
+        "effect"
+      ],
+      "patterns": [
+        "what is light scattering",
+        "light scattering",
+        "explain light scattering",
+        "definition of light scattering",
+        "light scattering meaning",
+        "why is the sky blue",
+        "why is the sunset red",
+        "bakit nga blue ang langit",
+        "ngano man nga blue ang langit",
+        "bakit dilaw ang umaga",
+        "ano ang langit",
+        "unsa ang langit"
+      ],
+      "answer": "Light scattering is why the sky is blue and the sunsets are red, and the whole effect comes from the size of the particles the light meets on its way. Air molecules are far smaller than the wavelength of visible light, and when light hits something that much smaller it is scattered in every direction rather than simply passing through, so blue light is redirected across the whole sky and reaches an eye anywhere on Earth. The bias towards blue is the crucial part and it is not about colour preference: it is a fourth-power relationship, so short wavelengths are scattered much more strongly than long ones, and blue is scattered several times more than red. That is why the sky overhead is blue and the light that survives a long horizontal path through the atmosphere at sunset has had its blue removed, leaving red and orange. A sunset and a midday sky are the same scattering with a different path length, which is why \"why is the sky blue\" and \"why are sunsets red\" are one answer rather than two.",
+      "variations": [
+        "Air molecules are far smaller than the wavelength of visible light, and when light hits something that much smaller it is scattered in every direction rather than simply passing through, so blue light is redirected across the whole sky and reaches an eye anywhere on Earth. Light scattering is why the sky is blue and the sunsets are red, and the whole effect comes from the size of the particles the light meets on its way. The bias towards blue is the crucial part and it is not about colour preference: it is a fourth-power relationship, so short wavelengths are scattered much more strongly than long ones, and blue is scattered several times more than red. That is why the sky overhead is blue and the light that survives a long horizontal path through the atmosphere at sunset has had its blue removed, leaving red and orange. A sunset and a midday sky are the same scattering with a different path length, which is why \"why is the sky blue\" and \"why are sunsets red\" are one answer rather than two.",
+        "The bias towards blue is the crucial part and it is not about colour preference: it is a fourth-power relationship, so short wavelengths are scattered much more strongly than long ones, and blue is scattered several times more than red. Light scattering is why the sky is blue and the sunsets are red, and the whole effect comes from the size of the particles the light meets on its way. Air molecules are far smaller than the wavelength of visible light, and when light hits something that much smaller it is scattered in every direction rather than simply passing through, so blue light is redirected across the whole sky and reaches an eye anywhere on Earth. That is why the sky overhead is blue and the light that survives a long horizontal path through the atmosphere at sunset has had its blue removed, leaving red and orange. A sunset and a midday sky are the same scattering with a different path length, which is why \"why is the sky blue\" and \"why are sunsets red\" are one answer rather than two."
+      ],
+      "tl": "langit",
+      "bis": "langit"
+    },
+    {
+      "id": "sci-physics-000007",
+      "topic": "science-physics",
+      "intent": "definition",
+      "concept": "rainbow",
+      "keywords": [
+        "rainbow",
+        "spectrum",
+        "prism",
+        "droplet",
+        "dispersion",
+        "arc",
+        "sunlight",
+        "wavelength",
+        "produced",
+        "light",
+        "refracted",
+        "dispersed"
+      ],
+      "patterns": [
+        "what is rainbow",
+        "rainbow",
+        "explain rainbow",
+        "definition of rainbow",
+        "rainbow meaning",
+        "what is a rainbow",
+        "how is a rainbow formed",
+        "why does a rainbow have those colours",
+        "ano ang rainbow",
+        "unsa ang rainbow"
+      ],
+      "answer": "A rainbow is a spectrum produced when light is refracted and dispersed by water droplets, and it is a separate phenomenon from the blue sky even though the same sunlight causes both. Inside each droplet the light is bent on entry, reflected off the back of the droplet, and bent again on the way out, and because the amount of bending depends on wavelength, the colours come out separated rather than mixed. The colours appear in a fixed order, red on the outside, and that order is the same reason a prism separates white light the same way. A rainbow is really a full circle centred on the point opposite the sun, and a person standing on the ground only sees the upper arc because the rest is below the horizon, which is why standing on a hill with water behind you shows more of it. Seeing one requires the sun behind the observer and water in front, and it is the single clearest demonstration that white light is made of colours.",
+      "variations": [
+        "Inside each droplet the light is bent on entry, reflected off the back of the droplet, and bent again on the way out, and because the amount of bending depends on wavelength, the colours come out separated rather than mixed. A rainbow is a spectrum produced when light is refracted and dispersed by water droplets, and it is a separate phenomenon from the blue sky even though the same sunlight causes both. The colours appear in a fixed order, red on the outside, and that order is the same reason a prism separates white light the same way. A rainbow is really a full circle centred on the point opposite the sun, and a person standing on the ground only sees the upper arc because the rest is below the horizon, which is why standing on a hill with water behind you shows more of it. Seeing one requires the sun behind the observer and water in front, and it is the single clearest demonstration that white light is made of colours.",
+        "The colours appear in a fixed order, red on the outside, and that order is the same reason a prism separates white light the same way. A rainbow is a spectrum produced when light is refracted and dispersed by water droplets, and it is a separate phenomenon from the blue sky even though the same sunlight causes both. Inside each droplet the light is bent on entry, reflected off the back of the droplet, and bent again on the way out, and because the amount of bending depends on wavelength, the colours come out separated rather than mixed. A rainbow is really a full circle centred on the point opposite the sun, and a person standing on the ground only sees the upper arc because the rest is below the horizon, which is why standing on a hill with water behind you shows more of it. Seeing one requires the sun behind the observer and water in front, and it is the single clearest demonstration that white light is made of colours."
+      ],
+      "tl": "rainbow",
+      "bis": "rainbow"
+    },
+    {
+      "id": "sci-physics-000008",
+      "topic": "science-physics",
+      "intent": "definition",
+      "concept": "friction",
+      "keywords": [
+        "friction",
+        "surface",
+        "static",
+        "kinetic",
+        "rolling",
+        "lubrication",
+        "grip",
+        "resistance",
+        "force",
+        "resisting",
+        "relative",
+        "motion",
+        "surfaces"
+      ],
+      "patterns": [
+        "what is friction",
+        "friction",
+        "explain friction",
+        "definition of friction",
+        "friction meaning",
+        "types of friction",
+        "why is friction needed",
+        "ano ang friction",
+        "unsa ang friction"
+      ],
+      "answer": "Friction is the force resisting the relative motion of two surfaces in contact, and it is what allows walking, gripping a handle and a car moving rather than sliding, so the same force is a problem in one place and a necessity in another. It increases with the pressing force between the surfaces and with how rough they are, and the interesting part is that it is not a single known force: a separate term for each of the three ways it acts. Static friction is what holds a box still on a slope and is adjustable up to a limit, so a gentle push moves it and a hard one does not. Kinetic friction applies once it is sliding, and rolling friction is much smaller again, which is why wheels are used at all: a ball rolling and the same ball dragged along a surface lose very different amounts of energy. The practical consequence is that most of the energy lost in a machine is friction, and lubrication and ball bearings exist to move from one kind to the more favourable one.",
+      "variations": [
+        "It increases with the pressing force between the surfaces and with how rough they are, and the interesting part is that it is not a single known force: a separate term for each of the three ways it acts. Friction is the force resisting the relative motion of two surfaces in contact, and it is what allows walking, gripping a handle and a car moving rather than sliding, so the same force is a problem in one place and a necessity in another. Static friction is what holds a box still on a slope and is adjustable up to a limit, so a gentle push moves it and a hard one does not. Kinetic friction applies once it is sliding, and rolling friction is much smaller again, which is why wheels are used at all: a ball rolling and the same ball dragged along a surface lose very different amounts of energy. The practical consequence is that most of the energy lost in a machine is friction, and lubrication and ball bearings exist to move from one kind to the more favourable one.",
+        "Static friction is what holds a box still on a slope and is adjustable up to a limit, so a gentle push moves it and a hard one does not. Friction is the force resisting the relative motion of two surfaces in contact, and it is what allows walking, gripping a handle and a car moving rather than sliding, so the same force is a problem in one place and a necessity in another. It increases with the pressing force between the surfaces and with how rough they are, and the interesting part is that it is not a single known force: a separate term for each of the three ways it acts. Kinetic friction applies once it is sliding, and rolling friction is much smaller again, which is why wheels are used at all: a ball rolling and the same ball dragged along a surface lose very different amounts of energy. The practical consequence is that most of the energy lost in a machine is friction, and lubrication and ball bearings exist to move from one kind to the more favourable one."
+      ],
+      "tl": "friction",
+      "bis": "friction"
+    },
+    {
+      "id": "sci-physics-000009",
+      "topic": "science-physics",
+      "intent": "definition",
+      "concept": "circuit",
+      "keywords": [
+        "circuit",
+        "current",
+        "voltage",
+        "resistance",
+        "ohms",
+        "battery",
+        "load",
+        "short",
+        "kurso",
+        "closed",
+        "path",
+        "electricity",
+        "flow",
+        "around"
+      ],
+      "patterns": [
+        "what is circuit",
+        "circuit",
+        "explain circuit",
+        "definition of circuit",
+        "circuit meaning",
+        "what is an electric circuit",
+        "what is current",
+        "what is voltage",
+        "ano ang kurso",
+        "unsa ang circuit"
+      ],
+      "answer": "A circuit is a closed path that electricity can flow around, and the closed part is not a detail, since current exists only while the loop is complete, which is why a broken switch stops everything. The three parts every circuit has are a source that provides the push, called the electromotive force, a wire that carries the charge, and a load that resists and does something with the energy. The two quantities that describe the behaviour are current, the amount of charge flowing past a point per second, and voltage, the push across a component, and they are linked by resistance through Ohm's law, so raising either the push or the resistance raises the current. The two are frequently confused because they are measured with different meters in series and in parallel, and the reason is that current is the same everywhere in a single loop while the voltage is shared between the components in proportion to their resistance. A short circuit is what happens when the resistance is bypassed, and the result is a very large current, which is why protection devices exist.",
+      "variations": [
+        "The three parts every circuit has are a source that provides the push, called the electromotive force, a wire that carries the charge, and a load that resists and does something with the energy. A circuit is a closed path that electricity can flow around, and the closed part is not a detail, since current exists only while the loop is complete, which is why a broken switch stops everything. The two quantities that describe the behaviour are current, the amount of charge flowing past a point per second, and voltage, the push across a component, and they are linked by resistance through Ohm's law, so raising either the push or the resistance raises the current. The two are frequently confused because they are measured with different meters in series and in parallel, and the reason is that current is the same everywhere in a single loop while the voltage is shared between the components in proportion to their resistance. A short circuit is what happens when the resistance is bypassed, and the result is a very large current, which is why protection devices exist.",
+        "The two quantities that describe the behaviour are current, the amount of charge flowing past a point per second, and voltage, the push across a component, and they are linked by resistance through Ohm's law, so raising either the push or the resistance raises the current. A circuit is a closed path that electricity can flow around, and the closed part is not a detail, since current exists only while the loop is complete, which is why a broken switch stops everything. The three parts every circuit has are a source that provides the push, called the electromotive force, a wire that carries the charge, and a load that resists and does something with the energy. The two are frequently confused because they are measured with different meters in series and in parallel, and the reason is that current is the same everywhere in a single loop while the voltage is shared between the components in proportion to their resistance. A short circuit is what happens when the resistance is bypassed, and the result is a very large current, which is why protection devices exist."
+      ],
+      "tl": "kurso",
+      "bis": "circuit"
+    }
+  ],
+  "lang": "english",
+  "group": "science",
+  "sub": "physics",
+  "title": "Physics",
+  "groupTitle": "Science"
+}

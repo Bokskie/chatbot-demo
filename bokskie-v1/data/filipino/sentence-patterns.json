@@ -1,0 +1,49 @@
+{
+  "topic": "filipino-sentence-patterns",
+  "entries": [
+    {
+      "id": "fil-sentence-patterns-000001",
+      "topic": "filipino-sentence-patterns",
+      "intent": "definition",
+      "concept": "may",
+      "keywords": [
+        "may",
+        "have",
+        "existential",
+        "possession",
+        "hindi",
+        "polite",
+        "exists",
+        "word",
+        "filipino",
+        "learner",
+        "notices",
+        "first"
+      ],
+      "patterns": [
+        "what is may",
+        "may",
+        "explain may",
+        "definition of may",
+        "may meaning",
+        "anong meaning ng may",
+        "may meaning in filipino",
+        "paano sabihin may mayroon",
+        "ano ang may",
+        "unsa ang may"
+      ],
+      "answer": "May is the existential word in Filipino, and it is the thing a learner notices first because it has no direct English equivalent in the same position. It is used to say that something exists, so may basket ang mesa means there is a basket on the table, and it is also used to say that you have something. The difference between exists and have is handled by what follows rather than by the word, and the most useful sign is the next word: with a bare noun it usually means there is, and with a personal pronoun it means you have. The related negative is hindi, and the three together, may and hindi and the verb, are the pattern that covers both existence and possession. May also serves as a polite softener, since may kita means may I rather than I want, and a learner who omits it produces a blunter sentence without realising it.",
+      "variations": [
+        "It is used to say that something exists, so may basket ang mesa means there is a basket on the table, and it is also used to say that you have something. May is the existential word in Filipino, and it is the thing a learner notices first because it has no direct English equivalent in the same position. The difference between exists and have is handled by what follows rather than by the word, and the most useful sign is the next word: with a bare noun it usually means there is, and with a personal pronoun it means you have. The related negative is hindi, and the three together, may and hindi and the verb, are the pattern that covers both existence and possession. May also serves as a polite softener, since may kita means may I rather than I want, and a learner who omits it produces a blunter sentence without realising it.",
+        "The difference between exists and have is handled by what follows rather than by the word, and the most useful sign is the next word: with a bare noun it usually means there is, and with a personal pronoun it means you have. May is the existential word in Filipino, and it is the thing a learner notices first because it has no direct English equivalent in the same position. It is used to say that something exists, so may basket ang mesa means there is a basket on the table, and it is also used to say that you have something. The related negative is hindi, and the three together, may and hindi and the verb, are the pattern that covers both existence and possession. May also serves as a polite softener, since may kita means may I rather than I want, and a learner who omits it produces a blunter sentence without realising it."
+      ],
+      "tl": "may",
+      "bis": "may"
+    }
+  ],
+  "lang": "tagalog",
+  "group": "filipino",
+  "sub": "sentence-patterns",
+  "title": "Sentence patterns",
+  "groupTitle": "Filipino"
+}

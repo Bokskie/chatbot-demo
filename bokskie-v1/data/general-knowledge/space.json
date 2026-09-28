@@ -1,0 +1,87 @@
+{
+  "topic": "general-knowledge-space",
+  "entries": [
+    {
+      "id": "gen-space-000001",
+      "topic": "general-knowledge-space",
+      "intent": "definition",
+      "concept": "solar system exploration",
+      "keywords": [
+        "solar system exploration",
+        "nasa",
+        "rover",
+        "orbit",
+        "landing",
+        "probe",
+        "exploration",
+        "solar",
+        "system",
+        "shape",
+        "follows",
+        "expensive"
+      ],
+      "patterns": [
+        "what is solar system exploration",
+        "solar system exploration",
+        "explain solar system exploration",
+        "definition of solar system exploration",
+        "solar system exploration meaning",
+        "how do we explore space",
+        "has anyone been to mars",
+        "why is space exploration so expensive",
+        "ano ang solar system exploration",
+        "unsa ang pagtuon sa espasyo"
+      ],
+      "answer": "The exploration of the solar system has a shape that follows from how expensive it is to leave gravity, and the sequence is mostly about what is reachable rather than what is interesting. The first phase was robotic and cheap, with flybys and orbiters that went past a world once and returned data, and it is why so much was learned about the outer planets before anyone landed anywhere. The second phase put people in low Earth orbit, which is close enough to return from and is where every space station now lives. The third pushed further out, and the deliberate gap is telling: nobody has walked on Mars, because a round trip takes years and the failure modes cannot be tested, while the robotic missions that have gone are still doing useful science. The current emphasis is on robotic exploration with a small number of crewed missions, using orbiters around Mars and probes that return samples, and the over-riding cost driver is launch: the great majority of a mission budget is spent getting off the ground.",
+      "variations": [
+        "The first phase was robotic and cheap, with flybys and orbiters that went past a world once and returned data, and it is why so much was learned about the outer planets before anyone landed anywhere. The exploration of the solar system has a shape that follows from how expensive it is to leave gravity, and the sequence is mostly about what is reachable rather than what is interesting. The second phase put people in low Earth orbit, which is close enough to return from and is where every space station now lives. The third pushed further out, and the deliberate gap is telling: nobody has walked on Mars, because a round trip takes years and the failure modes cannot be tested, while the robotic missions that have gone are still doing useful science. The current emphasis is on robotic exploration with a small number of crewed missions, using orbiters around Mars and probes that return samples, and the over-riding cost driver is launch: the great majority of a mission budget is spent getting off the ground.",
+        "The second phase put people in low Earth orbit, which is close enough to return from and is where every space station now lives. The exploration of the solar system has a shape that follows from how expensive it is to leave gravity, and the sequence is mostly about what is reachable rather than what is interesting. The first phase was robotic and cheap, with flybys and orbiters that went past a world once and returned data, and it is why so much was learned about the outer planets before anyone landed anywhere. The third pushed further out, and the deliberate gap is telling: nobody has walked on Mars, because a round trip takes years and the failure modes cannot be tested, while the robotic missions that have gone are still doing useful science. The current emphasis is on robotic exploration with a small number of crewed missions, using orbiters around Mars and probes that return samples, and the over-riding cost driver is launch: the great majority of a mission budget is spent getting off the ground."
+      ],
+      "tl": "solar system exploration",
+      "bis": "pagtuon sa espasyo"
+    },
+    {
+      "id": "gen-space-000002",
+      "topic": "general-knowledge-space",
+      "intent": "definition",
+      "concept": "galaxy",
+      "keywords": [
+        "galaxy",
+        "spiral",
+        "bulge",
+        "halo",
+        "andromeda",
+        "galaksya",
+        "gravitationally",
+        "bound",
+        "collection",
+        "stars",
+        "dust"
+      ],
+      "patterns": [
+        "what is galaxy",
+        "galaxy",
+        "explain galaxy",
+        "definition of galaxy",
+        "galaxy meaning",
+        "what is a galaxy",
+        "how many galaxies are there",
+        "where is the milky way",
+        "ano ang galaxy",
+        "unsa ang galaksya"
+      ],
+      "answer": "A galaxy is a gravitationally bound collection of stars, gas, dust and dark matter, and the Milky Way is the one containing the solar system. Spirals like ours have a central bulge of older stars, spiral arms where young bright stars form, a disc where most of the light is, and a spherical halo of very old globular clusters surrounding everything. Elliptical galaxies are smoother and nearly spherical, which is believed to be the result of repeated mergers disrupting any arms, and irregular galaxies are the smaller ones often distorted by a gravitational encounter. The Sun lies about 26,000 light years from the centre, which is roughly two thirds of the way out in the disc, and it takes about 230 million years to complete one orbit, so the Sun has made about twenty trips since the galaxy formed. At the very centre sits a supermassive black hole, and for the Milky Way that is Sagittarius A star, which was confirmed by tracking the orbits of nearby stars rather than by seeing the object itself.",
+      "variations": [
+        "Spirals like ours have a central bulge of older stars, spiral arms where young bright stars form, a disc where most of the light is, and a spherical halo of very old globular clusters surrounding everything. A galaxy is a gravitationally bound collection of stars, gas, dust and dark matter, and the Milky Way is the one containing the solar system. Elliptical galaxies are smoother and nearly spherical, which is believed to be the result of repeated mergers disrupting any arms, and irregular galaxies are the smaller ones often distorted by a gravitational encounter. The Sun lies about 26,000 light years from the centre, which is roughly two thirds of the way out in the disc, and it takes about 230 million years to complete one orbit, so the Sun has made about twenty trips since the galaxy formed. At the very centre sits a supermassive black hole, and for the Milky Way that is Sagittarius A star, which was confirmed by tracking the orbits of nearby stars rather than by seeing the object itself.",
+        "Elliptical galaxies are smoother and nearly spherical, which is believed to be the result of repeated mergers disrupting any arms, and irregular galaxies are the smaller ones often distorted by a gravitational encounter. A galaxy is a gravitationally bound collection of stars, gas, dust and dark matter, and the Milky Way is the one containing the solar system. Spirals like ours have a central bulge of older stars, spiral arms where young bright stars form, a disc where most of the light is, and a spherical halo of very old globular clusters surrounding everything. The Sun lies about 26,000 light years from the centre, which is roughly two thirds of the way out in the disc, and it takes about 230 million years to complete one orbit, so the Sun has made about twenty trips since the galaxy formed. At the very centre sits a supermassive black hole, and for the Milky Way that is Sagittarius A star, which was confirmed by tracking the orbits of nearby stars rather than by seeing the object itself."
+      ],
+      "tl": "galaxy",
+      "bis": "galaksya"
+    }
+  ],
+  "lang": "english",
+  "group": "general-knowledge",
+  "sub": "space",
+  "title": "Space",
+  "groupTitle": "General Knowledge"
+}

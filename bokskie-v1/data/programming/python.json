@@ -1,0 +1,119 @@
+{
+  "topic": "programming-python",
+  "entries": [
+    {
+      "id": "pro-python-000001",
+      "topic": "programming-python",
+      "intent": "definition",
+      "concept": "list comprehension",
+      "keywords": [
+        "list comprehension",
+        "python",
+        "list",
+        "loop",
+        "comprehension",
+        "filter",
+        "expression",
+        "generator",
+        "lazy",
+        "iterable",
+        "listahan",
+        "construct",
+        "builds",
+        "writing"
+      ],
+      "patterns": [
+        "what is list comprehension",
+        "list comprehension",
+        "explain list comprehension",
+        "definition of list comprehension",
+        "list comprehension meaning",
+        "what is a list comprehension",
+        "list comprehension vs for loop",
+        "is list comprehension faster",
+        "ano ang listahan",
+        "unsa ang list comprehension"
+      ],
+      "answer": "A list comprehension is the construct that builds a list in one expression by writing the loop as part of the brackets, and it exists because the three lines of a plain for loop say one thing while the comprehension says it in one. The shape is a pair of brackets containing the result you want, followed by a for clause and optionally an if clause to filter. Square brackets give a list, curly braces give a set, and a pair of parentheses with a generator inside gives a lazy sequence, which is the version to use for something you will only partly consume. The honest reason it is faster is not that it skips steps but that the work happens inside the interpreter's own loop, in a tight path, rather than through repeated calls to a method on a list. The real argument for it is readability, and it does hurt readability when it gets nested, so the guidance is to use it when the body is a single expression and to write a real loop the moment it needs a statement, a second loop or a side effect.",
+      "variations": [
+        "The shape is a pair of brackets containing the result you want, followed by a for clause and optionally an if clause to filter. A list comprehension is the construct that builds a list in one expression by writing the loop as part of the brackets, and it exists because the three lines of a plain for loop say one thing while the comprehension says it in one. Square brackets give a list, curly braces give a set, and a pair of parentheses with a generator inside gives a lazy sequence, which is the version to use for something you will only partly consume. The honest reason it is faster is not that it skips steps but that the work happens inside the interpreter's own loop, in a tight path, rather than through repeated calls to a method on a list. The real argument for it is readability, and it does hurt readability when it gets nested, so the guidance is to use it when the body is a single expression and to write a real loop the moment it needs a statement, a second loop or a side effect.",
+        "Square brackets give a list, curly braces give a set, and a pair of parentheses with a generator inside gives a lazy sequence, which is the version to use for something you will only partly consume. A list comprehension is the construct that builds a list in one expression by writing the loop as part of the brackets, and it exists because the three lines of a plain for loop say one thing while the comprehension says it in one. The shape is a pair of brackets containing the result you want, followed by a for clause and optionally an if clause to filter. The honest reason it is faster is not that it skips steps but that the work happens inside the interpreter's own loop, in a tight path, rather than through repeated calls to a method on a list. The real argument for it is readability, and it does hurt readability when it gets nested, so the guidance is to use it when the body is a single expression and to write a real loop the moment it needs a statement, a second loop or a side effect."
+      ],
+      "tl": "listahan",
+      "bis": "list comprehension"
+    },
+    {
+      "id": "pro-python-000002",
+      "topic": "programming-python",
+      "intent": "definition",
+      "concept": "decorator",
+      "keywords": [
+        "decorator",
+        "wrapper",
+        "logging",
+        "caching",
+        "class",
+        "return",
+        "dekorador",
+        "function",
+        "takes",
+        "another",
+        "returns",
+        "replacement"
+      ],
+      "patterns": [
+        "what is decorator",
+        "decorator",
+        "explain decorator",
+        "definition of decorator",
+        "decorator meaning",
+        "what is a decorator",
+        "how do decorators work",
+        "what does a decorator return",
+        "ano ang dekorador",
+        "unsa ang decorator"
+      ],
+      "answer": "A decorator is a function that takes another function and returns a replacement for it, and the reason it exists is that behaviour which applies to many functions is otherwise written many times. The syntax is an at sign above the definition, so the decorated name becomes the wrapped function rather than the original one, and the wrapper receives the original as its first argument. The classic use is logging, timing, caching and authorisation, and because the wrapper runs on every call it is also a performance cost that people forget. The related form used for classes is the same idea, and applying a decorator to a class replaces the name with the result of the call rather than modifying the class in place. Two things are worth knowing before using one widely: a decorator that does not return anything silently makes the name become None, which is the most common decorator bug, and a stack of decorators runs bottom up, so reading them means starting at the one nearest the function.",
+      "variations": [
+        "The syntax is an at sign above the definition, so the decorated name becomes the wrapped function rather than the original one, and the wrapper receives the original as its first argument. A decorator is a function that takes another function and returns a replacement for it, and the reason it exists is that behaviour which applies to many functions is otherwise written many times. The classic use is logging, timing, caching and authorisation, and because the wrapper runs on every call it is also a performance cost that people forget. The related form used for classes is the same idea, and applying a decorator to a class replaces the name with the result of the call rather than modifying the class in place. Two things are worth knowing before using one widely: a decorator that does not return anything silently makes the name become None, which is the most common decorator bug, and a stack of decorators runs bottom up, so reading them means starting at the one nearest the function.",
+        "The classic use is logging, timing, caching and authorisation, and because the wrapper runs on every call it is also a performance cost that people forget. A decorator is a function that takes another function and returns a replacement for it, and the reason it exists is that behaviour which applies to many functions is otherwise written many times. The syntax is an at sign above the definition, so the decorated name becomes the wrapped function rather than the original one, and the wrapper receives the original as its first argument. The related form used for classes is the same idea, and applying a decorator to a class replaces the name with the result of the call rather than modifying the class in place. Two things are worth knowing before using one widely: a decorator that does not return anything silently makes the name become None, which is the most common decorator bug, and a stack of decorators runs bottom up, so reading them means starting at the one nearest the function."
+      ],
+      "tl": "dekorador",
+      "bis": "decorator"
+    },
+    {
+      "id": "pro-python-000003",
+      "topic": "programming-python",
+      "intent": "definition",
+      "concept": "python",
+      "keywords": [
+        "python",
+        "scripting",
+        "snake",
+        "programming",
+        "language",
+        "built",
+        "readable",
+        "uses"
+      ],
+      "patterns": [
+        "what is python",
+        "python",
+        "explain python",
+        "definition of python",
+        "python meaning",
+        "python language"
+      ],
+      "answer": "Python is a programming language built to be readable. It uses clear English-like syntax and indentation instead of braces, so beginners get to working code quickly. It is used for data analysis, automation, artificial intelligence, and backends. It is the most common language beginners start with.",
+      "variations": [
+        "It uses clear English-like syntax and indentation instead of braces, so beginners get to working code quickly. Python is a programming language built to be readable. It is used for data analysis, automation, artificial intelligence, and backends. It is the most common language beginners start with.",
+        "It is used for data analysis, automation, artificial intelligence, and backends. Python is a programming language built to be readable. It uses clear English-like syntax and indentation instead of braces, so beginners get to working code quickly. It is the most common language beginners start with."
+      ]
+    }
+  ],
+  "lang": "english",
+  "group": "programming",
+  "sub": "python",
+  "title": "Python",
+  "groupTitle": "Programming"
+}

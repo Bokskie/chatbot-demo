@@ -1,0 +1,126 @@
+{
+  "topic": "health-nutrition",
+  "entries": [
+    {
+      "id": "hea-nutrition-000001",
+      "topic": "health-nutrition",
+      "intent": "definition",
+      "concept": "balanced diet",
+      "keywords": [
+        "balanced diet",
+        "nutrients",
+        "protein",
+        "carbohydrate",
+        "micronutrient",
+        "variety",
+        "plate",
+        "balanced",
+        "diet",
+        "supplies",
+        "enough",
+        "every",
+        "nutrient"
+      ],
+      "patterns": [
+        "what is balanced diet",
+        "balanced diet",
+        "explain balanced diet",
+        "definition of balanced diet",
+        "balanced diet meaning",
+        "what is a balanced diet",
+        "what should a healthy diet contain",
+        "food guide pyramid",
+        "ano ang malusog na pagkain",
+        "unsa ang balanced diet"
+      ],
+      "answer": "A balanced diet is one that supplies enough of every nutrient the body needs in proportions the body can use, and the practical definition is a variety of foods rather than a specific diet. The parts to cover are carbohydrates as the main fuel, protein for building and repair, fat for energy and for carrying the fat-soluble vitamins, and then the micronutrients, which are vitamins and minerals needed in small amounts. The modern guidance moved away from counting nutrients towards eating a variety of whole foods, because a diet can hit every number on paper and still be one of fried processed food, so the pattern of what you eat matters as well as the totals. The Philippine reference is the food guide, which arranges foods into circles and grains and directs the plate toward vegetables and fruit, fish and lean protein, and rice as the staple, with water as the usual drink. The two things nutrition advice is most often about are the amount of salt and the amount of added sugar, since both are large contributors to blood pressure problems and to weight gain even in a diet that looks balanced.",
+      "variations": [
+        "The parts to cover are carbohydrates as the main fuel, protein for building and repair, fat for energy and for carrying the fat-soluble vitamins, and then the micronutrients, which are vitamins and minerals needed in small amounts. A balanced diet is one that supplies enough of every nutrient the body needs in proportions the body can use, and the practical definition is a variety of foods rather than a specific diet. The modern guidance moved away from counting nutrients towards eating a variety of whole foods, because a diet can hit every number on paper and still be one of fried processed food, so the pattern of what you eat matters as well as the totals. The Philippine reference is the food guide, which arranges foods into circles and grains and directs the plate toward vegetables and fruit, fish and lean protein, and rice as the staple, with water as the usual drink. The two things nutrition advice is most often about are the amount of salt and the amount of added sugar, since both are large contributors to blood pressure problems and to weight gain even in a diet that looks balanced.",
+        "The modern guidance moved away from counting nutrients towards eating a variety of whole foods, because a diet can hit every number on paper and still be one of fried processed food, so the pattern of what you eat matters as well as the totals. A balanced diet is one that supplies enough of every nutrient the body needs in proportions the body can use, and the practical definition is a variety of foods rather than a specific diet. The parts to cover are carbohydrates as the main fuel, protein for building and repair, fat for energy and for carrying the fat-soluble vitamins, and then the micronutrients, which are vitamins and minerals needed in small amounts. The Philippine reference is the food guide, which arranges foods into circles and grains and directs the plate toward vegetables and fruit, fish and lean protein, and rice as the staple, with water as the usual drink. The two things nutrition advice is most often about are the amount of salt and the amount of added sugar, since both are large contributors to blood pressure problems and to weight gain even in a diet that looks balanced."
+      ],
+      "tl": "malusog na pagkain",
+      "bis": "balanced diet"
+    },
+    {
+      "id": "hea-nutrition-000002",
+      "topic": "health-nutrition",
+      "intent": "definition",
+      "concept": "calorie",
+      "keywords": [
+        "calorie",
+        "kilocalorie",
+        "energy",
+        "protein",
+        "fat",
+        "portion",
+        "metabolism",
+        "nutrition",
+        "actually",
+        "large"
+      ],
+      "patterns": [
+        "what is calorie",
+        "calorie",
+        "explain calorie",
+        "definition of calorie",
+        "calorie meaning",
+        "what is a calorie",
+        "how many calories in fat",
+        "difference between calorie and kilocalorie",
+        "ano ang calorie",
+        "unsa ang calorie"
+      ],
+      "answer": "A calorie in nutrition is actually a kilocalorie, the energy in a large calorie, and that unit confusion is the origin of most people's mental model of food. A calorie of protein or carbohydrate yields about four kilocalories per gram and fat about nine, while alcohol yields about seven, which is why fat is the densest and why a small amount of it adds up. The energy a person actually uses is not the same number as what is eaten: a body at rest still spends a large share on keeping itself alive, and activity adds to that on top. The practical consequence is that a food label counts what is in it rather than how much of it a given person will use, so a portion size and a person's needs both matter. A common source of confusion is the difference between energy in calories and the nutrients listed as percentages of daily value, which are a different unit entirely and much smaller numbers.",
+      "variations": [
+        "A calorie of protein or carbohydrate yields about four kilocalories per gram and fat about nine, while alcohol yields about seven, which is why fat is the densest and why a small amount of it adds up. A calorie in nutrition is actually a kilocalorie, the energy in a large calorie, and that unit confusion is the origin of most people's mental model of food. The energy a person actually uses is not the same number as what is eaten: a body at rest still spends a large share on keeping itself alive, and activity adds to that on top. The practical consequence is that a food label counts what is in it rather than how much of it a given person will use, so a portion size and a person's needs both matter. A common source of confusion is the difference between energy in calories and the nutrients listed as percentages of daily value, which are a different unit entirely and much smaller numbers.",
+        "The energy a person actually uses is not the same number as what is eaten: a body at rest still spends a large share on keeping itself alive, and activity adds to that on top. A calorie in nutrition is actually a kilocalorie, the energy in a large calorie, and that unit confusion is the origin of most people's mental model of food. A calorie of protein or carbohydrate yields about four kilocalories per gram and fat about nine, while alcohol yields about seven, which is why fat is the densest and why a small amount of it adds up. The practical consequence is that a food label counts what is in it rather than how much of it a given person will use, so a portion size and a person's needs both matter. A common source of confusion is the difference between energy in calories and the nutrients listed as percentages of daily value, which are a different unit entirely and much smaller numbers."
+      ],
+      "tl": "calorie",
+      "bis": "calorie"
+    },
+    {
+      "id": "hea-nutrition-000003",
+      "topic": "health-nutrition",
+      "intent": "definition",
+      "concept": "vitamins",
+      "keywords": [
+        "vitamins",
+        "vitamin",
+        "supplement",
+        "nutrient",
+        "folate",
+        "deficiency",
+        "bitamina",
+        "organic",
+        "compounds",
+        "body",
+        "small",
+        "amounts"
+      ],
+      "patterns": [
+        "what is vitamins",
+        "vitamins",
+        "explain vitamins",
+        "definition of vitamins",
+        "vitamins meaning",
+        "do i need vitamin tablets",
+        "is it safe to take high dose vitamins",
+        "where do vitamins come from",
+        "ano ang bitamina",
+        "unsa ang bitamina"
+      ],
+      "answer": "Vitamins are organic compounds the body needs in small amounts and cannot make for itself. The fat-soluble ones, which are A, D, E and K, are stored in the liver and fatty tissue, so large doses can accumulate and cause harm. The water-soluble ones, the B group and vitamin C, are excreted in urine and shortages are more common, particularly in people who eat a very restricted diet. A varied diet generally supplies enough, and supplement tablets are most useful where there is a genuine deficiency, a diagnosed reason, or a dietary restriction. Megadoses of fat-soluble vitamins are a real risk, not a free boost.",
+      "variations": [
+        "The fat-soluble ones, which are A, D, E and K, are stored in the liver and fatty tissue, so large doses can accumulate and cause harm. Vitamins are organic compounds the body needs in small amounts and cannot make for itself. The water-soluble ones, the B group and vitamin C, are excreted in urine and shortages are more common, particularly in people who eat a very restricted diet. A varied diet generally supplies enough, and supplement tablets are most useful where there is a genuine deficiency, a diagnosed reason, or a dietary restriction. Megadoses of fat-soluble vitamins are a real risk, not a free boost.",
+        "The water-soluble ones, the B group and vitamin C, are excreted in urine and shortages are more common, particularly in people who eat a very restricted diet. Vitamins are organic compounds the body needs in small amounts and cannot make for itself. The fat-soluble ones, which are A, D, E and K, are stored in the liver and fatty tissue, so large doses can accumulate and cause harm. A varied diet generally supplies enough, and supplement tablets are most useful where there is a genuine deficiency, a diagnosed reason, or a dietary restriction. Megadoses of fat-soluble vitamins are a real risk, not a free boost."
+      ],
+      "tl": "bitamina",
+      "bis": "bitamina"
+    }
+  ],
+  "lang": "english",
+  "group": "health",
+  "sub": "nutrition",
+  "title": "Nutrition",
+  "groupTitle": "Health"
+}

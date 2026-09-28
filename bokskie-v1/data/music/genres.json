@@ -1,0 +1,88 @@
+{
+  "topic": "music-genres",
+  "entries": [
+    {
+      "id": "mus-genres-000001",
+      "topic": "music-genres",
+      "intent": "definition",
+      "concept": "genre",
+      "keywords": [
+        "genre",
+        "style",
+        "category",
+        "classical",
+        "rock",
+        "jazz",
+        "folk",
+        "culture",
+        "label",
+        "music",
+        "defined",
+        "sounds"
+      ],
+      "patterns": [
+        "what is genre",
+        "genre",
+        "explain genre",
+        "definition of genre",
+        "genre meaning",
+        "what is a music genre",
+        "what genre is this",
+        "what is a genre",
+        "ano ang genre",
+        "unsa ang genre"
+      ],
+      "answer": "A genre is a category of music defined less by how it sounds than by the culture and history it came out of, which is why the boundaries are arguments rather than facts. Rock, jazz, hip hop, classical and folk are not descriptions of timbre; they are descriptions of a place, a decade and a group of people, and a piece can sit in two of them at once without anyone being wrong. The practical reason the label matters is that genre predicts what a listener will enjoy, so it is a useful shortcut when choosing something new, and a poor reason to dismiss something that does not fit it. The word is also applied at very different scales, since classical and baroque are periods rather than styles in the way rock is, and a person who asks for classical may want a nineteenth century symphony or a piece from 1750. A last thing worth knowing is that in the Philippines the tradition most people mean by a national genre is the kundiman and the forms around it, which have their own logic and are not simply Tagalog pop with different words.",
+      "variations": [
+        "Rock, jazz, hip hop, classical and folk are not descriptions of timbre; they are descriptions of a place, a decade and a group of people, and a piece can sit in two of them at once without anyone being wrong. A genre is a category of music defined less by how it sounds than by the culture and history it came out of, which is why the boundaries are arguments rather than facts. The practical reason the label matters is that genre predicts what a listener will enjoy, so it is a useful shortcut when choosing something new, and a poor reason to dismiss something that does not fit it. The word is also applied at very different scales, since classical and baroque are periods rather than styles in the way rock is, and a person who asks for classical may want a nineteenth century symphony or a piece from 1750. A last thing worth knowing is that in the Philippines the tradition most people mean by a national genre is the kundiman and the forms around it, which have their own logic and are not simply Tagalog pop with different words.",
+        "The practical reason the label matters is that genre predicts what a listener will enjoy, so it is a useful shortcut when choosing something new, and a poor reason to dismiss something that does not fit it. A genre is a category of music defined less by how it sounds than by the culture and history it came out of, which is why the boundaries are arguments rather than facts. Rock, jazz, hip hop, classical and folk are not descriptions of timbre; they are descriptions of a place, a decade and a group of people, and a piece can sit in two of them at once without anyone being wrong. The word is also applied at very different scales, since classical and baroque are periods rather than styles in the way rock is, and a person who asks for classical may want a nineteenth century symphony or a piece from 1750. A last thing worth knowing is that in the Philippines the tradition most people mean by a national genre is the kundiman and the forms around it, which have their own logic and are not simply Tagalog pop with different words."
+      ],
+      "tl": "genre",
+      "bis": "genre"
+    },
+    {
+      "id": "mus-genres-000002",
+      "topic": "music-genres",
+      "intent": "definition",
+      "concept": "kundiman music",
+      "keywords": [
+        "kundiman music",
+        "kundiman",
+        "lyrics",
+        "duet",
+        "suitor",
+        "traditional",
+        "folk",
+        "love",
+        "song",
+        "philippines",
+        "built",
+        "voice"
+      ],
+      "patterns": [
+        "what is kundiman music",
+        "kundiman music",
+        "explain kundiman music",
+        "definition of kundiman music",
+        "kundiman music meaning",
+        "what is kundiman",
+        "how is kundiman sung",
+        "what is a kundiman love song",
+        "ano ang kundiman",
+        "unsa ang kundiman"
+      ],
+      "answer": "The kundiman is a love song of the Philippines and it is built as a two-voice conversation, where one line is sung and the other is the reply, so the song is an exchange rather than a statement. That structure is what makes it recognisable: the alternating lines are the form, and the words carry the argument between the two. It came to the Philippines through Spanish and Mexican music, so its melodies and its accompaniment are largely from that older tradition while the words are Tagalog, and it is normally sung with a small ensemble rather than a full band because the vocal line is the point. The lyric position is unusually fixed, since a woman speaks of a suitor and a man of a woman, and the form is used for longing rather than for celebration. In the modern stage arrangement the shape is kept and the orchestration is added, which is how most people now meet it, and it is taught in schools as part of the national cultural identity.",
+      "variations": [
+        "That structure is what makes it recognisable: the alternating lines are the form, and the words carry the argument between the two. The kundiman is a love song of the Philippines and it is built as a two-voice conversation, where one line is sung and the other is the reply, so the song is an exchange rather than a statement. It came to the Philippines through Spanish and Mexican music, so its melodies and its accompaniment are largely from that older tradition while the words are Tagalog, and it is normally sung with a small ensemble rather than a full band because the vocal line is the point. The lyric position is unusually fixed, since a woman speaks of a suitor and a man of a woman, and the form is used for longing rather than for celebration. In the modern stage arrangement the shape is kept and the orchestration is added, which is how most people now meet it, and it is taught in schools as part of the national cultural identity.",
+        "It came to the Philippines through Spanish and Mexican music, so its melodies and its accompaniment are largely from that older tradition while the words are Tagalog, and it is normally sung with a small ensemble rather than a full band because the vocal line is the point. The kundiman is a love song of the Philippines and it is built as a two-voice conversation, where one line is sung and the other is the reply, so the song is an exchange rather than a statement. That structure is what makes it recognisable: the alternating lines are the form, and the words carry the argument between the two. The lyric position is unusually fixed, since a woman speaks of a suitor and a man of a woman, and the form is used for longing rather than for celebration. In the modern stage arrangement the shape is kept and the orchestration is added, which is how most people now meet it, and it is taught in schools as part of the national cultural identity."
+      ],
+      "tl": "kundiman",
+      "bis": "kundiman"
+    }
+  ],
+  "lang": "english",
+  "group": "music",
+  "sub": "genres",
+  "title": "Genres",
+  "groupTitle": "Music"
+}

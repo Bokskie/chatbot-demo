@@ -1,0 +1,80 @@
+{
+  "topic": "mathematics-calculus",
+  "entries": [
+    {
+      "id": "mat-calculus-000001",
+      "topic": "mathematics-calculus",
+      "intent": "definition",
+      "concept": "integral",
+      "keywords": [
+        "integral",
+        "accumulation",
+        "antiderivative",
+        "definite",
+        "rate",
+        "total",
+        "adds",
+        "quantities",
+        "accumulated",
+        "interval",
+        "idea"
+      ],
+      "patterns": [
+        "what is integral",
+        "integral",
+        "explain integral",
+        "definition of integral",
+        "integral meaning",
+        "what is an integral",
+        "integral vs derivative",
+        "fundamental theorem of calculus",
+        "ano ang integral",
+        "unsa ang integral"
+      ],
+      "answer": "An integral adds up quantities accumulated over an interval, and the idea is older than the notation: the area under a curve, distance travelled from speed, and total energy from power are all the same operation, because each is a total of a rate over time. The definite integral is a limit of sums over ever-finer slices, and the fundamental theorem of calculus is the result that ties it to the derivative: the integral of a rate of change is the total change, so differentiating a total gives the rate back. That connection is the reason calculus is taught as two halves of one idea rather than two techniques. The function to integrate comes from a table or, more often in practice, from solving the differential equation you had in mind, so the real work is recognising which quantity is a rate and which is a total. A definite integral carries its units from the integrand, so integrating a speed in metres per second over seconds gives metres, and forgetting that is how a textbook answer ends up in the wrong unit.",
+      "variations": [
+        "The definite integral is a limit of sums over ever-finer slices, and the fundamental theorem of calculus is the result that ties it to the derivative: the integral of a rate of change is the total change, so differentiating a total gives the rate back. An integral adds up quantities accumulated over an interval, and the idea is older than the notation: the area under a curve, distance travelled from speed, and total energy from power are all the same operation, because each is a total of a rate over time. That connection is the reason calculus is taught as two halves of one idea rather than two techniques. The function to integrate comes from a table or, more often in practice, from solving the differential equation you had in mind, so the real work is recognising which quantity is a rate and which is a total. A definite integral carries its units from the integrand, so integrating a speed in metres per second over seconds gives metres, and forgetting that is how a textbook answer ends up in the wrong unit.",
+        "That connection is the reason calculus is taught as two halves of one idea rather than two techniques. An integral adds up quantities accumulated over an interval, and the idea is older than the notation: the area under a curve, distance travelled from speed, and total energy from power are all the same operation, because each is a total of a rate over time. The definite integral is a limit of sums over ever-finer slices, and the fundamental theorem of calculus is the result that ties it to the derivative: the integral of a rate of change is the total change, so differentiating a total gives the rate back. The function to integrate comes from a table or, more often in practice, from solving the differential equation you had in mind, so the real work is recognising which quantity is a rate and which is a total. A definite integral carries its units from the integrand, so integrating a speed in metres per second over seconds gives metres, and forgetting that is how a textbook answer ends up in the wrong unit."
+      ],
+      "tl": "integral",
+      "bis": "integral"
+    },
+    {
+      "id": "mat-calculus-000002",
+      "topic": "mathematics-calculus",
+      "intent": "definition",
+      "concept": "derivative",
+      "keywords": [
+        "derivative",
+        "calculus",
+        "rate",
+        "slope",
+        "differential",
+        "measures",
+        "fast",
+        "something",
+        "changes",
+        "respect"
+      ],
+      "patterns": [
+        "what is derivative",
+        "derivative",
+        "explain derivative",
+        "definition of derivative",
+        "derivative meaning",
+        "what is a derivative",
+        "what is calculus"
+      ],
+      "answer": "A derivative measures how fast something changes with respect to something else. Graphically it is the slope of the tangent line at a point. If distance is a function of time, the derivative of distance is speed; the derivative of speed is acceleration. Calculus is built on it, together with the integral, which adds up infinitely many tiny slices to get a total.",
+      "variations": [
+        "Graphically it is the slope of the tangent line at a point. A derivative measures how fast something changes with respect to something else. If distance is a function of time, the derivative of distance is speed; the derivative of speed is acceleration. Calculus is built on it, together with the integral, which adds up infinitely many tiny slices to get a total.",
+        "If distance is a function of time, the derivative of distance is speed; the derivative of speed is acceleration. A derivative measures how fast something changes with respect to something else. Graphically it is the slope of the tangent line at a point. Calculus is built on it, together with the integral, which adds up infinitely many tiny slices to get a total."
+      ]
+    }
+  ],
+  "lang": "english",
+  "group": "mathematics",
+  "sub": "calculus",
+  "title": "Calculus",
+  "groupTitle": "Mathematics"
+}

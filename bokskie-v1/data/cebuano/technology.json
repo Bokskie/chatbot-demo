@@ -1,0 +1,48 @@
+{
+  "topic": "cebuano-technology",
+  "entries": [
+    {
+      "id": "ceb-technology-000001",
+      "topic": "cebuano-technology",
+      "intent": "definition",
+      "concept": "kompyuter",
+      "keywords": [
+        "kompyuter",
+        "computer",
+        "desktop",
+        "laptop",
+        "borrowing",
+        "literacy",
+        "device",
+        "hardware",
+        "means",
+        "direct",
+        "written"
+      ],
+      "patterns": [
+        "what is kompyuter",
+        "kompyuter",
+        "explain kompyuter",
+        "definition of kompyuter",
+        "kompyuter meaning",
+        "unsa meaning nga kompyuter",
+        "kompyuter meaning in bisaya",
+        "lapit meaning",
+        "ano ang kompyuter",
+        "unsa ang kompyuter"
+      ],
+      "answer": "Kompyuter means computer, and it is a direct borrowing written the way it is pronounced, unlike most Bisaya words which take a native ending. It refers to the machine in general and is not the word for a specific model or for a desktop in particular, since a laptop, a phone and a tablet are all covered by related terms. A desktop machine is sometimes distinguished as desktop or kompyuter sa desk, and a laptop is a lapit in the same way English speakers call one a lap, so the borrowing goes further than the general word. The plural is not marked by adding s but by a native pattern that puts a linker in front, so kompyuter does not simply become kompyuters, and that difference is a reliable sign of a loanword in a sentence. Computer literacy in the Philippines is measured by what a person can do with one rather than by whether they have used one, which is why the practical skills in courses are file handling, spreadsheets and online forms rather than assembly.",
+      "variations": [
+        "It refers to the machine in general and is not the word for a specific model or for a desktop in particular, since a laptop, a phone and a tablet are all covered by related terms. Kompyuter means computer, and it is a direct borrowing written the way it is pronounced, unlike most Bisaya words which take a native ending. A desktop machine is sometimes distinguished as desktop or kompyuter sa desk, and a laptop is a lapit in the same way English speakers call one a lap, so the borrowing goes further than the general word. The plural is not marked by adding s but by a native pattern that puts a linker in front, so kompyuter does not simply become kompyuters, and that difference is a reliable sign of a loanword in a sentence. Computer literacy in the Philippines is measured by what a person can do with one rather than by whether they have used one, which is why the practical skills in courses are file handling, spreadsheets and online forms rather than assembly.",
+        "A desktop machine is sometimes distinguished as desktop or kompyuter sa desk, and a laptop is a lapit in the same way English speakers call one a lap, so the borrowing goes further than the general word. Kompyuter means computer, and it is a direct borrowing written the way it is pronounced, unlike most Bisaya words which take a native ending. It refers to the machine in general and is not the word for a specific model or for a desktop in particular, since a laptop, a phone and a tablet are all covered by related terms. The plural is not marked by adding s but by a native pattern that puts a linker in front, so kompyuter does not simply become kompyuters, and that difference is a reliable sign of a loanword in a sentence. Computer literacy in the Philippines is measured by what a person can do with one rather than by whether they have used one, which is why the practical skills in courses are file handling, spreadsheets and online forms rather than assembly."
+      ],
+      "tl": "kompyuter",
+      "bis": "kompyuter"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "technology",
+  "title": "Technology",
+  "groupTitle": "Cebuano"
+}

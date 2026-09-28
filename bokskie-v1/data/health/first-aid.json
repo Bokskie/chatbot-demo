@@ -1,0 +1,87 @@
+{
+  "topic": "health-first-aid",
+  "entries": [
+    {
+      "id": "hea-first-aid-000001",
+      "topic": "health-first-aid",
+      "intent": "definition",
+      "concept": "cpr",
+      "keywords": [
+        "cpr",
+        "arrest",
+        "compressions",
+        "defibrillator",
+        "bystander",
+        "breathing",
+        "heart",
+        "emergency",
+        "resuscitation",
+        "cardiopulmonary",
+        "procedure",
+        "keeps",
+        "blood"
+      ],
+      "patterns": [
+        "what is cpr",
+        "cpr",
+        "explain cpr",
+        "definition of cpr",
+        "cpr meaning",
+        "how to do cpr",
+        "when should you call an ambulance",
+        "ano ang resuscitation",
+        "unsa ang CPR"
+      ],
+      "answer": "Cardiopulmonary resuscitation is the emergency procedure that keeps blood and oxygen moving in someone whose heart has stopped, and its whole purpose is to buy time until a defibrillator and a hospital are available. A stopped heart does not mean death: the brain begins to suffer within minutes without circulation, so the cycle is compressions to circulate the blood, and breaths to oxygenate it, given by a trained person while an untrained one is told to push hard and fast in the centre of the chest at a steady rate. The reason an untrained bystander is told to skip the breaths is that a cycle with breaths is a delay, and a stopped heart is a race against minutes. A defibrillator is the treatment that actually restarts a rhythm that is fibrillating, and it is safe to use on anyone: it will not shock a heart that is not in a shockable rhythm. CPR is the part everyone can do and the reason a bystander matters, since the gap before a bystander acts is what determines the outcome, and giving CPR badly still beats waiting for someone qualified.",
+      "variations": [
+        "A stopped heart does not mean death: the brain begins to suffer within minutes without circulation, so the cycle is compressions to circulate the blood, and breaths to oxygenate it, given by a trained person while an untrained one is told to push hard and fast in the centre of the chest at a steady rate. Cardiopulmonary resuscitation is the emergency procedure that keeps blood and oxygen moving in someone whose heart has stopped, and its whole purpose is to buy time until a defibrillator and a hospital are available. The reason an untrained bystander is told to skip the breaths is that a cycle with breaths is a delay, and a stopped heart is a race against minutes. A defibrillator is the treatment that actually restarts a rhythm that is fibrillating, and it is safe to use on anyone: it will not shock a heart that is not in a shockable rhythm. CPR is the part everyone can do and the reason a bystander matters, since the gap before a bystander acts is what determines the outcome, and giving CPR badly still beats waiting for someone qualified.",
+        "The reason an untrained bystander is told to skip the breaths is that a cycle with breaths is a delay, and a stopped heart is a race against minutes. Cardiopulmonary resuscitation is the emergency procedure that keeps blood and oxygen moving in someone whose heart has stopped, and its whole purpose is to buy time until a defibrillator and a hospital are available. A stopped heart does not mean death: the brain begins to suffer within minutes without circulation, so the cycle is compressions to circulate the blood, and breaths to oxygenate it, given by a trained person while an untrained one is told to push hard and fast in the centre of the chest at a steady rate. A defibrillator is the treatment that actually restarts a rhythm that is fibrillating, and it is safe to use on anyone: it will not shock a heart that is not in a shockable rhythm. CPR is the part everyone can do and the reason a bystander matters, since the gap before a bystander acts is what determines the outcome, and giving CPR badly still beats waiting for someone qualified."
+      ],
+      "tl": "resuscitation",
+      "bis": "CPR"
+    },
+    {
+      "id": "hea-first-aid-000002",
+      "topic": "health-first-aid",
+      "intent": "definition",
+      "concept": "first aid",
+      "keywords": [
+        "first aid",
+        "bleeding",
+        "burn",
+        "cpr",
+        "emergency",
+        "basics",
+        "first",
+        "worth",
+        "knowing",
+        "minutes",
+        "matter"
+      ],
+      "patterns": [
+        "what is first aid",
+        "first aid",
+        "explain first aid",
+        "definition of first aid",
+        "first aid meaning",
+        "what should i do in an emergency",
+        "how do i stop bleeding",
+        "what is cpr",
+        "ano ang first aid",
+        "unsa ang first aid"
+      ],
+      "answer": "The basics of first aid are worth knowing because the first few minutes matter more than anything done later. For bleeding, apply firm direct pressure with a clean cloth and keep pressing. For a burn, cool it under cool running water for about twenty minutes, and do not apply butter, toothpaste or ice. If someone is unresponsive and not breathing normally, call emergency services and start chest compressions, which is far better than doing nothing. A suspected spinal injury should not be moved unless necessary for safety.",
+      "variations": [
+        "For bleeding, apply firm direct pressure with a clean cloth and keep pressing. The basics of first aid are worth knowing because the first few minutes matter more than anything done later. For a burn, cool it under cool running water for about twenty minutes, and do not apply butter, toothpaste or ice. If someone is unresponsive and not breathing normally, call emergency services and start chest compressions, which is far better than doing nothing. A suspected spinal injury should not be moved unless necessary for safety.",
+        "For a burn, cool it under cool running water for about twenty minutes, and do not apply butter, toothpaste or ice. The basics of first aid are worth knowing because the first few minutes matter more than anything done later. For bleeding, apply firm direct pressure with a clean cloth and keep pressing. If someone is unresponsive and not breathing normally, call emergency services and start chest compressions, which is far better than doing nothing. A suspected spinal injury should not be moved unless necessary for safety."
+      ],
+      "tl": "first aid",
+      "bis": "first aid"
+    }
+  ],
+  "lang": "english",
+  "group": "health",
+  "sub": "first-aid",
+  "title": "First aid",
+  "groupTitle": "Health"
+}

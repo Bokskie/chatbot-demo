@@ -1,0 +1,49 @@
+{
+  "topic": "filipino-work",
+  "entries": [
+    {
+      "id": "fil-work-000001",
+      "topic": "filipino-work",
+      "intent": "definition",
+      "concept": "trabaho",
+      "keywords": [
+        "trabaho",
+        "job",
+        "employment",
+        "work",
+        "occupation",
+        "livelihood",
+        "gig",
+        "salary",
+        "hanapbuhay",
+        "means",
+        "filipino",
+        "covers",
+        "itself"
+      ],
+      "patterns": [
+        "what is trabaho",
+        "trabaho",
+        "explain trabaho",
+        "definition of trabaho",
+        "trabaho meaning",
+        "anong meaning ng trabaho",
+        "ano ang hanapbuhay",
+        "ano ang hanapbuhay",
+        "unsa ang trabaho"
+      ],
+      "answer": "Trabaho means work, and in Filipino it covers the job, the work itself and the task, with the context deciding which. The most common everyday use is the phrase may trabaho, meaning I am working, and the noun for the occupation is the same word, so saying ano ang trabaho mo means what is your job. A specific position with a defined role is often described by the title rather than by this word, which is why someone may say a teacher rather than saying their work. The related term people ask about is hanapbuhay, meaning livelihood or a means of earning a living, and it is a heavier word that implies how a family survives rather than simply having a job. A further distinction in Philippine usage is between the regular job and the gig, the short piece of work such as a ride or a delivery, which is a large part of how many people actually earn and is not the same thing as a salary.",
+      "variations": [
+        "The most common everyday use is the phrase may trabaho, meaning I am working, and the noun for the occupation is the same word, so saying ano ang trabaho mo means what is your job. Trabaho means work, and in Filipino it covers the job, the work itself and the task, with the context deciding which. A specific position with a defined role is often described by the title rather than by this word, which is why someone may say a teacher rather than saying their work. The related term people ask about is hanapbuhay, meaning livelihood or a means of earning a living, and it is a heavier word that implies how a family survives rather than simply having a job. A further distinction in Philippine usage is between the regular job and the gig, the short piece of work such as a ride or a delivery, which is a large part of how many people actually earn and is not the same thing as a salary.",
+        "A specific position with a defined role is often described by the title rather than by this word, which is why someone may say a teacher rather than saying their work. Trabaho means work, and in Filipino it covers the job, the work itself and the task, with the context deciding which. The most common everyday use is the phrase may trabaho, meaning I am working, and the noun for the occupation is the same word, so saying ano ang trabaho mo means what is your job. The related term people ask about is hanapbuhay, meaning livelihood or a means of earning a living, and it is a heavier word that implies how a family survives rather than simply having a job. A further distinction in Philippine usage is between the regular job and the gig, the short piece of work such as a ride or a delivery, which is a large part of how many people actually earn and is not the same thing as a salary."
+      ],
+      "tl": "hanapbuhay",
+      "bis": "trabaho"
+    }
+  ],
+  "lang": "tagalog",
+  "group": "filipino",
+  "sub": "work",
+  "title": "Work",
+  "groupTitle": "Filipino"
+}

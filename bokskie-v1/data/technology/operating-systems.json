@@ -1,0 +1,165 @@
+{
+  "topic": "technology-operating-systems",
+  "entries": [
+    {
+      "id": "tec-operating-systems-000001",
+      "topic": "technology-operating-systems",
+      "intent": "definition",
+      "concept": "operating system",
+      "keywords": [
+        "operating system",
+        "kernel",
+        "process",
+        "memory",
+        "filesystem",
+        "linux",
+        "operating",
+        "system",
+        "layer",
+        "hardware",
+        "programs",
+        "real"
+      ],
+      "patterns": [
+        "what is operating system",
+        "operating system",
+        "explain operating system",
+        "definition of operating system",
+        "operating system meaning",
+        "what is an operating system",
+        "what does a kernel do",
+        "what is the difference between kernel and os",
+        "ano ang operating system",
+        "unsa ang operating system"
+      ],
+      "answer": "An operating system is the layer between hardware and programs, and its real job is making one piece of hardware look like many usable resources. It schedules the CPU across running processes, manages memory between them, owns the filesystem, and provides the networking and graphics interfaces applications call instead of touching hardware. The kernel is the part running in the privileged mode, and everything else is a user process with far less authority.",
+      "variations": [
+        "It schedules the CPU across running processes, manages memory between them, owns the filesystem, and provides the networking and graphics interfaces applications call instead of touching hardware. An operating system is the layer between hardware and programs, and its real job is making one piece of hardware look like many usable resources. The kernel is the part running in the privileged mode, and everything else is a user process with far less authority.",
+        "The kernel is the part running in the privileged mode, and everything else is a user process with far less authority. An operating system is the layer between hardware and programs, and its real job is making one piece of hardware look like many usable resources. It schedules the CPU across running processes, manages memory between them, owns the filesystem, and provides the networking and graphics interfaces applications call instead of touching hardware."
+      ],
+      "tl": "operating system",
+      "bis": "operating system"
+    },
+    {
+      "id": "tec-operating-systems-000002",
+      "topic": "technology-operating-systems",
+      "intent": "definition",
+      "concept": "process",
+      "keywords": [
+        "process",
+        "thread",
+        "memory",
+        "isolation",
+        "deadlock",
+        "scheduling",
+        "running",
+        "program",
+        "address",
+        "space",
+        "operating"
+      ],
+      "patterns": [
+        "what is process",
+        "process",
+        "explain process",
+        "definition of process",
+        "process meaning",
+        "what is a process",
+        "difference between a process and a thread",
+        "what is a deadlock",
+        "ano ang process",
+        "unsa ang process"
+      ],
+      "answer": "A process is a running program with its own address space, and the operating system keeps processes isolated so one cannot read or corrupt another's memory. Threads are separate streams of execution inside a single process, which share that memory and are therefore cheap to create and dangerous to use. A deadlock is when threads each wait on something the other holds, and no amount of waiting resolves it.",
+      "variations": [
+        "Threads are separate streams of execution inside a single process, which share that memory and are therefore cheap to create and dangerous to use. A process is a running program with its own address space, and the operating system keeps processes isolated so one cannot read or corrupt another's memory. A deadlock is when threads each wait on something the other holds, and no amount of waiting resolves it.",
+        "A deadlock is when threads each wait on something the other holds, and no amount of waiting resolves it. A process is a running program with its own address space, and the operating system keeps processes isolated so one cannot read or corrupt another's memory. Threads are separate streams of execution inside a single process, which share that memory and are therefore cheap to create and dangerous to use."
+      ],
+      "tl": "process",
+      "bis": "process"
+    },
+    {
+      "id": "tec-operating-systems-000003",
+      "topic": "technology-operating-systems",
+      "intent": "definition",
+      "concept": "kernel",
+      "keywords": [
+        "kernel",
+        "process",
+        "interrupt",
+        "driver",
+        "privilege",
+        "core",
+        "operating",
+        "system",
+        "runs",
+        "full"
+      ],
+      "patterns": [
+        "what is kernel",
+        "kernel",
+        "explain kernel",
+        "definition of kernel",
+        "kernel meaning",
+        "what is a kernel",
+        "what does the kernel do",
+        "kernel vs operating system",
+        "ano ang kernel",
+        "unsa ang kernel"
+      ],
+      "answer": "The kernel is the core of an operating system and the only part that runs with full privilege, which means it can touch any memory and any device. It manages the things no application can be trusted to do: scheduling which process gets the processor, mapping virtual memory, handling the interrupt a keypress generates, and giving processes a controlled way to reach the hardware. User space is everything else, and the reason the split exists is fault containment and safety, since a program that crashes takes down its own process and not the machine. The path from a keypress to a program is the clearest illustration of the design: the keyboard raises an interrupt, the kernel decides which program should be told, and that program is switched to so the keystroke appears to go straight to the application. Linux and the Windows family are both kernels with a large set of user-space tools around them, and the switch between the two is a system call, which is the carefully controlled doorway between the two halves.",
+      "variations": [
+        "It manages the things no application can be trusted to do: scheduling which process gets the processor, mapping virtual memory, handling the interrupt a keypress generates, and giving processes a controlled way to reach the hardware. The kernel is the core of an operating system and the only part that runs with full privilege, which means it can touch any memory and any device. User space is everything else, and the reason the split exists is fault containment and safety, since a program that crashes takes down its own process and not the machine. The path from a keypress to a program is the clearest illustration of the design: the keyboard raises an interrupt, the kernel decides which program should be told, and that program is switched to so the keystroke appears to go straight to the application. Linux and the Windows family are both kernels with a large set of user-space tools around them, and the switch between the two is a system call, which is the carefully controlled doorway between the two halves.",
+        "User space is everything else, and the reason the split exists is fault containment and safety, since a program that crashes takes down its own process and not the machine. The kernel is the core of an operating system and the only part that runs with full privilege, which means it can touch any memory and any device. It manages the things no application can be trusted to do: scheduling which process gets the processor, mapping virtual memory, handling the interrupt a keypress generates, and giving processes a controlled way to reach the hardware. The path from a keypress to a program is the clearest illustration of the design: the keyboard raises an interrupt, the kernel decides which program should be told, and that program is switched to so the keystroke appears to go straight to the application. Linux and the Windows family are both kernels with a large set of user-space tools around them, and the switch between the two is a system call, which is the carefully controlled doorway between the two halves."
+      ],
+      "tl": "kernel",
+      "bis": "kernel"
+    },
+    {
+      "id": "tec-operating-systems-000004",
+      "topic": "technology-operating-systems",
+      "intent": "definition",
+      "concept": "file system",
+      "keywords": [
+        "file system",
+        "directory",
+        "block",
+        "mount",
+        "partition",
+        "permissions",
+        "journal",
+        "metadata",
+        "file",
+        "system",
+        "method",
+        "drive",
+        "uses",
+        "record"
+      ],
+      "patterns": [
+        "what is file system",
+        "file system",
+        "explain file system",
+        "definition of file system",
+        "file system meaning",
+        "what is a file system",
+        "what is journaling",
+        "what is the difference between ntfs and ext4",
+        "ano ang file system",
+        "unsa ang file system"
+      ],
+      "answer": "A file system is the method a drive uses to record where files are, what they are named, and which blocks belong to them, and it is the layer that turns a stream of bytes into something with names. Files are stored in a tree of directories, but the real structure underneath is a table or a map linking each name to the location of its data and to metadata such as size, owner and timestamps. The important properties are what happens when the system stops cleanly and what happens when it does not, and this is the whole difference between the two main families: one writes changes through immediately so a crash loses little, and the other writes them to a log and replays it on the next start, which is slower and safer. Permissions attach per user and group, which is where a file that one person cannot open but can delete comes from, since the ability to remove a file is governed by the directory rather than by the file. Storage is organised in blocks, and a filesystem map turns a logical file offset into the physical block that holds it.",
+      "variations": [
+        "Files are stored in a tree of directories, but the real structure underneath is a table or a map linking each name to the location of its data and to metadata such as size, owner and timestamps. A file system is the method a drive uses to record where files are, what they are named, and which blocks belong to them, and it is the layer that turns a stream of bytes into something with names. The important properties are what happens when the system stops cleanly and what happens when it does not, and this is the whole difference between the two main families: one writes changes through immediately so a crash loses little, and the other writes them to a log and replays it on the next start, which is slower and safer. Permissions attach per user and group, which is where a file that one person cannot open but can delete comes from, since the ability to remove a file is governed by the directory rather than by the file. Storage is organised in blocks, and a filesystem map turns a logical file offset into the physical block that holds it.",
+        "The important properties are what happens when the system stops cleanly and what happens when it does not, and this is the whole difference between the two main families: one writes changes through immediately so a crash loses little, and the other writes them to a log and replays it on the next start, which is slower and safer. A file system is the method a drive uses to record where files are, what they are named, and which blocks belong to them, and it is the layer that turns a stream of bytes into something with names. Files are stored in a tree of directories, but the real structure underneath is a table or a map linking each name to the location of its data and to metadata such as size, owner and timestamps. Permissions attach per user and group, which is where a file that one person cannot open but can delete comes from, since the ability to remove a file is governed by the directory rather than by the file. Storage is organised in blocks, and a filesystem map turns a logical file offset into the physical block that holds it."
+      ],
+      "tl": "file system",
+      "bis": "file system"
+    }
+  ],
+  "lang": "english",
+  "group": "technology",
+  "sub": "operating-systems",
+  "title": "Operating systems",
+  "groupTitle": "Technology"
+}

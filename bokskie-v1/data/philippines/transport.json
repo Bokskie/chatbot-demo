@@ -1,0 +1,91 @@
+{
+  "topic": "philippines-transport",
+  "entries": [
+    {
+      "id": "phi-transport-000001",
+      "topic": "philippines-transport",
+      "intent": "definition",
+      "concept": "manila traffic",
+      "keywords": [
+        "manila traffic",
+        "edsa",
+        "mrt",
+        "lrt",
+        "cars",
+        "road",
+        "commute",
+        "congestion",
+        "trapiko",
+        "traffic",
+        "metro",
+        "manila",
+        "heavy",
+        "number",
+        "vehicles"
+      ],
+      "patterns": [
+        "what is manila traffic",
+        "manila traffic",
+        "explain manila traffic",
+        "definition of manila traffic",
+        "manila traffic meaning",
+        "why is traffic heavy in manila",
+        "how do i avoid traffic in manila",
+        "is manila traffic bad",
+        "ano ang trapiko",
+        "unsa ang trapiko"
+      ],
+      "answer": "Traffic in Metro Manila is heavy because the number of vehicles grew much faster than the road network, and the roads were built for a much smaller city. EDSA, the main east-west corridor, was laid out as a circumferential road for a capital of a few hundred thousand and now carries traffic across a metropolis of millions, and widening it is expensive enough that it has been discussed rather than done. The other half of the cause is land use: the cities spread outwards along the roads, so the commuting distance grew at the same time as the number of cars, which is the pattern that makes a road network worse than its capacity suggests. The public transport response has been rail on the MRT and LRT lines, which move far more people per hour in a corridor than a road can, and the fare integration between them is the part that was designed to make transfers bearable. A useful distinction for a newcomer is that congestion is not the same as average speed everywhere, since a road that is free-flowing at dawn can be stationary at eight.",
+      "variations": [
+        "EDSA, the main east-west corridor, was laid out as a circumferential road for a capital of a few hundred thousand and now carries traffic across a metropolis of millions, and widening it is expensive enough that it has been discussed rather than done. Traffic in Metro Manila is heavy because the number of vehicles grew much faster than the road network, and the roads were built for a much smaller city. The other half of the cause is land use: the cities spread outwards along the roads, so the commuting distance grew at the same time as the number of cars, which is the pattern that makes a road network worse than its capacity suggests. The public transport response has been rail on the MRT and LRT lines, which move far more people per hour in a corridor than a road can, and the fare integration between them is the part that was designed to make transfers bearable. A useful distinction for a newcomer is that congestion is not the same as average speed everywhere, since a road that is free-flowing at dawn can be stationary at eight.",
+        "The other half of the cause is land use: the cities spread outwards along the roads, so the commuting distance grew at the same time as the number of cars, which is the pattern that makes a road network worse than its capacity suggests. Traffic in Metro Manila is heavy because the number of vehicles grew much faster than the road network, and the roads were built for a much smaller city. EDSA, the main east-west corridor, was laid out as a circumferential road for a capital of a few hundred thousand and now carries traffic across a metropolis of millions, and widening it is expensive enough that it has been discussed rather than done. The public transport response has been rail on the MRT and LRT lines, which move far more people per hour in a corridor than a road can, and the fare integration between them is the part that was designed to make transfers bearable. A useful distinction for a newcomer is that congestion is not the same as average speed everywhere, since a road that is free-flowing at dawn can be stationary at eight."
+      ],
+      "tl": "trapiko",
+      "bis": "trapiko"
+    },
+    {
+      "id": "phi-transport-000002",
+      "topic": "philippines-transport",
+      "intent": "definition",
+      "concept": "jeepney",
+      "keywords": [
+        "jeepney",
+        "jeep",
+        "franchise",
+        "route",
+        "fare",
+        "passenger",
+        "military",
+        "cooperative",
+        "bodabil",
+        "hita",
+        "converted",
+        "fitted"
+      ],
+      "patterns": [
+        "what is jeepney",
+        "jeepney",
+        "explain jeepney",
+        "definition of jeepney",
+        "jeepney meaning",
+        "what is a jeepney",
+        "why is it called a jeepney",
+        "jeepney fare",
+        "ano ang hita",
+        "unsa ang hita"
+      ],
+      "answer": "A jeepney is a converted US military jeep fitted out as a passenger vehicle, and the design is a direct result of what was available after the war. The surplus jeeps were cheap, already had an engine and a chassis, and were large enough to carry passengers on a back, so the body that became standard was built around that rather than designed from the start. The route-sharing system that followed, where a jeepney runs a fixed route but a passenger can ask to get off along the way, is a genuinely Filipino adaptation and is why the vehicle is central to daily life rather than merely a leftover. They are regulated under the franchise system run by transport cooperatives, and the modern rate and the number of authorised units are the practical arguments in every fare dispute. The name is the origin: jeep plus -ney, the old word for a public vehicle.",
+      "variations": [
+        "The surplus jeeps were cheap, already had an engine and a chassis, and were large enough to carry passengers on a back, so the body that became standard was built around that rather than designed from the start. A jeepney is a converted US military jeep fitted out as a passenger vehicle, and the design is a direct result of what was available after the war. The route-sharing system that followed, where a jeepney runs a fixed route but a passenger can ask to get off along the way, is a genuinely Filipino adaptation and is why the vehicle is central to daily life rather than merely a leftover. They are regulated under the franchise system run by transport cooperatives, and the modern rate and the number of authorised units are the practical arguments in every fare dispute. The name is the origin: jeep plus -ney, the old word for a public vehicle.",
+        "The route-sharing system that followed, where a jeepney runs a fixed route but a passenger can ask to get off along the way, is a genuinely Filipino adaptation and is why the vehicle is central to daily life rather than merely a leftover. A jeepney is a converted US military jeep fitted out as a passenger vehicle, and the design is a direct result of what was available after the war. The surplus jeeps were cheap, already had an engine and a chassis, and were large enough to carry passengers on a back, so the body that became standard was built around that rather than designed from the start. They are regulated under the franchise system run by transport cooperatives, and the modern rate and the number of authorised units are the practical arguments in every fare dispute. The name is the origin: jeep plus -ney, the old word for a public vehicle."
+      ],
+      "tl": "hita",
+      "bis": "hita"
+    }
+  ],
+  "lang": "english",
+  "group": "philippines",
+  "sub": "transport",
+  "title": "Transport",
+  "groupTitle": "The Philippines"
+}

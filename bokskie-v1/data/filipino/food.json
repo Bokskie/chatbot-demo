@@ -1,0 +1,49 @@
+{
+  "topic": "filipino-food",
+  "entries": [
+    {
+      "id": "fil-food-000001",
+      "topic": "filipino-food",
+      "intent": "definition",
+      "concept": "kaning",
+      "keywords": [
+        "kaning",
+        "rice",
+        "ulam",
+        "sawsawan",
+        "bringhe",
+        "staple",
+        "meal",
+        "kanin",
+        "dish",
+        "single",
+        "recognisable",
+        "filipino"
+      ],
+      "patterns": [
+        "what is kaning",
+        "kaning",
+        "explain kaning",
+        "definition of kaning",
+        "kaning meaning",
+        "anong meaning ng kaning",
+        "ano ang ulam",
+        "ano ang sawsawan",
+        "ano ang kanin",
+        "unsa ang kaning"
+      ],
+      "answer": "Kaning is a rice dish, and it is the single most recognisable Filipino food, with the word used for both the everyday plate of rice and for the celebratory version served at a party. The everyday form is white rice, boiled and served with almost every meal, and it is the staple that makes the arrangement of a Filipino meal recognisable: rice, a main dish, and a small bowl of something on the side called a sawsawan, which is where the vinegar, soy sauce and chilli go. The festive version, called bringhe, is coloured yellow from turmeric and eaten with a spread of meats and sweets, and it is the dish that appears at celebrations from baptisms to political rallies. A key word to know is ulam, which refers to whatever is eaten with the rice and which can be used loosely to mean food in general, so saying may kaon ang ulam means I will eat, where the answer covers what accompanies the rice.",
+      "variations": [
+        "The everyday form is white rice, boiled and served with almost every meal, and it is the staple that makes the arrangement of a Filipino meal recognisable: rice, a main dish, and a small bowl of something on the side called a sawsawan, which is where the vinegar, soy sauce and chilli go. Kaning is a rice dish, and it is the single most recognisable Filipino food, with the word used for both the everyday plate of rice and for the celebratory version served at a party. The festive version, called bringhe, is coloured yellow from turmeric and eaten with a spread of meats and sweets, and it is the dish that appears at celebrations from baptisms to political rallies. A key word to know is ulam, which refers to whatever is eaten with the rice and which can be used loosely to mean food in general, so saying may kaon ang ulam means I will eat, where the answer covers what accompanies the rice.",
+        "The festive version, called bringhe, is coloured yellow from turmeric and eaten with a spread of meats and sweets, and it is the dish that appears at celebrations from baptisms to political rallies. Kaning is a rice dish, and it is the single most recognisable Filipino food, with the word used for both the everyday plate of rice and for the celebratory version served at a party. The everyday form is white rice, boiled and served with almost every meal, and it is the staple that makes the arrangement of a Filipino meal recognisable: rice, a main dish, and a small bowl of something on the side called a sawsawan, which is where the vinegar, soy sauce and chilli go. A key word to know is ulam, which refers to whatever is eaten with the rice and which can be used loosely to mean food in general, so saying may kaon ang ulam means I will eat, where the answer covers what accompanies the rice."
+      ],
+      "tl": "kanin",
+      "bis": "kaning"
+    }
+  ],
+  "lang": "tagalog",
+  "group": "filipino",
+  "sub": "food",
+  "title": "Food",
+  "groupTitle": "Filipino"
+}

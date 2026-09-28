@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sinilog ni Tita &middot; Restaurant</title>
+  <style>
+    :root {
+      --cream:  #fdf8ef;
+      --tomato: #c8452c;
+      --char:   #2b2622;
+      --olive:  #6b7a4f;
+      --butter: #f2c14e;
+      --muted:  #7a6f64;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--cream);
+      color: var(--char);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.65;
+    }
+
+    .wrap { max-width: 1040px; margin: 0 auto; padding: 0 1.5rem; }
+
+    /* ---- header ---- */
+    header {
+      position: sticky; top: 0; z-index: 10;
+      background: var(--cream);
+      border-bottom: 1px solid #e8dcc9;
+    }
+    nav { display: flex; align-items: center; justify-content: space-between;
+          padding: .9rem 0; }
+    .mark { font-size: 1.4rem; }
+    .mark em { color: var(--tomato); font-style: normal; }
+    .nav-links { display: flex; gap: 1.5rem; list-style: none; }
+    .nav-links a { color: var(--char); text-decoration: none; font-size: .95rem; }
+    .nav-links a:hover { color: var(--tomato); }
+
+    #nav-toggle { position: absolute; opacity: 0; }
+    #nav-toggle:focus-visible + label { outline: 2px solid var(--tomato); }
+    label.menu { display: none; cursor: pointer; font-size: 1.5rem; padding: 0 .4rem; }
+    @media (max-width: 640px) {
+      label.menu { display: block; }
+      .nav-links { display: none; width: 100%; flex-direction: column;
+                   gap: .6rem; padding-bottom: .9rem; }
+      #nav-toggle:checked ~ .nav-links { display: flex; }
+    }
+
+    /* ---- hero ---- */
+    .hero {
+      background: linear-gradient(165deg, var(--tomato) 0%, #8e2a19 100%);
+      color: #fff; text-align: center; padding: 6rem 1.5rem;
+    }
+    .hero h1 { font-size: clamp(2.2rem, 7vw, 3.8rem); line-height: 1.08; }
+    .hero p { max-width: 48ch; margin: 1.1rem auto 2rem; opacity: .94; }
+    .btn { display: inline-block; background: var(--butter); color: var(--char);
+           padding: .8rem 1.9rem; border-radius: 999px; text-decoration: none;
+           font-weight: bold; border: 0; cursor: pointer; font-size: 1rem;
+           font-family: inherit; }
+    .btn:hover { filter: brightness(1.07); }
+
+    /* ---- sections ---- */
+    section { padding: 4rem 0; }
+    section:nth-of-type(even) { background: #f6eddd; }
+    .head { text-align: center; max-width: 58ch; margin: 0 auto 2.5rem; }
+    .head h2 { font-size: clamp(1.6rem, 4vw, 2.3rem); }
+    .head p { color: var(--muted); margin-top: .7rem; }
+
+    .grid { display: grid; gap: 1.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+
+    .dish { background: #fff; border-radius: 12px; padding: 1.4rem;
+            box-shadow: 0 1px 4px rgba(60, 40, 20, .08); }
+    .dish h3 { display: flex; justify-content: space-between; align-items: baseline;
+               gap: 1rem; font-size: 1.15rem; }
+    .dish .price { color: var(--tomato); font-weight: bold; white-space: nowrap; }
+    .dish p { color: var(--muted); font-size: .93rem; margin-top: .4rem; }
+    .tag { display: inline-block; font-size: .72rem; font-family: ui-sans-serif, system-ui, sans-serif;
+           text-transform: uppercase; letter-spacing: .08em; color: var(--olive);
+           border: 1px solid currentColor; border-radius: 999px;
+           padding: .1rem .5rem; margin-top: .7rem; }
+    .tag.spicy { color: var(--tomato); }
+
+    .hours { max-width: 420px; margin: 0 auto; }
+    .hours div { display: flex; justify-content: space-between;
+                 padding: .6rem 0; border-bottom: 1px dashed #ddd0bb; }
+    .hours div:last-child { border-bottom: 0; }
+    .hours b { font-weight: normal; color: var(--muted); }
+    .closed { color: var(--tomato); }
+
+    form { max-width: 560px; margin: 0 auto; background: #fff;
+           padding: 1.75rem; border-radius: 14px;
+           box-shadow: 0 1px 4px rgba(60, 40, 20, .08); }
+    label { display: block; font-weight: bold; margin-top: 1rem; }
+    input, select, textarea {
+      width: 100%; font: inherit; padding: .65rem .8rem; margin-top: .3rem;
+      border: 1px solid #ddd0bb; border-radius: 8px; background: #fffdfa;
+    }
+    input:focus, select:focus, textarea:focus { outline: 2px solid var(--tomato);
+                                                border-color: var(--tomato); }
+    .err { color: var(--tomato); font-size: .85rem; margin-top: .2rem; min-height: 1em; }
+    #done { display: none; margin-top: 1.25rem; padding: 1rem;
+            background: #eef3e4; border-left: 4px solid var(--olive);
+            border-radius: 8px; }
+
+    footer { background: var(--char); color: #cfc4b8; text-align: center;
+             padding: 2.5rem 1.5rem; }
+    footer a { color: var(--butter); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav>
+        <span class="mark">Sinilog ni <em>Tita</em></span>
+        <input type="checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="menu">&#9776;</label>
+        <ul class="nav-links">
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#hours">Hours</a></li>
+          <li><a href="#reserve">Reserve</a></li>
+          <li><a href="#visit">Visit</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero">
+    <h1>Sinilog ni Tita</h1>
+    <p>Rice, fried chicken, and atchara made the morning it is served.
+       Family recipes since 1998, cooked in a kitchen you can smell
+       from the street.</p>
+    <a class="btn" href="#reserve">Reserve a table</a>
+  </div>
+
+  <section id="menu">
+    <div class="wrap">
+      <div class="head">
+        <h2>The menu</h2>
+        <p>Everything is cooked to order. If it runs out, it ran out.</p>
+      </div>
+      <div class="grid">
+        <article class="dish">
+          <h3>Sinilog <span class="price">&#8369;180</span></h3>
+          <p>Glazed chicken, fried twice, with garlic rice and a spoon of
+             atchara. The reason people drive across the city for it.</p>
+          <span class="tag">Best seller</span>
+        </article>
+        <article class="dish">
+          <h3>Bagnetong Bukang <span class="price">&#8369;165</span></h3>
+          <p>Chicken thigh, liver and heart in a tomato and ginger
+             sauce, over java rice. Order two, share one.</p>
+        </article>
+        <article class="dish">
+          <h3>Sisig <span class="price">&#8369;210</span></h3>
+          <p>Chopped pork sizzling on a plate with calamansi and
+             chilli. Eat it in the first five minutes, that is when it
+             is right.</p>
+          <span class="tag spicy">Spicy</span>
+        </article>
+        <article class="dish">
+          <h3>Pinakbet <span class="price">&#8369;150</span></h3>
+          <p>Squash, okra, eggplant and long beans in a light sauce.
+             Vegan, and it is the dish we are judged on.</p>
+          <span class="tag">Vegan</span>
+        </article>
+        <article class="dish">
+          <h3>Lechon Kawali <span class="price">&#8369;195</span></h3>
+          <p>Twice-cooked pork belly, crisp skin, liver sauce poured
+             over at the table so it stays crisp.</p>
+        </article>
+        <article class="dish">
+          <h3>Turon <span class="price">&#8369;85</span></h3>
+          <p>Fried plantain, caramelised. On the house with every meal
+             over &#8369;400.</p>
+          <span class="tag">Free</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="hours">
+    <div class="wrap">
+      <div class="head"><h2>Hours</h2></div>
+      <div class="hours">
+        <div><b>Monday</b><span class="closed">Closed</span></div>
+        <div><b>Tuesday &ndash; Friday</b><span>10:00 &ndash; 21:30</span></div>
+        <div><b>Saturday</b><span>09:00 &ndash; 22:00</span></div>
+        <div><b>Sunday</b><span>09:00 &ndash; 21:00</span></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="reserve">
+    <div class="wrap">
+      <div class="head">
+        <h2>Reserve a table</h2>
+        <p>Nothing is sent anywhere - this is a demo, so it only shows
+           you what the form does.</p>
+      </div>
+      <form id="reserve-form" novalidate>
+        <label for="guest">Your name</label>
+        <input id="guest" name="guest" type="text" autocomplete="name">
+        <div class="err" id="err-guest"></div>
+
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone" type="tel" autocomplete="tel">
+        <div class="err" id="err-phone"></div>
+
+        <label for="date">Date</label>
+        <input id="date" name="date" type="date">
+        <div class="err" id="err-when"></div>
+
+        <label for="size">How many?</label>
+        <select id="size" name="size">
+          <option>1 person</option>
+          <option>2 people</option>
+          <option>3 people</option>
+          <option>4 people</option>
+          <option>5 or more</option>
+        </select>
+
+        <p style="margin-top:1.5rem"><button class="btn" type="submit">Request a table</button></p>
+        <div id="done" role="status"></div>
+      </form>
+    </div>
+  </section>
+
+  <section id="visit">
+    <div class="wrap" style="text-align:center">
+      <div class="head"><h2>Visit</h2></div>
+      <p>18 Kalayaan Avenue, Cebu City<br>
+         Landline 032 255 0148<br>
+         <a href="mailto:kumusta@sinilognitiva.ph">kumusta@sinilognitiva.ph</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Sinilog ni Tita &middot; Cebu City &middot; Open since 1998</p>
+  </footer>
+
+  <script>
+    var form = document.getElementById('reserve-form');
+    var done = document.getElementById('done');
+
+    function setError(field, message) {
+      document.getElementById('err-' + field).textContent = message;
+    }
+
+    /* The restaurant is closed on Mondays, so the form checks that too.
+       It is the kind of detail that is trivially easy to leave out and
+       is exactly what a guest notices. */
+    function closedOn(iso) {
+      if (!iso) return false;
+      var day = new Date(iso + 'T00:00:00').getDay();
+      return day === 1;                 /* 0 is Sunday, so 1 is Monday */
+    }
+
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      var data = new FormData(form);
+      var guest = String(data.get('guest') || '').trim();
+      var phone = String(data.get('phone') || '').trim();
+      var date  = data.get('date') || '';
+
+      setError('guest', '');
+      setError('phone', '');
+      setError('when', '');
+
+      var ok = true;
+      if (guest.length < 2) {
+        setError('guest', 'We need a name for the table.');
+        ok = false;
+      }
+      /* Digits only, at least seven of them - enough to catch a typo
+         without arguing about the format. */
+      if (phone.replace(/\D/g, '').length < 7) {
+        setError('phone', 'That phone number looks short.');
+        ok = false;
+      }
+      if (!date) {
+        setError('when', 'Pick a date.');
+        ok = false;
+      } else if (closedOn(date)) {
+        setError('when', 'We are closed on Mondays.');
+        ok = false;
+      }
+
+      if (!ok) return;
+
+      /* Replace this with a call to your real booking system. The
+         values are already collected, so this is the only line that
+         has to change. */
+      done.style.display = 'block';
+      done.textContent =
+        'Salamat, ' + guest + '. We have your request for ' +
+        data.get('size') + ' on ' + date + '. We call ' + phone +
+        ' to confirm, usually within the hour.';
+    });
+  </script>
+</body>
+</html>
+

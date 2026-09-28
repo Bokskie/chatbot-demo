@@ -1,0 +1,88 @@
+{
+  "topic": "cebuano-programming-terms",
+  "entries": [
+    {
+      "id": "ceb-programming-terms-000001",
+      "topic": "cebuano-programming-terms",
+      "intent": "definition",
+      "concept": "kode",
+      "keywords": [
+        "kode",
+        "source",
+        "script",
+        "programming",
+        "software",
+        "write",
+        "developer",
+        "program",
+        "code",
+        "means",
+        "english",
+        "word",
+        "direct"
+      ],
+      "patterns": [
+        "what is kode",
+        "kode",
+        "explain kode",
+        "definition of kode",
+        "kode meaning",
+        "unsa meaning nga kode",
+        "kode meaning sa bisaya",
+        "unsaon nga mo arat coding",
+        "ano ang code",
+        "unsa ang kode"
+      ],
+      "answer": "Kode means code, and it is the English word as a direct borrowing, which is how most programming vocabulary arrives in Cebuano. A Cebuano speaker says nagsulat ako og kode, meaning I wrote code, and the surrounding grammar is Cebuano while the technical nouns inside the sentence stay English, so it is normal to hear a sentence that is half and half. The word covers a range of things English separates, from a specific program, to the source text of one, to the encoding used to represent something, so a person who says adunay ako og kode may mean any of the three. The related terms follow the same pattern, and function, loop and array are all understood without translation in a Cebuano sentence. A learner is better off learning the English words and putting them in Cebuano grammar than trying to translate the concepts, because there are no Cebuano terms for them and inventing one would only be understood by the person who invented it.",
+      "variations": [
+        "A Cebuano speaker says nagsulat ako og kode, meaning I wrote code, and the surrounding grammar is Cebuano while the technical nouns inside the sentence stay English, so it is normal to hear a sentence that is half and half. Kode means code, and it is the English word as a direct borrowing, which is how most programming vocabulary arrives in Cebuano. The word covers a range of things English separates, from a specific program, to the source text of one, to the encoding used to represent something, so a person who says adunay ako og kode may mean any of the three. The related terms follow the same pattern, and function, loop and array are all understood without translation in a Cebuano sentence. A learner is better off learning the English words and putting them in Cebuano grammar than trying to translate the concepts, because there are no Cebuano terms for them and inventing one would only be understood by the person who invented it.",
+        "The word covers a range of things English separates, from a specific program, to the source text of one, to the encoding used to represent something, so a person who says adunay ako og kode may mean any of the three. Kode means code, and it is the English word as a direct borrowing, which is how most programming vocabulary arrives in Cebuano. A Cebuano speaker says nagsulat ako og kode, meaning I wrote code, and the surrounding grammar is Cebuano while the technical nouns inside the sentence stay English, so it is normal to hear a sentence that is half and half. The related terms follow the same pattern, and function, loop and array are all understood without translation in a Cebuano sentence. A learner is better off learning the English words and putting them in Cebuano grammar than trying to translate the concepts, because there are no Cebuano terms for them and inventing one would only be understood by the person who invented it."
+      ],
+      "tl": "code",
+      "bis": "kode"
+    },
+    {
+      "id": "ceb-programming-terms-000002",
+      "topic": "cebuano-programming-terms",
+      "intent": "definition",
+      "concept": "array",
+      "keywords": [
+        "array",
+        "index",
+        "length",
+        "zero",
+        "dynamic",
+        "element",
+        "order",
+        "programming",
+        "collection",
+        "values",
+        "held"
+      ],
+      "patterns": [
+        "what is array",
+        "array",
+        "explain array",
+        "definition of array",
+        "array meaning",
+        "unsa meaning nga array",
+        "array meaning sa programming",
+        "unsaon nga array",
+        "ano ang array",
+        "unsa ang array"
+      ],
+      "answer": "An array in programming is a collection of values held in order, each reached by its position rather than by a name, and the word is used unchanged in Cebuano speech just as it is in English. What makes it useful is that the position is itself the index, so a program can work through every item without naming it, which is the property a list of separate values does not have. The type that matters for a beginner is the difference between a fixed-length array, which cannot grow, and a dynamic one, which does, and a great deal of early trouble with out-of-range errors comes from using the first kind where the second was needed. The performance note is real but often misunderstood: a fixed array is fast because its items sit together in memory, so getting the tenth is as cheap as getting the first, while a collection such as a list of objects has to follow references. The common error to expect is counting from zero, so the last item of something with three entries is at index two, and off-by-one mistakes here are a rite of passage rather than a sign of a bad memory.",
+      "variations": [
+        "What makes it useful is that the position is itself the index, so a program can work through every item without naming it, which is the property a list of separate values does not have. An array in programming is a collection of values held in order, each reached by its position rather than by a name, and the word is used unchanged in Cebuano speech just as it is in English. The type that matters for a beginner is the difference between a fixed-length array, which cannot grow, and a dynamic one, which does, and a great deal of early trouble with out-of-range errors comes from using the first kind where the second was needed. The performance note is real but often misunderstood: a fixed array is fast because its items sit together in memory, so getting the tenth is as cheap as getting the first, while a collection such as a list of objects has to follow references. The common error to expect is counting from zero, so the last item of something with three entries is at index two, and off-by-one mistakes here are a rite of passage rather than a sign of a bad memory.",
+        "The type that matters for a beginner is the difference between a fixed-length array, which cannot grow, and a dynamic one, which does, and a great deal of early trouble with out-of-range errors comes from using the first kind where the second was needed. An array in programming is a collection of values held in order, each reached by its position rather than by a name, and the word is used unchanged in Cebuano speech just as it is in English. What makes it useful is that the position is itself the index, so a program can work through every item without naming it, which is the property a list of separate values does not have. The performance note is real but often misunderstood: a fixed array is fast because its items sit together in memory, so getting the tenth is as cheap as getting the first, while a collection such as a list of objects has to follow references. The common error to expect is counting from zero, so the last item of something with three entries is at index two, and off-by-one mistakes here are a rite of passage rather than a sign of a bad memory."
+      ],
+      "tl": "array",
+      "bis": "array"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "programming-terms",
+  "title": "Programming terms",
+  "groupTitle": "Cebuano"
+}

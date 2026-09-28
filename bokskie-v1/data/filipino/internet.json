@@ -1,0 +1,87 @@
+{
+  "topic": "filipino-internet",
+  "entries": [
+    {
+      "id": "fil-internet-000001",
+      "topic": "filipino-internet",
+      "intent": "definition",
+      "concept": "website",
+      "keywords": [
+        "website",
+        "page",
+        "site",
+        "link",
+        "address",
+        "browser",
+        "app",
+        "web",
+        "filipino",
+        "pronounced",
+        "common",
+        "refer"
+      ],
+      "patterns": [
+        "what is website",
+        "website",
+        "explain website",
+        "definition of website",
+        "website meaning",
+        "anong meaning ng website",
+        "ano ang website",
+        "ano ang website",
+        "unsa ang website"
+      ],
+      "answer": "A website in Filipino is a website, pronounced with a w and not the Filipino v, and it is the most common way to refer to a page or a site online. The word covers two sizes that English keeps separate: a single page, which most Filipinos call a website, and a whole collection of pages under one name, which is also a website. A specific page within a site is often called a link, meaning the address, so a person asking you to send the link usually means the whole site rather than one page inside it. The related words follow the same borrowing pattern, and a Filipino speaker will say a webpage or a site without hesitation. The practical difference between a website and the app on a phone is that one is addressed on a browser and the other is installed, and a person who says may app ako usually means the installed kind even though a website can now do much the same job.",
+      "variations": [
+        "The word covers two sizes that English keeps separate: a single page, which most Filipinos call a website, and a whole collection of pages under one name, which is also a website. A website in Filipino is a website, pronounced with a w and not the Filipino v, and it is the most common way to refer to a page or a site online. A specific page within a site is often called a link, meaning the address, so a person asking you to send the link usually means the whole site rather than one page inside it. The related words follow the same borrowing pattern, and a Filipino speaker will say a webpage or a site without hesitation. The practical difference between a website and the app on a phone is that one is addressed on a browser and the other is installed, and a person who says may app ako usually means the installed kind even though a website can now do much the same job.",
+        "A specific page within a site is often called a link, meaning the address, so a person asking you to send the link usually means the whole site rather than one page inside it. A website in Filipino is a website, pronounced with a w and not the Filipino v, and it is the most common way to refer to a page or a site online. The word covers two sizes that English keeps separate: a single page, which most Filipinos call a website, and a whole collection of pages under one name, which is also a website. The related words follow the same borrowing pattern, and a Filipino speaker will say a webpage or a site without hesitation. The practical difference between a website and the app on a phone is that one is addressed on a browser and the other is installed, and a person who says may app ako usually means the installed kind even though a website can now do much the same job."
+      ],
+      "tl": "website",
+      "bis": "website"
+    },
+    {
+      "id": "fil-internet-000002",
+      "topic": "filipino-internet",
+      "intent": "definition",
+      "concept": "wifi",
+      "keywords": [
+        "wifi",
+        "wireless",
+        "router",
+        "signal",
+        "network",
+        "connection",
+        "bandwidth",
+        "range",
+        "short",
+        "marketing",
+        "term",
+        "fidelity"
+      ],
+      "patterns": [
+        "what is wifi",
+        "wifi",
+        "explain wifi",
+        "definition of wifi",
+        "wifi meaning",
+        "anong meaning ng wifi",
+        "what does wifi stand for",
+        "is wifi the same as internet",
+        "ano ang wifi",
+        "unsa ang wifi"
+      ],
+      "answer": "Wifi is the short form of the marketing term wireless fidelity, but the full form is not what it means: there is no agreed standard for fidelity, and the term was created partly because the longer phrase could not be trademarked. What wifi actually describes is a set of standards for sending data over radio without wires, the oldest still in use being the family the mark is normally understood to mean, plus the newer faster versions most phones now use. The practical things a user needs to know are about the band and the distance: a 2.4 gigahertz band reaches further and passes through walls better but is crowded, a 5 gigahertz band is faster and shorter range, and being close to the router matters more than the number on the box. In the Philippines, household wifi is often a shared connection whose cost is split, and the practical complaint is contention rather than the line itself: when everyone in the building is watching video at once, the same connection slows down for all of them.",
+      "variations": [
+        "What wifi actually describes is a set of standards for sending data over radio without wires, the oldest still in use being the family the mark is normally understood to mean, plus the newer faster versions most phones now use. Wifi is the short form of the marketing term wireless fidelity, but the full form is not what it means: there is no agreed standard for fidelity, and the term was created partly because the longer phrase could not be trademarked. 4 gigahertz band reaches further and passes through walls better but is crowded, a 5 gigahertz band is faster and shorter range, and being close to the router matters more than the number on the box. In the Philippines, household wifi is often a shared connection whose cost is split, and the practical complaint is contention rather than the line itself: when everyone in the building is watching video at once, the same connection slows down for all of them.",
+        "4 gigahertz band reaches further and passes through walls better but is crowded, a 5 gigahertz band is faster and shorter range, and being close to the router matters more than the number on the box. Wifi is the short form of the marketing term wireless fidelity, but the full form is not what it means: there is no agreed standard for fidelity, and the term was created partly because the longer phrase could not be trademarked. What wifi actually describes is a set of standards for sending data over radio without wires, the oldest still in use being the family the mark is normally understood to mean, plus the newer faster versions most phones now use. In the Philippines, household wifi is often a shared connection whose cost is split, and the practical complaint is contention rather than the line itself: when everyone in the building is watching video at once, the same connection slows down for all of them."
+      ],
+      "tl": "wifi",
+      "bis": "wifi"
+    }
+  ],
+  "lang": "tagalog",
+  "group": "filipino",
+  "sub": "internet",
+  "title": "Internet",
+  "groupTitle": "Filipino"
+}

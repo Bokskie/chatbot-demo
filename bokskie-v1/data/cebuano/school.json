@@ -1,0 +1,86 @@
+{
+  "topic": "cebuano-school",
+  "entries": [
+    {
+      "id": "ceb-school-000001",
+      "topic": "cebuano-school",
+      "intent": "definition",
+      "concept": "eskwela",
+      "keywords": [
+        "eskwela",
+        "school",
+        "education",
+        "grade",
+        "elementary",
+        "class",
+        "student",
+        "paaralan",
+        "means",
+        "covers",
+        "both",
+        "place"
+      ],
+      "patterns": [
+        "what is eskwela",
+        "eskwela",
+        "explain eskwela",
+        "definition of eskwela",
+        "eskwela meaning",
+        "unsa meaning nga eskwela",
+        "what is basic education",
+        "ano ang paaralan",
+        "unsa ang paaralan"
+      ],
+      "answer": "Eskwela means school, and it covers both the place and, by extension, the idea of schooling as a system, which is why a question about schooling in the Philippines is usually about the basic education system rather than about a building. The structure is three levels under the law: elementary from grade one to six, junior high from grade seven to nine, and senior high from grade eleven to twelve, with the last one offering academic, vocational, sports and arts and design tracks. Before the senior high reform the sequence ran grade one to ten and the junior and senior high grades were not separated, so older references to grade ten as the end of school reflect the old system rather than a mistake. The school year runs through most of the school year with a summer break, and classes used to be grouped into two or three shifts in crowded urban schools so that a building serves more pupils than it was designed for. The word itself is borrowed from Spanish escuela and is written the same way it is pronounced, unlike most Cebuano words.",
+      "variations": [
+        "The structure is three levels under the law: elementary from grade one to six, junior high from grade seven to nine, and senior high from grade eleven to twelve, with the last one offering academic, vocational, sports and arts and design tracks. Eskwela means school, and it covers both the place and, by extension, the idea of schooling as a system, which is why a question about schooling in the Philippines is usually about the basic education system rather than about a building. Before the senior high reform the sequence ran grade one to ten and the junior and senior high grades were not separated, so older references to grade ten as the end of school reflect the old system rather than a mistake. The school year runs through most of the school year with a summer break, and classes used to be grouped into two or three shifts in crowded urban schools so that a building serves more pupils than it was designed for. The word itself is borrowed from Spanish escuela and is written the same way it is pronounced, unlike most Cebuano words.",
+        "Before the senior high reform the sequence ran grade one to ten and the junior and senior high grades were not separated, so older references to grade ten as the end of school reflect the old system rather than a mistake. Eskwela means school, and it covers both the place and, by extension, the idea of schooling as a system, which is why a question about schooling in the Philippines is usually about the basic education system rather than about a building. The structure is three levels under the law: elementary from grade one to six, junior high from grade seven to nine, and senior high from grade eleven to twelve, with the last one offering academic, vocational, sports and arts and design tracks. The school year runs through most of the school year with a summer break, and classes used to be grouped into two or three shifts in crowded urban schools so that a building serves more pupils than it was designed for. The word itself is borrowed from Spanish escuela and is written the same way it is pronounced, unlike most Cebuano words."
+      ],
+      "tl": "paaralan",
+      "bis": "paaralan"
+    },
+    {
+      "id": "ceb-school-000002",
+      "topic": "cebuano-school",
+      "intent": "definition",
+      "concept": "esamin",
+      "keywords": [
+        "esamin",
+        "test",
+        "exam",
+        "grade",
+        "pass",
+        "quiz",
+        "score",
+        "result",
+        "pagsusuri",
+        "means",
+        "word",
+        "both"
+      ],
+      "patterns": [
+        "what is esamin",
+        "esamin",
+        "explain esamin",
+        "definition of esamin",
+        "esamin meaning",
+        "unsa meaning nga esamin",
+        "unsaon nga esamin",
+        "ano ang pagsusuri",
+        "unsa ang esamin"
+      ],
+      "answer": "Esamin means exam or test, and it is the word for both the paper and the event, so the context decides whether someone is talking about a document or a morning. The term covers more than the graded end-of-term paper, since it also covers the daily quiz and even a simple check, and the general word for any of those is an easy switch between them. Results come back as a grade, a score, or a remark such as passed or failed, and the practice of ranking a class from highest to lowest is standard. A related phrase worth knowing is pass fail, used in a sentence like pass ka ba, meaning did you pass, and the answer carries a lot of social weight in a school where the ranking is public. The word is borrowed from English exam with a native ending, one of many English words that entered the language this way.",
+      "variations": [
+        "The term covers more than the graded end-of-term paper, since it also covers the daily quiz and even a simple check, and the general word for any of those is an easy switch between them. Esamin means exam or test, and it is the word for both the paper and the event, so the context decides whether someone is talking about a document or a morning. Results come back as a grade, a score, or a remark such as passed or failed, and the practice of ranking a class from highest to lowest is standard. A related phrase worth knowing is pass fail, used in a sentence like pass ka ba, meaning did you pass, and the answer carries a lot of social weight in a school where the ranking is public. The word is borrowed from English exam with a native ending, one of many English words that entered the language this way.",
+        "Results come back as a grade, a score, or a remark such as passed or failed, and the practice of ranking a class from highest to lowest is standard. Esamin means exam or test, and it is the word for both the paper and the event, so the context decides whether someone is talking about a document or a morning. The term covers more than the graded end-of-term paper, since it also covers the daily quiz and even a simple check, and the general word for any of those is an easy switch between them. A related phrase worth knowing is pass fail, used in a sentence like pass ka ba, meaning did you pass, and the answer carries a lot of social weight in a school where the ranking is public. The word is borrowed from English exam with a native ending, one of many English words that entered the language this way."
+      ],
+      "tl": "pagsusuri",
+      "bis": "esamin"
+    }
+  ],
+  "lang": "bisaya",
+  "group": "cebuano",
+  "sub": "school",
+  "title": "School",
+  "groupTitle": "Cebuano"
+}

@@ -1,0 +1,87 @@
+{
+  "topic": "filipino-programming-terms",
+  "entries": [
+    {
+      "id": "fil-programming-terms-000001",
+      "topic": "filipino-programming-terms",
+      "intent": "definition",
+      "concept": "programa",
+      "keywords": [
+        "programa",
+        "code",
+        "software",
+        "application",
+        "program",
+        "television",
+        "schedule",
+        "programmer",
+        "filipino",
+        "technical",
+        "vocabulary",
+        "word"
+      ],
+      "patterns": [
+        "what is programa",
+        "programa",
+        "explain programa",
+        "definition of programa",
+        "programa meaning",
+        "anong programa",
+        "ano ang programa",
+        "programa meaning in filipino",
+        "ano ang programa",
+        "unsa ang programa"
+      ],
+      "answer": "A program in Filipino is a programa, and like most of the technical vocabulary the word is a direct English loan used in a Filipino sentence without any change. What is interesting about the word is that it covers two things English separates: the instructions themselves, and the scheduled television or radio show. A programmer writing about a program means the first, while a person discussing what they watched last night means the second, and a beginner who reads a sentence about a program being broadcast will not notice the ambiguity at all because the words are identical. The related terms are borrowed the same way, and a Filipino developer will say a function, an array or a variable rather than translate any of them, because a translated term would be less clear, not more. The one native alternative that does exist, and is now uncommon, is the older word for a written formula or programme of instructions in the sense of a schedule.",
+      "variations": [
+        "What is interesting about the word is that it covers two things English separates: the instructions themselves, and the scheduled television or radio show. A program in Filipino is a programa, and like most of the technical vocabulary the word is a direct English loan used in a Filipino sentence without any change. A programmer writing about a program means the first, while a person discussing what they watched last night means the second, and a beginner who reads a sentence about a program being broadcast will not notice the ambiguity at all because the words are identical. The related terms are borrowed the same way, and a Filipino developer will say a function, an array or a variable rather than translate any of them, because a translated term would be less clear, not more. The one native alternative that does exist, and is now uncommon, is the older word for a written formula or programme of instructions in the sense of a schedule.",
+        "A programmer writing about a program means the first, while a person discussing what they watched last night means the second, and a beginner who reads a sentence about a program being broadcast will not notice the ambiguity at all because the words are identical. A program in Filipino is a programa, and like most of the technical vocabulary the word is a direct English loan used in a Filipino sentence without any change. What is interesting about the word is that it covers two things English separates: the instructions themselves, and the scheduled television or radio show. The related terms are borrowed the same way, and a Filipino developer will say a function, an array or a variable rather than translate any of them, because a translated term would be less clear, not more. The one native alternative that does exist, and is now uncommon, is the older word for a written formula or programme of instructions in the sense of a schedule."
+      ],
+      "tl": "programa",
+      "bis": "programa"
+    },
+    {
+      "id": "fil-programming-terms-000002",
+      "topic": "filipino-programming-terms",
+      "intent": "definition",
+      "concept": "programmer",
+      "keywords": [
+        "programmer",
+        "developer",
+        "coder",
+        "engineer",
+        "role",
+        "job",
+        "software",
+        "title",
+        "filipino",
+        "described",
+        "english",
+        "almost"
+      ],
+      "patterns": [
+        "what is programmer",
+        "programmer",
+        "explain programmer",
+        "definition of programmer",
+        "programmer meaning",
+        "anong programmer",
+        "ano ang programmer",
+        "ano ang programmer",
+        "unsa ang programmer"
+      ],
+      "answer": "A programmer in Filipino is a programmer, and the role is described in English almost everywhere it is discussed, which is normal for the field. The word covers everyone who writes code, from a hobbyist to a professional, and it does not distinguish seniority the way a job title does, so a lead engineer and a junior developer are both simply a programmer unless a title is used. The related task words are also borrowed, and a developer is the term now used in job listings while a programmer remains the general word. A person who fixes other people's code rather than writing new code is described separately, as a person who debugs, which is a different job and one that grew out of the growth in size of codebases rather than out of any change in the work itself. What a programmer actually spends time on is rarely writing new code: reading existing code, working out why something failed, and testing are the majority of the day.",
+      "variations": [
+        "The word covers everyone who writes code, from a hobbyist to a professional, and it does not distinguish seniority the way a job title does, so a lead engineer and a junior developer are both simply a programmer unless a title is used. A programmer in Filipino is a programmer, and the role is described in English almost everywhere it is discussed, which is normal for the field. The related task words are also borrowed, and a developer is the term now used in job listings while a programmer remains the general word. A person who fixes other people's code rather than writing new code is described separately, as a person who debugs, which is a different job and one that grew out of the growth in size of codebases rather than out of any change in the work itself. What a programmer actually spends time on is rarely writing new code: reading existing code, working out why something failed, and testing are the majority of the day.",
+        "The related task words are also borrowed, and a developer is the term now used in job listings while a programmer remains the general word. A programmer in Filipino is a programmer, and the role is described in English almost everywhere it is discussed, which is normal for the field. The word covers everyone who writes code, from a hobbyist to a professional, and it does not distinguish seniority the way a job title does, so a lead engineer and a junior developer are both simply a programmer unless a title is used. A person who fixes other people's code rather than writing new code is described separately, as a person who debugs, which is a different job and one that grew out of the growth in size of codebases rather than out of any change in the work itself. What a programmer actually spends time on is rarely writing new code: reading existing code, working out why something failed, and testing are the majority of the day."
+      ],
+      "tl": "programmer",
+      "bis": "programmer"
+    }
+  ],
+  "lang": "tagalog",
+  "group": "filipino",
+  "sub": "programming-terms",
+  "title": "Programming terms",
+  "groupTitle": "Filipino"
+}
